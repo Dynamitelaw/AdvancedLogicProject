@@ -28,8 +28,7 @@ remove(AllContainers,1);
 
 
 for i = 1:length(nodes)
-    %Temp storage for trained weights for this topology (only for linear
-    %layers)
+    %Temp storage for trained weights for this topology
     Wlayer1 = {};
     Wlayer3 = {};
 
@@ -76,7 +75,7 @@ for i = 1:length(nodes)
     scatter(nodes(i),pcorr_max(i))
 
     % Store best trained weights and best accuracy   
-    keySet = {'Accuracy', 'Layer1Weights', 'Layer3Weights'};
+    keySet = {'Accuracy', 'Layer1Weights', 'Layer2Weights'};
     valueSet = {pcorr(e), Wlayer1, Wlayer3};
     topologyContainer = containers.Map(keySet, valueSet, 'UniformValues', false);
     
@@ -84,26 +83,10 @@ for i = 1:length(nodes)
 
 end
 
-%<AllContainers> contains the weights and accuracy for each network
-%topology
-
-keys = cell2mat(keys(AllContainers))
+keys = keys(AllContainers);
 for i = 1:length(keys)
-    disp('');
-    disp('==================');
-    printBuffer = ['Number of nodes: ', num2str(keys(i))];
+    printBuffer = ['Number of nodes: ', keys(i, 0)];
     disp(printBuffer);
-    
-    container = AllContainers(keys(i));
-
-    printBuffer = ['Accuracy: ', num2str(container('Accuracy'))];
-    disp(printBuffer);
-    
-    %disp('Layer 1 Weights = ');
-    %disp(container('Layer1Weights'))
-    
-    disp('Layer 3 Weights = ');
-    disp(container('Layer3Weights'))
 end
 
 hold off

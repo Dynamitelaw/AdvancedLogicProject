@@ -1,3 +1,4 @@
+clear
 
 addpath('./NN');
 addpath('./mnistHelper');
@@ -5,19 +6,27 @@ addpath('./data');
 
 load_data;
 
-epochs = 1000;
+epochs = 10;
 batchsize = 250;
 learning_rate = 1e-3;
 iters_per_epoch = 1000;
+pcorr = zeros(1,epochs);
 
-nn = Network(batchsize);
+
 
 smooth_loss = log(10);
 
 % ~ 98 % correct
-nn.layers{1} = Linear(28 * 28, 256, batchsize);
-nn.layers{2} = ReLU(256, 256, batchsize);
-nn.layers{3} = Linear(256, 10, batchsize);
+nodes = [20]; 
+pcorr_max = zeros(1,length(nodes));
+figure(4)
+hold on
+for i = 1:length(nodes)
+
+nn = Network(batchsize);
+nn.layers{1} = Linear(28 * 28, nodes(i), batchsize);
+nn.layers{2} = ReLU(nodes(i), nodes(i), batchsize);
+nn.layers{3} = Linear(nodes(i), 10, batchsize);
 nn.layers{4} = Softmax(10, 10, batchsize);
 
 for e=1:1:epochs
@@ -32,14 +41,20 @@ for e=1:1:epochs
     end
 
     nn.test(test_images, test_labels);
-
-    figure(1);
-    plot(smooth_loss);
-    drawnow
+    
+    pcorr(e) = nn.percent_correct;
+    
+    
+%     figure();
+%     plot(smooth_loss);
+%     drawnow
 
 end
+pcorr_max(i) = max(pcorr);
+scatter(nodes(i),pcorr_max(i))
 
-
+end
+hold off
 
 
 

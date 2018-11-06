@@ -12,6 +12,7 @@ classdef Network < handle
         layers;
         batchsize;
         loss;
+        percent_correct;
      
     end
  
@@ -107,7 +108,9 @@ classdef Network < handle
         [output idx] = max(obj.layers{end}.y, [], 1);
      
         num_correct = num_correct + sum(targets + 1 == idx');
-     
+        
+        obj.percent_correct = 100.0 * num_correct / obj.batchsize;
+        
         fprintf('%% correct = %.2f\n', 100.0 * num_correct / obj.batchsize);
      
         end

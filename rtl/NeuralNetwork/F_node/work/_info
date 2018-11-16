@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/user/stud/fall18/srd2162/Documents/Project/F_node
+vF_node
+Z1 !s110 1542389363
+!i10b 1
+!s100 ^@lUPfSUUI<f8IWd?b[`82
+I<N`CJI4iVlf=Ua>Q=cCgc2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1542389094
+8/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node.v
+F/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node.v
+L0 1
+Z3 OL;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1542389363.454110
+!s107 /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node.v|
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@f_node
+vF_node_test
+R1
+!i10b 1
+!s100 QK^e;TnaSME?AP@NDzdOY0
+I[ZOiIDoFI?[[Vj9HGE;YR3
+R2
+R0
+w1542389346
+8/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v
+F/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1542389363.568083
+!s107 /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v|
+!i113 1
+R4
+n@f_node_test

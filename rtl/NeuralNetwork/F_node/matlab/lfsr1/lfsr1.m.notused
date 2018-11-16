@@ -1,0 +1,33 @@
+
+% Behavior model for LFSR1
+% Producing 256 16b outputs
+% MS 7/2015
+
+clear;
+
+%setup
+%fb=33801; %15,12,5,0
+%start=32768;
+fb=36897; %15,12,5,0
+start=1;
+N_points=256+16;
+bit_width=16;
+z=zeros(N_points,1);
+out_file = fopen('./lfsr.results','w');
+
+%run lfsr
+y = lfsr_func(fb,start,N_points,1);
+
+%produce output file that will be used for verification 
+for i=1:(N_points-16)
+   y_2B = y(i:bit_width+i);
+   z(i) = sum(y_2B.*2.^(numel(y_2B)-1:-1:0));
+   fprintf(out_file,'%d\n',z(i));
+end
+
+%Here you can test the randomness quality of the outputs using Matlab features
+
+
+
+%finishing
+%exit;

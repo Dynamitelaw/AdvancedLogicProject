@@ -42,11 +42,9 @@ module Layer1WeightStorage (
 	input [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] writeIn;
 	output [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] readOut;
 
-	reg [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] readOut;
-
 	//Define internal buses
 	reg [`INPUT_LAYER_NODES-1:0] writeEnableBus;  //One-hot bus for writeEnables of NodeWeightBanks
-	wire [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] readOutBus[`INPUT_LAYER_NODES-1:0];  //Output bus for reading
+	reg [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] readOutBus[`INPUT_LAYER_NODES-1:0];  //Output bus for reading
 
 	//Instantiate all 784 instances of NodeWeightBank
 	genvar i;

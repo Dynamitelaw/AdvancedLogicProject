@@ -1,7 +1,9 @@
 /*
  * The input queue register will take in an input pixel value at every rising clock edge.
  * If it is 1, it will add the index of the pixel to the back of the queue.
- * Once all input pixels have been read, 2^10 - 1 will be loaded to the end of the queue to mark the end.
+ * Once all input pixels have been read, the queue will stop accepting inputs values until it is reset.
+ *
+ * The queue register will dequeue an index to the output every rising edge of the <dequeue> signal. It will set <queueEmpty> to 1 when the queue has been emptied.
  *
  * The queue has a clock-based counter for counting up the pixel indexes. Indexes start at 0. Index will increment regardless of the input pixel value.
  */

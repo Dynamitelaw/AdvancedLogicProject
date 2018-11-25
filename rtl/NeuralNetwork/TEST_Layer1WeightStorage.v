@@ -3,6 +3,7 @@
  */
 
 `include "GlobalVariables.v"
+`include "Layer1WeightStorage.v"
 
 
 module TEST_Layer1WeightStorage ;

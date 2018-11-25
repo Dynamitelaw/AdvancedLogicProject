@@ -18,10 +18,10 @@ module InputQueueRegister (
  	indexOut, queueEmpty
  );
 
-	parameter QUEUE_MAX_SIZE = 784;  //Available storage elements in the queue
+	parameter QUEUE_MAX_SIZE = 11;  //Available storage elements in the queue
 
  	input clk;    // Clock
- 	input reset;  // Asynchronous reset active low
+ 	input reset;  // Asynchronous reset active high
  	input pixelValue;  //Input pixel value
  	input dequeue;  //At positive edge of dequeue, the queue will output the next index in the queue
 
@@ -50,29 +50,36 @@ module InputQueueRegister (
  			queueFrontPointer <= 10'b0;
  			indexOut <= 10'b0;
  			queueEmpty <= `FALSE;
+ 			finished <= `FALSE;
  		end
  	end
  	
  	//Increment indexCounter on negative clock edges
  	always @(negedge clk) begin : counter_proc
- 		indexCounter <= indexCounter + 1;
+ 		if (reset == `FALSE) begin
+	 		if (finished == `FALSE) begin
+	 			indexCounter <= indexCounter + 1;
+	 		end
+	 	end
  	end
 
  	//Check for when last pixel has been passed
  	always @(indexCounter) begin : finished_proc
- 		if (indexCounter == `INPUT_LAYER_NODES-1) begin
+ 		if (indexCounter == `INPUT_LAYER_NODES) begin
  			finished <= `TRUE;
  		end
  	end
 
  	//Queue indexes on positive clock edges
  	always @(posedge clk) begin : queue_proc
- 		if (finished == `FALSE) begin
-	 		if (pixelValue == 1) begin
-	 			queueRegister[queueEndPointer] = indexCounter;  //Store index of current pixel at the back of the queue. Intentionally blocking statement
-	 			queueEndPointer <= queueEndPointer + 1;  //Increment queueEndPointer
-	 		end
-	 	end
+ 		if (reset == `FALSE) begin
+	 		if (finished == `FALSE) begin
+		 		if (pixelValue == 1) begin
+		 			queueRegister[queueEndPointer] = indexCounter;  //Store index of current pixel at the back of the queue. Intentionally blocking statement
+		 			queueEndPointer <= queueEndPointer + 1;  //Increment queueEndPointer
+		 		end
+		 	end
+		end
  	end
 
  	//Dequeue handling
@@ -81,7 +88,9 @@ module InputQueueRegister (
  	end
 
  	always @(negedge dequeue) begin : dequeue_pro_b
- 		queueFrontPointer <= queueFrontPointer + 1;  //Increment queueFrontPointer on falling edge of dequeue
+ 		if ((finished == `TRUE) && (queueEmpty == `FALSE)) begin
+ 			queueFrontPointer <= queueFrontPointer + 1;  //Increment queueFrontPointer on falling edge of dequeue
+ 		end
  	end
  
  	always @(queueFrontPointer) begin : dequeue_proc_c

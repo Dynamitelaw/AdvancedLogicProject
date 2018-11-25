@@ -33,11 +33,13 @@ module TEST_Layer1WeightStorage ;
 		assign NodeSelect = 720;
 		#1
 		assign writeEnable = `TRUE;
+		#1
+		assign writeEnable = `FALSE;
 		#10
 		assign NodeSelect = 0;
 		#10
 		assign NodeSelect = 720;
-		$finish;
+		//$finish;
 
 	end
 	

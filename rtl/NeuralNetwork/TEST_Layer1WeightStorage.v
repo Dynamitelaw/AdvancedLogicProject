@@ -11,13 +11,21 @@ module TEST_Layer1WeightStorage ;
 	reg [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] writeIn;
 	wire [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] readOut;
 
+	
 	Layer1WeightStorage storage(
 		.writeEnable(writeEnable), 
 		.NodeSelect(NodeSelect), 
 		.writeIn(writeIn),
 		.readOut(readOut)
 	);
-
+	
+	/*
+	NodeWeightBank bankTest(
+		.writeEnable(writeEnable),
+		.writeIn(writeIn),
+		.readOut(readOut)
+	);
+	*/
 	initial
 	begin
 		assign writeEnable = `FALSE;
@@ -29,8 +37,9 @@ module TEST_Layer1WeightStorage ;
 		assign writeIn = 602;
 		#1
 		assign writeEnable = `FALSE;
+		#1
 		assign writeIn = 52;
-		assign NodeSelect = 720;
+		assign NodeSelect = 1;
 		#1
 		assign writeEnable = `TRUE;
 		#1
@@ -38,8 +47,8 @@ module TEST_Layer1WeightStorage ;
 		#10
 		assign NodeSelect = 0;
 		#10
-		assign NodeSelect = 720;
-		$finish;
+		assign NodeSelect = 1;
+		//$finish;
 
 	end
 	

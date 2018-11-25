@@ -21,8 +21,9 @@ module NodeWeightBank (
 
 	reg [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] readOut;
 
-	always @(writeEnable) begin
-		readOut <= writeIn;  //Functions as a latch rather than a flip-flop to halve area cost of weight storage
+	always @(writeEnable, writeIn) begin
+		if (writeEnable == `TRUE)
+			readOut <= writeIn;  //Functions as a latch rather than a flip-flop to halve area cost of weight storage
 	end
 
 endmodule  //end NodeWeightBank

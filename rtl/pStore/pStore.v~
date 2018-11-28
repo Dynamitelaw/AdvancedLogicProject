@@ -1,0 +1,51 @@
+/*
+LAYER 1
+This file contains the "pStore" module to add stored weights in "FNode" to previously stored values
+*/
+
+`include "GlobalVariables.v"
+
+module pStore (
+	//Inputs
+	clk, clr, weightsIn,
+	//Outputs 
+	sumOut
+);
+
+        input clk, clr;
+        input [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] weightsIn;
+        output [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] sumOut;
+	//carryout to be included
+
+	genvar m;
+	generate
+		for(m = 0; m<`RELU_NODES*`LAYER_1_BIT_WIDTH; m=m+`LAYER_1_BIT_WIDTH)
+		begin:addWeight
+			stored_addern add(.clr(clr),
+					  .clk(clk),
+					  .X(weightsIn[m + `LAYER_1_BIT_WIDTH - 1:m]),
+					  .S(sumOut[m + `LAYER_1_BIT_WIDTH - 1:m]));
+		end
+	endgenerate
+
+	
+endmodule  //end pStore
+
+module stored_addern (clr, clk, X, S);
+	input clk, clr;
+	input [`LAYER_1_BIT_WIDTH - 1:0] X;
+	output reg [`LAYER_1_BIT_WIDTH - 1:0] S = 'b0; // initialize sumOut to 0, undefined without initialization
+	reg [`LAYER_1_BIT_WIDTH - 1:0] s;
+	//output reg carryout;
+
+	always @(negedge clr, posedge clk)
+	begin
+		if (clr == 1) S <= 'b0;		
+		else S <= s;
+	end
+	
+	always @(*)
+		s = S + X;
+	
+endmodule
+

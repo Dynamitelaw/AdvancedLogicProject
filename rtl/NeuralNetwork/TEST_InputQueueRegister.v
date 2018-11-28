@@ -1,5 +1,7 @@
 /*
  * Test bench for InputQueueRegister
+ *
+ * Tested using INPUT_LAYER_NODES = 10
  */
 
 `include "GlobalVariables.v"
@@ -61,6 +63,9 @@ module TEST_InputQueueRegister ;
 		inputPixel <= 0;  //index 9
 
 		//Empty queue
+		/*
+		 * Expected output: 2, 4, 5, 7, 9, EMPTY
+		 */
 		#6
 		dequeue <= 1;
 		#1
@@ -121,6 +126,9 @@ module TEST_InputQueueRegister ;
 		inputPixel <= 0;  //index 9
 
 		//Empty queue
+		/*
+		 * Expected output: 0, 1, 3, 4, 6, 7, EMPTY
+		 */
 		#6
 		dequeue <= 1;
 		#1

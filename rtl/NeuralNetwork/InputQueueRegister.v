@@ -15,10 +15,10 @@ module InputQueueRegister (
  	//Inputs
  	clk, reset, pixelValue, dequeue,
  	//Outputs
- 	indexOut, queueEmpty
+ 	indexOut, queueEmpty, finished
  );
 
-	parameter QUEUE_MAX_SIZE = 11;  //Available storage elements in the queue
+	parameter QUEUE_MAX_SIZE = `INPUT_LAYER_NODES;  //Available storage elements in the queue
 
  	input clk;    // Clock
  	input reset;  // Asynchronous reset active high
@@ -37,6 +37,7 @@ module InputQueueRegister (
  	reg [9:0] queueEndPointer = 10'b0;  //index that points to the next available slot in the queue
  	reg [9:0] queueFrontPointer = 10'b0;  //index that points to the front of the queue
 
+ 	output finished;
  	reg finished = `FALSE;  //Flipped to TRUE when the last input pixel is read
 
 

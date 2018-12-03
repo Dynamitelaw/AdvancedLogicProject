@@ -6,6 +6,8 @@ This file contains all global macro definitions
 `define FALSE 0
 
 `define INPUT_LAYER_NODES 784
-`define LAYER_1_BIT_WIDTH 1  
+`define LAYER_1_BIT_WIDTH 4
+`define LAYER_1_OUT_BIT_WIDTH 8 //10
+`define LAYER_2_IN_BIT_WIDTH 4
 
-`define RELU_NODES 16
+`define RELU_NODES 2

@@ -16,6 +16,7 @@ module TEST_InputQueueRegister ;
 	
 	wire [9:0] indexOut;
 	wire queueEmpty;
+	wire finished;
 
 	InputQueueRegister queue(
 		.clk(clk), 
@@ -23,7 +24,8 @@ module TEST_InputQueueRegister ;
 		.pixelValue(inputPixel), 
 		.dequeue(dequeue), 
 		.indexOut(indexOut), 
-		.queueEmpty(queueEmpty)
+		.queueEmpty(queueEmpty),
+		.finished(finished)
 	);
 
 

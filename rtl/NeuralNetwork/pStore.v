@@ -7,15 +7,16 @@ This file contains the "pStore" module to add stored weights in "FNode" to previ
 
 module pStore (
 	//Inputs
-	clk, clr, weightsIn, //biasesIn,
+	clk, clr, weightsIn, //biasesIn, biasWriteEnable,
 	//Outputs
 	sumOut
 );
 
-        input clk, clr;
-        input [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] weightsIn;
+    input clk, clr;
+    input [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] weightsIn;
 	//input [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] biasesIn;
-        output [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] sumOut;
+	//input biasWriteEnable;
+    output [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] sumOut;
 
 	genvar m;
 	generate

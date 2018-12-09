@@ -54,7 +54,7 @@ module stored_addern (clr, clk, X, S);
 	end
 	
 	// Add and store padded weights
-	always @(negedge clr, posedge clk)
+	always @(posedge  clr, posedge clk)  //<JOSE> Shouldn't this be triggered on posedge clr?  OLD: "always @(negedge clr, posedge clk)"
 	begin
 		if (clr == 1) S <= 'b0;		
 		else S <= s;

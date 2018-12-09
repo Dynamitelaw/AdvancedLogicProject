@@ -43,10 +43,9 @@ module Layer1_Controller (
 	output [`RELU_NODES*`LAYER_2_IN_BIT_WIDTH-1:0] layer1Output;
 	reg [`RELU_NODES*`LAYER_2_IN_BIT_WIDTH-1:0] layer1Output;  //buffer layer1Output to allow for async pipeline
 
-	reg moduleClk; //internal clock variable used for clock gating
-	reg clockEnable = `FALSE;
-
-	reg readyForInputs = `TRUE;
+	//Internal variables
+	reg processFinished = `FALSE;
+	reg idle = `TRUE;
 
 
 	//--Instantiate modules--
@@ -61,6 +60,7 @@ module Layer1_Controller (
 	);
 
 	reg wBuffer_A_Write = `FALSE;
+	reg wBuffer_A_Select = `FALSE;
 	wire [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] wBuffer_A_Out;
 	NodeWeightBank weightBuffer_A(
 		//Inputs
@@ -70,6 +70,7 @@ module Layer1_Controller (
 	);
 
 	reg wBuffer_B_Write = `FALSE;
+	reg wBuffer_B_Select = `FALSE;
 	wire [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] wBuffer_B_Out;
 	NodeWeightBank weightBuffer_B(
 		//Inputs
@@ -98,44 +99,90 @@ module Layer1_Controller (
 	);
 
 
-	//--Module Behaviour--
+	//--Controller behaviour--
 
-	//Clock gating
-	always begin : clockGate_proc
-		assign moduleClk = clk & clockEnable;
-	end
-
-	//Controller behaviour
-	always @(posedge clk or negedge clk or posedge reset or weightWriteEnable or biasWriteEnable) begin : proc_
-		//Async reset
+	always @(posedge clk or negedge clk or posedge reset or posedge queueEmpty or weightWriteEnable or biasWriteEnable) begin : Layer1_proc
+		//---------------------------------------
+		// Async reset
+		//---------------------------------------
 		if (reset) begin
 			//reset layer 1
-		end 
+		end
 
-		//Positive clock edge events
-		else if (clk) begin
-			if (readyForInputs == `TRUE) begin
-				if ((queueFinished == `TRUE) && (queueEmpty == `FALSE)) begin
-					dequeue <= 1;
-				end
+		//---------------------------------------
+		// Idle processing and wakeup
+		//---------------------------------------
+
+		else if (idle) begin
+			//Wake up from idle if we have something we can process
+		end
+
+		//---------------------------------------
+		// Steady-state and near-end processes
+		//---------------------------------------
+
+		//The input queue is empty. Near end of processing stage
+		else if (queueEmpty) begin
+			//Turn off buffer writes. 
+			wBuffer_A_Write <= `FALSE;
+			wBuffer_B_Write <= `FALSE;
+
+			if (processFinished == `TRUE) begin
+				//The input image has been processed by this stage
+
+				layer1Output <= reluOutput;  //Store output of RELU to output buffer
+				reluTrigger <= `FALSE;  
+
+				outputsReady <= `TRUE;  //Notify next pipeline stage
+				inputsRecieved <= `TRUE;  //Notify previous pipeline stage
+
+				wBuffer_A_Select <= `FALSE;  //Turn off MUX feeding pstore
+				wBuffer_B_Select <= `FALSE;
+
+				pstoreReset <= `TRUE;  //reset pstore
+
+				idle <= `TRUE;  //go into idle state
 			end
 		end
 
-		//Negative clock edge events
-		else begin
-			dequeue <= 0;
-			//Switch between weight buffers
-			wBuffer_A_Write <= ~wBuffer_B_Write;
-			wBuffer_B_Write <= ~wBuffer_B_Write;
+		//Steady-state Positive clock edge events
+		else if (clk) begin
+			if ((queueFinished == `TRUE) && (queueEmpty == `FALSE)) begin
+				dequeue <= 1;  //dequeue the next index
+			end
 
+			else if ((queueFinished == `TRUE) && (queueEmpty == `TRUE)) begin
+				//This is the last pixel to be added. Get ready to shut down this pipeline stage
+				reluTrigger <= `TRUE;
+				processFinished <= `TRUE;
+			end
 		end
+
+		//Steady-state Negative clock edge events
+		else if (~clk) begin
+			dequeue <= 0;
+
+			//Switch between weight buffers writing
+			if (queueEmpty == `FALSE) begin
+				wBuffer_A_Write <= ~wBuffer_A_Write;
+				wBuffer_B_Write <= ~wBuffer_B_Write;
+			end
+
+			//Switch between bufferOutputs to pStore
+			wBuffer_A_Select <= ~wBuffer_A_Select;
+			wBuffer_B_Select <= ~wBuffer_B_Select;
+		end
+
+		//---------------------------------------
+		// Constant processes
+		//---------------------------------------
 
 		//MUX for pstore inputs
-		if (wBuffer_A_Write) begin
-			pstoreInput <= wBuffer_B_Out;
-		end
-		else if (wBuffer_B_Write) begin
+		if (wBuffer_A_Select) begin
 			pstoreInput <= wBuffer_A_Out;
+		end
+		else if (wBuffer_B_Select) begin
+			pstoreInput <= wBuffer_B_Out;
 		end
 		
 		//MUX for weightStorage address

@@ -29,22 +29,25 @@ module InputQueueRegister (
 
  	reg [9:0] indexCounter = 10'b0;  //counter that stores the index of the current input pixel
 
- 	wire queueRegisterOut;
- 	output [10*`QUEUE_MAX_SIZE-1:0] queueRegisterOut;
+ 	output queueRegisterOut;
+ 	reg [10*`QUEUE_MAX_SIZE-1:0] queueRegisterOut;
 
- 	reg [9:0] queueRegister[`QUEUE_MAX_SIZE-1:0];  //Array of registers to store the queue in
  	output queueEndPointer;
  	reg [9:0] queueEndPointer = 10'b0;  //index that points to the next available slot in the queue
  	output queueFrontPointer;
  	reg [9:0] queueFrontPointer = 10'b0;  //index that points to the front of the queue
 
+ 	reg [9:0] queueRegister[`QUEUE_MAX_SIZE-1:0];  //Array of registers to store the queue in
+
  	output finished;
  	reg finished = `FALSE;  //Flipped to TRUE when the last input pixel is read
 
  	//Convert 2D array to 1D array for output port
- 	genvar i;
-	for (i=0; i<`QUEUE_MAX_SIZE; i=i+1) begin
-		assign queueRegisterOut[i*10+9:10*i] = queueRegister[i];
+ 	integer i;
+ 	always begin : conversion_proc
+		for (i=0; i<`QUEUE_MAX_SIZE; i=i+1) begin
+			queueRegisterOut[i*10 +: 10] <= queueRegister[i];
+		end
 	end
 
 

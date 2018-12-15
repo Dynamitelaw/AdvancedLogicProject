@@ -11,35 +11,54 @@
 module TEST_InputQueueRegister ;
 	reg clk;
 	reg inputPixel;
-	reg reset;
-	reg dequeue;
-	
-	wire [9:0] indexOut;
-	wire queueEmpty;
+	reg resetQueue;
+
 	wire finished;
+	wire [9:0] queueFrontPointer;
+	wire [9:0] queueEndPointer;
+	wire [10*`QUEUE_MAX_SIZE-1:0]  queueRegisterOut;
 
 	InputQueueRegister queue(
 		.clk(clk), 
-		.reset(reset), 
-		.pixelValue(inputPixel), 
-		.dequeue(dequeue), 
-		.indexOut(indexOut), 
-		.queueEmpty(queueEmpty),
-		.finished(finished)
+		.reset(resetQueue), 
+		.pixelValue(inputPixel),
+		.finished(finished),
+		.queueFrontPointer(queueFrontPointer), 
+		.queueEndPointer(queueEndPointer), 
+		.queueRegisterOut(queueRegisterOut)
 	);
 
+	reg resetBuffer;
+	reg dequeue;
+	reg writeEnable = `FALSE;
+	wire [9:0] indexOut;
+	wire queueEmpty;	
+
+	QueueBuffer buffer(
+		.reset(resetBuffer),
+		.dequeue(dequeue), 
+		.writeEnable(writeEnable), 
+		.queueFrontPointerIn(queueFrontPointer), 
+		.queueEndPointerIn(queueEndPointer), 
+		.queueRegisterIn(queueRegisterOut),
+		.indexOut(indexOut), 
+		.queueEmpty(queueEmpty)
+	);
+		
+
+	reg error = `FALSE;
 
 	initial
 	begin
 		clk = 0;
-		reset <= 0;
+		resetQueue <= 0;
 		dequeue <= 0;
 
 		//--First Batch--
 		#4
-		reset <= 1;
+		resetQueue <= 1;
 		#1
-		reset <= 0;
+		resetQueue <= 0;
 
 		//Load into queue
 		inputPixel <= 0;  //index 0
@@ -63,6 +82,15 @@ module TEST_InputQueueRegister ;
 		inputPixel <= 1;  //index 9
 		#2
 		inputPixel <= 0;  //index 9
+
+		if (finished == `TRUE) begin
+			writeEnable <= `TRUE;
+			#2
+			writeEnable <= `FALSE;
+		end
+		else begin
+			error <= `TRUE;
+		end
 
 		//Empty queue
 		/*
@@ -99,12 +127,15 @@ module TEST_InputQueueRegister ;
 		#1
 		dequeue <= 0;
 
+		if (queueEmpty == `FALSE) begin
+			error <= `TRUE;
+		end
 
 		//--Second Batch--
 		#3
-		reset <= 1;
+		resetQueue <= 1;
 		#1
-		reset <= 0;
+		resetQueue <= 0;
 
 		//Load into queue
 		inputPixel <= 1;  //index 0
@@ -126,6 +157,15 @@ module TEST_InputQueueRegister ;
 		inputPixel <= 0;  //index 8
 		#2
 		inputPixel <= 0;  //index 9
+
+		if (finished == `TRUE) begin
+			writeEnable <= `TRUE;
+			#2
+			writeEnable <= `FALSE;
+		end
+		else begin
+			error <= `TRUE;
+		end
 
 		//Empty queue
 		/*
@@ -167,6 +207,10 @@ module TEST_InputQueueRegister ;
 		dequeue <= 0;
 		#1
 		dequeue <= 1;
+
+		if (queueEmpty == `FALSE) begin
+			error <= `TRUE;
+		end
 
 	end
 

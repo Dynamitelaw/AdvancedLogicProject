@@ -1,7 +1,11 @@
 /*
  * Test bench for Layer1Controller
  *
- * Tested using INPUT_LAYER_NODES = 10
+ * Tested using 
+ *	QUEUE_MAX_SIZE = 5
+ *	INPUT_LAYER_NODES = 4
+ *	LAYER_1_BIT_WIDTH = 4
+ *	LAYER_1_OUT_BIT_WIDTH = 4
  */
 
 `include "InputLayerControler.v"

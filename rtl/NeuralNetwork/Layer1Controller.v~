@@ -128,7 +128,7 @@ module Layer1_Controller (
 
 		else if (idle) begin
 			//Wake up from idle if we have something we can process
-			if ((clk) && (inputsReady == `TRUE) && (queueEmpty == `FALSE) && (outputsReady == `FALSE)) begin
+			if ((clk) && (inputsReady == `TRUE) && (outputsReady == `FALSE)) begin
 				//The input layer is ready, and the output buffer of layer1 is empty. Ready to process
 				processFinished <= `FALSE;
 				idle <= `FALSE;

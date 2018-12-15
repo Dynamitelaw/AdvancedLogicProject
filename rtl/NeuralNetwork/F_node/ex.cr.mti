@@ -1,0 +1,15 @@
+/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/F_node_test.v {1 {vlog -work work_ex -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/F_node_test.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module F_node_test
+
+Top level modules:
+	F_node_test
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/F_node.v {1 {vlog -work work_ex -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/F_node.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module F_node
+
+Top level modules:
+	F_node
+
+} {} {}}

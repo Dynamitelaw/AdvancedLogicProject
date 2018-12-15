@@ -12,7 +12,7 @@ module TEST_InputQueueRegister ;
 	reg clk;
 	reg inputPixel;
 	reg resetQueue;
-	reg resetBuffer = 0;
+	reg resetBuffer;
 
 	wire finished;	
 	reg dequeue;

@@ -9,53 +9,41 @@
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
 # vsim gui 
-# Start time: 12:13:43 on Nov 16,2018
-# ** Error: (vsim-19) Failed to access library 'work' at "work".
-# No such file or directory. (errno = ENOENT)
-# Error loading design
-# Loading project qsim_F_node
-# Compile of F_node.v was successful.
-# Compile of F_node_test.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.circuit_test
-# vsim 
-# Start time: 12:17:04 on Nov 16,2018
+# Start time: 14:02:39 on Nov 16,2018
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Loading work.circuit_test
-# ** Error: (vsim-3033) /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v(10): Instantiation of 'F_node' failed. The design unit was not found.
-#         Region: :circuit_test
-#         Searched libraries:
-#             /homes/user/stud/fall18/srd2162/Documents/Project/F_node/work
+# ** Error: (vsim-3170) Could not find '/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/work.gui'.
 # Error loading design
-# Compile of F_node.v was successful.
-# Compile of F_node_test.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -voptargs=+acc work.F_node_test
 # vsim 
-# Start time: 12:20:37 on Nov 16,2018
+# Start time: 14:02:47 on Nov 16,2018
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # Loading work.F_node_test
 # Loading work.F_node
 add wave -position insertpoint sim/:F_node_test:F_node_1:*
-# Can't move the Now cursor.
 run -all
 # ** Note: $finish    : /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v(161)
 #    Time: 240 ps  Iteration: 0  Instance: :F_node_test
 # 1
 # Break in Module F_node_test at /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v line 161
+# Error opening /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v
+# Path name '/homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v' doesn't exist.
+quit -sim
+# Loading project ex
+# Compile of F_node.v was successful.
+# Compile of F_node_test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work_ex.F_node_test
+# vsim 
+# Start time: 14:53:53 on Nov 16,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work_ex.F_node_test
+# Loading work_ex.F_node
+add wave -position insertpoint sim/:F_node_test:F_node_1:*
+run -all
+# ** Note: $finish    : /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/F_node_test.v(161)
+#    Time: 240 ps  Iteration: 0  Instance: :F_node_test
+# 1
+# Break in Module F_node_test at /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/F_node/F_node_test.v line 161
 # Causality operation skipped due to absence of debug database file
-# Compile of F_node.v was successful.
-# Compile of F_node_test.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.F_node_test
-# vsim 
-# Start time: 12:29:37 on Nov 16,2018
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Loading work.F_node_test
-# Loading work.F_node
-add wave -position insertpoint sim/:F_node_test:F_node_1:*
-run -all
-# ** Note: $finish    : /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v(161)
-#    Time: 240 ps  Iteration: 0  Instance: :F_node_test
-# 1
-# Break in Module F_node_test at /homes/user/stud/fall18/srd2162/Documents/Project/F_node/F_node_test.v line 161
+# End time: 15:05:38 on Nov 16,2018, Elapsed time: 0:11:45
+# Errors: 0, Warnings: 2

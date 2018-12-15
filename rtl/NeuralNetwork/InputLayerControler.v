@@ -9,12 +9,14 @@
  
  module InputLayerController (
  	//Inputs
- 	reset, clk, pixelValue, dequeue,
+ 	reset, clk, inputsInbound, pixelValue, dequeue,
  	//Outputs
  	readyForInputs, outputsReady, indexOut, queueEmpty
  );
  	//Inputs
+ 	input reset;
  	input clk;
+ 	input inputsInbound;  //Outside world telling us that the pixelValue port is currently streaming pixel data
  	input pixelValue;
  	input dequeue;
  	
@@ -53,13 +55,16 @@
 	);
  	
  	//--Module Behaviour--
- 	
+ 	always @(reset or inputsInbound or readyForInputs) begin : queueReset_proc
+ 		resetQueue = reset || ((~inputsInbound) && (readyForInputs));
+ 	end
+
+
  	always @(posedge clk or negedge clk or posedge reset) begin : InputLayerController_proc
  		//Async reset
  		if (reset) begin
  			readyForInputs <= `TRUE;
- 			resetQueue <= `TRUE;
- 			resetBuffer <= `TRUE; //<TODO> when to set this low????
+ 			resetBuffer <= `TRUE;
  			outputsReady <= `FALSE;
  			virginBuffer <= `TRUE;
  		end
@@ -81,7 +86,6 @@
  			
  			//Queue reset handling
  			if (queueBuffered) begin
- 				resetQueue <= `TRUE;
  				queueBuffered <= `FALSE;
  				writeBuffer <= `FALSE;
  				readyForInputs <= `TRUE;
@@ -93,10 +97,10 @@
  			
  		end
  		
- 		//Negative-edge clock events
- 		else begin
- 			//insert stuff here
- 		end
+ 		// //Negative-edge clock events
+ 		// else begin
+ 		// 	//insert stuff here
+ 		// end
  	end
  	
  endmodule

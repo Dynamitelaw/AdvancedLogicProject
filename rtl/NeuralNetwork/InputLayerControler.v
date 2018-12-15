@@ -56,7 +56,8 @@
  	
  	//--Module Behaviour--
  	always @(reset or inputsInbound or readyForInputs) begin : queueReset_proc
- 		resetQueue = reset || ((~inputsInbound) && (readyForInputs));
+ 		if (clk)
+ 			resetQueue <= reset || ((~inputsInbound) && (readyForInputs));
  	end
 
 

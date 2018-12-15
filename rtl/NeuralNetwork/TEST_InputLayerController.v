@@ -1,5 +1,5 @@
 /*
- * Test bench for InputQueueRegister
+ * Test bench for InputLayerController
  *
  * Tested using INPUT_LAYER_NODES = 10
  */
@@ -45,16 +45,7 @@ module TEST_InputLayerController ;
 		#3
 		reset <= 0;
 		#1
-		inputsInbound <= 1;
-
-		//Load into queue
-		inputPixel <= 0;  //index 0
-		#2
-		inputPixel <= 0;  //index 1
-		#2
-		inputPixel <= 1;  //index 2
-		#2
-		inputPixel <= 0;  //index 3
+		
 		#2
 		inputPixel <= 1;  //index 4
 		#2

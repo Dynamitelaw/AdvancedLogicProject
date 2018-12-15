@@ -88,7 +88,7 @@ module Layer1_Controller (
 	wire [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] pstoreOutput;
 	pStore plusStore(
 		//Inputs
-		.clk(moduleClk), .clr(pstoreReset), .weightsIn(pstoreInput), //.biasesIn(writeIn), .biasWriteEnable(biasWriteEnable)
+		.clk(clk), .clr(pstoreReset), .weightsIn(pstoreInput), //.biasesIn(writeIn), .biasWriteEnable(biasWriteEnable)
 		//Outputs
 		.sumOut(pstoreOutput)
 	);
@@ -206,20 +206,24 @@ module Layer1_Controller (
 				wBuffer_B_Select <= ~wBuffer_B_Select;
 			end
 		end
+	end
+	
 
-		//---------------------------------------
-		// Constant processes
-		//---------------------------------------
-
-		//MUX for pstore inputs
+	//---------------------------------------
+	// Constant processes
+	//---------------------------------------
+	//MUX for pstore inputs
+	always @(wBuffer_A_Select or wBuffer_B_Select) begin : pstore_mux
 		if (wBuffer_A_Select) begin
 			pstoreInput <= wBuffer_A_Out;
 		end
 		else if (wBuffer_B_Select) begin
 			pstoreInput <= wBuffer_B_Out;
 		end
+	end
 		
-		//MUX for weightStorage address
+	//MUX for weightStorage address
+	always @(weightWriteEnable or biasWriteEnable or queueOut) begin : address_mux
 		if ((weightWriteEnable) || (biasWriteEnable)) begin
 			nodeAddress <= WriteAddressSelect;
 		end

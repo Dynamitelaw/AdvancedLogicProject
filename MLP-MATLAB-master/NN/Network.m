@@ -99,9 +99,12 @@ classdef Network < handle
      
         loss = 0;
         num_correct = 0;
-     
-        [batch targets] = make_batch(xs, ys, obj.batchsize);
-     
+        
+        %EDIT: test all images
+        %[batch targets] = make_batch(xs, ys, obj.batchsize);
+        batch = xs;
+        targets = ys;
+        
         % forward activations
         obj.forward(batch);
      
@@ -109,9 +112,10 @@ classdef Network < handle
      
         num_correct = num_correct + sum(targets + 1 == idx');
         
-        obj.percent_correct = 100.0 * num_correct / obj.batchsize;
+%         obj.percent_correct = 100.0 * num_correct / obj.batchsize;
+        obj.percent_correct = 100.0 * num_correct / length(xs);
         
-        fprintf('%% correct = %.2f\n', 100.0 * num_correct / obj.batchsize);
+%         fprintf('%% correct = %.2f\n', 100.0 * num_correct / obj.batchsize);
      
         end
      

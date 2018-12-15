@@ -1,0 +1,12 @@
+clear
+
+addpath('./NN');
+addpath('./mnistHelper');
+addpath('./data');
+
+load_data;
+% change inputs to be cutoff
+
+% Load saved weights and biases
+
+batchsize = 250;

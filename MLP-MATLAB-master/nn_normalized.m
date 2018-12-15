@@ -6,7 +6,7 @@ addpath('./data');
 
 load_data;
 
-epochs = 100;
+epochs = 30;
 batchsize = 250;
 learning_rate = 1e-3;
 iters_per_epoch = 1000;
@@ -15,7 +15,7 @@ pcorr = zeros(1,epochs);
 smooth_loss = log(10);
 
 cutoff = [0.5];
-nodes = [128];
+nodes = [16];
 pcorr_max = zeros(length(nodes),length(cutoff));
 pcorr_mean = zeros(length(nodes),length(cutoff));
 % figure(4)
@@ -23,7 +23,7 @@ pcorr_mean = zeros(length(nodes),length(cutoff));
 
 % Reducing precision
 w1_precision = 1;
-w3_precision = 1;
+w2_precision = 1;
 
 %Empty container to store results and training weights
 AllContainers = containers.Map(1, 1, 'UniformValues', false);
@@ -65,46 +65,52 @@ for j = 1:length(nodes)
             end
             
             % Reduce precision of weights
-            nn.layers{1}.W = round(nn.layers{1}.W,w1_precision);
-            nn.layers{3}.W = round(nn.layers{3}.W,w3_precision);
-            nn.layers{1}.b = round(nn.layers{1}.b,w1_precision);
-            nn.layers{3}.b = round(nn.layers{3}.b,w3_precision);
-            w1 = nn.layers{1}.W;
-            w3 = nn.layers{3}.W;
+%             nn.layers{1}.W = round(nn.layers{1}.W,w1_precision);
+%             nn.layers{3}.W = round(nn.layers{3}.W,w3_precision);
+%             nn.layers{1}.b = round(nn.layers{1}.b,w1_precision);
+%             nn.layers{3}.b = round(nn.layers{3}.b,w3_precision);
+%             w1 = nn.layers{1}.W;
             
-            % Sum of weights
-            psum = max(sum(((w1 > 0).*w1),2));
-            nsum = max(abs(sum(((w1 < 0).*w1),2)));
-            max_sum = max(psum,nsum);
-            %first layer
-            pm = max(max((w1 > 0).*w1));
-            nm = max(max(abs((w1 < 0).*w1)));
-            %second layer
-            pm2 = max(max((w3 > 0).*w3));
-            nm2 = max(max(abs((w3 < 0).*w3)));
-            % biases
-            pbm = max(max((nn.layers{1}.b > 0).*nn.layers{1}.b));
-            nbm = max(max(abs((nn.layers{1}.b < 0).*nn.layers{1}.b)));
-            pbm2 = max(max((nn.layers{3}.b > 0).*nn.layers{3}.b));
-            nbm2 = max(max(abs((nn.layers{3}.b < 0).*nn.layers{3}.b)));
-%             disp('pbm2');
-%             disp(pbm2);
-%             disp('nbm2');
-%             disp(nbm2);
+%             % Sum of weights
+%             psum = max(sum(((w1 > 0).*w1),2));
+%             nsum = max(abs(sum(((w1 < 0).*w1),2)));
+%             max_sum = max(psum,nsum);
+%             
+%             pm = max(max((w1 > 0).*w1));
+%             nm = max(max(abs((w1 < 0).*w1)));
+            
             
              % Re-initialize weights 
-            if pm > 1.5 || nm > 1.6 || pm2 > 3.1 || pm2 > 3.2 || pbm > 1.5 || nbm > 1.6 || pbm > 1.5 || nbm > 1.6    % 10 bits in 2's compliment for sum, 5 for weights
-                nn.layers{1}.W = randn(16, 28*28) * 0.1;
-                nn.layers{3}.W = randn(10, 16) * 0.1;
-                nn.layers{1}.b = zeros(16, 1);
-                nn.layers{3}.b = zeros(10, 1);
-                disp('continue')
-                continue
-            end
+%             if max_sum > 51 || pm > 0.7 || nm > 0.8       % 10 bits in 2's compliment for sum, 5 for weights
+%                 nn.layers{1}.W = randn(16, 28*28) * 0.1;
+% %                 disp('continue')
+%                 continue
+%             end
+            nn_normed = Network(batchsize);
+            nn_normed.layers{1} = Linear(28 * 28, nodes(j), batchsize);
+            nn_normed.layers{2} = ReLU(nodes(j), nodes(j), batchsize);
+            nn_normed.layers{3} = Linear(nodes(j), 10, batchsize);
+            nn_normed.layers{4} = Softmax(10, 10, batchsize);
+            %norm first layer weight
+            pos1 = nn.layers{1}.W.*(nn.layers{1}.W >= 0);
+            neg1 = nn.layers{1}.W.*(nn.layers{1}.W < 0);
+            pos1 = pos1./(max(max(pos1)))*0.7;
+            neg1 = neg1./(max(max(abs(neg1))))*0.8;
+            nn_normed.layers{1}.W = round((pos1 + neg1),w1_precision);
+            %norm first layer weight
+            pos2 = nn.layers{3}.W.*(nn.layers{3}.W >= 0);
+            neg2 = nn.layers{3}.W.*(nn.layers{3}.W < 0);
+            pos2 = pos2./(max(max(pos2)))*0.7;
+            neg2 = neg2./(max(max(abs(neg2))))*0.8;
+            nn_normed.layers{3}.W = round((pos2 + neg2),w2_precision);
             
-            nn.test(test_images, test_labels);
-            disp(nn.percent_correct);
-            pcorr(e) = nn.percent_correct;
+            
+            nn_normed.layers{1}.b = nn.layers{1}.b;
+            nn_normed.layers{3}.b = nn.layers{3}.b;
+            
+            nn_normed.test(test_images, test_labels);
+            disp(nn_normed.percent_correct);
+            pcorr(e) = nn_normed.percent_correct;
             
             
             %printBuffer = ['Accuracy: ', num2str(nn.percent_correct),'   Max sum of weights: ', num2str(max_sum),'   Max weight: ', num2str(max(max(abs(nn.layers{1}.W))))];
@@ -116,8 +122,6 @@ for j = 1:length(nodes)
                 
                 Wlayer1 = nn.layers{1}.W;
                 Wlayer3 = nn.layers{3}.W;
-                b1 = nn.layers{1}.b;
-                b3 = nn.layers{3}.b;
             end
             
             

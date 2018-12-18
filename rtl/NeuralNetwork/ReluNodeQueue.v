@@ -3,15 +3,15 @@
 
 module ReluNodeQueue (
  	//Inputs
- 	resetQueue, ReluNodeValues, dequeue, writeEnable
+ 	reset, ReluNodeValues, dequeue, writeEnable,
  	//Outputs
  	indexOut, NodeValueOut, queueEmpty
  );
  
  	//Inputs
- 	input resetQueue;
+ 	input reset;
  	input [`RELU_NODES*`LAYER_2_IN_BIT_WIDTH-1:0] ReluNodeValues;
- 	input dequeue
+ 	input dequeue;
  	input writeEnable;
  	
  	//Outputs
@@ -26,7 +26,7 @@ module ReluNodeQueue (
  	
  	//Convert 1D array input port ReluNodeValues to 2D internal bus
  	wire [`LAYER_2_IN_BIT_WIDTH-1:0] local_2D_Bus[`RELU_NODES-1:0];
-	integer i;
+	genvar i;
 	for (i=0; i<`RELU_NODES; i=i+1) begin
 		assign local_2D_Bus[i] = ReluNodeValues[`LAYER_2_IN_BIT_WIDTH*i+`LAYER_2_IN_BIT_WIDTH-1:`LAYER_2_IN_BIT_WIDTH*i];
 	end

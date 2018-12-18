@@ -49,12 +49,14 @@ module InputQueueRegister (
  	
  	//Output buffering
  	integer i;
- 	always @(posedge writeBufferEnable) begin : buffer_proc
-		//Buffer input queue
-		queueEndPointerBuffer <= queueEndPointer;
-		for (i=0; i<`QUEUE_MAX_SIZE; i=i+1) begin
-			queueRegisterBuffer[i] <= queueRegister[i];
-		end
+ 	always @(posedge clk) begin : buffer_proc
+ 		if (writeBufferEnable) begin
+ 			//Buffer input queue
+ 			queueEndPointerBuffer <= queueEndPointer;
+ 			for (i=0; i<`QUEUE_MAX_SIZE; i=i+1) begin
+ 				queueRegisterBuffer[i] <= queueRegister[i];
+ 			end
+ 		end
  	end
  	
  	//Input queueing

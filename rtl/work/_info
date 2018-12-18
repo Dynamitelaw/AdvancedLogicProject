@@ -1,0 +1,411 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/user3/fall16/jer2201/AdvancedLogicDesign/project/qsim_rtl/lfsr1
+vcompare
+Z0 !s110 1544839767
+!i10b 1
+!s100 4?V0oAQYzlVZY^9:i`MOZ1
+IJ>?iT?Dg3CE5PB4A`XKF70
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 d/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl
+Z3 w1544833550
+Z4 8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/softMax.v
+Z5 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/softMax.v
+L0 42
+Z6 OL;L;10.3d;59
+r1
+!s85 0
+31
+Z7 !s108 1544839767.500825
+Z8 !s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/softMax.v|
+Z9 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/softMax.v|
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vInputQueueRegister
+R0
+!i10b 1
+!s100 QWFF60DbEd@OAAEU5C7GB1
+I24:2iF]ldM:[nUnFg51FT3
+R1
+R2
+w1544839762
+Z11 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/InputQueueRegister.v
+Z12 8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_InputQueueRegister.v
+Z13 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_InputQueueRegister.v
+L0 16
+R6
+r1
+!s85 0
+31
+Z14 !s108 1544839767.586917
+Z15 !s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/InputQueueRegister.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_InputQueueRegister.v|
+Z16 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_InputQueueRegister.v|
+!i113 1
+R10
+n@input@queue@register
+vLayer1_Controller
+!s110 1544839766
+!i10b 1
+!s100 ?Pd1U@Uk>84c6n=9PN8_o1
+I=[PF>9Am]IRolbnT9JBj_0
+R1
+R2
+Z17 w1544833549
+8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v
+F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v
+L0 9
+R6
+r1
+!s85 0
+31
+!s108 1544839766.925551
+!s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v|
+!i113 1
+R10
+n@layer1_@controller
+vLayer1WeightStorage
+R0
+!i10b 1
+!s100 fWk8@YTOV01N2nmD?aW=<1
+IY:<2UbAS_0k^n0^4Zd=<`3
+R1
+R2
+Z18 w1543871730
+Z19 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1WeightStorage.v
+Z20 8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_Layer1WeightStorage.v
+Z21 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_Layer1WeightStorage.v
+L0 35
+R6
+r1
+!s85 0
+31
+Z22 !s108 1544839767.704809
+Z23 !s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1WeightStorage.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_Layer1WeightStorage.v|
+Z24 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_Layer1WeightStorage.v|
+!i113 1
+R10
+n@layer1@weight@storage
+vMAC
+R0
+!i10b 1
+!s100 n:NZmVdn9Fa4=]QUoFCBW0
+IbTB9GmUHoc;2h^Jkz@gWi3
+R1
+R2
+R17
+Z25 8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v
+Z26 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v
+L0 30
+R6
+r1
+!s85 0
+31
+Z27 !s108 1544839767.190798
+Z28 !s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v|
+Z29 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v|
+!i113 1
+R10
+n@m@a@c
+vmultStore
+R0
+!i10b 1
+!s100 YX;WL6hC;7QBMIEQK<o8T3
+IHeM5T?>JM7829L5=m4PKZ3
+R1
+R2
+R17
+R25
+R26
+L0 3
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R10
+nmult@store
+vNodeWeightBank
+R0
+!i10b 1
+!s100 ^WDozTm=[;4HmeB1S>dOI0
+IP=@?@V7;9iCS8c0<9OQ3a2
+R1
+R2
+R18
+R19
+R20
+R21
+L0 12
+R6
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R10
+n@node@weight@bank
+vpStore
+R0
+!i10b 1
+!s100 iQ=1d[UM`YaY8XXQNhzC^1
+ITL<;NNQgnGV<;?^fdT02g3
+R1
+R2
+R17
+Z30 8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v
+Z31 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v
+L0 8
+R6
+r1
+!s85 0
+31
+Z32 !s108 1544839767.271897
+Z33 !s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v|
+Z34 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v|
+!i113 1
+R10
+np@store
+vQueueBuffer
+!s110 1544835306
+!i10b 1
+!s100 UQdU4=2Xb6[78T6bK6=?e1
+IX>bJhXBAi6HM[aOd>OAT<3
+R1
+R2
+w1544835249
+R11
+R12
+R13
+L0 108
+R6
+r1
+!s85 0
+31
+!s108 1544835306.067254
+R15
+R16
+!i113 1
+R10
+n@queue@buffer
+vRectAndReduce
+R0
+!i10b 1
+!s100 JbAeIdQjWO_]P4@J_[De?3
+I?L2nh5m@mG`YW357:L`_33
+R1
+R2
+R18
+Z35 8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/RELU.v
+Z36 F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/RELU.v
+L0 26
+R6
+r1
+!s85 0
+31
+Z37 !s108 1544839767.393905
+Z38 !s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/RELU.v|
+Z39 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/RELU.v|
+!i113 1
+R10
+n@rect@and@reduce
+vRELU
+R0
+!i10b 1
+!s100 ?V0VbBcS@;77^MlaQWV:T2
+ImgT=moKizA8E34:kf=FVM2
+R1
+R2
+R18
+R35
+R36
+L0 4
+R6
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R10
+n@r@e@l@u
+vsoftMax
+R0
+!i10b 1
+!s100 j3W4jQF<D`^V^[N2eZoQO1
+IOC>RMSV0j5EQD>RL]fI5:1
+R1
+R2
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nsoft@max
+vstored_addern
+R0
+!i10b 1
+!s100 lA1>z4H`X]Ti8m_AfC`0O0
+IHQ0c`LhD9;faW<l:P>>^=2
+R1
+R2
+R17
+R30
+R31
+L0 36
+R6
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R10
+vTEST_InputQueueRegister
+R0
+!i10b 1
+!s100 J6[Qa3A[23>a1<Qc``e6M2
+IojERne<]14Hm7nYPiZBa23
+R1
+R2
+w1544839443
+R12
+R13
+L0 11
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10
+n@t@e@s@t_@input@queue@register
+vTEST_Layer1WeightStorage
+R0
+!i10b 1
+!s100 PE_oV1lI:l49M?XoKIDOf0
+IAzglM?0:Pnmk@omToFec01
+R1
+R2
+R18
+R20
+R21
+L0 9
+R6
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R10
+n@t@e@s@t_@layer1@weight@storage
+vTEST_multStore
+R0
+!i10b 1
+!s100 GN8O7FWYN_me[SzR>[4XL2
+IkR1AfhlZ80hEnRRO6H^UD0
+R1
+R2
+R17
+8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_multStore.v
+F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_multStore.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1544839767.844705
+!s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_multStore.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_multStore.v|
+!i113 1
+R10
+n@t@e@s@t_mult@store
+vtest_pStore
+Z40 !s110 1544839768
+!i10b 1
+!s100 ]b1@T070aKm0<k[jZk2W63
+IeVW4_DahSeVbd===WC5Wl2
+R1
+R2
+R18
+8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_pStore.v
+F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_pStore.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1544839767.962344
+!s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_pStore.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_pStore.v|
+!i113 1
+R10
+ntest_p@store
+vtest_RELU
+R40
+!i10b 1
+!s100 C>]3]iARQ>YSnCJkdmnCO0
+IhYEDbCDWT^A7hKZCdUKP^1
+R1
+R2
+R18
+8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_RELU.v
+F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_RELU.v
+L0 4
+R6
+r1
+!s85 0
+31
+!s108 1544839768.072929
+!s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_RELU.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_RELU.v|
+!i113 1
+R10
+ntest_@r@e@l@u
+vTEST_softMax
+R40
+!i10b 1
+!s100 3D9Cda40eSk@8n`6SH9_C2
+IW5bVGihZdAnQE7MD?gI483
+R1
+R2
+R17
+8/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_softMax.v
+F/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_softMax.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1544839768.265084
+!s107 /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_softMax.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_softMax.v|
+!i113 1
+R10
+n@t@e@s@t_soft@max

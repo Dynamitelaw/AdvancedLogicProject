@@ -1,0 +1,89 @@
+/homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module multStore
+-- Compiling module MAC
+
+Top level modules:
+	multStore
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_softMax.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_softMax.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module TEST_softMax
+
+Top level modules:
+	TEST_softMax
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1WeightStorage.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/Layer1WeightStorage.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module NodeWeightBank
+-- Compiling module Layer1WeightStorage
+
+Top level modules:
+	Layer1WeightStorage
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_multStore.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_multStore.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module TEST_multStore
+
+Top level modules:
+	TEST_multStore
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_RELU.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_RELU.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module test_RELU
+
+Top level modules:
+	test_RELU
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/RELU.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/RELU.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module RELU
+-- Compiling module RectAndReduce
+
+Top level modules:
+	RELU
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_InputQueueRegister.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_InputQueueRegister.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module InputQueueRegister
+-- Compiling module TEST_InputQueueRegister
+
+Top level modules:
+	TEST_InputQueueRegister
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/softMax.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/softMax.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module softMax
+-- Compiling module compare
+
+Top level modules:
+	softMax
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_Layer1WeightStorage.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_Layer1WeightStorage.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module NodeWeightBank
+-- Compiling module Layer1WeightStorage
+-- Compiling module TEST_Layer1WeightStorage
+
+Top level modules:
+	TEST_Layer1WeightStorage
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_pStore.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/TEST_pStore.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module test_pStore
+
+Top level modules:
+	test_pStore
+
+} {} {}} /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v {1 {vlog -work work -novopt -stats=none /homes/user3/fall16/jer2201/AdvancedLogicDesign/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v
+QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+-- Compiling module pStore
+-- Compiling module stored_addern
+
+Top level modules:
+	pStore
+
+} {} {}}

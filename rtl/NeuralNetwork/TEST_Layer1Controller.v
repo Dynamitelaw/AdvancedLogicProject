@@ -104,7 +104,7 @@ module TEST_Layer1Controller ;
 		#2
 		WriteAddressSelect = 10'b0000000011;  //node3
 		weightWriteEnable <= 1;
-		writeIn <= 8'b01010010;  //(5,2)
+		writeIn <= 8'b00100001;  //(2,1)
 		#1
 		weightWriteEnable <= 0;
 
@@ -123,13 +123,29 @@ module TEST_Layer1Controller ;
 		#2
 		inputsInbound <= 0;
 
+		#4
 
-		//Check Layer1Output
-		#50
-		if (layer1Output == 8'b01100000) begin  //(6,0)
-			success <= `TRUE;
-		end
+		inputsInbound <= 1;
 
+		//Input pixel values
+		inputPixel <= 0;  //index 0
+		#2
+		inputPixel <= 1;  //index 1
+		#2
+		inputPixel <= 0;  //index 2
+		#2
+		inputPixel <= 1;  //index 3
+		#2
+		inputsInbound <= 0;
+
+		#40
+		outputsRecieved <= `TRUE;
+		#1
+		outputsRecieved <= `FALSE;
+
+
+		
+		
 	end
 
 	//Clock toggling

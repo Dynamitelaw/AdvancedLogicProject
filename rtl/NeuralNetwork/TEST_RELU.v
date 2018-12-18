@@ -11,14 +11,15 @@ module test_RELU();
 
 	initial begin
 		trigger = 0;
-		sumIn = 16'b1010_0111_1000_1111;
+		sumIn = 18'b10000111;
 		#20
 		trigger = 1;
 		#20
-		sumIn = 16'b0010_0011_1011_0110;
+		sumIn = 16'b10110110;
 		#20
+		sumIn = 16'b10001111;
 
-		$finish;
+		//$finish;
 	end
 
 endmodule

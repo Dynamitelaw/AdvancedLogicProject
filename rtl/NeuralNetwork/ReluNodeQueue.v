@@ -1,3 +1,11 @@
+/*
+ * This module buffers the output of Layer1, and fuctions as a queue to feed the multStore module.
+ * Queue also serves indexes to Layer2WeightStorage
+ *
+ * Will dequeue an index to the output every rising edge of the <dequeue> signal. It will set <queueEmpty> to 1 when the queue has been emptied.
+ */
+ 
+ 
 `include "GlobalVariables.v"
 
 
@@ -28,7 +36,7 @@ module ReluNodeQueue (
  	wire [`LAYER_2_IN_BIT_WIDTH-1:0] local_2D_Bus[`RELU_NODES-1:0];
 	genvar i;
 	for (i=0; i<`RELU_NODES; i=i+1) begin
-		assign local_2D_Bus[i] = ReluNodeValues[`LAYER_2_IN_BIT_WIDTH*i+`LAYER_2_IN_BIT_WIDTH-1:`LAYER_2_IN_BIT_WIDTH*i];
+		assign local_2D_Bus[`RELU_NODES-1-i] = ReluNodeValues[`LAYER_2_IN_BIT_WIDTH*i+`LAYER_2_IN_BIT_WIDTH-1:`LAYER_2_IN_BIT_WIDTH*i];
 	end
  	
  	reg [`LAYER_2_IN_BIT_WIDTH-1:0] ReluQueueRegister [`RELU_NODES-1:0];  //register array to store RELU node values
@@ -74,9 +82,7 @@ module ReluNodeQueue (
  	
  	//Find out when queue is empty
  	always @(frontPointer) begin : empty_proc
- 		if (frontPointer == `RELU_NODES) begin
- 			queueEmpty <= `TRUE;
- 		end
+ 		queueEmpty <= frontPointer == `RELU_NODES;
  	end
  	
  endmodule

@@ -11,7 +11,7 @@ This file contains all global macro definitions
 `define LAYER_1_BIT_WIDTH 4
 `define LAYER_1_OUT_BIT_WIDTH 4 //10
 
-`define RELU_NODES 2
+`define RELU_NODES 3
 `define LAYER_2_IN_BIT_WIDTH 4
 `define LAYER_2_WEIGHTS_BIT_WIDTH 4
 `define LAYER_2_OUT_BIT_WIDTH 6

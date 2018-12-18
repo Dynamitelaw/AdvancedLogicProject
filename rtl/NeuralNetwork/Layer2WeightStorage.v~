@@ -39,7 +39,7 @@ module Layer2WeightStorage (
 	readOut
 );
 	input writeEnable;
-	input [3:0] NodeSelect;  //2^4 = 32 RELU nodes
+	input [`RELU_INDEX_WIDTH -1:0] NodeSelect;
 	input [10*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] writeIn;
 	output [10*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] readOut;
 

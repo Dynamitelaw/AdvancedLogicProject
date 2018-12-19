@@ -10,13 +10,13 @@ module multStore (
 
         input clk, clr, biasWriteEnable;
         input [`LAYER_2_IN_BIT_WIDTH-1:0] layer2In;
-	input [`SOFTMAX_NODES*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] weightsIn;
-	input [`SOFTMAX_NODES*`LAYER_2_OUT_BIT_WIDTH-1:0] biasesIn;
-        output [`SOFTMAX_NODES*`LAYER_2_OUT_BIT_WIDTH-1:0] sumOut;
+	input [10*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] weightsIn;
+	input [10*`LAYER_2_OUT_BIT_WIDTH-1:0] biasesIn;
+        output [10*`LAYER_2_OUT_BIT_WIDTH-1:0] sumOut;
 
 	genvar m;
 	generate
-		for(m = 0; m<`SOFTMAX_NODES; m=m+1)
+		for(m = 0; m<10; m=m+1)
 		begin
 			MAC mac(.clr(clr),
 				.clk(clk),

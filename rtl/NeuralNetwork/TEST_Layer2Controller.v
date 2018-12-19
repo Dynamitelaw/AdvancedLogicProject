@@ -2,7 +2,7 @@
  * Test bench for Layer1Controller
  *
  * Tested using 
-	LAYER_1_OUT_BIT_WIDTH 4 //10
+	LAYER_1_OUT_BIT_WIDTH 4
 
 	RELU_NODES 4
 	LAYER_2_IN_BIT_WIDTH 4

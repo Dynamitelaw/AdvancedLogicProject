@@ -79,7 +79,7 @@ module Layer2_Controller (
  	wire [10*`LAYER_2_OUT_BIT_WIDTH-1:0] mstoreOutput;
  	multStore multStore(
 		//Inputs
-		.clk(clk), .clr(mstoreReset), .layer2In(queueValueOut), .weightsIn(weightStorageBus), //biasesIn,
+		.clk(clk), .clr(mstoreReset), .layer2In(queueValueOut), .weightsIn(weightStorageBus), .biasesIn(writeIn), .biasWriteEnable(biasWriteEnable),
 		//Outputs
 		.sumOut(mstoreOutput)
 	);
@@ -153,7 +153,7 @@ module Layer2_Controller (
 				predictionOutput <= softmaxOutput;  //Store output of RELU to output buffer 
 
 				outputsReady <= `TRUE;  //Notify user
-				mstoreReset <= `TRUE;  //reset mstre
+				mstoreReset <= `TRUE;  //reset mstore
 
 				idle <= `TRUE;  //go into idle state
 			end

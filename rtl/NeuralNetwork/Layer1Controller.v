@@ -76,7 +76,7 @@ module Layer1_Controller (
 	wire [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] pstoreOutput;
 	pStore plusStore(
 		//Inputs
-		.clk(clk), .clr(pstoreReset), .weightsIn(wBuffer_A_Out), //.biasesIn(writeIn), .biasWriteEnable(biasWriteEnable)
+		.clk(clk), .clr(pstoreReset), .weightsIn(wBuffer_A_Out), .biasesIn(writeIn), .biasWriteEnable(biasWriteEnable),
 		//Outputs
 		.sumOut(pstoreOutput)
 	);

@@ -96,7 +96,7 @@ module TEST_Layer2Controller ;
 		weightWriteEnable <= 0;
 
 		//Load in RELU inputs
-		#2
+		#3
 		inputsReady <= 1;
 
 		layer2Input <= 16'b0100_0011_0000_0110;  //(4,3,0,6)

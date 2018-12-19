@@ -17,9 +17,9 @@ This file contains all global macro definitions
 //`define LAYER_2_CLK_DIVIDER 1
 `define LAYER_2_IN_BIT_WIDTH 6
 `define LAYER_2_WEIGHTS_BIT_WIDTH 4
-`define LAYER_2_OUT_BIT_WIDTH 9
+`define LAYER_2_OUT_BIT_WIDTH 10
 `define RELU_INDEX_WIDTH 3
 
-`define SOFTMAX_IN_BIT_WIDTH 9
+`define SOFTMAX_IN_BIT_WIDTH 4
 
 `define WRITE_IN_BIT_WIDTH 64  //must be greater than or equal to both L1 and L2 write ports

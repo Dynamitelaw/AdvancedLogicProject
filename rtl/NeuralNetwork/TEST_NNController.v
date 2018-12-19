@@ -68,7 +68,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000000;  //node0
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0001_0110_0111_0101;  // [1, 6, 7, 5]
+		writeIn <= 24'b0101_0101_0110_0101;  // [5, 5, 6, 5]
 		//#1
 		//weightWriteEnable <= 0;
 
@@ -76,7 +76,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000001;  //node1
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0100_0100_0101_0010;  // [4, 4, 5, 2]
+		writeIn <= 24'b0100_0111_0000_0101;  // [4, 7, 0, 5]
 		//#1
 		//weightWriteEnable <= 0;
 
@@ -84,7 +84,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000010;  //node2
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0110_0110_0101_0001;  // [6, 6, 5, 1]
+		writeIn <= 24'b0010_0111_0001_0000;  // [2, 7, 1, 0]
 		//#1
 		//weightWriteEnable <= 0;
 		
@@ -92,7 +92,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000011;  //node3
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0110_0111_0111_0110;  // [6, 7, 7, 6]
+		writeIn <= 24'b0001_0010_0110_0011;  // [1, 2, 6, 3]
 		//#1
 		//weightWriteEnable <= 0;
 		
@@ -100,7 +100,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000100;  //node4
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0001_0011_0101_0101;  // [1, 3, 5, 5]
+		writeIn <= 24'b0010_0111_0000_0111;  // [2, 7, 0, 7]
 		//#1
 		//weightWriteEnable <= 0;
 
@@ -108,7 +108,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000101;  //node5
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0100_0001_0010_0011;  // [4, 1, 2, 3]
+		writeIn <= 24'b0011_0000_0011_0101;  // [3, 0, 3, 5]
 		#1
 		weightWriteEnable <= 0;
 		

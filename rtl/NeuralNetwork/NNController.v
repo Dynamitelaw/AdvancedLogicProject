@@ -75,7 +75,7 @@ module NN_Controler(
 	wire [9:0] L1_WriteAddressSelect;
 	wire [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] L1_WriteIn;
 	wire L2_InputsReady;
-	wire L2_Input;
+	wire [`RELU_NODES*`LAYER_2_IN_BIT_WIDTH-1:0] L2_Input;
  	Layer1_Controller Layer1(
  		//Inputs
 		.reset(reset),

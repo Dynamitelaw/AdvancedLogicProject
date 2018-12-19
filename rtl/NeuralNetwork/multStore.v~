@@ -11,18 +11,18 @@ module multStore (
         input clk, clr, biasWriteEnable;
         input [`LAYER_2_IN_BIT_WIDTH-1:0] layer2In;
 	input [10*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] weightsIn;
-	input [10*`LAYER_2_OUT_BIT_WIDTH-1:0] biasesIn;
+	input [10*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] biasesIn;
         output [10*`LAYER_2_OUT_BIT_WIDTH-1:0] sumOut;
 
 	genvar m;
 	generate
-		for(m = 0; m<`SOFTMAX_NODES; m=m+1)
+		for(m = 0; m<10; m=m+1)
 		begin
 			MAC mac(.clr(clr),
 				.clk(clk),
 				.X(weightsIn[m*`LAYER_2_WEIGHTS_BIT_WIDTH + `LAYER_2_WEIGHTS_BIT_WIDTH - 1:m*`LAYER_2_WEIGHTS_BIT_WIDTH]),
 				.M(layer2In),
-				.B(biasesIn[m*`LAYER_2_OUT_BIT_WIDTH + `LAYER_2_OUT_BIT_WIDTH - 1:m*`LAYER_2_OUT_BIT_WIDTH]),
+				.B(biasesIn[m*`LAYER_2_WEIGHTS_BIT_WIDTH + `LAYER_2_WEIGHTS_BIT_WIDTH - 1:m*`LAYER_2_WEIGHTS_BIT_WIDTH]),
 				.S(sumOut[m*`LAYER_2_OUT_BIT_WIDTH + `LAYER_2_OUT_BIT_WIDTH - 1:m*`LAYER_2_OUT_BIT_WIDTH]),
 				.biasWriteEnable(biasWriteEnable)
 			);
@@ -30,13 +30,13 @@ module multStore (
 	endgenerate
 
 	
-endmodule  //end pStore
+endmodule
 
 module MAC (clr, clk, X, M, S, B, biasWriteEnable);
 	input clk, clr, biasWriteEnable;
 	input [`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] X;
 	input [`LAYER_2_IN_BIT_WIDTH - 1:0] M;
-	input [`LAYER_2_OUT_BIT_WIDTH - 1:0] B;
+	input [`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] B;
 	output reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] S = 'b0; // initialize sumOut
 	reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] s;
 	reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] X2;
@@ -44,8 +44,16 @@ module MAC (clr, clk, X, M, S, B, biasWriteEnable);
 	integer k;
 	
 	// Store biases locally
-	always @(posedge biasWriteEnable)
-		biasesStored <= B;
+	always @(biasWriteEnable or B)
+	begin
+		if (biasWriteEnable) begin
+		biasesStored[`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] <= B;
+		for(k = `LAYER_2_WEIGHTS_BIT_WIDTH;k < `LAYER_2_OUT_BIT_WIDTH;k = k+1)
+			if (B[`LAYER_2_WEIGHTS_BIT_WIDTH - 1])
+				biasesStored[k] = 1;
+			else
+				biasesStored[k] = 0;
+	end
 
 	// Pad input with 1s or 0s according to its sign
 	always @(X)

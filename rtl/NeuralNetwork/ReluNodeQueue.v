@@ -46,7 +46,7 @@ module ReluNodeQueue (
  	
  	//Write to the queue when writeEnable is set high
  	integer j;
- 	always @(writeEnable) begin : write_proc 		
+ 	always @(writeEnable or ReluNodeValues) begin : write_proc 		
  		//Write to the queue
  		if (writeEnable) begin
 			//Buffer inputs

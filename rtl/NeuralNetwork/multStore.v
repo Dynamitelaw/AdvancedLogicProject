@@ -44,14 +44,16 @@ module MAC (clr, clk, X, M, S, B, biasWriteEnable);
 	integer k;
 	
 	// Store biases locally
-	always @(posedge biasWriteEnable)
+	always @(biasWriteEnable or B)
 	begin
-		biasesStored[`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] <= B;
-		for(k = `LAYER_2_WEIGHTS_BIT_WIDTH;k < `LAYER_2_OUT_BIT_WIDTH;k = k+1)
-			if (B[`LAYER_2_WEIGHTS_BIT_WIDTH - 1])
-				biasesStored[k] = 1;
-			else
-				biasesStored[k] = 0;
+		if (biasWriteEnable) begin
+			biasesStored[`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] <= B;
+			for(k = `LAYER_2_WEIGHTS_BIT_WIDTH;k < `LAYER_2_OUT_BIT_WIDTH;k = k+1)
+				if (B[`LAYER_2_WEIGHTS_BIT_WIDTH - 1])
+					biasesStored[k] = 1;
+				else
+					biasesStored[k] = 0;
+		end
 	end
 
 	// Pad input with 1s or 0s according to its sign

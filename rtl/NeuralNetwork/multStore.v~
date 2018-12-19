@@ -1,52 +1,41 @@
-
 `include "GlobalVariables.v"
 
 module multStore (
 	//Inputs
-	clk, clr, layer2In, weightsIn, biasesIn, biasWriteEnable,
+	clk, clr, layer2In, weightsIn, //biasesIn,
 	//Outputs
 	sumOut
 );
 
-        input clk, clr, biasWriteEnable;
+        input clk, clr;
         input [`LAYER_2_IN_BIT_WIDTH-1:0] layer2In;
-	input [`SOFTMAX_NODES*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] weightsIn;
-	input [`SOFTMAX_NODES*`LAYER_2_OUT_BIT_WIDTH-1:0] biasesIn;
-        output [`SOFTMAX_NODES*`LAYER_2_OUT_BIT_WIDTH-1:0] sumOut;
+	input [10*`LAYER_2_WEIGHTS_BIT_WIDTH-1:0] weightsIn;
+        output [10*`LAYER_2_OUT_BIT_WIDTH-1:0] sumOut;
 
 	genvar m;
 	generate
-		for(m = 0; m<`SOFTMAX_NODES; m=m+1)
+		for(m = 0; m<10; m=m+1)
 		begin
 			MAC mac(.clr(clr),
 				.clk(clk),
 				.X(weightsIn[m*`LAYER_2_WEIGHTS_BIT_WIDTH + `LAYER_2_WEIGHTS_BIT_WIDTH - 1:m*`LAYER_2_WEIGHTS_BIT_WIDTH]),
 				.M(layer2In),
-				.B(biasesIn[m*`LAYER_2_OUT_BIT_WIDTH + `LAYER_2_OUT_BIT_WIDTH - 1:m*`LAYER_2_OUT_BIT_WIDTH]),
-				.S(sumOut[m*`LAYER_2_OUT_BIT_WIDTH + `LAYER_2_OUT_BIT_WIDTH - 1:m*`LAYER_2_OUT_BIT_WIDTH]),
-				.biasWriteEnable(biasWriteEnable)
-			);
+				.S(sumOut[m*`LAYER_2_OUT_BIT_WIDTH + `LAYER_2_OUT_BIT_WIDTH - 1:m*`LAYER_2_OUT_BIT_WIDTH]));
 		end
 	endgenerate
 
 	
 endmodule  //end pStore
 
-module MAC (clr, clk, X, M, S, B, biasWriteEnable);
-	input clk, clr, biasWriteEnable;
+module MAC (clr, clk, X, M, S);
+	input clk, clr;
 	input [`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] X;
 	input [`LAYER_2_IN_BIT_WIDTH - 1:0] M;
-	input [`LAYER_2_OUT_BIT_WIDTH - 1:0] B;
 	output reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] S = 'b0; // initialize sumOut
 	reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] s;
 	reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] X2;
-	reg [`LAYER_2_OUT_BIT_WIDTH - 1:0] biasesStored = 'b0;
 	integer k;
 	
-	// Store biases locally
-	always @(posedge biasWriteEnable)
-		biasesStored <= B;
-
 	// Pad input with 1s or 0s according to its sign
 	always @(X)
 	begin
@@ -59,9 +48,9 @@ module MAC (clr, clk, X, M, S, B, biasWriteEnable);
 	end
 	
 	// Add and store padded weights
-	always @(posedge clr, posedge clk)
+	always @(negedge clr, posedge clk)
 	begin
-		if (clr == 1) S <= biasesStored;
+		if (clr == 1) S <= 'b0;
 		else S <= s;
 	end
 	

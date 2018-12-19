@@ -44,7 +44,7 @@ module compare(X,Y,Out);
 	output reg [`SOFTMAX_IN_BIT_WIDTH-1 +4:0] Out;
 
 	always @(X,Y)
-		if (X[`SOFTMAX_IN_BIT_WIDTH-2:0] >= Y[`SOFTMAX_IN_BIT_WIDTH-2:0]) //-2: absolute value of 2's compliment
+		if (X[`SOFTMAX_IN_BIT_WIDTH-2:0] >= Y[`SOFTMAX_IN_BIT_WIDTH-1:0]) //-2: absolute value of 2's compliment
 			Out <= X;
 		else
 			Out <= Y;

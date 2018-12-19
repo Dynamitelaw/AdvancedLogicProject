@@ -7,15 +7,14 @@ This file contains the "pStore" module to add stored weights in "FNode" to previ
 
 module pStore (
 	//Inputs
-	clk, clr, weightsIn, //biasesIn, biasWriteEnable,
+	clk, clr, weightsIn, biasesIn, biasWriteEnable,
 	//Outputs
 	sumOut
 );
 
-    input clk, clr;
+    input clk, clr, biasWriteEnable;
     input [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] weightsIn;
-	//input [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] biasesIn;
-	//input biasWriteEnable;
+    input [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] biasesIn;
     output [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] sumOut;
 
 	genvar m;
@@ -25,43 +24,49 @@ module pStore (
 			stored_addern add(.clr(clr),
 					  .clk(clk),
 					  .X(weightsIn[m*`LAYER_1_BIT_WIDTH + `LAYER_1_BIT_WIDTH - 1:m*`LAYER_1_BIT_WIDTH]),
-					  //.B(biasesIn[m*`LAYER_1_OUT_BIT_WIDTH + `LAYER_1_OUT_BIT_WIDTH - 1:m*`LAYER_1_OUT_BIT_WIDTH]),
-					  .S(sumOut[m*`LAYER_1_OUT_BIT_WIDTH + `LAYER_1_OUT_BIT_WIDTH - 1:m*`LAYER_1_OUT_BIT_WIDTH]));
+					  .B(biasesIn[m*`LAYER_1_OUT_BIT_WIDTH + `LAYER_1_OUT_BIT_WIDTH - 1:m*`LAYER_1_OUT_BIT_WIDTH]),
+					  .S(sumOut[m*`LAYER_1_OUT_BIT_WIDTH + `LAYER_1_OUT_BIT_WIDTH - 1:m*`LAYER_1_OUT_BIT_WIDTH]),
+					  .biasWriteEnable(biasWriteEnable)
+						);
 		end
 	endgenerate
 
 	
 endmodule  //end pStore
 
-module stored_addern (clr, clk, X, S);
-	input clk, clr;
+module stored_addern (clr, clk, X, S, B, biasWriteEnable);
+	input clk, clr, biasWriteEnable;
 	input [`LAYER_1_BIT_WIDTH - 1:0] X;
-	//input [`LAYER_1_OUT_BIT_WIDTH - 1:0] B;
+	input [`LAYER_1_OUT_BIT_WIDTH - 1:0] B;
 	output reg [`LAYER_1_OUT_BIT_WIDTH - 1:0] S = 'b0; // initialize sumOut
 	reg [`LAYER_1_OUT_BIT_WIDTH - 1:0] s;
 	reg [`LAYER_1_OUT_BIT_WIDTH - 1:0] X2;
+	reg [`LAYER_1_OUT_BIT_WIDTH - 1:0] biasesStored = 'b0;
 	integer k;
 	
-	// Pad input with 1s or 0s according to its sign
+	// Store biases locally
+	always @(posedge biasWriteEnable)
+		biasesStored <= B;
+
+	// Pad input with 1s or 0s according to its sign (sign extension)
 	always @(X)
 	begin
-		X2[`LAYER_1_BIT_WIDTH - 1:0] = X;
-		for(k = `LAYER_1_BIT_WIDTH;k < `LAYER_1_OUT_BIT_WIDTH - 1;k = k+1)
+		X2[`LAYER_1_BIT_WIDTH - 1:0] <= X;
+		for(k = `LAYER_1_BIT_WIDTH;k < `LAYER_1_OUT_BIT_WIDTH;k = k+1)
 			if (X[`LAYER_1_BIT_WIDTH - 1])
-				X2[k] = 1;
+				X2[k] <= 1;
 			else
-				X2[k] = 0;
+				X2[k] <= 0;
 	end
 	
 	// Add and store padded weights
 	always @(posedge clr, posedge clk)
 	begin
-		if (clr == 1) S <= 'b0;		
+		if (clr == 1) S <= biasesStored;
 		else S <= s;
 	end
-	
 	always @(*)
-		s = S + X2;
+		s <= S + X2;
 		// make overflow detection
 	
 endmodule

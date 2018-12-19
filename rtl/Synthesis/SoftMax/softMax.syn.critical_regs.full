@@ -1,0 +1,313 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : softMax
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:33:32 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: sumIn[80] (input port)
+  Endpoint: result[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  sumIn[80] (in)                           0.03       0.03 f
+  U1172/Y (INVX2TS)                        0.09       0.12 r
+  U1173/Y (INVX2TS)                        0.08       0.19 f
+  U1174/Y (NOR4XLTS)                       0.57       0.76 r
+  U628/Y (NAND2BXLTS)                      0.35       1.11 f
+  U1211/Y (NAND2X1TS)                      0.14       1.25 r
+  U1212/Y (XNOR2X1TS)                      0.32       1.58 r
+  U675/Y (INVX2TS)                         0.19       1.77 f
+  U1214/Y (AOI21X1TS)                      0.23       1.99 r
+  U1217/Y (AOI21X1TS)                      0.13       2.12 f
+  U1235/Y (AOI22X1TS)                      0.21       2.33 r
+  U1236/Y (AOI21X1TS)                      0.11       2.44 f
+  U1237/Y (OAI211XLTS)                     0.16       2.60 r
+  U1238/Y (OAI2BB1X1TS)                    0.20       2.80 f
+  U1239/Y (AOI222XLTS)                     0.64       3.44 r
+  U1242/Y (AOI222XLTS)                     0.36       3.80 f
+  U785/Y (AO21XLTS)                        0.55       4.35 f
+  U1243/Y (INVX2TS)                        0.17       4.52 r
+  U683/Y (MXI2XLTS)                        0.41       4.93 r
+  U1248/Y (OAI21XLTS)                      0.33       5.26 f
+  U1249/Y (OAI2BB2XLTS)                    0.32       5.58 r
+  U1250/Y (AOI222XLTS)                     0.31       5.88 f
+  U1251/Y (AOI222XLTS)                     0.56       6.44 r
+  U734/Y (AO21XLTS)                        0.30       6.74 r
+  U1252/Y (OAI211XLTS)                     0.16       6.90 f
+  U1253/Y (OAI21XLTS)                      0.17       7.07 r
+  U1254/Y (AOI222XLTS)                     0.31       7.38 f
+  U1255/Y (AOI222XLTS)                     0.61       7.99 r
+  U1256/Y (OAI21XLTS)                      0.24       8.23 f
+  U1258/Y (AOI31XLTS)                      0.71       8.95 r
+  U1263/Y (INVX2TS)                        0.39       9.34 f
+  U614/Y (MXI2XLTS)                        0.30       9.63 f
+  U1265/Y (OAI21XLTS)                      0.31       9.95 r
+  U1266/Y (OAI2BB2XLTS)                    0.23      10.18 f
+  U1267/Y (AOI222XLTS)                     0.62      10.80 r
+  U1268/Y (AOI222XLTS)                     0.38      11.18 f
+  U712/Y (AO21XLTS)                        0.47      11.64 f
+  U711/Y (AO22XLTS)                        0.46      12.10 f
+  U1271/Y (AOI21X1TS)                      0.19      12.29 r
+  U754/Y (OAI31X1TS)                       0.15      12.44 f
+  U1274/Y (OAI2BB1X1TS)                    0.11      12.55 r
+  U1275/Y (OAI21XLTS)                      0.14      12.68 f
+  U1276/Y (AOI222XLTS)                     0.60      13.29 r
+  U1277/Y (AOI21X1TS)                      0.38      13.66 f
+  U1278/Y (INVX2TS)                        0.17      13.83 r
+  U1279/Y (INVX2TS)                        0.10      13.93 f
+  U660/Y (AOI2BB1XLTS)                     0.41      14.34 f
+  U1284/Y (AOI222XLTS)                     0.56      14.90 r
+  U1285/Y (OA21XLTS)                       0.40      15.30 r
+  U1287/Y (AOI211XLTS)                     0.10      15.40 f
+  U1288/Y (AOI21X1TS)                      0.20      15.60 r
+  U1291/Y (OAI2BB1X1TS)                    0.26      15.86 r
+  U1292/Y (OAI21XLTS)                      0.14      16.00 f
+  U1293/Y (AOI222XLTS)                     0.54      16.54 r
+  U1294/Y (OAI2BB1X1TS)                    0.24      16.77 f
+  U809/Y (OAI21XLTS)                       0.17      16.94 r
+  U1296/Y (NAND2X1TS)                      0.19      17.13 f
+  U1297/Y (OAI2BB2XLTS)                    0.30      17.43 f
+  U1298/Y (OAI31X1TS)                      0.48      17.92 r
+  U1300/Y (NOR2XLTS)                       0.33      18.24 f
+  U1302/Y (AOI22X1TS)                      0.26      18.50 r
+  U1303/Y (OAI31X1TS)                      0.19      18.69 f
+  result[0] (out)                          0.00      18.69 f
+  data arrival time                                  18.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[80] (input port)
+  Endpoint: result[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  sumIn[80] (in)                           0.03       0.03 f
+  U1172/Y (INVX2TS)                        0.09       0.12 r
+  U1173/Y (INVX2TS)                        0.08       0.19 f
+  U1174/Y (NOR4XLTS)                       0.57       0.76 r
+  U628/Y (NAND2BXLTS)                      0.35       1.11 f
+  U1211/Y (NAND2X1TS)                      0.14       1.25 r
+  U1212/Y (XNOR2X1TS)                      0.32       1.58 r
+  U675/Y (INVX2TS)                         0.19       1.77 f
+  U1214/Y (AOI21X1TS)                      0.23       1.99 r
+  U1217/Y (AOI21X1TS)                      0.13       2.12 f
+  U1235/Y (AOI22X1TS)                      0.21       2.33 r
+  U1236/Y (AOI21X1TS)                      0.11       2.44 f
+  U1237/Y (OAI211XLTS)                     0.16       2.60 r
+  U1238/Y (OAI2BB1X1TS)                    0.20       2.80 f
+  U1239/Y (AOI222XLTS)                     0.64       3.44 r
+  U1242/Y (AOI222XLTS)                     0.36       3.80 f
+  U785/Y (AO21XLTS)                        0.55       4.35 f
+  U1243/Y (INVX2TS)                        0.17       4.52 r
+  U683/Y (MXI2XLTS)                        0.41       4.93 r
+  U1248/Y (OAI21XLTS)                      0.33       5.26 f
+  U1249/Y (OAI2BB2XLTS)                    0.32       5.58 r
+  U1250/Y (AOI222XLTS)                     0.31       5.88 f
+  U1251/Y (AOI222XLTS)                     0.56       6.44 r
+  U734/Y (AO21XLTS)                        0.30       6.74 r
+  U1252/Y (OAI211XLTS)                     0.16       6.90 f
+  U1253/Y (OAI21XLTS)                      0.17       7.07 r
+  U1254/Y (AOI222XLTS)                     0.31       7.38 f
+  U1255/Y (AOI222XLTS)                     0.61       7.99 r
+  U1256/Y (OAI21XLTS)                      0.24       8.23 f
+  U1258/Y (AOI31XLTS)                      0.71       8.95 r
+  U1263/Y (INVX2TS)                        0.39       9.34 f
+  U614/Y (MXI2XLTS)                        0.30       9.63 f
+  U1265/Y (OAI21XLTS)                      0.31       9.95 r
+  U1266/Y (OAI2BB2XLTS)                    0.23      10.18 f
+  U1267/Y (AOI222XLTS)                     0.62      10.80 r
+  U1268/Y (AOI222XLTS)                     0.38      11.18 f
+  U712/Y (AO21XLTS)                        0.47      11.64 f
+  U711/Y (AO22XLTS)                        0.46      12.10 f
+  U1271/Y (AOI21X1TS)                      0.19      12.29 r
+  U754/Y (OAI31X1TS)                       0.15      12.44 f
+  U1274/Y (OAI2BB1X1TS)                    0.11      12.55 r
+  U1275/Y (OAI21XLTS)                      0.14      12.68 f
+  U1276/Y (AOI222XLTS)                     0.60      13.29 r
+  U1277/Y (AOI21X1TS)                      0.38      13.66 f
+  U1278/Y (INVX2TS)                        0.17      13.83 r
+  U1279/Y (INVX2TS)                        0.10      13.93 f
+  U660/Y (AOI2BB1XLTS)                     0.41      14.34 f
+  U1284/Y (AOI222XLTS)                     0.56      14.90 r
+  U1285/Y (OA21XLTS)                       0.40      15.30 r
+  U1287/Y (AOI211XLTS)                     0.10      15.40 f
+  U1288/Y (AOI21X1TS)                      0.20      15.60 r
+  U1291/Y (OAI2BB1X1TS)                    0.26      15.86 r
+  U1292/Y (OAI21XLTS)                      0.14      16.00 f
+  U1293/Y (AOI222XLTS)                     0.54      16.54 r
+  U1294/Y (OAI2BB1X1TS)                    0.24      16.77 f
+  U809/Y (OAI21XLTS)                       0.17      16.94 r
+  U1296/Y (NAND2X1TS)                      0.19      17.13 f
+  U1297/Y (OAI2BB2XLTS)                    0.30      17.43 f
+  U1298/Y (OAI31X1TS)                      0.48      17.92 r
+  U1300/Y (NOR2XLTS)                       0.33      18.24 f
+  result[2] (out)                          0.00      18.24 f
+  data arrival time                                  18.24
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[80] (input port)
+  Endpoint: result[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  sumIn[80] (in)                           0.03       0.03 f
+  U1172/Y (INVX2TS)                        0.09       0.12 r
+  U1173/Y (INVX2TS)                        0.08       0.19 f
+  U1174/Y (NOR4XLTS)                       0.57       0.76 r
+  U628/Y (NAND2BXLTS)                      0.35       1.11 f
+  U1211/Y (NAND2X1TS)                      0.14       1.25 r
+  U1212/Y (XNOR2X1TS)                      0.32       1.58 r
+  U675/Y (INVX2TS)                         0.19       1.77 f
+  U1214/Y (AOI21X1TS)                      0.23       1.99 r
+  U1217/Y (AOI21X1TS)                      0.13       2.12 f
+  U1235/Y (AOI22X1TS)                      0.21       2.33 r
+  U1236/Y (AOI21X1TS)                      0.11       2.44 f
+  U1237/Y (OAI211XLTS)                     0.16       2.60 r
+  U1238/Y (OAI2BB1X1TS)                    0.20       2.80 f
+  U1239/Y (AOI222XLTS)                     0.64       3.44 r
+  U1242/Y (AOI222XLTS)                     0.36       3.80 f
+  U785/Y (AO21XLTS)                        0.55       4.35 f
+  U1243/Y (INVX2TS)                        0.17       4.52 r
+  U683/Y (MXI2XLTS)                        0.41       4.93 r
+  U1248/Y (OAI21XLTS)                      0.33       5.26 f
+  U1249/Y (OAI2BB2XLTS)                    0.32       5.58 r
+  U1250/Y (AOI222XLTS)                     0.31       5.88 f
+  U1251/Y (AOI222XLTS)                     0.56       6.44 r
+  U734/Y (AO21XLTS)                        0.30       6.74 r
+  U1252/Y (OAI211XLTS)                     0.16       6.90 f
+  U1253/Y (OAI21XLTS)                      0.17       7.07 r
+  U1254/Y (AOI222XLTS)                     0.31       7.38 f
+  U1255/Y (AOI222XLTS)                     0.61       7.99 r
+  U1256/Y (OAI21XLTS)                      0.24       8.23 f
+  U1258/Y (AOI31XLTS)                      0.71       8.95 r
+  U1263/Y (INVX2TS)                        0.39       9.34 f
+  U614/Y (MXI2XLTS)                        0.30       9.63 f
+  U1265/Y (OAI21XLTS)                      0.31       9.95 r
+  U1266/Y (OAI2BB2XLTS)                    0.23      10.18 f
+  U1267/Y (AOI222XLTS)                     0.62      10.80 r
+  U1268/Y (AOI222XLTS)                     0.38      11.18 f
+  U712/Y (AO21XLTS)                        0.47      11.64 f
+  U711/Y (AO22XLTS)                        0.46      12.10 f
+  U1271/Y (AOI21X1TS)                      0.19      12.29 r
+  U754/Y (OAI31X1TS)                       0.15      12.44 f
+  U1274/Y (OAI2BB1X1TS)                    0.11      12.55 r
+  U1275/Y (OAI21XLTS)                      0.14      12.68 f
+  U1276/Y (AOI222XLTS)                     0.60      13.29 r
+  U1277/Y (AOI21X1TS)                      0.38      13.66 f
+  U1278/Y (INVX2TS)                        0.17      13.83 r
+  U1279/Y (INVX2TS)                        0.10      13.93 f
+  U660/Y (AOI2BB1XLTS)                     0.41      14.34 f
+  U1284/Y (AOI222XLTS)                     0.56      14.90 r
+  U1285/Y (OA21XLTS)                       0.40      15.30 r
+  U1287/Y (AOI211XLTS)                     0.10      15.40 f
+  U1288/Y (AOI21X1TS)                      0.20      15.60 r
+  U1291/Y (OAI2BB1X1TS)                    0.26      15.86 r
+  U1292/Y (OAI21XLTS)                      0.14      16.00 f
+  U1293/Y (AOI222XLTS)                     0.54      16.54 r
+  U1294/Y (OAI2BB1X1TS)                    0.24      16.77 f
+  U809/Y (OAI21XLTS)                       0.17      16.94 r
+  U1296/Y (NAND2X1TS)                      0.19      17.13 f
+  U1297/Y (OAI2BB2XLTS)                    0.30      17.43 f
+  U1298/Y (OAI31X1TS)                      0.48      17.92 r
+  U1304/Y (AOI221XLTS)                     0.31      18.22 f
+  result[1] (out)                          0.00      18.22 f
+  data arrival time                                  18.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[80] (input port)
+  Endpoint: result[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  sumIn[80] (in)                           0.03       0.03 f
+  U1172/Y (INVX2TS)                        0.09       0.12 r
+  U1173/Y (INVX2TS)                        0.08       0.19 f
+  U1174/Y (NOR4XLTS)                       0.57       0.76 r
+  U628/Y (NAND2BXLTS)                      0.35       1.11 f
+  U1211/Y (NAND2X1TS)                      0.14       1.25 r
+  U1212/Y (XNOR2X1TS)                      0.32       1.58 r
+  U675/Y (INVX2TS)                         0.19       1.77 f
+  U1214/Y (AOI21X1TS)                      0.23       1.99 r
+  U1217/Y (AOI21X1TS)                      0.13       2.12 f
+  U1235/Y (AOI22X1TS)                      0.21       2.33 r
+  U1236/Y (AOI21X1TS)                      0.11       2.44 f
+  U1237/Y (OAI211XLTS)                     0.16       2.60 r
+  U1238/Y (OAI2BB1X1TS)                    0.20       2.80 f
+  U1239/Y (AOI222XLTS)                     0.64       3.44 r
+  U1242/Y (AOI222XLTS)                     0.36       3.80 f
+  U785/Y (AO21XLTS)                        0.55       4.35 f
+  U1243/Y (INVX2TS)                        0.17       4.52 r
+  U683/Y (MXI2XLTS)                        0.41       4.93 r
+  U1248/Y (OAI21XLTS)                      0.33       5.26 f
+  U1249/Y (OAI2BB2XLTS)                    0.32       5.58 r
+  U1250/Y (AOI222XLTS)                     0.31       5.88 f
+  U1251/Y (AOI222XLTS)                     0.56       6.44 r
+  U734/Y (AO21XLTS)                        0.30       6.74 r
+  U1252/Y (OAI211XLTS)                     0.16       6.90 f
+  U1253/Y (OAI21XLTS)                      0.17       7.07 r
+  U1254/Y (AOI222XLTS)                     0.31       7.38 f
+  U1255/Y (AOI222XLTS)                     0.61       7.99 r
+  U1256/Y (OAI21XLTS)                      0.24       8.23 f
+  U1258/Y (AOI31XLTS)                      0.71       8.95 r
+  U1263/Y (INVX2TS)                        0.39       9.34 f
+  U614/Y (MXI2XLTS)                        0.30       9.63 f
+  U1265/Y (OAI21XLTS)                      0.31       9.95 r
+  U1266/Y (OAI2BB2XLTS)                    0.23      10.18 f
+  U1267/Y (AOI222XLTS)                     0.62      10.80 r
+  U1268/Y (AOI222XLTS)                     0.38      11.18 f
+  U712/Y (AO21XLTS)                        0.47      11.64 f
+  U711/Y (AO22XLTS)                        0.46      12.10 f
+  U1271/Y (AOI21X1TS)                      0.19      12.29 r
+  U754/Y (OAI31X1TS)                       0.15      12.44 f
+  U1274/Y (OAI2BB1X1TS)                    0.11      12.55 r
+  U1275/Y (OAI21XLTS)                      0.14      12.68 f
+  U1276/Y (AOI222XLTS)                     0.60      13.29 r
+  U1277/Y (AOI21X1TS)                      0.38      13.66 f
+  U1278/Y (INVX2TS)                        0.17      13.83 r
+  U1279/Y (INVX2TS)                        0.10      13.93 f
+  U660/Y (AOI2BB1XLTS)                     0.41      14.34 f
+  U1284/Y (AOI222XLTS)                     0.56      14.90 r
+  U1285/Y (OA21XLTS)                       0.40      15.30 r
+  U1287/Y (AOI211XLTS)                     0.10      15.40 f
+  U1288/Y (AOI21X1TS)                      0.20      15.60 r
+  U1291/Y (OAI2BB1X1TS)                    0.26      15.86 r
+  U1292/Y (OAI21XLTS)                      0.14      16.00 f
+  U1293/Y (AOI222XLTS)                     0.54      16.54 r
+  U1294/Y (OAI2BB1X1TS)                    0.24      16.77 f
+  U809/Y (OAI21XLTS)                       0.17      16.94 r
+  U1296/Y (NAND2X1TS)                      0.19      17.13 f
+  U1297/Y (OAI2BB2XLTS)                    0.30      17.43 f
+  U1298/Y (OAI31X1TS)                      0.48      17.92 r
+  result[3] (out)                          0.00      17.92 r
+  data arrival time                                  17.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,1648 @@
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: sumIn[255] (input port)
+  Endpoint: layer1Out[126]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[255] (in)                          0.05       0.05 r
+  ...
+  layer1Out[126] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[255] (input port)
+  Endpoint: layer1Out[125]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[255] (in)                          0.05       0.05 r
+  ...
+  layer1Out[125] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[255] (input port)
+  Endpoint: layer1Out[124]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[255] (in)                          0.05       0.05 r
+  ...
+  layer1Out[124] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[247] (input port)
+  Endpoint: layer1Out[122]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[247] (in)                          0.05       0.05 r
+  ...
+  layer1Out[122] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[247] (input port)
+  Endpoint: layer1Out[121]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[247] (in)                          0.05       0.05 r
+  ...
+  layer1Out[121] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[247] (input port)
+  Endpoint: layer1Out[120]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[247] (in)                          0.05       0.05 r
+  ...
+  layer1Out[120] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[239] (input port)
+  Endpoint: layer1Out[118]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[239] (in)                          0.05       0.05 r
+  ...
+  layer1Out[118] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[239] (input port)
+  Endpoint: layer1Out[117]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[239] (in)                          0.05       0.05 r
+  ...
+  layer1Out[117] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[239] (input port)
+  Endpoint: layer1Out[116]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[239] (in)                          0.05       0.05 r
+  ...
+  layer1Out[116] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[231] (input port)
+  Endpoint: layer1Out[114]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[231] (in)                          0.05       0.05 r
+  ...
+  layer1Out[114] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[231] (input port)
+  Endpoint: layer1Out[113]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[231] (in)                          0.05       0.05 r
+  ...
+  layer1Out[113] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[231] (input port)
+  Endpoint: layer1Out[112]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[231] (in)                          0.05       0.05 r
+  ...
+  layer1Out[112] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[223] (input port)
+  Endpoint: layer1Out[110]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[223] (in)                          0.05       0.05 r
+  ...
+  layer1Out[110] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[223] (input port)
+  Endpoint: layer1Out[109]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[223] (in)                          0.05       0.05 r
+  ...
+  layer1Out[109] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[223] (input port)
+  Endpoint: layer1Out[108]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[223] (in)                          0.05       0.05 r
+  ...
+  layer1Out[108] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[215] (input port)
+  Endpoint: layer1Out[106]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[215] (in)                          0.05       0.05 r
+  ...
+  layer1Out[106] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[215] (input port)
+  Endpoint: layer1Out[105]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[215] (in)                          0.05       0.05 r
+  ...
+  layer1Out[105] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[215] (input port)
+  Endpoint: layer1Out[104]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[215] (in)                          0.05       0.05 r
+  ...
+  layer1Out[104] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[207] (input port)
+  Endpoint: layer1Out[102]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[207] (in)                          0.05       0.05 r
+  ...
+  layer1Out[102] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[207] (input port)
+  Endpoint: layer1Out[101]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[207] (in)                          0.05       0.05 r
+  ...
+  layer1Out[101] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[207] (input port)
+  Endpoint: layer1Out[100]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[207] (in)                          0.05       0.05 r
+  ...
+  layer1Out[100] (out)                     0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[199] (input port)
+  Endpoint: layer1Out[98]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[199] (in)                          0.05       0.05 r
+  ...
+  layer1Out[98] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[199] (input port)
+  Endpoint: layer1Out[97]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[199] (in)                          0.05       0.05 r
+  ...
+  layer1Out[97] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[199] (input port)
+  Endpoint: layer1Out[96]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[199] (in)                          0.05       0.05 r
+  ...
+  layer1Out[96] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[191] (input port)
+  Endpoint: layer1Out[94]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[191] (in)                          0.05       0.05 r
+  ...
+  layer1Out[94] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[191] (input port)
+  Endpoint: layer1Out[93]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[191] (in)                          0.05       0.05 r
+  ...
+  layer1Out[93] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[191] (input port)
+  Endpoint: layer1Out[92]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[191] (in)                          0.05       0.05 r
+  ...
+  layer1Out[92] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[183] (input port)
+  Endpoint: layer1Out[90]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[183] (in)                          0.05       0.05 r
+  ...
+  layer1Out[90] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[183] (input port)
+  Endpoint: layer1Out[89]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[183] (in)                          0.05       0.05 r
+  ...
+  layer1Out[89] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[183] (input port)
+  Endpoint: layer1Out[88]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[183] (in)                          0.05       0.05 r
+  ...
+  layer1Out[88] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[175] (input port)
+  Endpoint: layer1Out[86]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[175] (in)                          0.05       0.05 r
+  ...
+  layer1Out[86] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[175] (input port)
+  Endpoint: layer1Out[85]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[175] (in)                          0.05       0.05 r
+  ...
+  layer1Out[85] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[175] (input port)
+  Endpoint: layer1Out[84]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[175] (in)                          0.05       0.05 r
+  ...
+  layer1Out[84] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[167] (input port)
+  Endpoint: layer1Out[82]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[167] (in)                          0.05       0.05 r
+  ...
+  layer1Out[82] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[167] (input port)
+  Endpoint: layer1Out[81]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[167] (in)                          0.05       0.05 r
+  ...
+  layer1Out[81] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[167] (input port)
+  Endpoint: layer1Out[80]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[167] (in)                          0.05       0.05 r
+  ...
+  layer1Out[80] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[159] (input port)
+  Endpoint: layer1Out[78]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[159] (in)                          0.05       0.05 r
+  ...
+  layer1Out[78] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[159] (input port)
+  Endpoint: layer1Out[77]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[159] (in)                          0.05       0.05 r
+  ...
+  layer1Out[77] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[159] (input port)
+  Endpoint: layer1Out[76]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[159] (in)                          0.05       0.05 r
+  ...
+  layer1Out[76] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[151] (input port)
+  Endpoint: layer1Out[74]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[151] (in)                          0.05       0.05 r
+  ...
+  layer1Out[74] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[151] (input port)
+  Endpoint: layer1Out[73]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[151] (in)                          0.05       0.05 r
+  ...
+  layer1Out[73] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[151] (input port)
+  Endpoint: layer1Out[72]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[151] (in)                          0.05       0.05 r
+  ...
+  layer1Out[72] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[143] (input port)
+  Endpoint: layer1Out[70]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[143] (in)                          0.05       0.05 r
+  ...
+  layer1Out[70] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[143] (input port)
+  Endpoint: layer1Out[69]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[143] (in)                          0.05       0.05 r
+  ...
+  layer1Out[69] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[143] (input port)
+  Endpoint: layer1Out[68]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[143] (in)                          0.05       0.05 r
+  ...
+  layer1Out[68] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[135] (input port)
+  Endpoint: layer1Out[66]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[135] (in)                          0.05       0.05 r
+  ...
+  layer1Out[66] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[135] (input port)
+  Endpoint: layer1Out[65]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[135] (in)                          0.05       0.05 r
+  ...
+  layer1Out[65] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[135] (input port)
+  Endpoint: layer1Out[64]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[135] (in)                          0.05       0.05 r
+  ...
+  layer1Out[64] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[127] (input port)
+  Endpoint: layer1Out[62]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[127] (in)                          0.05       0.05 r
+  ...
+  layer1Out[62] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[127] (input port)
+  Endpoint: layer1Out[61]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[127] (in)                          0.05       0.05 r
+  ...
+  layer1Out[61] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[127] (input port)
+  Endpoint: layer1Out[60]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[127] (in)                          0.05       0.05 r
+  ...
+  layer1Out[60] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[119] (input port)
+  Endpoint: layer1Out[58]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[119] (in)                          0.05       0.05 r
+  ...
+  layer1Out[58] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[119] (input port)
+  Endpoint: layer1Out[57]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[119] (in)                          0.05       0.05 r
+  ...
+  layer1Out[57] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[119] (input port)
+  Endpoint: layer1Out[56]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[119] (in)                          0.05       0.05 r
+  ...
+  layer1Out[56] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[111] (input port)
+  Endpoint: layer1Out[54]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[111] (in)                          0.05       0.05 r
+  ...
+  layer1Out[54] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[111] (input port)
+  Endpoint: layer1Out[53]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[111] (in)                          0.05       0.05 r
+  ...
+  layer1Out[53] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[111] (input port)
+  Endpoint: layer1Out[52]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[111] (in)                          0.05       0.05 r
+  ...
+  layer1Out[52] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[103] (input port)
+  Endpoint: layer1Out[50]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[103] (in)                          0.05       0.05 r
+  ...
+  layer1Out[50] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[103] (input port)
+  Endpoint: layer1Out[49]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[103] (in)                          0.05       0.05 r
+  ...
+  layer1Out[49] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[103] (input port)
+  Endpoint: layer1Out[48]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[103] (in)                          0.05       0.05 r
+  ...
+  layer1Out[48] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[95] (input port)
+  Endpoint: layer1Out[46]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[95] (in)                           0.05       0.05 r
+  ...
+  layer1Out[46] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[95] (input port)
+  Endpoint: layer1Out[45]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[95] (in)                           0.05       0.05 r
+  ...
+  layer1Out[45] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[95] (input port)
+  Endpoint: layer1Out[44]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[95] (in)                           0.05       0.05 r
+  ...
+  layer1Out[44] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[87] (input port)
+  Endpoint: layer1Out[42]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[87] (in)                           0.05       0.05 r
+  ...
+  layer1Out[42] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[87] (input port)
+  Endpoint: layer1Out[41]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[87] (in)                           0.05       0.05 r
+  ...
+  layer1Out[41] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[87] (input port)
+  Endpoint: layer1Out[40]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[87] (in)                           0.05       0.05 r
+  ...
+  layer1Out[40] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[79] (input port)
+  Endpoint: layer1Out[38]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[79] (in)                           0.05       0.05 r
+  ...
+  layer1Out[38] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[79] (input port)
+  Endpoint: layer1Out[37]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[79] (in)                           0.05       0.05 r
+  ...
+  layer1Out[37] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[79] (input port)
+  Endpoint: layer1Out[36]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[79] (in)                           0.05       0.05 r
+  ...
+  layer1Out[36] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[71] (input port)
+  Endpoint: layer1Out[34]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[71] (in)                           0.05       0.05 r
+  ...
+  layer1Out[34] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[71] (input port)
+  Endpoint: layer1Out[33]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[71] (in)                           0.05       0.05 r
+  ...
+  layer1Out[33] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[71] (input port)
+  Endpoint: layer1Out[32]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[71] (in)                           0.05       0.05 r
+  ...
+  layer1Out[32] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[63] (input port)
+  Endpoint: layer1Out[30]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[63] (in)                           0.05       0.05 r
+  ...
+  layer1Out[30] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[63] (input port)
+  Endpoint: layer1Out[29]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[63] (in)                           0.05       0.05 r
+  ...
+  layer1Out[29] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[63] (input port)
+  Endpoint: layer1Out[28]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[63] (in)                           0.05       0.05 r
+  ...
+  layer1Out[28] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[55] (input port)
+  Endpoint: layer1Out[26]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[55] (in)                           0.05       0.05 r
+  ...
+  layer1Out[26] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[55] (input port)
+  Endpoint: layer1Out[25]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[55] (in)                           0.05       0.05 r
+  ...
+  layer1Out[25] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[55] (input port)
+  Endpoint: layer1Out[24]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[55] (in)                           0.05       0.05 r
+  ...
+  layer1Out[24] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[47] (input port)
+  Endpoint: layer1Out[22]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[47] (in)                           0.05       0.05 r
+  ...
+  layer1Out[22] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[47] (input port)
+  Endpoint: layer1Out[21]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[47] (in)                           0.05       0.05 r
+  ...
+  layer1Out[21] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[47] (input port)
+  Endpoint: layer1Out[20]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[47] (in)                           0.05       0.05 r
+  ...
+  layer1Out[20] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[39] (input port)
+  Endpoint: layer1Out[18]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[39] (in)                           0.05       0.05 r
+  ...
+  layer1Out[18] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[39] (input port)
+  Endpoint: layer1Out[17]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[39] (in)                           0.05       0.05 r
+  ...
+  layer1Out[17] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[39] (input port)
+  Endpoint: layer1Out[16]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[39] (in)                           0.05       0.05 r
+  ...
+  layer1Out[16] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[31] (input port)
+  Endpoint: layer1Out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[31] (in)                           0.05       0.05 r
+  ...
+  layer1Out[14] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[31] (input port)
+  Endpoint: layer1Out[13]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[31] (in)                           0.05       0.05 r
+  ...
+  layer1Out[13] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[31] (input port)
+  Endpoint: layer1Out[12]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[31] (in)                           0.05       0.05 r
+  ...
+  layer1Out[12] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[23] (input port)
+  Endpoint: layer1Out[10]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[23] (in)                           0.05       0.05 r
+  ...
+  layer1Out[10] (out)                      0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[23] (input port)
+  Endpoint: layer1Out[9]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[23] (in)                           0.05       0.05 r
+  ...
+  layer1Out[9] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[23] (input port)
+  Endpoint: layer1Out[8]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[23] (in)                           0.05       0.05 r
+  ...
+  layer1Out[8] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[15] (input port)
+  Endpoint: layer1Out[6]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[15] (in)                           0.05       0.05 r
+  ...
+  layer1Out[6] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[15] (input port)
+  Endpoint: layer1Out[5]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[15] (in)                           0.05       0.05 r
+  ...
+  layer1Out[5] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[15] (input port)
+  Endpoint: layer1Out[4]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[15] (in)                           0.05       0.05 r
+  ...
+  layer1Out[4] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[7] (input port)
+  Endpoint: layer1Out[2]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[7] (in)                            0.05       0.05 r
+  ...
+  layer1Out[2] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[7] (input port)
+  Endpoint: layer1Out[1]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[7] (in)                            0.05       0.05 r
+  ...
+  layer1Out[1] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[7] (input port)
+  Endpoint: layer1Out[0]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[7] (in)                            0.05       0.05 r
+  ...
+  layer1Out[0] (out)                       0.14       0.19 f
+  data arrival time                                   0.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

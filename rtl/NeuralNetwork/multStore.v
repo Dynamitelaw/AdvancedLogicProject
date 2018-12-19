@@ -50,9 +50,9 @@ module MAC (clr, clk, X, M, S, B, biasWriteEnable);
 			biasesStored[`LAYER_2_WEIGHTS_BIT_WIDTH - 1:0] <= B;
 			for(k = `LAYER_2_WEIGHTS_BIT_WIDTH;k < `LAYER_2_OUT_BIT_WIDTH;k = k+1)
 				if (B[`LAYER_2_WEIGHTS_BIT_WIDTH - 1])
-					biasesStored[k] = 1;
+					biasesStored[k] <= 1;
 				else
-					biasesStored[k] = 0;
+					biasesStored[k] <= 0;
 		end
 	end
 

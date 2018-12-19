@@ -1,0 +1,115 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+layer1Out[58] (out)                 1.69 r        infinity     infinity
+layer1Out[57] (out)                 1.69 r        infinity     infinity
+layer1Out[53] (out)                 1.69 r        infinity     infinity
+layer1Out[52] (out)                 1.69 r        infinity     infinity
+layer1Out[46] (out)                 1.69 r        infinity     infinity
+layer1Out[45] (out)                 1.69 r        infinity     infinity
+layer1Out[44] (out)                 1.69 r        infinity     infinity
+layer1Out[42] (out)                 1.69 r        infinity     infinity
+layer1Out[41] (out)                 1.69 r        infinity     infinity
+layer1Out[40] (out)                 1.69 r        infinity     infinity
+layer1Out[38] (out)                 1.69 r        infinity     infinity
+layer1Out[37] (out)                 1.69 r        infinity     infinity
+layer1Out[36] (out)                 1.69 r        infinity     infinity
+layer1Out[34] (out)                 1.69 r        infinity     infinity
+layer1Out[33] (out)                 1.69 r        infinity     infinity
+layer1Out[32] (out)                 1.69 r        infinity     infinity
+layer1Out[102] (out)                1.46 r        infinity     infinity
+layer1Out[98] (out)                 1.46 r        infinity     infinity
+layer1Out[97] (out)                 1.46 r        infinity     infinity
+layer1Out[96] (out)                 1.46 r        infinity     infinity
+layer1Out[94] (out)                 1.46 r        infinity     infinity
+layer1Out[93] (out)                 1.46 r        infinity     infinity
+layer1Out[92] (out)                 1.46 r        infinity     infinity
+layer1Out[90] (out)                 1.46 r        infinity     infinity
+layer1Out[89] (out)                 1.46 r        infinity     infinity
+layer1Out[88] (out)                 1.46 r        infinity     infinity
+layer1Out[86] (out)                 1.46 r        infinity     infinity
+layer1Out[85] (out)                 1.46 r        infinity     infinity
+layer1Out[84] (out)                 1.46 r        infinity     infinity
+layer1Out[82] (out)                 1.46 r        infinity     infinity
+layer1Out[81] (out)                 1.46 r        infinity     infinity
+layer1Out[80] (out)                 1.46 r        infinity     infinity
+layer1Out[30] (out)                 1.46 r        infinity     infinity
+layer1Out[29] (out)                 1.46 r        infinity     infinity
+layer1Out[28] (out)                 1.46 r        infinity     infinity
+layer1Out[26] (out)                 1.46 r        infinity     infinity
+layer1Out[25] (out)                 1.46 r        infinity     infinity
+layer1Out[24] (out)                 1.46 r        infinity     infinity
+layer1Out[22] (out)                 1.46 r        infinity     infinity
+layer1Out[21] (out)                 1.46 r        infinity     infinity
+layer1Out[20] (out)                 1.46 r        infinity     infinity
+layer1Out[18] (out)                 1.46 r        infinity     infinity
+layer1Out[17] (out)                 1.46 r        infinity     infinity
+layer1Out[16] (out)                 1.46 r        infinity     infinity
+layer1Out[14] (out)                 1.45 r        infinity     infinity
+layer1Out[13] (out)                 1.45 r        infinity     infinity
+layer1Out[12] (out)                 1.45 r        infinity     infinity
+layer1Out[8] (out)                  1.45 r        infinity     infinity
+layer1Out[6] (out)                  1.45 r        infinity     infinity
+layer1Out[2] (out)                  1.45 r        infinity     infinity
+layer1Out[1] (out)                  1.45 r        infinity     infinity
+layer1Out[0] (out)                  1.45 r        infinity     infinity
+layer1Out[78] (out)                 1.23 r        infinity     infinity
+layer1Out[77] (out)                 1.23 r        infinity     infinity
+layer1Out[76] (out)                 1.23 r        infinity     infinity
+layer1Out[74] (out)                 1.23 r        infinity     infinity
+layer1Out[73] (out)                 1.23 r        infinity     infinity
+layer1Out[72] (out)                 1.23 r        infinity     infinity
+layer1Out[70] (out)                 1.23 r        infinity     infinity
+layer1Out[69] (out)                 1.23 r        infinity     infinity
+layer1Out[68] (out)                 1.23 r        infinity     infinity
+layer1Out[66] (out)                 1.23 r        infinity     infinity
+layer1Out[65] (out)                 1.23 r        infinity     infinity
+layer1Out[64] (out)                 1.23 r        infinity     infinity
+layer1Out[9] (out)                  1.23 r        infinity     infinity
+layer1Out[4] (out)                  1.23 r        infinity     infinity
+layer1Out[126] (out)                1.21 r        infinity     infinity
+layer1Out[125] (out)                1.21 r        infinity     infinity
+layer1Out[124] (out)                1.21 r        infinity     infinity
+layer1Out[122] (out)                1.21 r        infinity     infinity
+layer1Out[121] (out)                1.21 r        infinity     infinity
+layer1Out[120] (out)                1.21 r        infinity     infinity
+layer1Out[118] (out)                1.21 r        infinity     infinity
+layer1Out[117] (out)                1.21 r        infinity     infinity
+layer1Out[116] (out)                1.21 r        infinity     infinity
+layer1Out[114] (out)                1.21 r        infinity     infinity
+layer1Out[113] (out)                1.21 r        infinity     infinity
+layer1Out[112] (out)                1.21 r        infinity     infinity
+layer1Out[10] (out)                 1.00 r        infinity     infinity
+layer1Out[5] (out)                  1.00 r        infinity     infinity
+layer1Out[106] (out)                1.00 r        infinity     infinity
+layer1Out[105] (out)                1.00 r        infinity     infinity
+layer1Out[101] (out)                1.00 r        infinity     infinity
+layer1Out[100] (out)                1.00 r        infinity     infinity
+layer1Out[110] (out)                0.76 r        infinity     infinity
+layer1Out[109] (out)                0.76 r        infinity     infinity
+layer1Out[108] (out)                0.76 r        infinity     infinity
+layer1Out[104] (out)                0.76 r        infinity     infinity
+layer1Out[62] (out)                 0.76 r        infinity     infinity
+layer1Out[61] (out)                 0.76 r        infinity     infinity
+layer1Out[60] (out)                 0.76 r        infinity     infinity
+layer1Out[56] (out)                 0.76 r        infinity     infinity
+layer1Out[54] (out)                 0.76 r        infinity     infinity
+layer1Out[50] (out)                 0.76 r        infinity     infinity
+layer1Out[49] (out)                 0.76 r        infinity     infinity
+layer1Out[48] (out)                 0.76 r        infinity     infinity
+
+1

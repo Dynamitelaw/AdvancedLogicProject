@@ -1,0 +1,2070 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[58]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U270/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[58] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[57]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U269/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[57] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[53]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U272/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[53] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[52]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U271/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[52] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[46]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U281/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[46] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[45]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U280/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[45] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[44]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U279/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[44] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[42]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U285/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[42] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[41]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U284/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[41] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[40]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U282/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[40] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[38]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U289/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[38] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[37]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U287/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[37] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[36]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U286/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[36] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[34]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U292/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[34] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[33]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U291/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[33] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[32]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U290/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[32] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[102]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U226/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[102] (out)                     0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[98]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U229/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[98] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[97]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U228/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[97] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[96]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U227/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[96] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[94]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U230/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U233/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[94] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[93]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U230/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U232/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[93] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[92]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U230/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U231/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[92] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[90]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U235/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U237/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[90] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[89]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U235/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U236/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[89] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[88]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U230/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U234/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[88] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[86]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U240/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U241/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[86] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[85]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U235/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U239/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[85] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[84]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U235/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U238/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[84] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[82]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U240/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U244/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[82] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[81]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U240/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U243/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[81] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[80]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U240/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U242/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[80] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[30]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U293/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U296/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[30] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[29]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U293/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U295/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[29] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[28]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U293/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U294/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[28] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[26]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U298/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U300/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[26] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[25]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U298/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U299/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[25] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[24]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U293/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U297/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[24] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[22]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U303/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U304/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[22] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[21]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U298/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U302/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[21] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[20]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U298/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U301/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[20] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[18]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U303/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U307/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[18] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[17]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U303/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U306/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[17] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[16]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U303/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U305/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[16] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U309/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U312/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[14] (out)                      0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[13]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U309/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U311/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[13] (out)                      0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[12]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U309/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U310/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[12] (out)                      0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[8]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U309/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U313/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[8] (out)                       0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[6]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U318/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U319/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[6] (out)                       0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U318/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U322/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[2] (out)                       0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U318/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U321/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[1] (out)                       0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U318/Y (CLKBUFX2TS)                      0.23       1.02 f
+  U320/Y (NOR3BXLTS)                       0.43       1.45 r
+  layer1Out[0] (out)                       0.00       1.45 r
+  data arrival time                                   1.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[78]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U245/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U248/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[78] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[77]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U245/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U247/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[77] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[76]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U245/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U246/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[76] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[74]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U250/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U252/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[74] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[73]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U250/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U251/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[73] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[72]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U245/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U249/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[72] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[70]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U255/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U256/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[70] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[69]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U250/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U254/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[69] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[68]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U250/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U253/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[68] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[66]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U255/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U259/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[66] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[65]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U255/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U258/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[65] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[64]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U255/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U257/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[64] (out)                      0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[9]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U314/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[9] (out)                       0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[4]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U308/Y (CLKBUFX2TS)                      0.23       0.79 f
+  U316/Y (NOR3BXLTS)                       0.43       1.23 r
+  layer1Out[4] (out)                       0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[126]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U198/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U201/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[126] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[125]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U198/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U200/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[125] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[124]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U198/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U199/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[124] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[122]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U203/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U205/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[122] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[121]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U203/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U204/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[121] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[120]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U198/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U202/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[120] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[118]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U208/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U209/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[118] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[117]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U203/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U207/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[117] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[116]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U203/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U206/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[116] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[114]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U208/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U212/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[114] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[113]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U208/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U211/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[113] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[112]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U197/Y (CLKBUFX2TS)                      0.22       0.56 f
+  U208/Y (CLKBUFX2TS)                      0.22       0.78 f
+  U210/Y (NOR3BXLTS)                       0.43       1.21 r
+  layer1Out[112] (out)                     0.00       1.21 r
+  data arrival time                                   1.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[10]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U315/Y (NOR3BXLTS)                       0.43       1.00 r
+  layer1Out[10] (out)                      0.00       1.00 r
+  data arrival time                                   1.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[5]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U317/Y (NOR3BXLTS)                       0.43       1.00 r
+  layer1Out[5] (out)                       0.00       1.00 r
+  data arrival time                                   1.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[106]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U218/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U220/Y (NOR3BXLTS)                       0.43       1.00 r
+  layer1Out[106] (out)                     0.00       1.00 r
+  data arrival time                                   1.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[105]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U218/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U219/Y (NOR3BXLTS)                       0.43       1.00 r
+  layer1Out[105] (out)                     0.00       1.00 r
+  data arrival time                                   1.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[101]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U218/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U222/Y (NOR3BXLTS)                       0.43       1.00 r
+  layer1Out[101] (out)                     0.00       1.00 r
+  data arrival time                                   1.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[100]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U218/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U221/Y (NOR3BXLTS)                       0.43       1.00 r
+  layer1Out[100] (out)                     0.00       1.00 r
+  data arrival time                                   1.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[110]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U213/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U216/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[110] (out)                     0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[109]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U213/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U215/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[109] (out)                     0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[108]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U213/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U214/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[108] (out)                     0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[104]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U213/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U217/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[104] (out)                     0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[62]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U260/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U263/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[62] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[61]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U260/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U262/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[61] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[60]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U260/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U261/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[60] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[56]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U260/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U264/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[56] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[54]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U273/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U274/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[54] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[50]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U273/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U277/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[50] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[49]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U273/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U276/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[49] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[48]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U273/Y (CLKBUFX2TS)                      0.20       0.33 f
+  U275/Y (NOR3BXLTS)                       0.43       0.76 r
+  layer1Out[48] (out)                      0.00       0.76 r
+  data arrival time                                   0.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

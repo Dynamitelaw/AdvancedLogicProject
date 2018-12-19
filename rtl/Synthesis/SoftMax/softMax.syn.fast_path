@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : softMax
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:33:32 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: sumIn[18] (input port)
+  Endpoint: result[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[18] (in)                           0.04       0.04 r
+  ...
+  result[3] (out)                          0.64       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[18] (input port)
+  Endpoint: result[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[18] (in)                           0.04       0.04 r
+  ...
+  result[0] (out)                          0.91       0.95 f
+  data arrival time                                   0.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[18] (input port)
+  Endpoint: result[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  sumIn[18] (in)                           0.04       0.04 r
+  ...
+  result[1] (out)                          0.94       0.98 r
+  data arrival time                                   0.98
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sumIn[8] (input port)
+  Endpoint: result[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  sumIn[8] (in)                            0.03       0.03 f
+  ...
+  result[2] (out)                          1.06       1.09 f
+  data arrival time                                   1.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

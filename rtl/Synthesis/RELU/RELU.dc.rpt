@@ -1,0 +1,3259 @@
+ 
+****************************************
+check_design summary:
+Version:     J-2014.09-SP2
+Date:        Wed Dec 19 17:26:20 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    128
+    Unconnected ports (LINT-28)                                   128
+--------------------------------------------------------------------------------
+
+Warning: In design 'RELU', port 'sumIn[251]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[250]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[249]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[248]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[243]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[242]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[241]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[240]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[235]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[234]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[233]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[232]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[227]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[226]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[225]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[224]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[219]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[218]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[217]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[216]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[211]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[210]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[209]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[208]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[203]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[202]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[201]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[200]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[195]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[194]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[193]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[192]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[187]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[186]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[185]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[184]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[179]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[178]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[177]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[176]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[171]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[170]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[169]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[168]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[163]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[162]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[161]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[160]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[155]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[154]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[153]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[152]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[147]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[146]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[145]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[144]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[139]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[138]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[137]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[136]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[131]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[130]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[129]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[128]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[123]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[122]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[121]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[120]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[115]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[114]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[113]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[112]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[107]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[106]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[105]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[104]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[99]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[98]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[97]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[96]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[91]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[90]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[89]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[88]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[83]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[82]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[81]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[80]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[75]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[74]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[73]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[72]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[67]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[66]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[65]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[64]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[59]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[58]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[57]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[56]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[51]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[50]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[49]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[48]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[43]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[42]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[41]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[40]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[35]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[34]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[33]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'RELU', port 'sumIn[0]' is not connected to any nets. (LINT-28)
+1
+ 
+****************************************
+Report : area
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:20 2018
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                          385
+Number of nets:                           321
+Number of cells:                          160
+Number of combinational cells:            160
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         64
+Number of references:                       3
+
+Combinational area:               1150.560046
+Buf/Inv area:                      321.120013
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1150.560046
+Total area:                 undefined
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:20 2018
+****************************************
+
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+RELU                                   3.84e-02 4.20e-02 1.03e+03 8.04e-02 100.0
+1
+ 
+****************************************
+Report : design
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:20 2018
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Local Link Library:
+
+    {/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : tt_1p2v_25c
+    Library : scx3_cmos8rf_lpvt_tt_1p2v_25c
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading specified.
+
+
+Wire Loading Model Mode: top.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+1
+ 
+****************************************
+Report : cell
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U99                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U101                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U103                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U105                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U107                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U109                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U111                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U113                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U115                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U117                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U119                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U121                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U123                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U125                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U127                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U129                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U131                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U133                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U135                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U137                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U139                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U141                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U143                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U145                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U147                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U149                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U151                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U153                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U155                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U157                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U159                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U161                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U195                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U196                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U197                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U198                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U199                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U200                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U201                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U202                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U203                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U204                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U205                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U206                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U207                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U208                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U209                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U210                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U211                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U212                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U213                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U214                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U215                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U216                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U217                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U218                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U219                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U220                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U221                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U222                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U223                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U224                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U225                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U226                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U227                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U228                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U229                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U230                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U231                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U232                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U233                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U234                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U235                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U236                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U237                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U238                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U239                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U240                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U241                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U242                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U243                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U244                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U245                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U246                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U247                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U248                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U249                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U250                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U251                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U252                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U253                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U254                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U255                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U256                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U257                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U258                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U259                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U260                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U261                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U262                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U263                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U264                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U265                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U266                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U267                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U268                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U269                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U270                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U271                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U272                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U273                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U274                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U275                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U276                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U277                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U278                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U279                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U280                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U281                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U282                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U283                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U284                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U285                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U286                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U287                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U288                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U289                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U290                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U291                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U292                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U293                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U294                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U295                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U296                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U297                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U298                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U299                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U300                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U301                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U302                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U303                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U304                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U305                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U306                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U307                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U308                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U309                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U310                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U311                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U312                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U313                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U314                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U315                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U316                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U317                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U318                      CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U319                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U320                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U321                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U322                      NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+--------------------------------------------------------------------------------
+Total 160 cells                                           1150.560046
+1
+ 
+****************************************
+Report : port
+        -verbose
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+sumIn[0]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[1]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[2]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[3]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[4]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[5]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[6]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[7]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[8]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[9]       in      0.0000   0.0000    1.02    0.00   --         
+sumIn[10]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[11]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[12]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[13]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[14]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[15]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[16]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[17]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[18]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[19]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[20]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[21]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[22]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[23]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[24]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[25]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[26]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[27]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[28]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[29]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[30]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[31]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[32]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[33]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[34]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[35]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[36]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[37]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[38]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[39]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[40]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[41]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[42]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[43]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[44]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[45]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[46]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[47]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[48]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[49]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[50]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[51]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[52]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[53]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[54]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[55]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[56]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[57]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[58]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[59]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[60]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[61]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[62]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[63]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[64]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[65]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[66]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[67]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[68]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[69]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[70]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[71]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[72]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[73]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[74]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[75]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[76]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[77]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[78]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[79]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[80]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[81]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[82]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[83]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[84]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[85]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[86]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[87]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[88]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[89]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[90]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[91]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[92]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[93]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[94]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[95]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[96]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[97]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[98]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[99]      in      0.0000   0.0000    1.02    0.00   --         
+sumIn[100]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[101]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[102]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[103]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[104]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[105]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[106]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[107]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[108]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[109]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[110]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[111]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[112]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[113]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[114]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[115]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[116]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[117]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[118]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[119]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[120]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[121]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[122]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[123]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[124]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[125]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[126]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[127]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[128]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[129]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[130]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[131]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[132]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[133]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[134]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[135]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[136]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[137]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[138]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[139]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[140]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[141]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[142]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[143]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[144]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[145]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[146]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[147]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[148]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[149]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[150]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[151]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[152]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[153]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[154]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[155]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[156]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[157]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[158]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[159]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[160]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[161]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[162]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[163]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[164]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[165]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[166]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[167]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[168]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[169]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[170]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[171]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[172]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[173]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[174]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[175]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[176]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[177]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[178]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[179]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[180]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[181]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[182]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[183]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[184]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[185]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[186]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[187]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[188]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[189]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[190]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[191]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[192]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[193]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[194]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[195]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[196]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[197]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[198]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[199]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[200]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[201]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[202]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[203]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[204]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[205]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[206]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[207]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[208]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[209]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[210]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[211]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[212]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[213]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[214]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[215]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[216]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[217]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[218]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[219]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[220]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[221]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[222]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[223]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[224]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[225]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[226]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[227]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[228]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[229]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[230]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[231]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[232]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[233]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[234]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[235]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[236]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[237]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[238]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[239]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[240]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[241]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[242]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[243]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[244]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[245]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[246]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[247]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[248]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[249]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[250]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[251]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[252]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[253]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[254]     in      0.0000   0.0000    1.02    0.00   --         
+sumIn[255]     in      0.0000   0.0000    1.02    0.00   --         
+trigger        in      0.0000   0.0000    1.02    0.00   --         
+layer1Out[0]   out     0.0050   0.0000   --      --      --         
+layer1Out[1]   out     0.0050   0.0000   --      --      --         
+layer1Out[2]   out     0.0050   0.0000   --      --      --         
+layer1Out[3]   out     0.0050   0.0000   --      --      --         
+layer1Out[4]   out     0.0050   0.0000   --      --      --         
+layer1Out[5]   out     0.0050   0.0000   --      --      --         
+layer1Out[6]   out     0.0050   0.0000   --      --      --         
+layer1Out[7]   out     0.0050   0.0000   --      --      --         
+layer1Out[8]   out     0.0050   0.0000   --      --      --         
+layer1Out[9]   out     0.0050   0.0000   --      --      --         
+layer1Out[10]  out     0.0050   0.0000   --      --      --         
+layer1Out[11]  out     0.0050   0.0000   --      --      --         
+layer1Out[12]  out     0.0050   0.0000   --      --      --         
+layer1Out[13]  out     0.0050   0.0000   --      --      --         
+layer1Out[14]  out     0.0050   0.0000   --      --      --         
+layer1Out[15]  out     0.0050   0.0000   --      --      --         
+layer1Out[16]  out     0.0050   0.0000   --      --      --         
+layer1Out[17]  out     0.0050   0.0000   --      --      --         
+layer1Out[18]  out     0.0050   0.0000   --      --      --         
+layer1Out[19]  out     0.0050   0.0000   --      --      --         
+layer1Out[20]  out     0.0050   0.0000   --      --      --         
+layer1Out[21]  out     0.0050   0.0000   --      --      --         
+layer1Out[22]  out     0.0050   0.0000   --      --      --         
+layer1Out[23]  out     0.0050   0.0000   --      --      --         
+layer1Out[24]  out     0.0050   0.0000   --      --      --         
+layer1Out[25]  out     0.0050   0.0000   --      --      --         
+layer1Out[26]  out     0.0050   0.0000   --      --      --         
+layer1Out[27]  out     0.0050   0.0000   --      --      --         
+layer1Out[28]  out     0.0050   0.0000   --      --      --         
+layer1Out[29]  out     0.0050   0.0000   --      --      --         
+layer1Out[30]  out     0.0050   0.0000   --      --      --         
+layer1Out[31]  out     0.0050   0.0000   --      --      --         
+layer1Out[32]  out     0.0050   0.0000   --      --      --         
+layer1Out[33]  out     0.0050   0.0000   --      --      --         
+layer1Out[34]  out     0.0050   0.0000   --      --      --         
+layer1Out[35]  out     0.0050   0.0000   --      --      --         
+layer1Out[36]  out     0.0050   0.0000   --      --      --         
+layer1Out[37]  out     0.0050   0.0000   --      --      --         
+layer1Out[38]  out     0.0050   0.0000   --      --      --         
+layer1Out[39]  out     0.0050   0.0000   --      --      --         
+layer1Out[40]  out     0.0050   0.0000   --      --      --         
+layer1Out[41]  out     0.0050   0.0000   --      --      --         
+layer1Out[42]  out     0.0050   0.0000   --      --      --         
+layer1Out[43]  out     0.0050   0.0000   --      --      --         
+layer1Out[44]  out     0.0050   0.0000   --      --      --         
+layer1Out[45]  out     0.0050   0.0000   --      --      --         
+layer1Out[46]  out     0.0050   0.0000   --      --      --         
+layer1Out[47]  out     0.0050   0.0000   --      --      --         
+layer1Out[48]  out     0.0050   0.0000   --      --      --         
+layer1Out[49]  out     0.0050   0.0000   --      --      --         
+layer1Out[50]  out     0.0050   0.0000   --      --      --         
+layer1Out[51]  out     0.0050   0.0000   --      --      --         
+layer1Out[52]  out     0.0050   0.0000   --      --      --         
+layer1Out[53]  out     0.0050   0.0000   --      --      --         
+layer1Out[54]  out     0.0050   0.0000   --      --      --         
+layer1Out[55]  out     0.0050   0.0000   --      --      --         
+layer1Out[56]  out     0.0050   0.0000   --      --      --         
+layer1Out[57]  out     0.0050   0.0000   --      --      --         
+layer1Out[58]  out     0.0050   0.0000   --      --      --         
+layer1Out[59]  out     0.0050   0.0000   --      --      --         
+layer1Out[60]  out     0.0050   0.0000   --      --      --         
+layer1Out[61]  out     0.0050   0.0000   --      --      --         
+layer1Out[62]  out     0.0050   0.0000   --      --      --         
+layer1Out[63]  out     0.0050   0.0000   --      --      --         
+layer1Out[64]  out     0.0050   0.0000   --      --      --         
+layer1Out[65]  out     0.0050   0.0000   --      --      --         
+layer1Out[66]  out     0.0050   0.0000   --      --      --         
+layer1Out[67]  out     0.0050   0.0000   --      --      --         
+layer1Out[68]  out     0.0050   0.0000   --      --      --         
+layer1Out[69]  out     0.0050   0.0000   --      --      --         
+layer1Out[70]  out     0.0050   0.0000   --      --      --         
+layer1Out[71]  out     0.0050   0.0000   --      --      --         
+layer1Out[72]  out     0.0050   0.0000   --      --      --         
+layer1Out[73]  out     0.0050   0.0000   --      --      --         
+layer1Out[74]  out     0.0050   0.0000   --      --      --         
+layer1Out[75]  out     0.0050   0.0000   --      --      --         
+layer1Out[76]  out     0.0050   0.0000   --      --      --         
+layer1Out[77]  out     0.0050   0.0000   --      --      --         
+layer1Out[78]  out     0.0050   0.0000   --      --      --         
+layer1Out[79]  out     0.0050   0.0000   --      --      --         
+layer1Out[80]  out     0.0050   0.0000   --      --      --         
+layer1Out[81]  out     0.0050   0.0000   --      --      --         
+layer1Out[82]  out     0.0050   0.0000   --      --      --         
+layer1Out[83]  out     0.0050   0.0000   --      --      --         
+layer1Out[84]  out     0.0050   0.0000   --      --      --         
+layer1Out[85]  out     0.0050   0.0000   --      --      --         
+layer1Out[86]  out     0.0050   0.0000   --      --      --         
+layer1Out[87]  out     0.0050   0.0000   --      --      --         
+layer1Out[88]  out     0.0050   0.0000   --      --      --         
+layer1Out[89]  out     0.0050   0.0000   --      --      --         
+layer1Out[90]  out     0.0050   0.0000   --      --      --         
+layer1Out[91]  out     0.0050   0.0000   --      --      --         
+layer1Out[92]  out     0.0050   0.0000   --      --      --         
+layer1Out[93]  out     0.0050   0.0000   --      --      --         
+layer1Out[94]  out     0.0050   0.0000   --      --      --         
+layer1Out[95]  out     0.0050   0.0000   --      --      --         
+layer1Out[96]  out     0.0050   0.0000   --      --      --         
+layer1Out[97]  out     0.0050   0.0000   --      --      --         
+layer1Out[98]  out     0.0050   0.0000   --      --      --         
+layer1Out[99]  out     0.0050   0.0000   --      --      --         
+layer1Out[100] out     0.0050   0.0000   --      --      --         
+layer1Out[101] out     0.0050   0.0000   --      --      --         
+layer1Out[102] out     0.0050   0.0000   --      --      --         
+layer1Out[103] out     0.0050   0.0000   --      --      --         
+layer1Out[104] out     0.0050   0.0000   --      --      --         
+layer1Out[105] out     0.0050   0.0000   --      --      --         
+layer1Out[106] out     0.0050   0.0000   --      --      --         
+layer1Out[107] out     0.0050   0.0000   --      --      --         
+layer1Out[108] out     0.0050   0.0000   --      --      --         
+layer1Out[109] out     0.0050   0.0000   --      --      --         
+layer1Out[110] out     0.0050   0.0000   --      --      --         
+layer1Out[111] out     0.0050   0.0000   --      --      --         
+layer1Out[112] out     0.0050   0.0000   --      --      --         
+layer1Out[113] out     0.0050   0.0000   --      --      --         
+layer1Out[114] out     0.0050   0.0000   --      --      --         
+layer1Out[115] out     0.0050   0.0000   --      --      --         
+layer1Out[116] out     0.0050   0.0000   --      --      --         
+layer1Out[117] out     0.0050   0.0000   --      --      --         
+layer1Out[118] out     0.0050   0.0000   --      --      --         
+layer1Out[119] out     0.0050   0.0000   --      --      --         
+layer1Out[120] out     0.0050   0.0000   --      --      --         
+layer1Out[121] out     0.0050   0.0000   --      --      --         
+layer1Out[122] out     0.0050   0.0000   --      --      --         
+layer1Out[123] out     0.0050   0.0000   --      --      --         
+layer1Out[124] out     0.0050   0.0000   --      --      --         
+layer1Out[125] out     0.0050   0.0000   --      --      --         
+layer1Out[126] out     0.0050   0.0000   --      --      --         
+layer1Out[127] out     0.0050   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+sumIn[0]           1      --              --              --        -- 
+sumIn[1]           1      --              --              --        -- 
+sumIn[2]           1      --              --              --        -- 
+sumIn[3]           1      --              --              --        -- 
+sumIn[4]           1      --              --              --        -- 
+sumIn[5]           1      --              --              --        -- 
+sumIn[6]           1      --              --              --        -- 
+sumIn[7]           1      --              --              --        -- 
+sumIn[8]           1      --              --              --        -- 
+sumIn[9]           1      --              --              --        -- 
+sumIn[10]          1      --              --              --        -- 
+sumIn[11]          1      --              --              --        -- 
+sumIn[12]          1      --              --              --        -- 
+sumIn[13]          1      --              --              --        -- 
+sumIn[14]          1      --              --              --        -- 
+sumIn[15]          1      --              --              --        -- 
+sumIn[16]          1      --              --              --        -- 
+sumIn[17]          1      --              --              --        -- 
+sumIn[18]          1      --              --              --        -- 
+sumIn[19]          1      --              --              --        -- 
+sumIn[20]          1      --              --              --        -- 
+sumIn[21]          1      --              --              --        -- 
+sumIn[22]          1      --              --              --        -- 
+sumIn[23]          1      --              --              --        -- 
+sumIn[24]          1      --              --              --        -- 
+sumIn[25]          1      --              --              --        -- 
+sumIn[26]          1      --              --              --        -- 
+sumIn[27]          1      --              --              --        -- 
+sumIn[28]          1      --              --              --        -- 
+sumIn[29]          1      --              --              --        -- 
+sumIn[30]          1      --              --              --        -- 
+sumIn[31]          1      --              --              --        -- 
+sumIn[32]          1      --              --              --        -- 
+sumIn[33]          1      --              --              --        -- 
+sumIn[34]          1      --              --              --        -- 
+sumIn[35]          1      --              --              --        -- 
+sumIn[36]          1      --              --              --        -- 
+sumIn[37]          1      --              --              --        -- 
+sumIn[38]          1      --              --              --        -- 
+sumIn[39]          1      --              --              --        -- 
+sumIn[40]          1      --              --              --        -- 
+sumIn[41]          1      --              --              --        -- 
+sumIn[42]          1      --              --              --        -- 
+sumIn[43]          1      --              --              --        -- 
+sumIn[44]          1      --              --              --        -- 
+sumIn[45]          1      --              --              --        -- 
+sumIn[46]          1      --              --              --        -- 
+sumIn[47]          1      --              --              --        -- 
+sumIn[48]          1      --              --              --        -- 
+sumIn[49]          1      --              --              --        -- 
+sumIn[50]          1      --              --              --        -- 
+sumIn[51]          1      --              --              --        -- 
+sumIn[52]          1      --              --              --        -- 
+sumIn[53]          1      --              --              --        -- 
+sumIn[54]          1      --              --              --        -- 
+sumIn[55]          1      --              --              --        -- 
+sumIn[56]          1      --              --              --        -- 
+sumIn[57]          1      --              --              --        -- 
+sumIn[58]          1      --              --              --        -- 
+sumIn[59]          1      --              --              --        -- 
+sumIn[60]          1      --              --              --        -- 
+sumIn[61]          1      --              --              --        -- 
+sumIn[62]          1      --              --              --        -- 
+sumIn[63]          1      --              --              --        -- 
+sumIn[64]          1      --              --              --        -- 
+sumIn[65]          1      --              --              --        -- 
+sumIn[66]          1      --              --              --        -- 
+sumIn[67]          1      --              --              --        -- 
+sumIn[68]          1      --              --              --        -- 
+sumIn[69]          1      --              --              --        -- 
+sumIn[70]          1      --              --              --        -- 
+sumIn[71]          1      --              --              --        -- 
+sumIn[72]          1      --              --              --        -- 
+sumIn[73]          1      --              --              --        -- 
+sumIn[74]          1      --              --              --        -- 
+sumIn[75]          1      --              --              --        -- 
+sumIn[76]          1      --              --              --        -- 
+sumIn[77]          1      --              --              --        -- 
+sumIn[78]          1      --              --              --        -- 
+sumIn[79]          1      --              --              --        -- 
+sumIn[80]          1      --              --              --        -- 
+sumIn[81]          1      --              --              --        -- 
+sumIn[82]          1      --              --              --        -- 
+sumIn[83]          1      --              --              --        -- 
+sumIn[84]          1      --              --              --        -- 
+sumIn[85]          1      --              --              --        -- 
+sumIn[86]          1      --              --              --        -- 
+sumIn[87]          1      --              --              --        -- 
+sumIn[88]          1      --              --              --        -- 
+sumIn[89]          1      --              --              --        -- 
+sumIn[90]          1      --              --              --        -- 
+sumIn[91]          1      --              --              --        -- 
+sumIn[92]          1      --              --              --        -- 
+sumIn[93]          1      --              --              --        -- 
+sumIn[94]          1      --              --              --        -- 
+sumIn[95]          1      --              --              --        -- 
+sumIn[96]          1      --              --              --        -- 
+sumIn[97]          1      --              --              --        -- 
+sumIn[98]          1      --              --              --        -- 
+sumIn[99]          1      --              --              --        -- 
+sumIn[100]         1      --              --              --        -- 
+sumIn[101]         1      --              --              --        -- 
+sumIn[102]         1      --              --              --        -- 
+sumIn[103]         1      --              --              --        -- 
+sumIn[104]         1      --              --              --        -- 
+sumIn[105]         1      --              --              --        -- 
+sumIn[106]         1      --              --              --        -- 
+sumIn[107]         1      --              --              --        -- 
+sumIn[108]         1      --              --              --        -- 
+sumIn[109]         1      --              --              --        -- 
+sumIn[110]         1      --              --              --        -- 
+sumIn[111]         1      --              --              --        -- 
+sumIn[112]         1      --              --              --        -- 
+sumIn[113]         1      --              --              --        -- 
+sumIn[114]         1      --              --              --        -- 
+sumIn[115]         1      --              --              --        -- 
+sumIn[116]         1      --              --              --        -- 
+sumIn[117]         1      --              --              --        -- 
+sumIn[118]         1      --              --              --        -- 
+sumIn[119]         1      --              --              --        -- 
+sumIn[120]         1      --              --              --        -- 
+sumIn[121]         1      --              --              --        -- 
+sumIn[122]         1      --              --              --        -- 
+sumIn[123]         1      --              --              --        -- 
+sumIn[124]         1      --              --              --        -- 
+sumIn[125]         1      --              --              --        -- 
+sumIn[126]         1      --              --              --        -- 
+sumIn[127]         1      --              --              --        -- 
+sumIn[128]         1      --              --              --        -- 
+sumIn[129]         1      --              --              --        -- 
+sumIn[130]         1      --              --              --        -- 
+sumIn[131]         1      --              --              --        -- 
+sumIn[132]         1      --              --              --        -- 
+sumIn[133]         1      --              --              --        -- 
+sumIn[134]         1      --              --              --        -- 
+sumIn[135]         1      --              --              --        -- 
+sumIn[136]         1      --              --              --        -- 
+sumIn[137]         1      --              --              --        -- 
+sumIn[138]         1      --              --              --        -- 
+sumIn[139]         1      --              --              --        -- 
+sumIn[140]         1      --              --              --        -- 
+sumIn[141]         1      --              --              --        -- 
+sumIn[142]         1      --              --              --        -- 
+sumIn[143]         1      --              --              --        -- 
+sumIn[144]         1      --              --              --        -- 
+sumIn[145]         1      --              --              --        -- 
+sumIn[146]         1      --              --              --        -- 
+sumIn[147]         1      --              --              --        -- 
+sumIn[148]         1      --              --              --        -- 
+sumIn[149]         1      --              --              --        -- 
+sumIn[150]         1      --              --              --        -- 
+sumIn[151]         1      --              --              --        -- 
+sumIn[152]         1      --              --              --        -- 
+sumIn[153]         1      --              --              --        -- 
+sumIn[154]         1      --              --              --        -- 
+sumIn[155]         1      --              --              --        -- 
+sumIn[156]         1      --              --              --        -- 
+sumIn[157]         1      --              --              --        -- 
+sumIn[158]         1      --              --              --        -- 
+sumIn[159]         1      --              --              --        -- 
+sumIn[160]         1      --              --              --        -- 
+sumIn[161]         1      --              --              --        -- 
+sumIn[162]         1      --              --              --        -- 
+sumIn[163]         1      --              --              --        -- 
+sumIn[164]         1      --              --              --        -- 
+sumIn[165]         1      --              --              --        -- 
+sumIn[166]         1      --              --              --        -- 
+sumIn[167]         1      --              --              --        -- 
+sumIn[168]         1      --              --              --        -- 
+sumIn[169]         1      --              --              --        -- 
+sumIn[170]         1      --              --              --        -- 
+sumIn[171]         1      --              --              --        -- 
+sumIn[172]         1      --              --              --        -- 
+sumIn[173]         1      --              --              --        -- 
+sumIn[174]         1      --              --              --        -- 
+sumIn[175]         1      --              --              --        -- 
+sumIn[176]         1      --              --              --        -- 
+sumIn[177]         1      --              --              --        -- 
+sumIn[178]         1      --              --              --        -- 
+sumIn[179]         1      --              --              --        -- 
+sumIn[180]         1      --              --              --        -- 
+sumIn[181]         1      --              --              --        -- 
+sumIn[182]         1      --              --              --        -- 
+sumIn[183]         1      --              --              --        -- 
+sumIn[184]         1      --              --              --        -- 
+sumIn[185]         1      --              --              --        -- 
+sumIn[186]         1      --              --              --        -- 
+sumIn[187]         1      --              --              --        -- 
+sumIn[188]         1      --              --              --        -- 
+sumIn[189]         1      --              --              --        -- 
+sumIn[190]         1      --              --              --        -- 
+sumIn[191]         1      --              --              --        -- 
+sumIn[192]         1      --              --              --        -- 
+sumIn[193]         1      --              --              --        -- 
+sumIn[194]         1      --              --              --        -- 
+sumIn[195]         1      --              --              --        -- 
+sumIn[196]         1      --              --              --        -- 
+sumIn[197]         1      --              --              --        -- 
+sumIn[198]         1      --              --              --        -- 
+sumIn[199]         1      --              --              --        -- 
+sumIn[200]         1      --              --              --        -- 
+sumIn[201]         1      --              --              --        -- 
+sumIn[202]         1      --              --              --        -- 
+sumIn[203]         1      --              --              --        -- 
+sumIn[204]         1      --              --              --        -- 
+sumIn[205]         1      --              --              --        -- 
+sumIn[206]         1      --              --              --        -- 
+sumIn[207]         1      --              --              --        -- 
+sumIn[208]         1      --              --              --        -- 
+sumIn[209]         1      --              --              --        -- 
+sumIn[210]         1      --              --              --        -- 
+sumIn[211]         1      --              --              --        -- 
+sumIn[212]         1      --              --              --        -- 
+sumIn[213]         1      --              --              --        -- 
+sumIn[214]         1      --              --              --        -- 
+sumIn[215]         1      --              --              --        -- 
+sumIn[216]         1      --              --              --        -- 
+sumIn[217]         1      --              --              --        -- 
+sumIn[218]         1      --              --              --        -- 
+sumIn[219]         1      --              --              --        -- 
+sumIn[220]         1      --              --              --        -- 
+sumIn[221]         1      --              --              --        -- 
+sumIn[222]         1      --              --              --        -- 
+sumIn[223]         1      --              --              --        -- 
+sumIn[224]         1      --              --              --        -- 
+sumIn[225]         1      --              --              --        -- 
+sumIn[226]         1      --              --              --        -- 
+sumIn[227]         1      --              --              --        -- 
+sumIn[228]         1      --              --              --        -- 
+sumIn[229]         1      --              --              --        -- 
+sumIn[230]         1      --              --              --        -- 
+sumIn[231]         1      --              --              --        -- 
+sumIn[232]         1      --              --              --        -- 
+sumIn[233]         1      --              --              --        -- 
+sumIn[234]         1      --              --              --        -- 
+sumIn[235]         1      --              --              --        -- 
+sumIn[236]         1      --              --              --        -- 
+sumIn[237]         1      --              --              --        -- 
+sumIn[238]         1      --              --              --        -- 
+sumIn[239]         1      --              --              --        -- 
+sumIn[240]         1      --              --              --        -- 
+sumIn[241]         1      --              --              --        -- 
+sumIn[242]         1      --              --              --        -- 
+sumIn[243]         1      --              --              --        -- 
+sumIn[244]         1      --              --              --        -- 
+sumIn[245]         1      --              --              --        -- 
+sumIn[246]         1      --              --              --        -- 
+sumIn[247]         1      --              --              --        -- 
+sumIn[248]         1      --              --              --        -- 
+sumIn[249]         1      --              --              --        -- 
+sumIn[250]         1      --              --              --        -- 
+sumIn[251]         1      --              --              --        -- 
+sumIn[252]         1      --              --              --        -- 
+sumIn[253]         1      --              --              --        -- 
+sumIn[254]         1      --              --              --        -- 
+sumIn[255]         1      --              --              --        -- 
+trigger            1      --              --              --        -- 
+layer1Out[0]       1      --              --              --        -- 
+layer1Out[1]       1      --              --              --        -- 
+layer1Out[2]       1      --              --              --        -- 
+layer1Out[3]       1      --              --              --        -- 
+layer1Out[4]       1      --              --              --        -- 
+layer1Out[5]       1      --              --              --        -- 
+layer1Out[6]       1      --              --              --        -- 
+layer1Out[7]       1      --              --              --        -- 
+layer1Out[8]       1      --              --              --        -- 
+layer1Out[9]       1      --              --              --        -- 
+layer1Out[10]      1      --              --              --        -- 
+layer1Out[11]      1      --              --              --        -- 
+layer1Out[12]      1      --              --              --        -- 
+layer1Out[13]      1      --              --              --        -- 
+layer1Out[14]      1      --              --              --        -- 
+layer1Out[15]      1      --              --              --        -- 
+layer1Out[16]      1      --              --              --        -- 
+layer1Out[17]      1      --              --              --        -- 
+layer1Out[18]      1      --              --              --        -- 
+layer1Out[19]      1      --              --              --        -- 
+layer1Out[20]      1      --              --              --        -- 
+layer1Out[21]      1      --              --              --        -- 
+layer1Out[22]      1      --              --              --        -- 
+layer1Out[23]      1      --              --              --        -- 
+layer1Out[24]      1      --              --              --        -- 
+layer1Out[25]      1      --              --              --        -- 
+layer1Out[26]      1      --              --              --        -- 
+layer1Out[27]      1      --              --              --        -- 
+layer1Out[28]      1      --              --              --        -- 
+layer1Out[29]      1      --              --              --        -- 
+layer1Out[30]      1      --              --              --        -- 
+layer1Out[31]      1      --              --              --        -- 
+layer1Out[32]      1      --              --              --        -- 
+layer1Out[33]      1      --              --              --        -- 
+layer1Out[34]      1      --              --              --        -- 
+layer1Out[35]      1      --              --              --        -- 
+layer1Out[36]      1      --              --              --        -- 
+layer1Out[37]      1      --              --              --        -- 
+layer1Out[38]      1      --              --              --        -- 
+layer1Out[39]      1      --              --              --        -- 
+layer1Out[40]      1      --              --              --        -- 
+layer1Out[41]      1      --              --              --        -- 
+layer1Out[42]      1      --              --              --        -- 
+layer1Out[43]      1      --              --              --        -- 
+layer1Out[44]      1      --              --              --        -- 
+layer1Out[45]      1      --              --              --        -- 
+layer1Out[46]      1      --              --              --        -- 
+layer1Out[47]      1      --              --              --        -- 
+layer1Out[48]      1      --              --              --        -- 
+layer1Out[49]      1      --              --              --        -- 
+layer1Out[50]      1      --              --              --        -- 
+layer1Out[51]      1      --              --              --        -- 
+layer1Out[52]      1      --              --              --        -- 
+layer1Out[53]      1      --              --              --        -- 
+layer1Out[54]      1      --              --              --        -- 
+layer1Out[55]      1      --              --              --        -- 
+layer1Out[56]      1      --              --              --        -- 
+layer1Out[57]      1      --              --              --        -- 
+layer1Out[58]      1      --              --              --        -- 
+layer1Out[59]      1      --              --              --        -- 
+layer1Out[60]      1      --              --              --        -- 
+layer1Out[61]      1      --              --              --        -- 
+layer1Out[62]      1      --              --              --        -- 
+layer1Out[63]      1      --              --              --        -- 
+layer1Out[64]      1      --              --              --        -- 
+layer1Out[65]      1      --              --              --        -- 
+layer1Out[66]      1      --              --              --        -- 
+layer1Out[67]      1      --              --              --        -- 
+layer1Out[68]      1      --              --              --        -- 
+layer1Out[69]      1      --              --              --        -- 
+layer1Out[70]      1      --              --              --        -- 
+layer1Out[71]      1      --              --              --        -- 
+layer1Out[72]      1      --              --              --        -- 
+layer1Out[73]      1      --              --              --        -- 
+layer1Out[74]      1      --              --              --        -- 
+layer1Out[75]      1      --              --              --        -- 
+layer1Out[76]      1      --              --              --        -- 
+layer1Out[77]      1      --              --              --        -- 
+layer1Out[78]      1      --              --              --        -- 
+layer1Out[79]      1      --              --              --        -- 
+layer1Out[80]      1      --              --              --        -- 
+layer1Out[81]      1      --              --              --        -- 
+layer1Out[82]      1      --              --              --        -- 
+layer1Out[83]      1      --              --              --        -- 
+layer1Out[84]      1      --              --              --        -- 
+layer1Out[85]      1      --              --              --        -- 
+layer1Out[86]      1      --              --              --        -- 
+layer1Out[87]      1      --              --              --        -- 
+layer1Out[88]      1      --              --              --        -- 
+layer1Out[89]      1      --              --              --        -- 
+layer1Out[90]      1      --              --              --        -- 
+layer1Out[91]      1      --              --              --        -- 
+layer1Out[92]      1      --              --              --        -- 
+layer1Out[93]      1      --              --              --        -- 
+layer1Out[94]      1      --              --              --        -- 
+layer1Out[95]      1      --              --              --        -- 
+layer1Out[96]      1      --              --              --        -- 
+layer1Out[97]      1      --              --              --        -- 
+layer1Out[98]      1      --              --              --        -- 
+layer1Out[99]      1      --              --              --        -- 
+layer1Out[100]
+                   1      --              --              --        -- 
+layer1Out[101]
+                   1      --              --              --        -- 
+layer1Out[102]
+                   1      --              --              --        -- 
+layer1Out[103]
+                   1      --              --              --        -- 
+layer1Out[104]
+                   1      --              --              --        -- 
+layer1Out[105]
+                   1      --              --              --        -- 
+layer1Out[106]
+                   1      --              --              --        -- 
+layer1Out[107]
+                   1      --              --              --        -- 
+layer1Out[108]
+                   1      --              --              --        -- 
+layer1Out[109]
+                   1      --              --              --        -- 
+layer1Out[110]
+                   1      --              --              --        -- 
+layer1Out[111]
+                   1      --              --              --        -- 
+layer1Out[112]
+                   1      --              --              --        -- 
+layer1Out[113]
+                   1      --              --              --        -- 
+layer1Out[114]
+                   1      --              --              --        -- 
+layer1Out[115]
+                   1      --              --              --        -- 
+layer1Out[116]
+                   1      --              --              --        -- 
+layer1Out[117]
+                   1      --              --              --        -- 
+layer1Out[118]
+                   1      --              --              --        -- 
+layer1Out[119]
+                   1      --              --              --        -- 
+layer1Out[120]
+                   1      --              --              --        -- 
+layer1Out[121]
+                   1      --              --              --        -- 
+layer1Out[122]
+                   1      --              --              --        -- 
+layer1Out[123]
+                   1      --              --              --        -- 
+layer1Out[124]
+                   1      --              --              --        -- 
+layer1Out[125]
+                   1      --              --              --        -- 
+layer1Out[126]
+                   1      --              --              --        -- 
+layer1Out[127]
+                   1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+sumIn[0]      --      --      --      --      --      4.00
+sumIn[1]      --      --      --      --      --      4.00
+sumIn[2]      --      --      --      --      --      4.00
+sumIn[3]      --      --      --      --      --      4.00
+sumIn[4]      --      --      --      --      --      4.00
+sumIn[5]      --      --      --      --      --      4.00
+sumIn[6]      --      --      --      --      --      4.00
+sumIn[7]      --      --      --      --      --      4.00
+sumIn[8]      --      --      --      --      --      4.00
+sumIn[9]      --      --      --      --      --      4.00
+sumIn[10]     --      --      --      --      --      4.00
+sumIn[11]     --      --      --      --      --      4.00
+sumIn[12]     --      --      --      --      --      4.00
+sumIn[13]     --      --      --      --      --      4.00
+sumIn[14]     --      --      --      --      --      4.00
+sumIn[15]     --      --      --      --      --      4.00
+sumIn[16]     --      --      --      --      --      4.00
+sumIn[17]     --      --      --      --      --      4.00
+sumIn[18]     --      --      --      --      --      4.00
+sumIn[19]     --      --      --      --      --      4.00
+sumIn[20]     --      --      --      --      --      4.00
+sumIn[21]     --      --      --      --      --      4.00
+sumIn[22]     --      --      --      --      --      4.00
+sumIn[23]     --      --      --      --      --      4.00
+sumIn[24]     --      --      --      --      --      4.00
+sumIn[25]     --      --      --      --      --      4.00
+sumIn[26]     --      --      --      --      --      4.00
+sumIn[27]     --      --      --      --      --      4.00
+sumIn[28]     --      --      --      --      --      4.00
+sumIn[29]     --      --      --      --      --      4.00
+sumIn[30]     --      --      --      --      --      4.00
+sumIn[31]     --      --      --      --      --      4.00
+sumIn[32]     --      --      --      --      --      4.00
+sumIn[33]     --      --      --      --      --      4.00
+sumIn[34]     --      --      --      --      --      4.00
+sumIn[35]     --      --      --      --      --      4.00
+sumIn[36]     --      --      --      --      --      4.00
+sumIn[37]     --      --      --      --      --      4.00
+sumIn[38]     --      --      --      --      --      4.00
+sumIn[39]     --      --      --      --      --      4.00
+sumIn[40]     --      --      --      --      --      4.00
+sumIn[41]     --      --      --      --      --      4.00
+sumIn[42]     --      --      --      --      --      4.00
+sumIn[43]     --      --      --      --      --      4.00
+sumIn[44]     --      --      --      --      --      4.00
+sumIn[45]     --      --      --      --      --      4.00
+sumIn[46]     --      --      --      --      --      4.00
+sumIn[47]     --      --      --      --      --      4.00
+sumIn[48]     --      --      --      --      --      4.00
+sumIn[49]     --      --      --      --      --      4.00
+sumIn[50]     --      --      --      --      --      4.00
+sumIn[51]     --      --      --      --      --      4.00
+sumIn[52]     --      --      --      --      --      4.00
+sumIn[53]     --      --      --      --      --      4.00
+sumIn[54]     --      --      --      --      --      4.00
+sumIn[55]     --      --      --      --      --      4.00
+sumIn[56]     --      --      --      --      --      4.00
+sumIn[57]     --      --      --      --      --      4.00
+sumIn[58]     --      --      --      --      --      4.00
+sumIn[59]     --      --      --      --      --      4.00
+sumIn[60]     --      --      --      --      --      4.00
+sumIn[61]     --      --      --      --      --      4.00
+sumIn[62]     --      --      --      --      --      4.00
+sumIn[63]     --      --      --      --      --      4.00
+sumIn[64]     --      --      --      --      --      4.00
+sumIn[65]     --      --      --      --      --      4.00
+sumIn[66]     --      --      --      --      --      4.00
+sumIn[67]     --      --      --      --      --      4.00
+sumIn[68]     --      --      --      --      --      4.00
+sumIn[69]     --      --      --      --      --      4.00
+sumIn[70]     --      --      --      --      --      4.00
+sumIn[71]     --      --      --      --      --      4.00
+sumIn[72]     --      --      --      --      --      4.00
+sumIn[73]     --      --      --      --      --      4.00
+sumIn[74]     --      --      --      --      --      4.00
+sumIn[75]     --      --      --      --      --      4.00
+sumIn[76]     --      --      --      --      --      4.00
+sumIn[77]     --      --      --      --      --      4.00
+sumIn[78]     --      --      --      --      --      4.00
+sumIn[79]     --      --      --      --      --      4.00
+sumIn[80]     --      --      --      --      --      4.00
+sumIn[81]     --      --      --      --      --      4.00
+sumIn[82]     --      --      --      --      --      4.00
+sumIn[83]     --      --      --      --      --      4.00
+sumIn[84]     --      --      --      --      --      4.00
+sumIn[85]     --      --      --      --      --      4.00
+sumIn[86]     --      --      --      --      --      4.00
+sumIn[87]     --      --      --      --      --      4.00
+sumIn[88]     --      --      --      --      --      4.00
+sumIn[89]     --      --      --      --      --      4.00
+sumIn[90]     --      --      --      --      --      4.00
+sumIn[91]     --      --      --      --      --      4.00
+sumIn[92]     --      --      --      --      --      4.00
+sumIn[93]     --      --      --      --      --      4.00
+sumIn[94]     --      --      --      --      --      4.00
+sumIn[95]     --      --      --      --      --      4.00
+sumIn[96]     --      --      --      --      --      4.00
+sumIn[97]     --      --      --      --      --      4.00
+sumIn[98]     --      --      --      --      --      4.00
+sumIn[99]     --      --      --      --      --      4.00
+sumIn[100]    --      --      --      --      --      4.00
+sumIn[101]    --      --      --      --      --      4.00
+sumIn[102]    --      --      --      --      --      4.00
+sumIn[103]    --      --      --      --      --      4.00
+sumIn[104]    --      --      --      --      --      4.00
+sumIn[105]    --      --      --      --      --      4.00
+sumIn[106]    --      --      --      --      --      4.00
+sumIn[107]    --      --      --      --      --      4.00
+sumIn[108]    --      --      --      --      --      4.00
+sumIn[109]    --      --      --      --      --      4.00
+sumIn[110]    --      --      --      --      --      4.00
+sumIn[111]    --      --      --      --      --      4.00
+sumIn[112]    --      --      --      --      --      4.00
+sumIn[113]    --      --      --      --      --      4.00
+sumIn[114]    --      --      --      --      --      4.00
+sumIn[115]    --      --      --      --      --      4.00
+sumIn[116]    --      --      --      --      --      4.00
+sumIn[117]    --      --      --      --      --      4.00
+sumIn[118]    --      --      --      --      --      4.00
+sumIn[119]    --      --      --      --      --      4.00
+sumIn[120]    --      --      --      --      --      4.00
+sumIn[121]    --      --      --      --      --      4.00
+sumIn[122]    --      --      --      --      --      4.00
+sumIn[123]    --      --      --      --      --      4.00
+sumIn[124]    --      --      --      --      --      4.00
+sumIn[125]    --      --      --      --      --      4.00
+sumIn[126]    --      --      --      --      --      4.00
+sumIn[127]    --      --      --      --      --      4.00
+sumIn[128]    --      --      --      --      --      4.00
+sumIn[129]    --      --      --      --      --      4.00
+sumIn[130]    --      --      --      --      --      4.00
+sumIn[131]    --      --      --      --      --      4.00
+sumIn[132]    --      --      --      --      --      4.00
+sumIn[133]    --      --      --      --      --      4.00
+sumIn[134]    --      --      --      --      --      4.00
+sumIn[135]    --      --      --      --      --      4.00
+sumIn[136]    --      --      --      --      --      4.00
+sumIn[137]    --      --      --      --      --      4.00
+sumIn[138]    --      --      --      --      --      4.00
+sumIn[139]    --      --      --      --      --      4.00
+sumIn[140]    --      --      --      --      --      4.00
+sumIn[141]    --      --      --      --      --      4.00
+sumIn[142]    --      --      --      --      --      4.00
+sumIn[143]    --      --      --      --      --      4.00
+sumIn[144]    --      --      --      --      --      4.00
+sumIn[145]    --      --      --      --      --      4.00
+sumIn[146]    --      --      --      --      --      4.00
+sumIn[147]    --      --      --      --      --      4.00
+sumIn[148]    --      --      --      --      --      4.00
+sumIn[149]    --      --      --      --      --      4.00
+sumIn[150]    --      --      --      --      --      4.00
+sumIn[151]    --      --      --      --      --      4.00
+sumIn[152]    --      --      --      --      --      4.00
+sumIn[153]    --      --      --      --      --      4.00
+sumIn[154]    --      --      --      --      --      4.00
+sumIn[155]    --      --      --      --      --      4.00
+sumIn[156]    --      --      --      --      --      4.00
+sumIn[157]    --      --      --      --      --      4.00
+sumIn[158]    --      --      --      --      --      4.00
+sumIn[159]    --      --      --      --      --      4.00
+sumIn[160]    --      --      --      --      --      4.00
+sumIn[161]    --      --      --      --      --      4.00
+sumIn[162]    --      --      --      --      --      4.00
+sumIn[163]    --      --      --      --      --      4.00
+sumIn[164]    --      --      --      --      --      4.00
+sumIn[165]    --      --      --      --      --      4.00
+sumIn[166]    --      --      --      --      --      4.00
+sumIn[167]    --      --      --      --      --      4.00
+sumIn[168]    --      --      --      --      --      4.00
+sumIn[169]    --      --      --      --      --      4.00
+sumIn[170]    --      --      --      --      --      4.00
+sumIn[171]    --      --      --      --      --      4.00
+sumIn[172]    --      --      --      --      --      4.00
+sumIn[173]    --      --      --      --      --      4.00
+sumIn[174]    --      --      --      --      --      4.00
+sumIn[175]    --      --      --      --      --      4.00
+sumIn[176]    --      --      --      --      --      4.00
+sumIn[177]    --      --      --      --      --      4.00
+sumIn[178]    --      --      --      --      --      4.00
+sumIn[179]    --      --      --      --      --      4.00
+sumIn[180]    --      --      --      --      --      4.00
+sumIn[181]    --      --      --      --      --      4.00
+sumIn[182]    --      --      --      --      --      4.00
+sumIn[183]    --      --      --      --      --      4.00
+sumIn[184]    --      --      --      --      --      4.00
+sumIn[185]    --      --      --      --      --      4.00
+sumIn[186]    --      --      --      --      --      4.00
+sumIn[187]    --      --      --      --      --      4.00
+sumIn[188]    --      --      --      --      --      4.00
+sumIn[189]    --      --      --      --      --      4.00
+sumIn[190]    --      --      --      --      --      4.00
+sumIn[191]    --      --      --      --      --      4.00
+sumIn[192]    --      --      --      --      --      4.00
+sumIn[193]    --      --      --      --      --      4.00
+sumIn[194]    --      --      --      --      --      4.00
+sumIn[195]    --      --      --      --      --      4.00
+sumIn[196]    --      --      --      --      --      4.00
+sumIn[197]    --      --      --      --      --      4.00
+sumIn[198]    --      --      --      --      --      4.00
+sumIn[199]    --      --      --      --      --      4.00
+sumIn[200]    --      --      --      --      --      4.00
+sumIn[201]    --      --      --      --      --      4.00
+sumIn[202]    --      --      --      --      --      4.00
+sumIn[203]    --      --      --      --      --      4.00
+sumIn[204]    --      --      --      --      --      4.00
+sumIn[205]    --      --      --      --      --      4.00
+sumIn[206]    --      --      --      --      --      4.00
+sumIn[207]    --      --      --      --      --      4.00
+sumIn[208]    --      --      --      --      --      4.00
+sumIn[209]    --      --      --      --      --      4.00
+sumIn[210]    --      --      --      --      --      4.00
+sumIn[211]    --      --      --      --      --      4.00
+sumIn[212]    --      --      --      --      --      4.00
+sumIn[213]    --      --      --      --      --      4.00
+sumIn[214]    --      --      --      --      --      4.00
+sumIn[215]    --      --      --      --      --      4.00
+sumIn[216]    --      --      --      --      --      4.00
+sumIn[217]    --      --      --      --      --      4.00
+sumIn[218]    --      --      --      --      --      4.00
+sumIn[219]    --      --      --      --      --      4.00
+sumIn[220]    --      --      --      --      --      4.00
+sumIn[221]    --      --      --      --      --      4.00
+sumIn[222]    --      --      --      --      --      4.00
+sumIn[223]    --      --      --      --      --      4.00
+sumIn[224]    --      --      --      --      --      4.00
+sumIn[225]    --      --      --      --      --      4.00
+sumIn[226]    --      --      --      --      --      4.00
+sumIn[227]    --      --      --      --      --      4.00
+sumIn[228]    --      --      --      --      --      4.00
+sumIn[229]    --      --      --      --      --      4.00
+sumIn[230]    --      --      --      --      --      4.00
+sumIn[231]    --      --      --      --      --      4.00
+sumIn[232]    --      --      --      --      --      4.00
+sumIn[233]    --      --      --      --      --      4.00
+sumIn[234]    --      --      --      --      --      4.00
+sumIn[235]    --      --      --      --      --      4.00
+sumIn[236]    --      --      --      --      --      4.00
+sumIn[237]    --      --      --      --      --      4.00
+sumIn[238]    --      --      --      --      --      4.00
+sumIn[239]    --      --      --      --      --      4.00
+sumIn[240]    --      --      --      --      --      4.00
+sumIn[241]    --      --      --      --      --      4.00
+sumIn[242]    --      --      --      --      --      4.00
+sumIn[243]    --      --      --      --      --      4.00
+sumIn[244]    --      --      --      --      --      4.00
+sumIn[245]    --      --      --      --      --      4.00
+sumIn[246]    --      --      --      --      --      4.00
+sumIn[247]    --      --      --      --      --      4.00
+sumIn[248]    --      --      --      --      --      4.00
+sumIn[249]    --      --      --      --      --      4.00
+sumIn[250]    --      --      --      --      --      4.00
+sumIn[251]    --      --      --      --      --      4.00
+sumIn[252]    --      --      --      --      --      4.00
+sumIn[253]    --      --      --      --      --      4.00
+sumIn[254]    --      --      --      --      --      4.00
+sumIn[255]    --      --      --      --      --      4.00
+trigger       --      --      --      --      --      4.00
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+sumIn[0]     INVX1TS            INVX1TS              -- /  --     
+sumIn[1]     INVX1TS            INVX1TS              -- /  --     
+sumIn[2]     INVX1TS            INVX1TS              -- /  --     
+sumIn[3]     INVX1TS            INVX1TS              -- /  --     
+sumIn[4]     INVX1TS            INVX1TS              -- /  --     
+sumIn[5]     INVX1TS            INVX1TS              -- /  --     
+sumIn[6]     INVX1TS            INVX1TS              -- /  --     
+sumIn[7]     INVX1TS            INVX1TS              -- /  --     
+sumIn[8]     INVX1TS            INVX1TS              -- /  --     
+sumIn[9]     INVX1TS            INVX1TS              -- /  --     
+sumIn[10]    INVX1TS            INVX1TS              -- /  --     
+sumIn[11]    INVX1TS            INVX1TS              -- /  --     
+sumIn[12]    INVX1TS            INVX1TS              -- /  --     
+sumIn[13]    INVX1TS            INVX1TS              -- /  --     
+sumIn[14]    INVX1TS            INVX1TS              -- /  --     
+sumIn[15]    INVX1TS            INVX1TS              -- /  --     
+sumIn[16]    INVX1TS            INVX1TS              -- /  --     
+sumIn[17]    INVX1TS            INVX1TS              -- /  --     
+sumIn[18]    INVX1TS            INVX1TS              -- /  --     
+sumIn[19]    INVX1TS            INVX1TS              -- /  --     
+sumIn[20]    INVX1TS            INVX1TS              -- /  --     
+sumIn[21]    INVX1TS            INVX1TS              -- /  --     
+sumIn[22]    INVX1TS            INVX1TS              -- /  --     
+sumIn[23]    INVX1TS            INVX1TS              -- /  --     
+sumIn[24]    INVX1TS            INVX1TS              -- /  --     
+sumIn[25]    INVX1TS            INVX1TS              -- /  --     
+sumIn[26]    INVX1TS            INVX1TS              -- /  --     
+sumIn[27]    INVX1TS            INVX1TS              -- /  --     
+sumIn[28]    INVX1TS            INVX1TS              -- /  --     
+sumIn[29]    INVX1TS            INVX1TS              -- /  --     
+sumIn[30]    INVX1TS            INVX1TS              -- /  --     
+sumIn[31]    INVX1TS            INVX1TS              -- /  --     
+sumIn[32]    INVX1TS            INVX1TS              -- /  --     
+sumIn[33]    INVX1TS            INVX1TS              -- /  --     
+sumIn[34]    INVX1TS            INVX1TS              -- /  --     
+sumIn[35]    INVX1TS            INVX1TS              -- /  --     
+sumIn[36]    INVX1TS            INVX1TS              -- /  --     
+sumIn[37]    INVX1TS            INVX1TS              -- /  --     
+sumIn[38]    INVX1TS            INVX1TS              -- /  --     
+sumIn[39]    INVX1TS            INVX1TS              -- /  --     
+sumIn[40]    INVX1TS            INVX1TS              -- /  --     
+sumIn[41]    INVX1TS            INVX1TS              -- /  --     
+sumIn[42]    INVX1TS            INVX1TS              -- /  --     
+sumIn[43]    INVX1TS            INVX1TS              -- /  --     
+sumIn[44]    INVX1TS            INVX1TS              -- /  --     
+sumIn[45]    INVX1TS            INVX1TS              -- /  --     
+sumIn[46]    INVX1TS            INVX1TS              -- /  --     
+sumIn[47]    INVX1TS            INVX1TS              -- /  --     
+sumIn[48]    INVX1TS            INVX1TS              -- /  --     
+sumIn[49]    INVX1TS            INVX1TS              -- /  --     
+sumIn[50]    INVX1TS            INVX1TS              -- /  --     
+sumIn[51]    INVX1TS            INVX1TS              -- /  --     
+sumIn[52]    INVX1TS            INVX1TS              -- /  --     
+sumIn[53]    INVX1TS            INVX1TS              -- /  --     
+sumIn[54]    INVX1TS            INVX1TS              -- /  --     
+sumIn[55]    INVX1TS            INVX1TS              -- /  --     
+sumIn[56]    INVX1TS            INVX1TS              -- /  --     
+sumIn[57]    INVX1TS            INVX1TS              -- /  --     
+sumIn[58]    INVX1TS            INVX1TS              -- /  --     
+sumIn[59]    INVX1TS            INVX1TS              -- /  --     
+sumIn[60]    INVX1TS            INVX1TS              -- /  --     
+sumIn[61]    INVX1TS            INVX1TS              -- /  --     
+sumIn[62]    INVX1TS            INVX1TS              -- /  --     
+sumIn[63]    INVX1TS            INVX1TS              -- /  --     
+sumIn[64]    INVX1TS            INVX1TS              -- /  --     
+sumIn[65]    INVX1TS            INVX1TS              -- /  --     
+sumIn[66]    INVX1TS            INVX1TS              -- /  --     
+sumIn[67]    INVX1TS            INVX1TS              -- /  --     
+sumIn[68]    INVX1TS            INVX1TS              -- /  --     
+sumIn[69]    INVX1TS            INVX1TS              -- /  --     
+sumIn[70]    INVX1TS            INVX1TS              -- /  --     
+sumIn[71]    INVX1TS            INVX1TS              -- /  --     
+sumIn[72]    INVX1TS            INVX1TS              -- /  --     
+sumIn[73]    INVX1TS            INVX1TS              -- /  --     
+sumIn[74]    INVX1TS            INVX1TS              -- /  --     
+sumIn[75]    INVX1TS            INVX1TS              -- /  --     
+sumIn[76]    INVX1TS            INVX1TS              -- /  --     
+sumIn[77]    INVX1TS            INVX1TS              -- /  --     
+sumIn[78]    INVX1TS            INVX1TS              -- /  --     
+sumIn[79]    INVX1TS            INVX1TS              -- /  --     
+sumIn[80]    INVX1TS            INVX1TS              -- /  --     
+sumIn[81]    INVX1TS            INVX1TS              -- /  --     
+sumIn[82]    INVX1TS            INVX1TS              -- /  --     
+sumIn[83]    INVX1TS            INVX1TS              -- /  --     
+sumIn[84]    INVX1TS            INVX1TS              -- /  --     
+sumIn[85]    INVX1TS            INVX1TS              -- /  --     
+sumIn[86]    INVX1TS            INVX1TS              -- /  --     
+sumIn[87]    INVX1TS            INVX1TS              -- /  --     
+sumIn[88]    INVX1TS            INVX1TS              -- /  --     
+sumIn[89]    INVX1TS            INVX1TS              -- /  --     
+sumIn[90]    INVX1TS            INVX1TS              -- /  --     
+sumIn[91]    INVX1TS            INVX1TS              -- /  --     
+sumIn[92]    INVX1TS            INVX1TS              -- /  --     
+sumIn[93]    INVX1TS            INVX1TS              -- /  --     
+sumIn[94]    INVX1TS            INVX1TS              -- /  --     
+sumIn[95]    INVX1TS            INVX1TS              -- /  --     
+sumIn[96]    INVX1TS            INVX1TS              -- /  --     
+sumIn[97]    INVX1TS            INVX1TS              -- /  --     
+sumIn[98]    INVX1TS            INVX1TS              -- /  --     
+sumIn[99]    INVX1TS            INVX1TS              -- /  --     
+sumIn[100]   INVX1TS            INVX1TS              -- /  --     
+sumIn[101]   INVX1TS            INVX1TS              -- /  --     
+sumIn[102]   INVX1TS            INVX1TS              -- /  --     
+sumIn[103]   INVX1TS            INVX1TS              -- /  --     
+sumIn[104]   INVX1TS            INVX1TS              -- /  --     
+sumIn[105]   INVX1TS            INVX1TS              -- /  --     
+sumIn[106]   INVX1TS            INVX1TS              -- /  --     
+sumIn[107]   INVX1TS            INVX1TS              -- /  --     
+sumIn[108]   INVX1TS            INVX1TS              -- /  --     
+sumIn[109]   INVX1TS            INVX1TS              -- /  --     
+sumIn[110]   INVX1TS            INVX1TS              -- /  --     
+sumIn[111]   INVX1TS            INVX1TS              -- /  --     
+sumIn[112]   INVX1TS            INVX1TS              -- /  --     
+sumIn[113]   INVX1TS            INVX1TS              -- /  --     
+sumIn[114]   INVX1TS            INVX1TS              -- /  --     
+sumIn[115]   INVX1TS            INVX1TS              -- /  --     
+sumIn[116]   INVX1TS            INVX1TS              -- /  --     
+sumIn[117]   INVX1TS            INVX1TS              -- /  --     
+sumIn[118]   INVX1TS            INVX1TS              -- /  --     
+sumIn[119]   INVX1TS            INVX1TS              -- /  --     
+sumIn[120]   INVX1TS            INVX1TS              -- /  --     
+sumIn[121]   INVX1TS            INVX1TS              -- /  --     
+sumIn[122]   INVX1TS            INVX1TS              -- /  --     
+sumIn[123]   INVX1TS            INVX1TS              -- /  --     
+sumIn[124]   INVX1TS            INVX1TS              -- /  --     
+sumIn[125]   INVX1TS            INVX1TS              -- /  --     
+sumIn[126]   INVX1TS            INVX1TS              -- /  --     
+sumIn[127]   INVX1TS            INVX1TS              -- /  --     
+sumIn[128]   INVX1TS            INVX1TS              -- /  --     
+sumIn[129]   INVX1TS            INVX1TS              -- /  --     
+sumIn[130]   INVX1TS            INVX1TS              -- /  --     
+sumIn[131]   INVX1TS            INVX1TS              -- /  --     
+sumIn[132]   INVX1TS            INVX1TS              -- /  --     
+sumIn[133]   INVX1TS            INVX1TS              -- /  --     
+sumIn[134]   INVX1TS            INVX1TS              -- /  --     
+sumIn[135]   INVX1TS            INVX1TS              -- /  --     
+sumIn[136]   INVX1TS            INVX1TS              -- /  --     
+sumIn[137]   INVX1TS            INVX1TS              -- /  --     
+sumIn[138]   INVX1TS            INVX1TS              -- /  --     
+sumIn[139]   INVX1TS            INVX1TS              -- /  --     
+sumIn[140]   INVX1TS            INVX1TS              -- /  --     
+sumIn[141]   INVX1TS            INVX1TS              -- /  --     
+sumIn[142]   INVX1TS            INVX1TS              -- /  --     
+sumIn[143]   INVX1TS            INVX1TS              -- /  --     
+sumIn[144]   INVX1TS            INVX1TS              -- /  --     
+sumIn[145]   INVX1TS            INVX1TS              -- /  --     
+sumIn[146]   INVX1TS            INVX1TS              -- /  --     
+sumIn[147]   INVX1TS            INVX1TS              -- /  --     
+sumIn[148]   INVX1TS            INVX1TS              -- /  --     
+sumIn[149]   INVX1TS            INVX1TS              -- /  --     
+sumIn[150]   INVX1TS            INVX1TS              -- /  --     
+sumIn[151]   INVX1TS            INVX1TS              -- /  --     
+sumIn[152]   INVX1TS            INVX1TS              -- /  --     
+sumIn[153]   INVX1TS            INVX1TS              -- /  --     
+sumIn[154]   INVX1TS            INVX1TS              -- /  --     
+sumIn[155]   INVX1TS            INVX1TS              -- /  --     
+sumIn[156]   INVX1TS            INVX1TS              -- /  --     
+sumIn[157]   INVX1TS            INVX1TS              -- /  --     
+sumIn[158]   INVX1TS            INVX1TS              -- /  --     
+sumIn[159]   INVX1TS            INVX1TS              -- /  --     
+sumIn[160]   INVX1TS            INVX1TS              -- /  --     
+sumIn[161]   INVX1TS            INVX1TS              -- /  --     
+sumIn[162]   INVX1TS            INVX1TS              -- /  --     
+sumIn[163]   INVX1TS            INVX1TS              -- /  --     
+sumIn[164]   INVX1TS            INVX1TS              -- /  --     
+sumIn[165]   INVX1TS            INVX1TS              -- /  --     
+sumIn[166]   INVX1TS            INVX1TS              -- /  --     
+sumIn[167]   INVX1TS            INVX1TS              -- /  --     
+sumIn[168]   INVX1TS            INVX1TS              -- /  --     
+sumIn[169]   INVX1TS            INVX1TS              -- /  --     
+sumIn[170]   INVX1TS            INVX1TS              -- /  --     
+sumIn[171]   INVX1TS            INVX1TS              -- /  --     
+sumIn[172]   INVX1TS            INVX1TS              -- /  --     
+sumIn[173]   INVX1TS            INVX1TS              -- /  --     
+sumIn[174]   INVX1TS            INVX1TS              -- /  --     
+sumIn[175]   INVX1TS            INVX1TS              -- /  --     
+sumIn[176]   INVX1TS            INVX1TS              -- /  --     
+sumIn[177]   INVX1TS            INVX1TS              -- /  --     
+sumIn[178]   INVX1TS            INVX1TS              -- /  --     
+sumIn[179]   INVX1TS            INVX1TS              -- /  --     
+sumIn[180]   INVX1TS            INVX1TS              -- /  --     
+sumIn[181]   INVX1TS            INVX1TS              -- /  --     
+sumIn[182]   INVX1TS            INVX1TS              -- /  --     
+sumIn[183]   INVX1TS            INVX1TS              -- /  --     
+sumIn[184]   INVX1TS            INVX1TS              -- /  --     
+sumIn[185]   INVX1TS            INVX1TS              -- /  --     
+sumIn[186]   INVX1TS            INVX1TS              -- /  --     
+sumIn[187]   INVX1TS            INVX1TS              -- /  --     
+sumIn[188]   INVX1TS            INVX1TS              -- /  --     
+sumIn[189]   INVX1TS            INVX1TS              -- /  --     
+sumIn[190]   INVX1TS            INVX1TS              -- /  --     
+sumIn[191]   INVX1TS            INVX1TS              -- /  --     
+sumIn[192]   INVX1TS            INVX1TS              -- /  --     
+sumIn[193]   INVX1TS            INVX1TS              -- /  --     
+sumIn[194]   INVX1TS            INVX1TS              -- /  --     
+sumIn[195]   INVX1TS            INVX1TS              -- /  --     
+sumIn[196]   INVX1TS            INVX1TS              -- /  --     
+sumIn[197]   INVX1TS            INVX1TS              -- /  --     
+sumIn[198]   INVX1TS            INVX1TS              -- /  --     
+sumIn[199]   INVX1TS            INVX1TS              -- /  --     
+sumIn[200]   INVX1TS            INVX1TS              -- /  --     
+sumIn[201]   INVX1TS            INVX1TS              -- /  --     
+sumIn[202]   INVX1TS            INVX1TS              -- /  --     
+sumIn[203]   INVX1TS            INVX1TS              -- /  --     
+sumIn[204]   INVX1TS            INVX1TS              -- /  --     
+sumIn[205]   INVX1TS            INVX1TS              -- /  --     
+sumIn[206]   INVX1TS            INVX1TS              -- /  --     
+sumIn[207]   INVX1TS            INVX1TS              -- /  --     
+sumIn[208]   INVX1TS            INVX1TS              -- /  --     
+sumIn[209]   INVX1TS            INVX1TS              -- /  --     
+sumIn[210]   INVX1TS            INVX1TS              -- /  --     
+sumIn[211]   INVX1TS            INVX1TS              -- /  --     
+sumIn[212]   INVX1TS            INVX1TS              -- /  --     
+sumIn[213]   INVX1TS            INVX1TS              -- /  --     
+sumIn[214]   INVX1TS            INVX1TS              -- /  --     
+sumIn[215]   INVX1TS            INVX1TS              -- /  --     
+sumIn[216]   INVX1TS            INVX1TS              -- /  --     
+sumIn[217]   INVX1TS            INVX1TS              -- /  --     
+sumIn[218]   INVX1TS            INVX1TS              -- /  --     
+sumIn[219]   INVX1TS            INVX1TS              -- /  --     
+sumIn[220]   INVX1TS            INVX1TS              -- /  --     
+sumIn[221]   INVX1TS            INVX1TS              -- /  --     
+sumIn[222]   INVX1TS            INVX1TS              -- /  --     
+sumIn[223]   INVX1TS            INVX1TS              -- /  --     
+sumIn[224]   INVX1TS            INVX1TS              -- /  --     
+sumIn[225]   INVX1TS            INVX1TS              -- /  --     
+sumIn[226]   INVX1TS            INVX1TS              -- /  --     
+sumIn[227]   INVX1TS            INVX1TS              -- /  --     
+sumIn[228]   INVX1TS            INVX1TS              -- /  --     
+sumIn[229]   INVX1TS            INVX1TS              -- /  --     
+sumIn[230]   INVX1TS            INVX1TS              -- /  --     
+sumIn[231]   INVX1TS            INVX1TS              -- /  --     
+sumIn[232]   INVX1TS            INVX1TS              -- /  --     
+sumIn[233]   INVX1TS            INVX1TS              -- /  --     
+sumIn[234]   INVX1TS            INVX1TS              -- /  --     
+sumIn[235]   INVX1TS            INVX1TS              -- /  --     
+sumIn[236]   INVX1TS            INVX1TS              -- /  --     
+sumIn[237]   INVX1TS            INVX1TS              -- /  --     
+sumIn[238]   INVX1TS            INVX1TS              -- /  --     
+sumIn[239]   INVX1TS            INVX1TS              -- /  --     
+sumIn[240]   INVX1TS            INVX1TS              -- /  --     
+sumIn[241]   INVX1TS            INVX1TS              -- /  --     
+sumIn[242]   INVX1TS            INVX1TS              -- /  --     
+sumIn[243]   INVX1TS            INVX1TS              -- /  --     
+sumIn[244]   INVX1TS            INVX1TS              -- /  --     
+sumIn[245]   INVX1TS            INVX1TS              -- /  --     
+sumIn[246]   INVX1TS            INVX1TS              -- /  --     
+sumIn[247]   INVX1TS            INVX1TS              -- /  --     
+sumIn[248]   INVX1TS            INVX1TS              -- /  --     
+sumIn[249]   INVX1TS            INVX1TS              -- /  --     
+sumIn[250]   INVX1TS            INVX1TS              -- /  --     
+sumIn[251]   INVX1TS            INVX1TS              -- /  --     
+sumIn[252]   INVX1TS            INVX1TS              -- /  --     
+sumIn[253]   INVX1TS            INVX1TS              -- /  --     
+sumIn[254]   INVX1TS            INVX1TS              -- /  --     
+sumIn[255]   INVX1TS            INVX1TS              -- /  --     
+trigger      INVX1TS            INVX1TS              -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+sumIn[0]      --      --     --      --     --      --     --     --        -- 
+sumIn[1]      --      --     --      --     --      --     --     --        -- 
+sumIn[2]      --      --     --      --     --      --     --     --        -- 
+sumIn[3]      --      --     --      --     --      --     --     --        -- 
+sumIn[4]      --      --     --      --     --      --     --     --        -- 
+sumIn[5]      --      --     --      --     --      --     --     --        -- 
+sumIn[6]      --      --     --      --     --      --     --     --        -- 
+sumIn[7]      --      --     --      --     --      --     --     --        -- 
+sumIn[8]      --      --     --      --     --      --     --     --        -- 
+sumIn[9]      --      --     --      --     --      --     --     --        -- 
+sumIn[10]     --      --     --      --     --      --     --     --        -- 
+sumIn[11]     --      --     --      --     --      --     --     --        -- 
+sumIn[12]     --      --     --      --     --      --     --     --        -- 
+sumIn[13]     --      --     --      --     --      --     --     --        -- 
+sumIn[14]     --      --     --      --     --      --     --     --        -- 
+sumIn[15]     --      --     --      --     --      --     --     --        -- 
+sumIn[16]     --      --     --      --     --      --     --     --        -- 
+sumIn[17]     --      --     --      --     --      --     --     --        -- 
+sumIn[18]     --      --     --      --     --      --     --     --        -- 
+sumIn[19]     --      --     --      --     --      --     --     --        -- 
+sumIn[20]     --      --     --      --     --      --     --     --        -- 
+sumIn[21]     --      --     --      --     --      --     --     --        -- 
+sumIn[22]     --      --     --      --     --      --     --     --        -- 
+sumIn[23]     --      --     --      --     --      --     --     --        -- 
+sumIn[24]     --      --     --      --     --      --     --     --        -- 
+sumIn[25]     --      --     --      --     --      --     --     --        -- 
+sumIn[26]     --      --     --      --     --      --     --     --        -- 
+sumIn[27]     --      --     --      --     --      --     --     --        -- 
+sumIn[28]     --      --     --      --     --      --     --     --        -- 
+sumIn[29]     --      --     --      --     --      --     --     --        -- 
+sumIn[30]     --      --     --      --     --      --     --     --        -- 
+sumIn[31]     --      --     --      --     --      --     --     --        -- 
+sumIn[32]     --      --     --      --     --      --     --     --        -- 
+sumIn[33]     --      --     --      --     --      --     --     --        -- 
+sumIn[34]     --      --     --      --     --      --     --     --        -- 
+sumIn[35]     --      --     --      --     --      --     --     --        -- 
+sumIn[36]     --      --     --      --     --      --     --     --        -- 
+sumIn[37]     --      --     --      --     --      --     --     --        -- 
+sumIn[38]     --      --     --      --     --      --     --     --        -- 
+sumIn[39]     --      --     --      --     --      --     --     --        -- 
+sumIn[40]     --      --     --      --     --      --     --     --        -- 
+sumIn[41]     --      --     --      --     --      --     --     --        -- 
+sumIn[42]     --      --     --      --     --      --     --     --        -- 
+sumIn[43]     --      --     --      --     --      --     --     --        -- 
+sumIn[44]     --      --     --      --     --      --     --     --        -- 
+sumIn[45]     --      --     --      --     --      --     --     --        -- 
+sumIn[46]     --      --     --      --     --      --     --     --        -- 
+sumIn[47]     --      --     --      --     --      --     --     --        -- 
+sumIn[48]     --      --     --      --     --      --     --     --        -- 
+sumIn[49]     --      --     --      --     --      --     --     --        -- 
+sumIn[50]     --      --     --      --     --      --     --     --        -- 
+sumIn[51]     --      --     --      --     --      --     --     --        -- 
+sumIn[52]     --      --     --      --     --      --     --     --        -- 
+sumIn[53]     --      --     --      --     --      --     --     --        -- 
+sumIn[54]     --      --     --      --     --      --     --     --        -- 
+sumIn[55]     --      --     --      --     --      --     --     --        -- 
+sumIn[56]     --      --     --      --     --      --     --     --        -- 
+sumIn[57]     --      --     --      --     --      --     --     --        -- 
+sumIn[58]     --      --     --      --     --      --     --     --        -- 
+sumIn[59]     --      --     --      --     --      --     --     --        -- 
+sumIn[60]     --      --     --      --     --      --     --     --        -- 
+sumIn[61]     --      --     --      --     --      --     --     --        -- 
+sumIn[62]     --      --     --      --     --      --     --     --        -- 
+sumIn[63]     --      --     --      --     --      --     --     --        -- 
+sumIn[64]     --      --     --      --     --      --     --     --        -- 
+sumIn[65]     --      --     --      --     --      --     --     --        -- 
+sumIn[66]     --      --     --      --     --      --     --     --        -- 
+sumIn[67]     --      --     --      --     --      --     --     --        -- 
+sumIn[68]     --      --     --      --     --      --     --     --        -- 
+sumIn[69]     --      --     --      --     --      --     --     --        -- 
+sumIn[70]     --      --     --      --     --      --     --     --        -- 
+sumIn[71]     --      --     --      --     --      --     --     --        -- 
+sumIn[72]     --      --     --      --     --      --     --     --        -- 
+sumIn[73]     --      --     --      --     --      --     --     --        -- 
+sumIn[74]     --      --     --      --     --      --     --     --        -- 
+sumIn[75]     --      --     --      --     --      --     --     --        -- 
+sumIn[76]     --      --     --      --     --      --     --     --        -- 
+sumIn[77]     --      --     --      --     --      --     --     --        -- 
+sumIn[78]     --      --     --      --     --      --     --     --        -- 
+sumIn[79]     --      --     --      --     --      --     --     --        -- 
+sumIn[80]     --      --     --      --     --      --     --     --        -- 
+sumIn[81]     --      --     --      --     --      --     --     --        -- 
+sumIn[82]     --      --     --      --     --      --     --     --        -- 
+sumIn[83]     --      --     --      --     --      --     --     --        -- 
+sumIn[84]     --      --     --      --     --      --     --     --        -- 
+sumIn[85]     --      --     --      --     --      --     --     --        -- 
+sumIn[86]     --      --     --      --     --      --     --     --        -- 
+sumIn[87]     --      --     --      --     --      --     --     --        -- 
+sumIn[88]     --      --     --      --     --      --     --     --        -- 
+sumIn[89]     --      --     --      --     --      --     --     --        -- 
+sumIn[90]     --      --     --      --     --      --     --     --        -- 
+sumIn[91]     --      --     --      --     --      --     --     --        -- 
+sumIn[92]     --      --     --      --     --      --     --     --        -- 
+sumIn[93]     --      --     --      --     --      --     --     --        -- 
+sumIn[94]     --      --     --      --     --      --     --     --        -- 
+sumIn[95]     --      --     --      --     --      --     --     --        -- 
+sumIn[96]     --      --     --      --     --      --     --     --        -- 
+sumIn[97]     --      --     --      --     --      --     --     --        -- 
+sumIn[98]     --      --     --      --     --      --     --     --        -- 
+sumIn[99]     --      --     --      --     --      --     --     --        -- 
+sumIn[100]    --      --     --      --     --      --     --     --        -- 
+sumIn[101]    --      --     --      --     --      --     --     --        -- 
+sumIn[102]    --      --     --      --     --      --     --     --        -- 
+sumIn[103]    --      --     --      --     --      --     --     --        -- 
+sumIn[104]    --      --     --      --     --      --     --     --        -- 
+sumIn[105]    --      --     --      --     --      --     --     --        -- 
+sumIn[106]    --      --     --      --     --      --     --     --        -- 
+sumIn[107]    --      --     --      --     --      --     --     --        -- 
+sumIn[108]    --      --     --      --     --      --     --     --        -- 
+sumIn[109]    --      --     --      --     --      --     --     --        -- 
+sumIn[110]    --      --     --      --     --      --     --     --        -- 
+sumIn[111]    --      --     --      --     --      --     --     --        -- 
+sumIn[112]    --      --     --      --     --      --     --     --        -- 
+sumIn[113]    --      --     --      --     --      --     --     --        -- 
+sumIn[114]    --      --     --      --     --      --     --     --        -- 
+sumIn[115]    --      --     --      --     --      --     --     --        -- 
+sumIn[116]    --      --     --      --     --      --     --     --        -- 
+sumIn[117]    --      --     --      --     --      --     --     --        -- 
+sumIn[118]    --      --     --      --     --      --     --     --        -- 
+sumIn[119]    --      --     --      --     --      --     --     --        -- 
+sumIn[120]    --      --     --      --     --      --     --     --        -- 
+sumIn[121]    --      --     --      --     --      --     --     --        -- 
+sumIn[122]    --      --     --      --     --      --     --     --        -- 
+sumIn[123]    --      --     --      --     --      --     --     --        -- 
+sumIn[124]    --      --     --      --     --      --     --     --        -- 
+sumIn[125]    --      --     --      --     --      --     --     --        -- 
+sumIn[126]    --      --     --      --     --      --     --     --        -- 
+sumIn[127]    --      --     --      --     --      --     --     --        -- 
+sumIn[128]    --      --     --      --     --      --     --     --        -- 
+sumIn[129]    --      --     --      --     --      --     --     --        -- 
+sumIn[130]    --      --     --      --     --      --     --     --        -- 
+sumIn[131]    --      --     --      --     --      --     --     --        -- 
+sumIn[132]    --      --     --      --     --      --     --     --        -- 
+sumIn[133]    --      --     --      --     --      --     --     --        -- 
+sumIn[134]    --      --     --      --     --      --     --     --        -- 
+sumIn[135]    --      --     --      --     --      --     --     --        -- 
+sumIn[136]    --      --     --      --     --      --     --     --        -- 
+sumIn[137]    --      --     --      --     --      --     --     --        -- 
+sumIn[138]    --      --     --      --     --      --     --     --        -- 
+sumIn[139]    --      --     --      --     --      --     --     --        -- 
+sumIn[140]    --      --     --      --     --      --     --     --        -- 
+sumIn[141]    --      --     --      --     --      --     --     --        -- 
+sumIn[142]    --      --     --      --     --      --     --     --        -- 
+sumIn[143]    --      --     --      --     --      --     --     --        -- 
+sumIn[144]    --      --     --      --     --      --     --     --        -- 
+sumIn[145]    --      --     --      --     --      --     --     --        -- 
+sumIn[146]    --      --     --      --     --      --     --     --        -- 
+sumIn[147]    --      --     --      --     --      --     --     --        -- 
+sumIn[148]    --      --     --      --     --      --     --     --        -- 
+sumIn[149]    --      --     --      --     --      --     --     --        -- 
+sumIn[150]    --      --     --      --     --      --     --     --        -- 
+sumIn[151]    --      --     --      --     --      --     --     --        -- 
+sumIn[152]    --      --     --      --     --      --     --     --        -- 
+sumIn[153]    --      --     --      --     --      --     --     --        -- 
+sumIn[154]    --      --     --      --     --      --     --     --        -- 
+sumIn[155]    --      --     --      --     --      --     --     --        -- 
+sumIn[156]    --      --     --      --     --      --     --     --        -- 
+sumIn[157]    --      --     --      --     --      --     --     --        -- 
+sumIn[158]    --      --     --      --     --      --     --     --        -- 
+sumIn[159]    --      --     --      --     --      --     --     --        -- 
+sumIn[160]    --      --     --      --     --      --     --     --        -- 
+sumIn[161]    --      --     --      --     --      --     --     --        -- 
+sumIn[162]    --      --     --      --     --      --     --     --        -- 
+sumIn[163]    --      --     --      --     --      --     --     --        -- 
+sumIn[164]    --      --     --      --     --      --     --     --        -- 
+sumIn[165]    --      --     --      --     --      --     --     --        -- 
+sumIn[166]    --      --     --      --     --      --     --     --        -- 
+sumIn[167]    --      --     --      --     --      --     --     --        -- 
+sumIn[168]    --      --     --      --     --      --     --     --        -- 
+sumIn[169]    --      --     --      --     --      --     --     --        -- 
+sumIn[170]    --      --     --      --     --      --     --     --        -- 
+sumIn[171]    --      --     --      --     --      --     --     --        -- 
+sumIn[172]    --      --     --      --     --      --     --     --        -- 
+sumIn[173]    --      --     --      --     --      --     --     --        -- 
+sumIn[174]    --      --     --      --     --      --     --     --        -- 
+sumIn[175]    --      --     --      --     --      --     --     --        -- 
+sumIn[176]    --      --     --      --     --      --     --     --        -- 
+sumIn[177]    --      --     --      --     --      --     --     --        -- 
+sumIn[178]    --      --     --      --     --      --     --     --        -- 
+sumIn[179]    --      --     --      --     --      --     --     --        -- 
+sumIn[180]    --      --     --      --     --      --     --     --        -- 
+sumIn[181]    --      --     --      --     --      --     --     --        -- 
+sumIn[182]    --      --     --      --     --      --     --     --        -- 
+sumIn[183]    --      --     --      --     --      --     --     --        -- 
+sumIn[184]    --      --     --      --     --      --     --     --        -- 
+sumIn[185]    --      --     --      --     --      --     --     --        -- 
+sumIn[186]    --      --     --      --     --      --     --     --        -- 
+sumIn[187]    --      --     --      --     --      --     --     --        -- 
+sumIn[188]    --      --     --      --     --      --     --     --        -- 
+sumIn[189]    --      --     --      --     --      --     --     --        -- 
+sumIn[190]    --      --     --      --     --      --     --     --        -- 
+sumIn[191]    --      --     --      --     --      --     --     --        -- 
+sumIn[192]    --      --     --      --     --      --     --     --        -- 
+sumIn[193]    --      --     --      --     --      --     --     --        -- 
+sumIn[194]    --      --     --      --     --      --     --     --        -- 
+sumIn[195]    --      --     --      --     --      --     --     --        -- 
+sumIn[196]    --      --     --      --     --      --     --     --        -- 
+sumIn[197]    --      --     --      --     --      --     --     --        -- 
+sumIn[198]    --      --     --      --     --      --     --     --        -- 
+sumIn[199]    --      --     --      --     --      --     --     --        -- 
+sumIn[200]    --      --     --      --     --      --     --     --        -- 
+sumIn[201]    --      --     --      --     --      --     --     --        -- 
+sumIn[202]    --      --     --      --     --      --     --     --        -- 
+sumIn[203]    --      --     --      --     --      --     --     --        -- 
+sumIn[204]    --      --     --      --     --      --     --     --        -- 
+sumIn[205]    --      --     --      --     --      --     --     --        -- 
+sumIn[206]    --      --     --      --     --      --     --     --        -- 
+sumIn[207]    --      --     --      --     --      --     --     --        -- 
+sumIn[208]    --      --     --      --     --      --     --     --        -- 
+sumIn[209]    --      --     --      --     --      --     --     --        -- 
+sumIn[210]    --      --     --      --     --      --     --     --        -- 
+sumIn[211]    --      --     --      --     --      --     --     --        -- 
+sumIn[212]    --      --     --      --     --      --     --     --        -- 
+sumIn[213]    --      --     --      --     --      --     --     --        -- 
+sumIn[214]    --      --     --      --     --      --     --     --        -- 
+sumIn[215]    --      --     --      --     --      --     --     --        -- 
+sumIn[216]    --      --     --      --     --      --     --     --        -- 
+sumIn[217]    --      --     --      --     --      --     --     --        -- 
+sumIn[218]    --      --     --      --     --      --     --     --        -- 
+sumIn[219]    --      --     --      --     --      --     --     --        -- 
+sumIn[220]    --      --     --      --     --      --     --     --        -- 
+sumIn[221]    --      --     --      --     --      --     --     --        -- 
+sumIn[222]    --      --     --      --     --      --     --     --        -- 
+sumIn[223]    --      --     --      --     --      --     --     --        -- 
+sumIn[224]    --      --     --      --     --      --     --     --        -- 
+sumIn[225]    --      --     --      --     --      --     --     --        -- 
+sumIn[226]    --      --     --      --     --      --     --     --        -- 
+sumIn[227]    --      --     --      --     --      --     --     --        -- 
+sumIn[228]    --      --     --      --     --      --     --     --        -- 
+sumIn[229]    --      --     --      --     --      --     --     --        -- 
+sumIn[230]    --      --     --      --     --      --     --     --        -- 
+sumIn[231]    --      --     --      --     --      --     --     --        -- 
+sumIn[232]    --      --     --      --     --      --     --     --        -- 
+sumIn[233]    --      --     --      --     --      --     --     --        -- 
+sumIn[234]    --      --     --      --     --      --     --     --        -- 
+sumIn[235]    --      --     --      --     --      --     --     --        -- 
+sumIn[236]    --      --     --      --     --      --     --     --        -- 
+sumIn[237]    --      --     --      --     --      --     --     --        -- 
+sumIn[238]    --      --     --      --     --      --     --     --        -- 
+sumIn[239]    --      --     --      --     --      --     --     --        -- 
+sumIn[240]    --      --     --      --     --      --     --     --        -- 
+sumIn[241]    --      --     --      --     --      --     --     --        -- 
+sumIn[242]    --      --     --      --     --      --     --     --        -- 
+sumIn[243]    --      --     --      --     --      --     --     --        -- 
+sumIn[244]    --      --     --      --     --      --     --     --        -- 
+sumIn[245]    --      --     --      --     --      --     --     --        -- 
+sumIn[246]    --      --     --      --     --      --     --     --        -- 
+sumIn[247]    --      --     --      --     --      --     --     --        -- 
+sumIn[248]    --      --     --      --     --      --     --     --        -- 
+sumIn[249]    --      --     --      --     --      --     --     --        -- 
+sumIn[250]    --      --     --      --     --      --     --     --        -- 
+sumIn[251]    --      --     --      --     --      --     --     --        -- 
+sumIn[252]    --      --     --      --     --      --     --     --        -- 
+sumIn[253]    --      --     --      --     --      --     --     --        -- 
+sumIn[254]    --      --     --      --     --      --     --     --        -- 
+sumIn[255]    --      --     --      --     --      --     --     --        -- 
+trigger       --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+sumIn[0]      --      --      --      -- 
+sumIn[1]      --      --      --      -- 
+sumIn[2]      --      --      --      -- 
+sumIn[3]      --      --      --      -- 
+sumIn[4]      --      --      --      -- 
+sumIn[5]      --      --      --      -- 
+sumIn[6]      --      --      --      -- 
+sumIn[7]      --      --      --      -- 
+sumIn[8]      --      --      --      -- 
+sumIn[9]      --      --      --      -- 
+sumIn[10]     --      --      --      -- 
+sumIn[11]     --      --      --      -- 
+sumIn[12]     --      --      --      -- 
+sumIn[13]     --      --      --      -- 
+sumIn[14]     --      --      --      -- 
+sumIn[15]     --      --      --      -- 
+sumIn[16]     --      --      --      -- 
+sumIn[17]     --      --      --      -- 
+sumIn[18]     --      --      --      -- 
+sumIn[19]     --      --      --      -- 
+sumIn[20]     --      --      --      -- 
+sumIn[21]     --      --      --      -- 
+sumIn[22]     --      --      --      -- 
+sumIn[23]     --      --      --      -- 
+sumIn[24]     --      --      --      -- 
+sumIn[25]     --      --      --      -- 
+sumIn[26]     --      --      --      -- 
+sumIn[27]     --      --      --      -- 
+sumIn[28]     --      --      --      -- 
+sumIn[29]     --      --      --      -- 
+sumIn[30]     --      --      --      -- 
+sumIn[31]     --      --      --      -- 
+sumIn[32]     --      --      --      -- 
+sumIn[33]     --      --      --      -- 
+sumIn[34]     --      --      --      -- 
+sumIn[35]     --      --      --      -- 
+sumIn[36]     --      --      --      -- 
+sumIn[37]     --      --      --      -- 
+sumIn[38]     --      --      --      -- 
+sumIn[39]     --      --      --      -- 
+sumIn[40]     --      --      --      -- 
+sumIn[41]     --      --      --      -- 
+sumIn[42]     --      --      --      -- 
+sumIn[43]     --      --      --      -- 
+sumIn[44]     --      --      --      -- 
+sumIn[45]     --      --      --      -- 
+sumIn[46]     --      --      --      -- 
+sumIn[47]     --      --      --      -- 
+sumIn[48]     --      --      --      -- 
+sumIn[49]     --      --      --      -- 
+sumIn[50]     --      --      --      -- 
+sumIn[51]     --      --      --      -- 
+sumIn[52]     --      --      --      -- 
+sumIn[53]     --      --      --      -- 
+sumIn[54]     --      --      --      -- 
+sumIn[55]     --      --      --      -- 
+sumIn[56]     --      --      --      -- 
+sumIn[57]     --      --      --      -- 
+sumIn[58]     --      --      --      -- 
+sumIn[59]     --      --      --      -- 
+sumIn[60]     --      --      --      -- 
+sumIn[61]     --      --      --      -- 
+sumIn[62]     --      --      --      -- 
+sumIn[63]     --      --      --      -- 
+sumIn[64]     --      --      --      -- 
+sumIn[65]     --      --      --      -- 
+sumIn[66]     --      --      --      -- 
+sumIn[67]     --      --      --      -- 
+sumIn[68]     --      --      --      -- 
+sumIn[69]     --      --      --      -- 
+sumIn[70]     --      --      --      -- 
+sumIn[71]     --      --      --      -- 
+sumIn[72]     --      --      --      -- 
+sumIn[73]     --      --      --      -- 
+sumIn[74]     --      --      --      -- 
+sumIn[75]     --      --      --      -- 
+sumIn[76]     --      --      --      -- 
+sumIn[77]     --      --      --      -- 
+sumIn[78]     --      --      --      -- 
+sumIn[79]     --      --      --      -- 
+sumIn[80]     --      --      --      -- 
+sumIn[81]     --      --      --      -- 
+sumIn[82]     --      --      --      -- 
+sumIn[83]     --      --      --      -- 
+sumIn[84]     --      --      --      -- 
+sumIn[85]     --      --      --      -- 
+sumIn[86]     --      --      --      -- 
+sumIn[87]     --      --      --      -- 
+sumIn[88]     --      --      --      -- 
+sumIn[89]     --      --      --      -- 
+sumIn[90]     --      --      --      -- 
+sumIn[91]     --      --      --      -- 
+sumIn[92]     --      --      --      -- 
+sumIn[93]     --      --      --      -- 
+sumIn[94]     --      --      --      -- 
+sumIn[95]     --      --      --      -- 
+sumIn[96]     --      --      --      -- 
+sumIn[97]     --      --      --      -- 
+sumIn[98]     --      --      --      -- 
+sumIn[99]     --      --      --      -- 
+sumIn[100]    --      --      --      -- 
+sumIn[101]    --      --      --      -- 
+sumIn[102]    --      --      --      -- 
+sumIn[103]    --      --      --      -- 
+sumIn[104]    --      --      --      -- 
+sumIn[105]    --      --      --      -- 
+sumIn[106]    --      --      --      -- 
+sumIn[107]    --      --      --      -- 
+sumIn[108]    --      --      --      -- 
+sumIn[109]    --      --      --      -- 
+sumIn[110]    --      --      --      -- 
+sumIn[111]    --      --      --      -- 
+sumIn[112]    --      --      --      -- 
+sumIn[113]    --      --      --      -- 
+sumIn[114]    --      --      --      -- 
+sumIn[115]    --      --      --      -- 
+sumIn[116]    --      --      --      -- 
+sumIn[117]    --      --      --      -- 
+sumIn[118]    --      --      --      -- 
+sumIn[119]    --      --      --      -- 
+sumIn[120]    --      --      --      -- 
+sumIn[121]    --      --      --      -- 
+sumIn[122]    --      --      --      -- 
+sumIn[123]    --      --      --      -- 
+sumIn[124]    --      --      --      -- 
+sumIn[125]    --      --      --      -- 
+sumIn[126]    --      --      --      -- 
+sumIn[127]    --      --      --      -- 
+sumIn[128]    --      --      --      -- 
+sumIn[129]    --      --      --      -- 
+sumIn[130]    --      --      --      -- 
+sumIn[131]    --      --      --      -- 
+sumIn[132]    --      --      --      -- 
+sumIn[133]    --      --      --      -- 
+sumIn[134]    --      --      --      -- 
+sumIn[135]    --      --      --      -- 
+sumIn[136]    --      --      --      -- 
+sumIn[137]    --      --      --      -- 
+sumIn[138]    --      --      --      -- 
+sumIn[139]    --      --      --      -- 
+sumIn[140]    --      --      --      -- 
+sumIn[141]    --      --      --      -- 
+sumIn[142]    --      --      --      -- 
+sumIn[143]    --      --      --      -- 
+sumIn[144]    --      --      --      -- 
+sumIn[145]    --      --      --      -- 
+sumIn[146]    --      --      --      -- 
+sumIn[147]    --      --      --      -- 
+sumIn[148]    --      --      --      -- 
+sumIn[149]    --      --      --      -- 
+sumIn[150]    --      --      --      -- 
+sumIn[151]    --      --      --      -- 
+sumIn[152]    --      --      --      -- 
+sumIn[153]    --      --      --      -- 
+sumIn[154]    --      --      --      -- 
+sumIn[155]    --      --      --      -- 
+sumIn[156]    --      --      --      -- 
+sumIn[157]    --      --      --      -- 
+sumIn[158]    --      --      --      -- 
+sumIn[159]    --      --      --      -- 
+sumIn[160]    --      --      --      -- 
+sumIn[161]    --      --      --      -- 
+sumIn[162]    --      --      --      -- 
+sumIn[163]    --      --      --      -- 
+sumIn[164]    --      --      --      -- 
+sumIn[165]    --      --      --      -- 
+sumIn[166]    --      --      --      -- 
+sumIn[167]    --      --      --      -- 
+sumIn[168]    --      --      --      -- 
+sumIn[169]    --      --      --      -- 
+sumIn[170]    --      --      --      -- 
+sumIn[171]    --      --      --      -- 
+sumIn[172]    --      --      --      -- 
+sumIn[173]    --      --      --      -- 
+sumIn[174]    --      --      --      -- 
+sumIn[175]    --      --      --      -- 
+sumIn[176]    --      --      --      -- 
+sumIn[177]    --      --      --      -- 
+sumIn[178]    --      --      --      -- 
+sumIn[179]    --      --      --      -- 
+sumIn[180]    --      --      --      -- 
+sumIn[181]    --      --      --      -- 
+sumIn[182]    --      --      --      -- 
+sumIn[183]    --      --      --      -- 
+sumIn[184]    --      --      --      -- 
+sumIn[185]    --      --      --      -- 
+sumIn[186]    --      --      --      -- 
+sumIn[187]    --      --      --      -- 
+sumIn[188]    --      --      --      -- 
+sumIn[189]    --      --      --      -- 
+sumIn[190]    --      --      --      -- 
+sumIn[191]    --      --      --      -- 
+sumIn[192]    --      --      --      -- 
+sumIn[193]    --      --      --      -- 
+sumIn[194]    --      --      --      -- 
+sumIn[195]    --      --      --      -- 
+sumIn[196]    --      --      --      -- 
+sumIn[197]    --      --      --      -- 
+sumIn[198]    --      --      --      -- 
+sumIn[199]    --      --      --      -- 
+sumIn[200]    --      --      --      -- 
+sumIn[201]    --      --      --      -- 
+sumIn[202]    --      --      --      -- 
+sumIn[203]    --      --      --      -- 
+sumIn[204]    --      --      --      -- 
+sumIn[205]    --      --      --      -- 
+sumIn[206]    --      --      --      -- 
+sumIn[207]    --      --      --      -- 
+sumIn[208]    --      --      --      -- 
+sumIn[209]    --      --      --      -- 
+sumIn[210]    --      --      --      -- 
+sumIn[211]    --      --      --      -- 
+sumIn[212]    --      --      --      -- 
+sumIn[213]    --      --      --      -- 
+sumIn[214]    --      --      --      -- 
+sumIn[215]    --      --      --      -- 
+sumIn[216]    --      --      --      -- 
+sumIn[217]    --      --      --      -- 
+sumIn[218]    --      --      --      -- 
+sumIn[219]    --      --      --      -- 
+sumIn[220]    --      --      --      -- 
+sumIn[221]    --      --      --      -- 
+sumIn[222]    --      --      --      -- 
+sumIn[223]    --      --      --      -- 
+sumIn[224]    --      --      --      -- 
+sumIn[225]    --      --      --      -- 
+sumIn[226]    --      --      --      -- 
+sumIn[227]    --      --      --      -- 
+sumIn[228]    --      --      --      -- 
+sumIn[229]    --      --      --      -- 
+sumIn[230]    --      --      --      -- 
+sumIn[231]    --      --      --      -- 
+sumIn[232]    --      --      --      -- 
+sumIn[233]    --      --      --      -- 
+sumIn[234]    --      --      --      -- 
+sumIn[235]    --      --      --      -- 
+sumIn[236]    --      --      --      -- 
+sumIn[237]    --      --      --      -- 
+sumIn[238]    --      --      --      -- 
+sumIn[239]    --      --      --      -- 
+sumIn[240]    --      --      --      -- 
+sumIn[241]    --      --      --      -- 
+sumIn[242]    --      --      --      -- 
+sumIn[243]    --      --      --      -- 
+sumIn[244]    --      --      --      -- 
+sumIn[245]    --      --      --      -- 
+sumIn[246]    --      --      --      -- 
+sumIn[247]    --      --      --      -- 
+sumIn[248]    --      --      --      -- 
+sumIn[249]    --      --      --      -- 
+sumIn[250]    --      --      --      -- 
+sumIn[251]    --      --      --      -- 
+sumIn[252]    --      --      --      -- 
+sumIn[253]    --      --      --      -- 
+sumIn[254]    --      --      --      -- 
+sumIn[255]    --      --      --      -- 
+trigger       --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+layer1Out[0]
+              --      --      --      --      --      0.00
+layer1Out[1]
+              --      --      --      --      --      0.00
+layer1Out[2]
+              --      --      --      --      --      0.00
+layer1Out[3]
+              --      --      --      --      --      0.00
+layer1Out[4]
+              --      --      --      --      --      0.00
+layer1Out[5]
+              --      --      --      --      --      0.00
+layer1Out[6]
+              --      --      --      --      --      0.00
+layer1Out[7]
+              --      --      --      --      --      0.00
+layer1Out[8]
+              --      --      --      --      --      0.00
+layer1Out[9]
+              --      --      --      --      --      0.00
+layer1Out[10]
+              --      --      --      --      --      0.00
+layer1Out[11]
+              --      --      --      --      --      0.00
+layer1Out[12]
+              --      --      --      --      --      0.00
+layer1Out[13]
+              --      --      --      --      --      0.00
+layer1Out[14]
+              --      --      --      --      --      0.00
+layer1Out[15]
+              --      --      --      --      --      0.00
+layer1Out[16]
+              --      --      --      --      --      0.00
+layer1Out[17]
+              --      --      --      --      --      0.00
+layer1Out[18]
+              --      --      --      --      --      0.00
+layer1Out[19]
+              --      --      --      --      --      0.00
+layer1Out[20]
+              --      --      --      --      --      0.00
+layer1Out[21]
+              --      --      --      --      --      0.00
+layer1Out[22]
+              --      --      --      --      --      0.00
+layer1Out[23]
+              --      --      --      --      --      0.00
+layer1Out[24]
+              --      --      --      --      --      0.00
+layer1Out[25]
+              --      --      --      --      --      0.00
+layer1Out[26]
+              --      --      --      --      --      0.00
+layer1Out[27]
+              --      --      --      --      --      0.00
+layer1Out[28]
+              --      --      --      --      --      0.00
+layer1Out[29]
+              --      --      --      --      --      0.00
+layer1Out[30]
+              --      --      --      --      --      0.00
+layer1Out[31]
+              --      --      --      --      --      0.00
+layer1Out[32]
+              --      --      --      --      --      0.00
+layer1Out[33]
+              --      --      --      --      --      0.00
+layer1Out[34]
+              --      --      --      --      --      0.00
+layer1Out[35]
+              --      --      --      --      --      0.00
+layer1Out[36]
+              --      --      --      --      --      0.00
+layer1Out[37]
+              --      --      --      --      --      0.00
+layer1Out[38]
+              --      --      --      --      --      0.00
+layer1Out[39]
+              --      --      --      --      --      0.00
+layer1Out[40]
+              --      --      --      --      --      0.00
+layer1Out[41]
+              --      --      --      --      --      0.00
+layer1Out[42]
+              --      --      --      --      --      0.00
+layer1Out[43]
+              --      --      --      --      --      0.00
+layer1Out[44]
+              --      --      --      --      --      0.00
+layer1Out[45]
+              --      --      --      --      --      0.00
+layer1Out[46]
+              --      --      --      --      --      0.00
+layer1Out[47]
+              --      --      --      --      --      0.00
+layer1Out[48]
+              --      --      --      --      --      0.00
+layer1Out[49]
+              --      --      --      --      --      0.00
+layer1Out[50]
+              --      --      --      --      --      0.00
+layer1Out[51]
+              --      --      --      --      --      0.00
+layer1Out[52]
+              --      --      --      --      --      0.00
+layer1Out[53]
+              --      --      --      --      --      0.00
+layer1Out[54]
+              --      --      --      --      --      0.00
+layer1Out[55]
+              --      --      --      --      --      0.00
+layer1Out[56]
+              --      --      --      --      --      0.00
+layer1Out[57]
+              --      --      --      --      --      0.00
+layer1Out[58]
+              --      --      --      --      --      0.00
+layer1Out[59]
+              --      --      --      --      --      0.00
+layer1Out[60]
+              --      --      --      --      --      0.00
+layer1Out[61]
+              --      --      --      --      --      0.00
+layer1Out[62]
+              --      --      --      --      --      0.00
+layer1Out[63]
+              --      --      --      --      --      0.00
+layer1Out[64]
+              --      --      --      --      --      0.00
+layer1Out[65]
+              --      --      --      --      --      0.00
+layer1Out[66]
+              --      --      --      --      --      0.00
+layer1Out[67]
+              --      --      --      --      --      0.00
+layer1Out[68]
+              --      --      --      --      --      0.00
+layer1Out[69]
+              --      --      --      --      --      0.00
+layer1Out[70]
+              --      --      --      --      --      0.00
+layer1Out[71]
+              --      --      --      --      --      0.00
+layer1Out[72]
+              --      --      --      --      --      0.00
+layer1Out[73]
+              --      --      --      --      --      0.00
+layer1Out[74]
+              --      --      --      --      --      0.00
+layer1Out[75]
+              --      --      --      --      --      0.00
+layer1Out[76]
+              --      --      --      --      --      0.00
+layer1Out[77]
+              --      --      --      --      --      0.00
+layer1Out[78]
+              --      --      --      --      --      0.00
+layer1Out[79]
+              --      --      --      --      --      0.00
+layer1Out[80]
+              --      --      --      --      --      0.00
+layer1Out[81]
+              --      --      --      --      --      0.00
+layer1Out[82]
+              --      --      --      --      --      0.00
+layer1Out[83]
+              --      --      --      --      --      0.00
+layer1Out[84]
+              --      --      --      --      --      0.00
+layer1Out[85]
+              --      --      --      --      --      0.00
+layer1Out[86]
+              --      --      --      --      --      0.00
+layer1Out[87]
+              --      --      --      --      --      0.00
+layer1Out[88]
+              --      --      --      --      --      0.00
+layer1Out[89]
+              --      --      --      --      --      0.00
+layer1Out[90]
+              --      --      --      --      --      0.00
+layer1Out[91]
+              --      --      --      --      --      0.00
+layer1Out[92]
+              --      --      --      --      --      0.00
+layer1Out[93]
+              --      --      --      --      --      0.00
+layer1Out[94]
+              --      --      --      --      --      0.00
+layer1Out[95]
+              --      --      --      --      --      0.00
+layer1Out[96]
+              --      --      --      --      --      0.00
+layer1Out[97]
+              --      --      --      --      --      0.00
+layer1Out[98]
+              --      --      --      --      --      0.00
+layer1Out[99]
+              --      --      --      --      --      0.00
+layer1Out[100]
+              --      --      --      --      --      0.00
+layer1Out[101]
+              --      --      --      --      --      0.00
+layer1Out[102]
+              --      --      --      --      --      0.00
+layer1Out[103]
+              --      --      --      --      --      0.00
+layer1Out[104]
+              --      --      --      --      --      0.00
+layer1Out[105]
+              --      --      --      --      --      0.00
+layer1Out[106]
+              --      --      --      --      --      0.00
+layer1Out[107]
+              --      --      --      --      --      0.00
+layer1Out[108]
+              --      --      --      --      --      0.00
+layer1Out[109]
+              --      --      --      --      --      0.00
+layer1Out[110]
+              --      --      --      --      --      0.00
+layer1Out[111]
+              --      --      --      --      --      0.00
+layer1Out[112]
+              --      --      --      --      --      0.00
+layer1Out[113]
+              --      --      --      --      --      0.00
+layer1Out[114]
+              --      --      --      --      --      0.00
+layer1Out[115]
+              --      --      --      --      --      0.00
+layer1Out[116]
+              --      --      --      --      --      0.00
+layer1Out[117]
+              --      --      --      --      --      0.00
+layer1Out[118]
+              --      --      --      --      --      0.00
+layer1Out[119]
+              --      --      --      --      --      0.00
+layer1Out[120]
+              --      --      --      --      --      0.00
+layer1Out[121]
+              --      --      --      --      --      0.00
+layer1Out[122]
+              --      --      --      --      --      0.00
+layer1Out[123]
+              --      --      --      --      --      0.00
+layer1Out[124]
+              --      --      --      --      --      0.00
+layer1Out[125]
+              --      --      --      --      --      0.00
+layer1Out[126]
+              --      --      --      --      --      0.00
+layer1Out[127]
+              --      --      --      --      --      0.00
+
+1
+ 
+****************************************
+Report : compile_options
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+RELU                                     flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+                                         isolate_port           disabled
+--------------------------------------------------------------------------------
+1
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+
+    Design: RELU
+
+    max_area               0.00
+  - Current Area        1150.56
+  ------------------------------
+    Slack              -1150.56  (VIOLATED)
+
+
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 20
+Design : RELU
+Version: J-2014.09-SP2
+Date   : Wed Dec 19 17:26:21 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[58]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U270/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[58] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[57]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U269/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[57] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[53]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U272/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[53] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[52]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U268/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U271/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[52] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[46]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U281/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[46] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[45]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U280/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[45] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[44]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U279/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[44] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[42]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U285/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[42] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[41]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U284/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[41] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[40]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U278/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U282/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[40] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[38]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U289/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[38] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[37]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U287/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[37] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[36]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U283/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U286/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[36] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[34]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U292/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[34] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[33]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U291/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[33] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[32]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U265/Y (CLKBUFX2TS)                      0.23       0.56 f
+  U266/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U267/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U288/Y (CLKBUFX2TS)                      0.23       1.26 f
+  U290/Y (NOR3BXLTS)                       0.43       1.69 r
+  layer1Out[32] (out)                      0.00       1.69 r
+  data arrival time                                   1.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[102]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U226/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[102] (out)                     0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[98]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U229/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[98] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[97]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U228/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[97] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: trigger (input port)
+  Endpoint: layer1Out[96]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  trigger (in)                             0.04       0.04 r
+  U195/Y (INVX2TS)                         0.08       0.13 f
+  U196/Y (CLKBUFX2TS)                      0.21       0.33 f
+  U223/Y (CLKBUFX2TS)                      0.23       0.57 f
+  U224/Y (CLKBUFX2TS)                      0.23       0.80 f
+  U225/Y (CLKBUFX2TS)                      0.23       1.03 f
+  U227/Y (NOR3BXLTS)                       0.43       1.46 r
+  layer1Out[96] (out)                      0.00       1.46 r
+  data arrival time                                   1.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

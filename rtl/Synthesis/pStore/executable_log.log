@@ -1,0 +1,2080 @@
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+          Version J-2014.09-SP2 for RHEL64 -- Nov 25, 2014
+               Copyright (c) 1988-2014 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Initializing...
+#########################################
+# TCL script for Design Compiler        #
+# MS 2015                               #
+#########################################
+#########################################
+# READ Design and Library               #
+#########################################
+set top_level pStore
+pStore
+source -verbose "../common_script/common.tcl"
+. /tools4/syn2007.12/libraries/syn/
+dw_foundation.sldb
+* /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db dw_foundation.sldb
+/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+read_verilog {../../NeuralNetwork/$top_level.v}
+Loading db file '/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+Loading db file '/usr/cad/syn/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/syn/libraries/syn/gtech.db'
+Loading db file '/usr/cad/syn/libraries/syn/standard.sldb'
+  Loading link library 'scx3_cmos8rf_lpvt_tt_1p2v_25c'
+  Loading link library 'gtech'
+Loading verilog file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v'
+Detecting input file type automatically (-rtl or -netlist).
+Opening include file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v
+Opening include file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v:44: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+
+Inferred memory devices in process
+	in routine stored_addern line 49 in file
+		'/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|  biasesStored_reg   | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine stored_addern line 73 in file
+		'/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        S_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.db:pStore'
+Loaded 2 designs.
+Current design is 'pStore'.
+pStore stored_addern
+set set_fix_multiple_port_nets "true"
+true
+list_designs
+pStore (*)      stored_addern
+1
+if { [check_error -v] == 1 } { exit 1 }
+#########################################
+# Design Constranits                    #
+#########################################
+current_design $top_level
+Current design is 'pStore'.
+{pStore}
+link
+
+  Linking design 'pStore'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (2 designs)               /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.db, etc
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library) /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library) /usr/cad/syn/libraries/syn/dw_foundation.sldb
+
+1
+check_design
+1
+source -verbose "./timing.tcl"
+1.00
+0
+0.010
+0.05
+0.05
+0.005
+1
+1
+1
+1
+1
+1
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+1
+1
+1
+1
+1
+set_max_capacitance 0.005 [all_inputs]
+1
+set_max_fanout 4 $top_level
+1
+set_max_fanout 4 [all_inputs]
+1
+set_max_area 0 
+1
+set_fix_multiple_port_nets -all -buffer_constants
+1
+#########################################
+# Compile                               #
+#########################################
+check_design
+1
+#uniquify
+current_design $top_level
+Current design is 'pStore'.
+{pStore}
+link
+
+  Linking design 'pStore'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (2 designs)               /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/pStore.db, etc
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library)
+                              /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library)
+                              /usr/cad/syn/libraries/syn/dw_foundation.sldb
+
+1
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | J-2014.09-DWBB_201409.2 |     *     |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.2 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Loaded alib file './alib-52/scx3_cmos8rf_lpvt_tt_1p2v_25c.db.alib'
+Information: Ungrouping hierarchy addWeight[0].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[1].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[2].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[3].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[4].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[5].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[6].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[7].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[8].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[9].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[10].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[11].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[12].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[13].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[14].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[15].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[16].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[17].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[18].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[19].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[20].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[21].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[22].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[23].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[24].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[25].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[26].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[27].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[28].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[29].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[30].add before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy addWeight[31].add before Pass 1 (OPT-776)
+Information: Ungrouping 32 of 33 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'pStore'
+Information: In design 'pStore', the register 'addWeight[31].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[31].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[31].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[31].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[31].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[31].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[30].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[30].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[30].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[30].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[30].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[30].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[29].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[29].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[29].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[29].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[29].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[29].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[28].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[28].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[28].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[28].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[28].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[28].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[27].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[27].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[27].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[27].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[27].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[27].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[26].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[26].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[26].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[26].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[26].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[26].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[25].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[25].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[25].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[25].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[25].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[25].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[24].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[24].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[24].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[24].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[24].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[24].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[23].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[23].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[23].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[23].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[23].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[23].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[22].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[22].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[22].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[22].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[22].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[22].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[21].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[21].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[21].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[21].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[21].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[21].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[20].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[20].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[20].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[20].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[20].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[20].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[19].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[19].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[19].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[19].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[19].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[19].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[18].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[18].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[18].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[18].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[18].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[18].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[17].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[17].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[17].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[17].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[17].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[17].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[16].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[16].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[16].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[16].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[16].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[16].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[15].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[15].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[15].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[15].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[15].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[15].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[14].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[14].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[14].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[14].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[14].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[14].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[13].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[13].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[13].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[13].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[13].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[13].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[12].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[12].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[12].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[12].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[12].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[12].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[11].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[11].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[11].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[11].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[11].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[11].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[10].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[10].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[10].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[10].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[10].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[10].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[9].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[9].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[9].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[9].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[9].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[9].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[8].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[8].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[8].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[8].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[8].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[8].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[7].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[7].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[7].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[7].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[7].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[7].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[6].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[6].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[6].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[6].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[6].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[6].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[5].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[5].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[5].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[5].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[5].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[5].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[4].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[4].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[4].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[4].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[4].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[4].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[3].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[3].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[3].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[3].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[3].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[3].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[2].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[2].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[2].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[2].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[2].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[2].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[1].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[1].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[1].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[1].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[1].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[1].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[0].add/biasesStored_reg[6]' is removed because it is merged to 'addWeight[0].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[0].add/biasesStored_reg[5]' is removed because it is merged to 'addWeight[0].add/biasesStored_reg[7]'. (OPT-1215)
+Information: In design 'pStore', the register 'addWeight[0].add/biasesStored_reg[4]' is removed because it is merged to 'addWeight[0].add/biasesStored_reg[7]'. (OPT-1215)
+ Implement Synthetic for 'pStore'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1TS' in the library 'scx3_cmos8rf_lpvt_tt_1p2v_25c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: Added key list 'DesignWare' to design 'pStore'. (DDB-72)
+  Mapping Optimization (Phase 1)
+  Mapping Optimization (Phase 2)
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:14   54131.0      1.04     248.9      66.0                           81516.2969      0.00  
+    0:00:15   54131.0      1.04     248.9      66.0                           81516.2969      0.00  
+    0:00:15   54131.0      1.04     248.9      66.0                           81516.2969      0.00  
+    0:00:15   54123.8      1.04     248.9      66.0                           81505.9531      0.00  
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:18   33412.3      1.13     273.6      64.3                           44507.5234      0.00  
+    0:00:18   33118.6      1.13     273.6      64.3                           43778.9844      0.00  
+    0:00:19   34974.7      1.13     270.6      64.6                           46774.7305      0.00  
+    0:00:19   34974.7      1.13     270.6      64.6                           46774.7305      0.00  
+    0:00:19   35105.8      1.10     269.6      64.6                           47014.7812      0.00  
+    0:00:19   35105.8      1.10     269.6      64.6                           47014.7812      0.00  
+    0:00:19   35205.1      1.10     269.5      64.7                           47186.4727      0.00  
+    0:00:19   35205.1      1.10     269.5      64.7                           47186.4727      0.00  
+    0:00:19   35216.6      1.10     269.2      64.7                           47164.2188      0.00  
+    0:00:19   35216.6      1.10     269.2      64.7                           47164.2188      0.00  
+    0:00:19   35216.6      1.10     269.2      64.7                           47164.2188      0.00  
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:21   38628.0      0.91     145.5      64.7                           50056.2695      0.00  
+    0:00:21   39054.2      0.74     129.2      64.6                           50716.8359      0.00  
+    0:00:21   39054.2      0.74     129.2      64.6                           50716.8359      0.00  
+    0:00:21   39054.2      0.74     129.2      64.6                           50716.8359      0.00  
+    0:00:21   39111.8      0.74     127.1      64.6                           50765.2461      0.00  
+    0:00:21   39149.3      0.73     126.9      64.6                           50827.2852      0.00  
+    0:00:21   39149.3      0.73     126.9      64.6                           50827.2852      0.00  
+    0:00:22   39149.3      0.73     126.9      64.6                           50827.2852      0.00  
+    0:00:22   39192.5      0.72     125.8      64.6                           50863.5938      0.00  
+
+
+  Beginning Design Rule Fixing  (max_fanout)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:22   39192.5      0.72     125.8      64.6                           50863.5938      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:00:22   40767.8      0.65     114.5       0.0 addWeight[3].add/S_reg[4]/D 52409.7383      0.00  
+    0:00:23   40858.6      0.62     113.7       0.0                           52476.4492      0.00  
+    0:00:23   41041.4      0.61     112.7       0.0                           52692.6719      0.00  
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:23   41041.4      0.61     112.7       0.0                           52692.6719      0.00  
+    0:00:24   41038.6      0.61     112.7       0.0                           52683.9062      0.00  
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:24   41038.6      0.61     112.7       0.0                           52683.9062      0.00  
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+    0:00:25   38666.9      0.58     109.7       0.0 addWeight[31].add/S_reg[6]/D 48601.3320      0.00  
+    0:00:25   38774.9      0.58     109.0       0.0                           48846.8359      0.00  
+    0:00:26   38786.4      0.58     108.9       0.0                           48855.9492      0.00  
+    0:00:26   38766.2      0.58     108.6       0.0                           48862.8398      0.00  
+    0:00:27   38962.1      0.58     112.2       0.2                           49007.7227      0.00  
+    0:00:27   38962.1      0.58     112.2       0.2                           49007.7227      0.00  
+    0:00:27   39219.8      0.58     110.9       0.3                           49633.3672      0.00  
+    0:00:27   39219.8      0.58     110.9       0.3                           49633.3672      0.00  
+    0:00:27   39365.3      0.58     110.9       0.3                           49841.3750      0.00  
+    0:00:27   39365.3      0.58     110.9       0.3                           49841.3750      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:29   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:30   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:30   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:30   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:30   40104.0      0.57     112.5       0.3                           51067.2617      0.00  
+    0:00:30   39582.7      0.56     108.8       0.3                           50351.8906      0.00  
+    0:00:30   39579.8      0.56     108.8       0.3                           50346.1719      0.00  
+    0:00:31   39509.3      0.55     107.9       0.0 addWeight[24].add/S_reg[6]/D 50045.7383      0.00  
+    0:00:31   39794.4      0.55     107.1       0.0 addWeight[28].add/S_reg[7]/D 50443.1875      0.00  
+    0:00:32   39807.4      0.55     106.9       0.0                           50445.9219      0.00  
+    0:00:32   39935.5      0.55     107.3       0.0                           50622.4336      0.00  
+    0:00:33   39875.0      0.55     106.0       0.0                           50554.3984      0.00  
+    0:00:33   39280.3      0.55     106.0       0.0                           49422.6289      0.00  
+Loading db file '/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+#########################################
+# Optimize design                       #
+# Some pointers for possible optimizatio# 
+# Check the DC reference manual         #
+#########################################
+#set_transform_for_retiming {temp_reg[6] temp_reg[5] temp_reg[4] temp_reg[3] temp_reg[2] temp_reg[1] temp_reg[0]} dont_retime
+#optimize_registers -clock clk -edge rise -justification_effort high 
+#balance_registers
+#source -verbose "../script/timing.1.2ns.tcl"
+#pipeline_design -stages 8 -clock_port_name $clk_name -check_design -verbose -print_critical_loop
+#set_max_capacitance 1 [all_inputs] 
+#compile_ultra -no_autoungroup -no_boundary_optimization
+#remove_clock -all
+#pipeline_design -stages 8 -clock_port_name $clk_name -async_reset reset -check_design -verbose -minimum_period_only
+#########################################
+# Write outputs                         #
+#########################################
+source -verbose "../common_script/namingrules.tcl"
+1
+
+Design          Type    Object                  New Name
+--------------------------------------------------------------------------------
+pStore          cell    addWeight[0].add/biasesStored_reg[0] addWeight_0__add_biasesStored_reg_0_
+pStore          cell    addWeight[0].add/biasesStored_reg[1] addWeight_0__add_biasesStored_reg_1_
+pStore          cell    addWeight[0].add/biasesStored_reg[2] addWeight_0__add_biasesStored_reg_2_
+pStore          cell    addWeight[0].add/biasesStored_reg[3] addWeight_0__add_biasesStored_reg_3_
+pStore          cell    addWeight[0].add/biasesStored_reg[7] addWeight_0__add_biasesStored_reg_7_
+pStore          cell    addWeight[1].add/biasesStored_reg[0] addWeight_1__add_biasesStored_reg_0_
+pStore          cell    addWeight[1].add/biasesStored_reg[1] addWeight_1__add_biasesStored_reg_1_
+pStore          cell    addWeight[1].add/biasesStored_reg[2] addWeight_1__add_biasesStored_reg_2_
+pStore          cell    addWeight[1].add/biasesStored_reg[3] addWeight_1__add_biasesStored_reg_3_
+pStore          cell    addWeight[1].add/biasesStored_reg[7] addWeight_1__add_biasesStored_reg_7_
+pStore          cell    addWeight[2].add/biasesStored_reg[0] addWeight_2__add_biasesStored_reg_0_
+pStore          cell    addWeight[2].add/biasesStored_reg[1] addWeight_2__add_biasesStored_reg_1_
+pStore          cell    addWeight[2].add/biasesStored_reg[2] addWeight_2__add_biasesStored_reg_2_
+pStore          cell    addWeight[2].add/biasesStored_reg[3] addWeight_2__add_biasesStored_reg_3_
+pStore          cell    addWeight[2].add/biasesStored_reg[7] addWeight_2__add_biasesStored_reg_7_
+pStore          cell    addWeight[3].add/biasesStored_reg[0] addWeight_3__add_biasesStored_reg_0_
+pStore          cell    addWeight[3].add/biasesStored_reg[1] addWeight_3__add_biasesStored_reg_1_
+pStore          cell    addWeight[3].add/biasesStored_reg[2] addWeight_3__add_biasesStored_reg_2_
+pStore          cell    addWeight[3].add/biasesStored_reg[3] addWeight_3__add_biasesStored_reg_3_
+pStore          cell    addWeight[3].add/biasesStored_reg[7] addWeight_3__add_biasesStored_reg_7_
+pStore          cell    addWeight[4].add/biasesStored_reg[0] addWeight_4__add_biasesStored_reg_0_
+pStore          cell    addWeight[4].add/biasesStored_reg[1] addWeight_4__add_biasesStored_reg_1_
+pStore          cell    addWeight[4].add/biasesStored_reg[2] addWeight_4__add_biasesStored_reg_2_
+pStore          cell    addWeight[4].add/biasesStored_reg[3] addWeight_4__add_biasesStored_reg_3_
+pStore          cell    addWeight[4].add/biasesStored_reg[7] addWeight_4__add_biasesStored_reg_7_
+pStore          cell    addWeight[5].add/biasesStored_reg[0] addWeight_5__add_biasesStored_reg_0_
+pStore          cell    addWeight[5].add/biasesStored_reg[1] addWeight_5__add_biasesStored_reg_1_
+pStore          cell    addWeight[5].add/biasesStored_reg[2] addWeight_5__add_biasesStored_reg_2_
+pStore          cell    addWeight[5].add/biasesStored_reg[3] addWeight_5__add_biasesStored_reg_3_
+pStore          cell    addWeight[5].add/biasesStored_reg[7] addWeight_5__add_biasesStored_reg_7_
+pStore          cell    addWeight[6].add/biasesStored_reg[0] addWeight_6__add_biasesStored_reg_0_
+pStore          cell    addWeight[6].add/biasesStored_reg[1] addWeight_6__add_biasesStored_reg_1_
+pStore          cell    addWeight[6].add/biasesStored_reg[2] addWeight_6__add_biasesStored_reg_2_
+pStore          cell    addWeight[6].add/biasesStored_reg[3] addWeight_6__add_biasesStored_reg_3_
+pStore          cell    addWeight[6].add/biasesStored_reg[7] addWeight_6__add_biasesStored_reg_7_
+pStore          cell    addWeight[7].add/biasesStored_reg[0] addWeight_7__add_biasesStored_reg_0_
+pStore          cell    addWeight[7].add/biasesStored_reg[1] addWeight_7__add_biasesStored_reg_1_
+pStore          cell    addWeight[7].add/biasesStored_reg[2] addWeight_7__add_biasesStored_reg_2_
+pStore          cell    addWeight[7].add/biasesStored_reg[3] addWeight_7__add_biasesStored_reg_3_
+pStore          cell    addWeight[7].add/biasesStored_reg[7] addWeight_7__add_biasesStored_reg_7_
+pStore          cell    addWeight[8].add/biasesStored_reg[0] addWeight_8__add_biasesStored_reg_0_
+pStore          cell    addWeight[8].add/biasesStored_reg[1] addWeight_8__add_biasesStored_reg_1_
+pStore          cell    addWeight[8].add/biasesStored_reg[2] addWeight_8__add_biasesStored_reg_2_
+pStore          cell    addWeight[8].add/biasesStored_reg[3] addWeight_8__add_biasesStored_reg_3_
+pStore          cell    addWeight[8].add/biasesStored_reg[7] addWeight_8__add_biasesStored_reg_7_
+pStore          cell    addWeight[9].add/biasesStored_reg[0] addWeight_9__add_biasesStored_reg_0_
+pStore          cell    addWeight[9].add/biasesStored_reg[1] addWeight_9__add_biasesStored_reg_1_
+pStore          cell    addWeight[9].add/biasesStored_reg[2] addWeight_9__add_biasesStored_reg_2_
+pStore          cell    addWeight[9].add/biasesStored_reg[3] addWeight_9__add_biasesStored_reg_3_
+pStore          cell    addWeight[9].add/biasesStored_reg[7] addWeight_9__add_biasesStored_reg_7_
+pStore          cell    addWeight[10].add/biasesStored_reg[0] addWeight_10__add_biasesStored_reg_0_
+pStore          cell    addWeight[10].add/biasesStored_reg[1] addWeight_10__add_biasesStored_reg_1_
+pStore          cell    addWeight[10].add/biasesStored_reg[2] addWeight_10__add_biasesStored_reg_2_
+pStore          cell    addWeight[10].add/biasesStored_reg[3] addWeight_10__add_biasesStored_reg_3_
+pStore          cell    addWeight[10].add/biasesStored_reg[7] addWeight_10__add_biasesStored_reg_7_
+pStore          cell    addWeight[11].add/biasesStored_reg[0] addWeight_11__add_biasesStored_reg_0_
+pStore          cell    addWeight[11].add/biasesStored_reg[1] addWeight_11__add_biasesStored_reg_1_
+pStore          cell    addWeight[11].add/biasesStored_reg[2] addWeight_11__add_biasesStored_reg_2_
+pStore          cell    addWeight[11].add/biasesStored_reg[3] addWeight_11__add_biasesStored_reg_3_
+pStore          cell    addWeight[11].add/biasesStored_reg[7] addWeight_11__add_biasesStored_reg_7_
+pStore          cell    addWeight[12].add/biasesStored_reg[0] addWeight_12__add_biasesStored_reg_0_
+pStore          cell    addWeight[12].add/biasesStored_reg[1] addWeight_12__add_biasesStored_reg_1_
+pStore          cell    addWeight[12].add/biasesStored_reg[2] addWeight_12__add_biasesStored_reg_2_
+pStore          cell    addWeight[12].add/biasesStored_reg[3] addWeight_12__add_biasesStored_reg_3_
+pStore          cell    addWeight[12].add/biasesStored_reg[7] addWeight_12__add_biasesStored_reg_7_
+pStore          cell    addWeight[13].add/biasesStored_reg[0] addWeight_13__add_biasesStored_reg_0_
+pStore          cell    addWeight[13].add/biasesStored_reg[1] addWeight_13__add_biasesStored_reg_1_
+pStore          cell    addWeight[13].add/biasesStored_reg[2] addWeight_13__add_biasesStored_reg_2_
+pStore          cell    addWeight[13].add/biasesStored_reg[3] addWeight_13__add_biasesStored_reg_3_
+pStore          cell    addWeight[13].add/biasesStored_reg[7] addWeight_13__add_biasesStored_reg_7_
+pStore          cell    addWeight[14].add/biasesStored_reg[0] addWeight_14__add_biasesStored_reg_0_
+pStore          cell    addWeight[14].add/biasesStored_reg[1] addWeight_14__add_biasesStored_reg_1_
+pStore          cell    addWeight[14].add/biasesStored_reg[2] addWeight_14__add_biasesStored_reg_2_
+pStore          cell    addWeight[14].add/biasesStored_reg[3] addWeight_14__add_biasesStored_reg_3_
+pStore          cell    addWeight[14].add/biasesStored_reg[7] addWeight_14__add_biasesStored_reg_7_
+pStore          cell    addWeight[15].add/biasesStored_reg[0] addWeight_15__add_biasesStored_reg_0_
+pStore          cell    addWeight[15].add/biasesStored_reg[1] addWeight_15__add_biasesStored_reg_1_
+pStore          cell    addWeight[15].add/biasesStored_reg[2] addWeight_15__add_biasesStored_reg_2_
+pStore          cell    addWeight[15].add/biasesStored_reg[3] addWeight_15__add_biasesStored_reg_3_
+pStore          cell    addWeight[15].add/biasesStored_reg[7] addWeight_15__add_biasesStored_reg_7_
+pStore          cell    addWeight[16].add/biasesStored_reg[0] addWeight_16__add_biasesStored_reg_0_
+pStore          cell    addWeight[16].add/biasesStored_reg[1] addWeight_16__add_biasesStored_reg_1_
+pStore          cell    addWeight[16].add/biasesStored_reg[2] addWeight_16__add_biasesStored_reg_2_
+pStore          cell    addWeight[16].add/biasesStored_reg[3] addWeight_16__add_biasesStored_reg_3_
+pStore          cell    addWeight[16].add/biasesStored_reg[7] addWeight_16__add_biasesStored_reg_7_
+pStore          cell    addWeight[17].add/biasesStored_reg[0] addWeight_17__add_biasesStored_reg_0_
+pStore          cell    addWeight[17].add/biasesStored_reg[1] addWeight_17__add_biasesStored_reg_1_
+pStore          cell    addWeight[17].add/biasesStored_reg[2] addWeight_17__add_biasesStored_reg_2_
+pStore          cell    addWeight[17].add/biasesStored_reg[3] addWeight_17__add_biasesStored_reg_3_
+pStore          cell    addWeight[17].add/biasesStored_reg[7] addWeight_17__add_biasesStored_reg_7_
+pStore          cell    addWeight[18].add/biasesStored_reg[0] addWeight_18__add_biasesStored_reg_0_
+pStore          cell    addWeight[18].add/biasesStored_reg[1] addWeight_18__add_biasesStored_reg_1_
+pStore          cell    addWeight[18].add/biasesStored_reg[2] addWeight_18__add_biasesStored_reg_2_
+pStore          cell    addWeight[18].add/biasesStored_reg[3] addWeight_18__add_biasesStored_reg_3_
+pStore          cell    addWeight[18].add/biasesStored_reg[7] addWeight_18__add_biasesStored_reg_7_
+pStore          cell    addWeight[19].add/biasesStored_reg[0] addWeight_19__add_biasesStored_reg_0_
+pStore          cell    addWeight[19].add/biasesStored_reg[1] addWeight_19__add_biasesStored_reg_1_
+pStore          cell    addWeight[19].add/biasesStored_reg[2] addWeight_19__add_biasesStored_reg_2_
+pStore          cell    addWeight[19].add/biasesStored_reg[3] addWeight_19__add_biasesStored_reg_3_
+pStore          cell    addWeight[19].add/biasesStored_reg[7] addWeight_19__add_biasesStored_reg_7_
+pStore          cell    addWeight[20].add/biasesStored_reg[0] addWeight_20__add_biasesStored_reg_0_
+pStore          cell    addWeight[20].add/biasesStored_reg[1] addWeight_20__add_biasesStored_reg_1_
+pStore          cell    addWeight[20].add/biasesStored_reg[2] addWeight_20__add_biasesStored_reg_2_
+pStore          cell    addWeight[20].add/biasesStored_reg[3] addWeight_20__add_biasesStored_reg_3_
+pStore          cell    addWeight[20].add/biasesStored_reg[7] addWeight_20__add_biasesStored_reg_7_
+pStore          cell    addWeight[21].add/biasesStored_reg[0] addWeight_21__add_biasesStored_reg_0_
+pStore          cell    addWeight[21].add/biasesStored_reg[1] addWeight_21__add_biasesStored_reg_1_
+pStore          cell    addWeight[21].add/biasesStored_reg[2] addWeight_21__add_biasesStored_reg_2_
+pStore          cell    addWeight[21].add/biasesStored_reg[3] addWeight_21__add_biasesStored_reg_3_
+pStore          cell    addWeight[21].add/biasesStored_reg[7] addWeight_21__add_biasesStored_reg_7_
+pStore          cell    addWeight[22].add/biasesStored_reg[0] addWeight_22__add_biasesStored_reg_0_
+pStore          cell    addWeight[22].add/biasesStored_reg[1] addWeight_22__add_biasesStored_reg_1_
+pStore          cell    addWeight[22].add/biasesStored_reg[2] addWeight_22__add_biasesStored_reg_2_
+pStore          cell    addWeight[22].add/biasesStored_reg[3] addWeight_22__add_biasesStored_reg_3_
+pStore          cell    addWeight[22].add/biasesStored_reg[7] addWeight_22__add_biasesStored_reg_7_
+pStore          cell    addWeight[23].add/biasesStored_reg[0] addWeight_23__add_biasesStored_reg_0_
+pStore          cell    addWeight[23].add/biasesStored_reg[1] addWeight_23__add_biasesStored_reg_1_
+pStore          cell    addWeight[23].add/biasesStored_reg[2] addWeight_23__add_biasesStored_reg_2_
+pStore          cell    addWeight[23].add/biasesStored_reg[3] addWeight_23__add_biasesStored_reg_3_
+pStore          cell    addWeight[23].add/biasesStored_reg[7] addWeight_23__add_biasesStored_reg_7_
+pStore          cell    addWeight[24].add/biasesStored_reg[0] addWeight_24__add_biasesStored_reg_0_
+pStore          cell    addWeight[24].add/biasesStored_reg[1] addWeight_24__add_biasesStored_reg_1_
+pStore          cell    addWeight[24].add/biasesStored_reg[2] addWeight_24__add_biasesStored_reg_2_
+pStore          cell    addWeight[24].add/biasesStored_reg[3] addWeight_24__add_biasesStored_reg_3_
+pStore          cell    addWeight[24].add/biasesStored_reg[7] addWeight_24__add_biasesStored_reg_7_
+pStore          cell    addWeight[25].add/biasesStored_reg[0] addWeight_25__add_biasesStored_reg_0_
+pStore          cell    addWeight[25].add/biasesStored_reg[1] addWeight_25__add_biasesStored_reg_1_
+pStore          cell    addWeight[25].add/biasesStored_reg[2] addWeight_25__add_biasesStored_reg_2_
+pStore          cell    addWeight[25].add/biasesStored_reg[3] addWeight_25__add_biasesStored_reg_3_
+pStore          cell    addWeight[25].add/biasesStored_reg[7] addWeight_25__add_biasesStored_reg_7_
+pStore          cell    addWeight[26].add/biasesStored_reg[0] addWeight_26__add_biasesStored_reg_0_
+pStore          cell    addWeight[26].add/biasesStored_reg[1] addWeight_26__add_biasesStored_reg_1_
+pStore          cell    addWeight[26].add/biasesStored_reg[2] addWeight_26__add_biasesStored_reg_2_
+pStore          cell    addWeight[26].add/biasesStored_reg[3] addWeight_26__add_biasesStored_reg_3_
+pStore          cell    addWeight[26].add/biasesStored_reg[7] addWeight_26__add_biasesStored_reg_7_
+pStore          cell    addWeight[27].add/biasesStored_reg[0] addWeight_27__add_biasesStored_reg_0_
+pStore          cell    addWeight[27].add/biasesStored_reg[1] addWeight_27__add_biasesStored_reg_1_
+pStore          cell    addWeight[27].add/biasesStored_reg[2] addWeight_27__add_biasesStored_reg_2_
+pStore          cell    addWeight[27].add/biasesStored_reg[3] addWeight_27__add_biasesStored_reg_3_
+pStore          cell    addWeight[27].add/biasesStored_reg[7] addWeight_27__add_biasesStored_reg_7_
+pStore          cell    addWeight[28].add/biasesStored_reg[0] addWeight_28__add_biasesStored_reg_0_
+pStore          cell    addWeight[28].add/biasesStored_reg[1] addWeight_28__add_biasesStored_reg_1_
+pStore          cell    addWeight[28].add/biasesStored_reg[2] addWeight_28__add_biasesStored_reg_2_
+pStore          cell    addWeight[28].add/biasesStored_reg[3] addWeight_28__add_biasesStored_reg_3_
+pStore          cell    addWeight[28].add/biasesStored_reg[7] addWeight_28__add_biasesStored_reg_7_
+pStore          cell    addWeight[29].add/biasesStored_reg[0] addWeight_29__add_biasesStored_reg_0_
+pStore          cell    addWeight[29].add/biasesStored_reg[1] addWeight_29__add_biasesStored_reg_1_
+pStore          cell    addWeight[29].add/biasesStored_reg[2] addWeight_29__add_biasesStored_reg_2_
+pStore          cell    addWeight[29].add/biasesStored_reg[3] addWeight_29__add_biasesStored_reg_3_
+pStore          cell    addWeight[29].add/biasesStored_reg[7] addWeight_29__add_biasesStored_reg_7_
+pStore          cell    addWeight[30].add/biasesStored_reg[0] addWeight_30__add_biasesStored_reg_0_
+pStore          cell    addWeight[30].add/biasesStored_reg[1] addWeight_30__add_biasesStored_reg_1_
+pStore          cell    addWeight[30].add/biasesStored_reg[2] addWeight_30__add_biasesStored_reg_2_
+pStore          cell    addWeight[30].add/biasesStored_reg[3] addWeight_30__add_biasesStored_reg_3_
+pStore          cell    addWeight[30].add/biasesStored_reg[7] addWeight_30__add_biasesStored_reg_7_
+pStore          cell    addWeight[31].add/biasesStored_reg[0] addWeight_31__add_biasesStored_reg_0_
+pStore          cell    addWeight[31].add/biasesStored_reg[1] addWeight_31__add_biasesStored_reg_1_
+pStore          cell    addWeight[31].add/biasesStored_reg[2] addWeight_31__add_biasesStored_reg_2_
+pStore          cell    addWeight[31].add/biasesStored_reg[3] addWeight_31__add_biasesStored_reg_3_
+pStore          cell    addWeight[31].add/biasesStored_reg[7] addWeight_31__add_biasesStored_reg_7_
+pStore          cell    addWeight[25].add/S_reg[6] addWeight_25__add_S_reg_6_
+pStore          cell    addWeight[25].add/S_reg[5] addWeight_25__add_S_reg_5_
+pStore          cell    addWeight[3].add/S_reg[7] addWeight_3__add_S_reg_7_
+pStore          cell    addWeight[4].add/S_reg[7] addWeight_4__add_S_reg_7_
+pStore          cell    addWeight[5].add/S_reg[7] addWeight_5__add_S_reg_7_
+pStore          cell    addWeight[6].add/S_reg[7] addWeight_6__add_S_reg_7_
+pStore          cell    addWeight[7].add/S_reg[7] addWeight_7__add_S_reg_7_
+pStore          cell    addWeight[8].add/S_reg[7] addWeight_8__add_S_reg_7_
+pStore          cell    addWeight[9].add/S_reg[7] addWeight_9__add_S_reg_7_
+pStore          cell    addWeight[13].add/S_reg[7] addWeight_13__add_S_reg_7_
+pStore          cell    addWeight[14].add/S_reg[7] addWeight_14__add_S_reg_7_
+pStore          cell    addWeight[15].add/S_reg[7] addWeight_15__add_S_reg_7_
+pStore          cell    addWeight[16].add/S_reg[7] addWeight_16__add_S_reg_7_
+pStore          cell    addWeight[17].add/S_reg[7] addWeight_17__add_S_reg_7_
+pStore          cell    addWeight[18].add/S_reg[7] addWeight_18__add_S_reg_7_
+pStore          cell    addWeight[19].add/S_reg[7] addWeight_19__add_S_reg_7_
+pStore          cell    addWeight[20].add/S_reg[7] addWeight_20__add_S_reg_7_
+pStore          cell    addWeight[21].add/S_reg[7] addWeight_21__add_S_reg_7_
+pStore          cell    addWeight[22].add/S_reg[7] addWeight_22__add_S_reg_7_
+pStore          cell    addWeight[23].add/S_reg[7] addWeight_23__add_S_reg_7_
+pStore          cell    addWeight[24].add/S_reg[7] addWeight_24__add_S_reg_7_
+pStore          cell    addWeight[30].add/S_reg[7] addWeight_30__add_S_reg_7_
+pStore          cell    addWeight[25].add/S_reg[3] addWeight_25__add_S_reg_3_
+pStore          cell    addWeight[11].add/S_reg[7] addWeight_11__add_S_reg_7_
+pStore          cell    addWeight[1].add/S_reg[7] addWeight_1__add_S_reg_7_
+pStore          cell    addWeight[0].add/S_reg[7] addWeight_0__add_S_reg_7_
+pStore          cell    addWeight[1].add/S_reg[6] addWeight_1__add_S_reg_6_
+pStore          cell    addWeight[2].add/S_reg[5] addWeight_2__add_S_reg_5_
+pStore          cell    addWeight[20].add/S_reg[6] addWeight_20__add_S_reg_6_
+pStore          cell    addWeight[21].add/S_reg[6] addWeight_21__add_S_reg_6_
+pStore          cell    addWeight[22].add/S_reg[6] addWeight_22__add_S_reg_6_
+pStore          cell    addWeight[23].add/S_reg[6] addWeight_23__add_S_reg_6_
+pStore          cell    addWeight[24].add/S_reg[6] addWeight_24__add_S_reg_6_
+pStore          cell    addWeight[30].add/S_reg[6] addWeight_30__add_S_reg_6_
+pStore          cell    addWeight[29].add/S_reg[2] addWeight_29__add_S_reg_2_
+pStore          cell    addWeight[0].add/S_reg[3] addWeight_0__add_S_reg_3_
+pStore          cell    addWeight[31].add/S_reg[7] addWeight_31__add_S_reg_7_
+pStore          cell    addWeight[30].add/S_reg[5] addWeight_30__add_S_reg_5_
+pStore          cell    addWeight[24].add/S_reg[5] addWeight_24__add_S_reg_5_
+pStore          cell    addWeight[23].add/S_reg[5] addWeight_23__add_S_reg_5_
+pStore          cell    addWeight[22].add/S_reg[5] addWeight_22__add_S_reg_5_
+pStore          cell    addWeight[21].add/S_reg[5] addWeight_21__add_S_reg_5_
+pStore          cell    addWeight[20].add/S_reg[5] addWeight_20__add_S_reg_5_
+pStore          cell    addWeight[19].add/S_reg[5] addWeight_19__add_S_reg_5_
+pStore          cell    addWeight[19].add/S_reg[3] addWeight_19__add_S_reg_3_
+pStore          cell    addWeight[20].add/S_reg[3] addWeight_20__add_S_reg_3_
+pStore          cell    addWeight[21].add/S_reg[3] addWeight_21__add_S_reg_3_
+pStore          cell    addWeight[22].add/S_reg[3] addWeight_22__add_S_reg_3_
+pStore          cell    addWeight[23].add/S_reg[3] addWeight_23__add_S_reg_3_
+pStore          cell    addWeight[24].add/S_reg[3] addWeight_24__add_S_reg_3_
+pStore          cell    addWeight[30].add/S_reg[3] addWeight_30__add_S_reg_3_
+pStore          cell    addWeight[3].add/S_reg[3] addWeight_3__add_S_reg_3_
+pStore          cell    addWeight[4].add/S_reg[3] addWeight_4__add_S_reg_3_
+pStore          cell    addWeight[5].add/S_reg[3] addWeight_5__add_S_reg_3_
+pStore          cell    addWeight[6].add/S_reg[3] addWeight_6__add_S_reg_3_
+pStore          cell    addWeight[7].add/S_reg[3] addWeight_7__add_S_reg_3_
+pStore          cell    addWeight[8].add/S_reg[3] addWeight_8__add_S_reg_3_
+pStore          cell    addWeight[9].add/S_reg[3] addWeight_9__add_S_reg_3_
+pStore          cell    addWeight[13].add/S_reg[3] addWeight_13__add_S_reg_3_
+pStore          cell    addWeight[14].add/S_reg[3] addWeight_14__add_S_reg_3_
+pStore          cell    addWeight[15].add/S_reg[3] addWeight_15__add_S_reg_3_
+pStore          cell    addWeight[16].add/S_reg[3] addWeight_16__add_S_reg_3_
+pStore          cell    addWeight[17].add/S_reg[3] addWeight_17__add_S_reg_3_
+pStore          cell    addWeight[18].add/S_reg[3] addWeight_18__add_S_reg_3_
+pStore          cell    addWeight[10].add/S_reg[3] addWeight_10__add_S_reg_3_
+pStore          cell    addWeight[31].add/S_reg[3] addWeight_31__add_S_reg_3_
+pStore          cell    addWeight[1].add/S_reg[3] addWeight_1__add_S_reg_3_
+pStore          cell    addWeight[11].add/S_reg[3] addWeight_11__add_S_reg_3_
+pStore          cell    addWeight[28].add/S_reg[3] addWeight_28__add_S_reg_3_
+pStore          cell    addWeight[12].add/S_reg[3] addWeight_12__add_S_reg_3_
+pStore          cell    addWeight[1].add/S_reg[2] addWeight_1__add_S_reg_2_
+pStore          cell    addWeight[11].add/S_reg[2] addWeight_11__add_S_reg_2_
+pStore          cell    addWeight[28].add/S_reg[2] addWeight_28__add_S_reg_2_
+pStore          cell    addWeight[12].add/S_reg[2] addWeight_12__add_S_reg_2_
+pStore          cell    addWeight[0].add/S_reg[2] addWeight_0__add_S_reg_2_
+pStore          cell    addWeight[2].add/S_reg[2] addWeight_2__add_S_reg_2_
+pStore          cell    addWeight[10].add/S_reg[2] addWeight_10__add_S_reg_2_
+pStore          cell    addWeight[19].add/S_reg[2] addWeight_19__add_S_reg_2_
+pStore          cell    addWeight[20].add/S_reg[2] addWeight_20__add_S_reg_2_
+pStore          cell    addWeight[21].add/S_reg[2] addWeight_21__add_S_reg_2_
+pStore          cell    addWeight[22].add/S_reg[2] addWeight_22__add_S_reg_2_
+pStore          cell    addWeight[23].add/S_reg[2] addWeight_23__add_S_reg_2_
+pStore          cell    addWeight[24].add/S_reg[2] addWeight_24__add_S_reg_2_
+pStore          cell    addWeight[25].add/S_reg[2] addWeight_25__add_S_reg_2_
+pStore          cell    addWeight[27].add/S_reg[2] addWeight_27__add_S_reg_2_
+pStore          cell    addWeight[30].add/S_reg[2] addWeight_30__add_S_reg_2_
+pStore          cell    addWeight[31].add/S_reg[2] addWeight_31__add_S_reg_2_
+pStore          cell    addWeight[28].add/S_reg[1] addWeight_28__add_S_reg_1_
+pStore          cell    addWeight[11].add/S_reg[1] addWeight_11__add_S_reg_1_
+pStore          cell    addWeight[1].add/S_reg[1] addWeight_1__add_S_reg_1_
+pStore          cell    addWeight[12].add/S_reg[1] addWeight_12__add_S_reg_1_
+pStore          cell    addWeight[26].add/S_reg[1] addWeight_26__add_S_reg_1_
+pStore          cell    addWeight[27].add/S_reg[5] addWeight_27__add_S_reg_5_
+pStore          cell    addWeight[25].add/S_reg[1] addWeight_25__add_S_reg_1_
+pStore          cell    addWeight[29].add/S_reg[3] addWeight_29__add_S_reg_3_
+pStore          cell    addWeight[17].add/S_reg[1] addWeight_17__add_S_reg_1_
+pStore          cell    addWeight[8].add/S_reg[1] addWeight_8__add_S_reg_1_
+pStore          cell    addWeight[6].add/S_reg[1] addWeight_6__add_S_reg_1_
+pStore          cell    addWeight[9].add/S_reg[1] addWeight_9__add_S_reg_1_
+pStore          cell    addWeight[15].add/S_reg[1] addWeight_15__add_S_reg_1_
+pStore          cell    addWeight[7].add/S_reg[1] addWeight_7__add_S_reg_1_
+pStore          cell    addWeight[13].add/S_reg[1] addWeight_13__add_S_reg_1_
+pStore          cell    addWeight[14].add/S_reg[1] addWeight_14__add_S_reg_1_
+pStore          cell    addWeight[18].add/S_reg[1] addWeight_18__add_S_reg_1_
+pStore          cell    addWeight[4].add/S_reg[1] addWeight_4__add_S_reg_1_
+pStore          cell    addWeight[5].add/S_reg[1] addWeight_5__add_S_reg_1_
+pStore          cell    addWeight[3].add/S_reg[1] addWeight_3__add_S_reg_1_
+pStore          cell    addWeight[16].add/S_reg[1] addWeight_16__add_S_reg_1_
+pStore          cell    addWeight[19].add/S_reg[1] addWeight_19__add_S_reg_1_
+pStore          cell    addWeight[20].add/S_reg[1] addWeight_20__add_S_reg_1_
+pStore          cell    addWeight[30].add/S_reg[1] addWeight_30__add_S_reg_1_
+pStore          cell    addWeight[23].add/S_reg[1] addWeight_23__add_S_reg_1_
+pStore          cell    addWeight[24].add/S_reg[1] addWeight_24__add_S_reg_1_
+pStore          cell    addWeight[22].add/S_reg[1] addWeight_22__add_S_reg_1_
+pStore          cell    addWeight[21].add/S_reg[1] addWeight_21__add_S_reg_1_
+pStore          cell    addWeight[26].add/S_reg[0] addWeight_26__add_S_reg_0_
+pStore          cell    addWeight[25].add/S_reg[0] addWeight_25__add_S_reg_0_
+pStore          cell    addWeight[27].add/S_reg[0] addWeight_27__add_S_reg_0_
+pStore          cell    addWeight[29].add/S_reg[1] addWeight_29__add_S_reg_1_
+pStore          cell    addWeight[0].add/S_reg[0] addWeight_0__add_S_reg_0_
+pStore          cell    addWeight[17].add/S_reg[2] addWeight_17__add_S_reg_2_
+pStore          cell    addWeight[8].add/S_reg[2] addWeight_8__add_S_reg_2_
+pStore          cell    addWeight[6].add/S_reg[2] addWeight_6__add_S_reg_2_
+pStore          cell    addWeight[9].add/S_reg[2] addWeight_9__add_S_reg_2_
+pStore          cell    addWeight[15].add/S_reg[2] addWeight_15__add_S_reg_2_
+pStore          cell    addWeight[7].add/S_reg[2] addWeight_7__add_S_reg_2_
+pStore          cell    addWeight[13].add/S_reg[2] addWeight_13__add_S_reg_2_
+pStore          cell    addWeight[14].add/S_reg[2] addWeight_14__add_S_reg_2_
+pStore          cell    addWeight[18].add/S_reg[2] addWeight_18__add_S_reg_2_
+pStore          cell    addWeight[4].add/S_reg[2] addWeight_4__add_S_reg_2_
+pStore          cell    addWeight[5].add/S_reg[2] addWeight_5__add_S_reg_2_
+pStore          cell    addWeight[3].add/S_reg[2] addWeight_3__add_S_reg_2_
+pStore          cell    addWeight[16].add/S_reg[2] addWeight_16__add_S_reg_2_
+pStore          cell    addWeight[31].add/S_reg[1] addWeight_31__add_S_reg_1_
+pStore          cell    addWeight[10].add/S_reg[1] addWeight_10__add_S_reg_1_
+pStore          cell    addWeight[25].add/S_reg[4] addWeight_25__add_S_reg_4_
+pStore          cell    addWeight[0].add/S_reg[1] addWeight_0__add_S_reg_1_
+pStore          cell    addWeight[27].add/S_reg[1] addWeight_27__add_S_reg_1_
+pStore          cell    addWeight[10].add/S_reg[0] addWeight_10__add_S_reg_0_
+pStore          cell    addWeight[31].add/S_reg[0] addWeight_31__add_S_reg_0_
+pStore          cell    addWeight[29].add/S_reg[0] addWeight_29__add_S_reg_0_
+pStore          cell    addWeight[17].add/S_reg[0] addWeight_17__add_S_reg_0_
+pStore          cell    addWeight[8].add/S_reg[0] addWeight_8__add_S_reg_0_
+pStore          cell    addWeight[6].add/S_reg[0] addWeight_6__add_S_reg_0_
+pStore          cell    addWeight[9].add/S_reg[0] addWeight_9__add_S_reg_0_
+pStore          cell    addWeight[15].add/S_reg[0] addWeight_15__add_S_reg_0_
+pStore          cell    addWeight[7].add/S_reg[0] addWeight_7__add_S_reg_0_
+pStore          cell    addWeight[13].add/S_reg[0] addWeight_13__add_S_reg_0_
+pStore          cell    addWeight[14].add/S_reg[0] addWeight_14__add_S_reg_0_
+pStore          cell    addWeight[18].add/S_reg[0] addWeight_18__add_S_reg_0_
+pStore          cell    addWeight[4].add/S_reg[0] addWeight_4__add_S_reg_0_
+pStore          cell    addWeight[5].add/S_reg[0] addWeight_5__add_S_reg_0_
+pStore          cell    addWeight[3].add/S_reg[0] addWeight_3__add_S_reg_0_
+pStore          cell    addWeight[16].add/S_reg[0] addWeight_16__add_S_reg_0_
+pStore          cell    addWeight[2].add/S_reg[1] addWeight_2__add_S_reg_1_
+pStore          cell    addWeight[12].add/S_reg[0] addWeight_12__add_S_reg_0_
+pStore          cell    addWeight[28].add/S_reg[0] addWeight_28__add_S_reg_0_
+pStore          cell    addWeight[11].add/S_reg[0] addWeight_11__add_S_reg_0_
+pStore          cell    addWeight[1].add/S_reg[0] addWeight_1__add_S_reg_0_
+pStore          cell    addWeight[6].add/S_reg[4] addWeight_6__add_S_reg_4_
+pStore          cell    addWeight[19].add/S_reg[4] addWeight_19__add_S_reg_4_
+pStore          cell    addWeight[20].add/S_reg[4] addWeight_20__add_S_reg_4_
+pStore          cell    addWeight[30].add/S_reg[4] addWeight_30__add_S_reg_4_
+pStore          cell    addWeight[23].add/S_reg[4] addWeight_23__add_S_reg_4_
+pStore          cell    addWeight[24].add/S_reg[4] addWeight_24__add_S_reg_4_
+pStore          cell    addWeight[22].add/S_reg[4] addWeight_22__add_S_reg_4_
+pStore          cell    addWeight[4].add/S_reg[4] addWeight_4__add_S_reg_4_
+pStore          cell    addWeight[5].add/S_reg[4] addWeight_5__add_S_reg_4_
+pStore          cell    addWeight[3].add/S_reg[4] addWeight_3__add_S_reg_4_
+pStore          cell    addWeight[26].add/S_reg[4] addWeight_26__add_S_reg_4_
+pStore          cell    addWeight[21].add/S_reg[4] addWeight_21__add_S_reg_4_
+pStore          cell    addWeight[12].add/S_reg[4] addWeight_12__add_S_reg_4_
+pStore          cell    addWeight[29].add/S_reg[4] addWeight_29__add_S_reg_4_
+pStore          cell    addWeight[31].add/S_reg[4] addWeight_31__add_S_reg_4_
+pStore          cell    addWeight[10].add/S_reg[4] addWeight_10__add_S_reg_4_
+pStore          cell    addWeight[0].add/S_reg[4] addWeight_0__add_S_reg_4_
+pStore          cell    addWeight[11].add/S_reg[4] addWeight_11__add_S_reg_4_
+pStore          cell    addWeight[1].add/S_reg[4] addWeight_1__add_S_reg_4_
+pStore          cell    addWeight[28].add/S_reg[4] addWeight_28__add_S_reg_4_
+pStore          cell    addWeight[2].add/S_reg[0] addWeight_2__add_S_reg_0_
+pStore          cell    addWeight[26].add/S_reg[2] addWeight_26__add_S_reg_2_
+pStore          cell    addWeight[12].add/S_reg[5] addWeight_12__add_S_reg_5_
+pStore          cell    addWeight[27].add/S_reg[6] addWeight_27__add_S_reg_6_
+pStore          cell    addWeight[2].add/S_reg[6] addWeight_2__add_S_reg_6_
+pStore          cell    addWeight[2].add/S_reg[7] addWeight_2__add_S_reg_7_
+pStore          cell    addWeight[2].add/S_reg[4] addWeight_2__add_S_reg_4_
+pStore          cell    addWeight[29].add/S_reg[5] addWeight_29__add_S_reg_5_
+pStore          cell    addWeight[11].add/S_reg[5] addWeight_11__add_S_reg_5_
+pStore          cell    addWeight[1].add/S_reg[5] addWeight_1__add_S_reg_5_
+pStore          cell    addWeight[27].add/S_reg[7] addWeight_27__add_S_reg_7_
+pStore          cell    addWeight[10].add/S_reg[5] addWeight_10__add_S_reg_5_
+pStore          cell    addWeight[12].add/S_reg[6] addWeight_12__add_S_reg_6_
+pStore          cell    addWeight[0].add/S_reg[5] addWeight_0__add_S_reg_5_
+pStore          cell    addWeight[31].add/S_reg[5] addWeight_31__add_S_reg_5_
+pStore          cell    addWeight[12].add/S_reg[7] addWeight_12__add_S_reg_7_
+pStore          cell    addWeight[26].add/S_reg[5] addWeight_26__add_S_reg_5_
+pStore          cell    addWeight[2].add/S_reg[3] addWeight_2__add_S_reg_3_
+pStore          cell    addWeight[25].add/S_reg[7] addWeight_25__add_S_reg_7_
+pStore          cell    addWeight[16].add/S_reg[5] addWeight_16__add_S_reg_5_
+pStore          cell    addWeight[15].add/S_reg[5] addWeight_15__add_S_reg_5_
+pStore          cell    addWeight[7].add/S_reg[5] addWeight_7__add_S_reg_5_
+pStore          cell    addWeight[6].add/S_reg[5] addWeight_6__add_S_reg_5_
+pStore          cell    addWeight[5].add/S_reg[5] addWeight_5__add_S_reg_5_
+pStore          cell    addWeight[4].add/S_reg[5] addWeight_4__add_S_reg_5_
+pStore          cell    addWeight[3].add/S_reg[5] addWeight_3__add_S_reg_5_
+pStore          cell    addWeight[18].add/S_reg[5] addWeight_18__add_S_reg_5_
+pStore          cell    addWeight[17].add/S_reg[5] addWeight_17__add_S_reg_5_
+pStore          cell    addWeight[14].add/S_reg[5] addWeight_14__add_S_reg_5_
+pStore          cell    addWeight[13].add/S_reg[5] addWeight_13__add_S_reg_5_
+pStore          cell    addWeight[9].add/S_reg[5] addWeight_9__add_S_reg_5_
+pStore          cell    addWeight[8].add/S_reg[5] addWeight_8__add_S_reg_5_
+pStore          cell    addWeight[28].add/S_reg[5] addWeight_28__add_S_reg_5_
+pStore          cell    addWeight[26].add/S_reg[6] addWeight_26__add_S_reg_6_
+pStore          cell    addWeight[10].add/S_reg[7] addWeight_10__add_S_reg_7_
+pStore          cell    addWeight[28].add/S_reg[7] addWeight_28__add_S_reg_7_
+pStore          cell    addWeight[29].add/S_reg[6] addWeight_29__add_S_reg_6_
+pStore          cell    addWeight[29].add/S_reg[7] addWeight_29__add_S_reg_7_
+pStore          cell    addWeight[27].add/S_reg[4] addWeight_27__add_S_reg_4_
+pStore          cell    addWeight[27].add/S_reg[3] addWeight_27__add_S_reg_3_
+pStore          cell    addWeight[18].add/S_reg[6] addWeight_18__add_S_reg_6_
+pStore          cell    addWeight[17].add/S_reg[6] addWeight_17__add_S_reg_6_
+pStore          cell    addWeight[16].add/S_reg[6] addWeight_16__add_S_reg_6_
+pStore          cell    addWeight[15].add/S_reg[6] addWeight_15__add_S_reg_6_
+pStore          cell    addWeight[14].add/S_reg[6] addWeight_14__add_S_reg_6_
+pStore          cell    addWeight[13].add/S_reg[6] addWeight_13__add_S_reg_6_
+pStore          cell    addWeight[9].add/S_reg[6] addWeight_9__add_S_reg_6_
+pStore          cell    addWeight[8].add/S_reg[6] addWeight_8__add_S_reg_6_
+pStore          cell    addWeight[7].add/S_reg[6] addWeight_7__add_S_reg_6_
+pStore          cell    addWeight[6].add/S_reg[6] addWeight_6__add_S_reg_6_
+pStore          cell    addWeight[5].add/S_reg[6] addWeight_5__add_S_reg_6_
+pStore          cell    addWeight[4].add/S_reg[6] addWeight_4__add_S_reg_6_
+pStore          cell    addWeight[3].add/S_reg[6] addWeight_3__add_S_reg_6_
+pStore          cell    addWeight[26].add/S_reg[7] addWeight_26__add_S_reg_7_
+pStore          cell    addWeight[26].add/S_reg[3] addWeight_26__add_S_reg_3_
+pStore          cell    addWeight[18].add/S_reg[4] addWeight_18__add_S_reg_4_
+pStore          cell    addWeight[17].add/S_reg[4] addWeight_17__add_S_reg_4_
+pStore          cell    addWeight[16].add/S_reg[4] addWeight_16__add_S_reg_4_
+pStore          cell    addWeight[15].add/S_reg[4] addWeight_15__add_S_reg_4_
+pStore          cell    addWeight[14].add/S_reg[4] addWeight_14__add_S_reg_4_
+pStore          cell    addWeight[13].add/S_reg[4] addWeight_13__add_S_reg_4_
+pStore          cell    addWeight[9].add/S_reg[4] addWeight_9__add_S_reg_4_
+pStore          cell    addWeight[8].add/S_reg[4] addWeight_8__add_S_reg_4_
+pStore          cell    addWeight[7].add/S_reg[4] addWeight_7__add_S_reg_4_
+pStore          cell    addWeight[19].add/S_reg[0] addWeight_19__add_S_reg_0_
+pStore          cell    addWeight[20].add/S_reg[0] addWeight_20__add_S_reg_0_
+pStore          cell    addWeight[23].add/S_reg[0] addWeight_23__add_S_reg_0_
+pStore          cell    addWeight[24].add/S_reg[0] addWeight_24__add_S_reg_0_
+pStore          cell    addWeight[21].add/S_reg[0] addWeight_21__add_S_reg_0_
+pStore          cell    addWeight[22].add/S_reg[0] addWeight_22__add_S_reg_0_
+pStore          cell    addWeight[30].add/S_reg[0] addWeight_30__add_S_reg_0_
+pStore          cell    addWeight[31].add/S_reg[6] addWeight_31__add_S_reg_6_
+pStore          cell    addWeight[0].add/S_reg[6] addWeight_0__add_S_reg_6_
+pStore          cell    addWeight[11].add/S_reg[6] addWeight_11__add_S_reg_6_
+pStore          cell    addWeight[10].add/S_reg[6] addWeight_10__add_S_reg_6_
+pStore          cell    addWeight[19].add/S_reg[6] addWeight_19__add_S_reg_6_
+pStore          cell    addWeight[28].add/S_reg[6] addWeight_28__add_S_reg_6_
+pStore          net     addWeight[0].add/s      addWeight_0__add_s
+pStore          net     addWeight[0].add/s[7]   addWeight_0__add_s[7]
+pStore          net     addWeight[0].add/s[6]   addWeight_0__add_s[6]
+pStore          net     addWeight[0].add/s[5]   addWeight_0__add_s[5]
+pStore          net     addWeight[0].add/s[4]   addWeight_0__add_s[4]
+pStore          net     addWeight[0].add/s[3]   addWeight_0__add_s[3]
+pStore          net     addWeight[0].add/s[2]   addWeight_0__add_s[2]
+pStore          net     addWeight[0].add/s[1]   addWeight_0__add_s[1]
+pStore          net     addWeight[0].add/s[0]   addWeight_0__add_s[0]
+pStore          net     addWeight[0].add/biasesStored addWeight_0__add_biasesStored
+pStore          net     addWeight[0].add/biasesStored[7] addWeight_0__add_biasesStored[7]
+pStore          net     addWeight[0].add/biasesStored[3] addWeight_0__add_biasesStored[3]
+pStore          net     addWeight[0].add/biasesStored[2] addWeight_0__add_biasesStored[2]
+pStore          net     addWeight[0].add/biasesStored[1] addWeight_0__add_biasesStored[1]
+pStore          net     addWeight[0].add/biasesStored[0] addWeight_0__add_biasesStored[0]
+pStore          net     addWeight[1].add/s      addWeight_1__add_s
+pStore          net     addWeight[1].add/s[7]   addWeight_1__add_s[7]
+pStore          net     addWeight[1].add/s[6]   addWeight_1__add_s[6]
+pStore          net     addWeight[1].add/s[5]   addWeight_1__add_s[5]
+pStore          net     addWeight[1].add/s[4]   addWeight_1__add_s[4]
+pStore          net     addWeight[1].add/s[3]   addWeight_1__add_s[3]
+pStore          net     addWeight[1].add/s[2]   addWeight_1__add_s[2]
+pStore          net     addWeight[1].add/s[1]   addWeight_1__add_s[1]
+pStore          net     addWeight[1].add/s[0]   addWeight_1__add_s[0]
+pStore          net     addWeight[1].add/biasesStored addWeight_1__add_biasesStored
+pStore          net     addWeight[1].add/biasesStored[7] addWeight_1__add_biasesStored[7]
+pStore          net     addWeight[1].add/biasesStored[3] addWeight_1__add_biasesStored[3]
+pStore          net     addWeight[1].add/biasesStored[2] addWeight_1__add_biasesStored[2]
+pStore          net     addWeight[1].add/biasesStored[1] addWeight_1__add_biasesStored[1]
+pStore          net     addWeight[1].add/biasesStored[0] addWeight_1__add_biasesStored[0]
+pStore          net     addWeight[2].add/s      addWeight_2__add_s
+pStore          net     addWeight[2].add/s[7]   addWeight_2__add_s[7]
+pStore          net     addWeight[2].add/s[6]   addWeight_2__add_s[6]
+pStore          net     addWeight[2].add/s[5]   addWeight_2__add_s[5]
+pStore          net     addWeight[2].add/s[4]   addWeight_2__add_s[4]
+pStore          net     addWeight[2].add/s[3]   addWeight_2__add_s[3]
+pStore          net     addWeight[2].add/s[2]   addWeight_2__add_s[2]
+pStore          net     addWeight[2].add/s[1]   addWeight_2__add_s[1]
+pStore          net     addWeight[2].add/s[0]   addWeight_2__add_s[0]
+pStore          net     addWeight[2].add/biasesStored addWeight_2__add_biasesStored
+pStore          net     addWeight[2].add/biasesStored[7] addWeight_2__add_biasesStored[7]
+pStore          net     addWeight[2].add/biasesStored[3] addWeight_2__add_biasesStored[3]
+pStore          net     addWeight[2].add/biasesStored[2] addWeight_2__add_biasesStored[2]
+pStore          net     addWeight[2].add/biasesStored[1] addWeight_2__add_biasesStored[1]
+pStore          net     addWeight[2].add/biasesStored[0] addWeight_2__add_biasesStored[0]
+pStore          net     addWeight[3].add/s      addWeight_3__add_s
+pStore          net     addWeight[3].add/s[7]   addWeight_3__add_s[7]
+pStore          net     addWeight[3].add/s[6]   addWeight_3__add_s[6]
+pStore          net     addWeight[3].add/s[5]   addWeight_3__add_s[5]
+pStore          net     addWeight[3].add/s[4]   addWeight_3__add_s[4]
+pStore          net     addWeight[3].add/s[3]   addWeight_3__add_s[3]
+pStore          net     addWeight[3].add/s[2]   addWeight_3__add_s[2]
+pStore          net     addWeight[3].add/s[1]   addWeight_3__add_s[1]
+pStore          net     addWeight[3].add/s[0]   addWeight_3__add_s[0]
+pStore          net     addWeight[3].add/biasesStored addWeight_3__add_biasesStored
+pStore          net     addWeight[3].add/biasesStored[7] addWeight_3__add_biasesStored[7]
+pStore          net     addWeight[3].add/biasesStored[3] addWeight_3__add_biasesStored[3]
+pStore          net     addWeight[3].add/biasesStored[2] addWeight_3__add_biasesStored[2]
+pStore          net     addWeight[3].add/biasesStored[1] addWeight_3__add_biasesStored[1]
+pStore          net     addWeight[3].add/biasesStored[0] addWeight_3__add_biasesStored[0]
+pStore          net     addWeight[4].add/s      addWeight_4__add_s
+pStore          net     addWeight[4].add/s[7]   addWeight_4__add_s[7]
+pStore          net     addWeight[4].add/s[6]   addWeight_4__add_s[6]
+pStore          net     addWeight[4].add/s[5]   addWeight_4__add_s[5]
+pStore          net     addWeight[4].add/s[4]   addWeight_4__add_s[4]
+pStore          net     addWeight[4].add/s[3]   addWeight_4__add_s[3]
+pStore          net     addWeight[4].add/s[2]   addWeight_4__add_s[2]
+pStore          net     addWeight[4].add/s[1]   addWeight_4__add_s[1]
+pStore          net     addWeight[4].add/s[0]   addWeight_4__add_s[0]
+pStore          net     addWeight[4].add/biasesStored addWeight_4__add_biasesStored
+pStore          net     addWeight[4].add/biasesStored[7] addWeight_4__add_biasesStored[7]
+pStore          net     addWeight[4].add/biasesStored[3] addWeight_4__add_biasesStored[3]
+pStore          net     addWeight[4].add/biasesStored[2] addWeight_4__add_biasesStored[2]
+pStore          net     addWeight[4].add/biasesStored[1] addWeight_4__add_biasesStored[1]
+pStore          net     addWeight[4].add/biasesStored[0] addWeight_4__add_biasesStored[0]
+pStore          net     addWeight[5].add/s      addWeight_5__add_s
+pStore          net     addWeight[5].add/s[7]   addWeight_5__add_s[7]
+pStore          net     addWeight[5].add/s[6]   addWeight_5__add_s[6]
+pStore          net     addWeight[5].add/s[5]   addWeight_5__add_s[5]
+pStore          net     addWeight[5].add/s[4]   addWeight_5__add_s[4]
+pStore          net     addWeight[5].add/s[3]   addWeight_5__add_s[3]
+pStore          net     addWeight[5].add/s[2]   addWeight_5__add_s[2]
+pStore          net     addWeight[5].add/s[1]   addWeight_5__add_s[1]
+pStore          net     addWeight[5].add/s[0]   addWeight_5__add_s[0]
+pStore          net     addWeight[5].add/biasesStored addWeight_5__add_biasesStored
+pStore          net     addWeight[5].add/biasesStored[7] addWeight_5__add_biasesStored[7]
+pStore          net     addWeight[5].add/biasesStored[3] addWeight_5__add_biasesStored[3]
+pStore          net     addWeight[5].add/biasesStored[2] addWeight_5__add_biasesStored[2]
+pStore          net     addWeight[5].add/biasesStored[1] addWeight_5__add_biasesStored[1]
+pStore          net     addWeight[5].add/biasesStored[0] addWeight_5__add_biasesStored[0]
+pStore          net     addWeight[6].add/s      addWeight_6__add_s
+pStore          net     addWeight[6].add/s[7]   addWeight_6__add_s[7]
+pStore          net     addWeight[6].add/s[6]   addWeight_6__add_s[6]
+pStore          net     addWeight[6].add/s[5]   addWeight_6__add_s[5]
+pStore          net     addWeight[6].add/s[4]   addWeight_6__add_s[4]
+pStore          net     addWeight[6].add/s[3]   addWeight_6__add_s[3]
+pStore          net     addWeight[6].add/s[2]   addWeight_6__add_s[2]
+pStore          net     addWeight[6].add/s[1]   addWeight_6__add_s[1]
+pStore          net     addWeight[6].add/s[0]   addWeight_6__add_s[0]
+pStore          net     addWeight[6].add/biasesStored addWeight_6__add_biasesStored
+pStore          net     addWeight[6].add/biasesStored[7] addWeight_6__add_biasesStored[7]
+pStore          net     addWeight[6].add/biasesStored[3] addWeight_6__add_biasesStored[3]
+pStore          net     addWeight[6].add/biasesStored[2] addWeight_6__add_biasesStored[2]
+pStore          net     addWeight[6].add/biasesStored[1] addWeight_6__add_biasesStored[1]
+pStore          net     addWeight[6].add/biasesStored[0] addWeight_6__add_biasesStored[0]
+pStore          net     addWeight[7].add/s      addWeight_7__add_s
+pStore          net     addWeight[7].add/s[7]   addWeight_7__add_s[7]
+pStore          net     addWeight[7].add/s[6]   addWeight_7__add_s[6]
+pStore          net     addWeight[7].add/s[5]   addWeight_7__add_s[5]
+pStore          net     addWeight[7].add/s[4]   addWeight_7__add_s[4]
+pStore          net     addWeight[7].add/s[3]   addWeight_7__add_s[3]
+pStore          net     addWeight[7].add/s[2]   addWeight_7__add_s[2]
+pStore          net     addWeight[7].add/s[1]   addWeight_7__add_s[1]
+pStore          net     addWeight[7].add/s[0]   addWeight_7__add_s[0]
+pStore          net     addWeight[7].add/biasesStored addWeight_7__add_biasesStored
+pStore          net     addWeight[7].add/biasesStored[7] addWeight_7__add_biasesStored[7]
+pStore          net     addWeight[7].add/biasesStored[3] addWeight_7__add_biasesStored[3]
+pStore          net     addWeight[7].add/biasesStored[2] addWeight_7__add_biasesStored[2]
+pStore          net     addWeight[7].add/biasesStored[1] addWeight_7__add_biasesStored[1]
+pStore          net     addWeight[7].add/biasesStored[0] addWeight_7__add_biasesStored[0]
+pStore          net     addWeight[8].add/s      addWeight_8__add_s
+pStore          net     addWeight[8].add/s[7]   addWeight_8__add_s[7]
+pStore          net     addWeight[8].add/s[6]   addWeight_8__add_s[6]
+pStore          net     addWeight[8].add/s[5]   addWeight_8__add_s[5]
+pStore          net     addWeight[8].add/s[4]   addWeight_8__add_s[4]
+pStore          net     addWeight[8].add/s[3]   addWeight_8__add_s[3]
+pStore          net     addWeight[8].add/s[2]   addWeight_8__add_s[2]
+pStore          net     addWeight[8].add/s[1]   addWeight_8__add_s[1]
+pStore          net     addWeight[8].add/s[0]   addWeight_8__add_s[0]
+pStore          net     addWeight[8].add/biasesStored addWeight_8__add_biasesStored
+pStore          net     addWeight[8].add/biasesStored[7] addWeight_8__add_biasesStored[7]
+pStore          net     addWeight[8].add/biasesStored[3] addWeight_8__add_biasesStored[3]
+pStore          net     addWeight[8].add/biasesStored[2] addWeight_8__add_biasesStored[2]
+pStore          net     addWeight[8].add/biasesStored[1] addWeight_8__add_biasesStored[1]
+pStore          net     addWeight[8].add/biasesStored[0] addWeight_8__add_biasesStored[0]
+pStore          net     addWeight[9].add/s      addWeight_9__add_s
+pStore          net     addWeight[9].add/s[7]   addWeight_9__add_s[7]
+pStore          net     addWeight[9].add/s[6]   addWeight_9__add_s[6]
+pStore          net     addWeight[9].add/s[5]   addWeight_9__add_s[5]
+pStore          net     addWeight[9].add/s[4]   addWeight_9__add_s[4]
+pStore          net     addWeight[9].add/s[3]   addWeight_9__add_s[3]
+pStore          net     addWeight[9].add/s[2]   addWeight_9__add_s[2]
+pStore          net     addWeight[9].add/s[1]   addWeight_9__add_s[1]
+pStore          net     addWeight[9].add/s[0]   addWeight_9__add_s[0]
+pStore          net     addWeight[9].add/biasesStored addWeight_9__add_biasesStored
+pStore          net     addWeight[9].add/biasesStored[7] addWeight_9__add_biasesStored[7]
+pStore          net     addWeight[9].add/biasesStored[3] addWeight_9__add_biasesStored[3]
+pStore          net     addWeight[9].add/biasesStored[2] addWeight_9__add_biasesStored[2]
+pStore          net     addWeight[9].add/biasesStored[1] addWeight_9__add_biasesStored[1]
+pStore          net     addWeight[9].add/biasesStored[0] addWeight_9__add_biasesStored[0]
+pStore          net     addWeight[10].add/s     addWeight_10__add_s
+pStore          net     addWeight[10].add/s[7]  addWeight_10__add_s[7]
+pStore          net     addWeight[10].add/s[6]  addWeight_10__add_s[6]
+pStore          net     addWeight[10].add/s[5]  addWeight_10__add_s[5]
+pStore          net     addWeight[10].add/s[4]  addWeight_10__add_s[4]
+pStore          net     addWeight[10].add/s[3]  addWeight_10__add_s[3]
+pStore          net     addWeight[10].add/s[2]  addWeight_10__add_s[2]
+pStore          net     addWeight[10].add/s[1]  addWeight_10__add_s[1]
+pStore          net     addWeight[10].add/s[0]  addWeight_10__add_s[0]
+pStore          net     addWeight[10].add/biasesStored addWeight_10__add_biasesStored
+pStore          net     addWeight[10].add/biasesStored[7] addWeight_10__add_biasesStored[7]
+pStore          net     addWeight[10].add/biasesStored[3] addWeight_10__add_biasesStored[3]
+pStore          net     addWeight[10].add/biasesStored[2] addWeight_10__add_biasesStored[2]
+pStore          net     addWeight[10].add/biasesStored[1] addWeight_10__add_biasesStored[1]
+pStore          net     addWeight[10].add/biasesStored[0] addWeight_10__add_biasesStored[0]
+pStore          net     addWeight[11].add/s     addWeight_11__add_s
+pStore          net     addWeight[11].add/s[7]  addWeight_11__add_s[7]
+pStore          net     addWeight[11].add/s[6]  addWeight_11__add_s[6]
+pStore          net     addWeight[11].add/s[5]  addWeight_11__add_s[5]
+pStore          net     addWeight[11].add/s[4]  addWeight_11__add_s[4]
+pStore          net     addWeight[11].add/s[3]  addWeight_11__add_s[3]
+pStore          net     addWeight[11].add/s[2]  addWeight_11__add_s[2]
+pStore          net     addWeight[11].add/s[1]  addWeight_11__add_s[1]
+pStore          net     addWeight[11].add/s[0]  addWeight_11__add_s[0]
+pStore          net     addWeight[11].add/biasesStored addWeight_11__add_biasesStored
+pStore          net     addWeight[11].add/biasesStored[7] addWeight_11__add_biasesStored[7]
+pStore          net     addWeight[11].add/biasesStored[3] addWeight_11__add_biasesStored[3]
+pStore          net     addWeight[11].add/biasesStored[2] addWeight_11__add_biasesStored[2]
+pStore          net     addWeight[11].add/biasesStored[1] addWeight_11__add_biasesStored[1]
+pStore          net     addWeight[11].add/biasesStored[0] addWeight_11__add_biasesStored[0]
+pStore          net     addWeight[12].add/s     addWeight_12__add_s
+pStore          net     addWeight[12].add/s[7]  addWeight_12__add_s[7]
+pStore          net     addWeight[12].add/s[6]  addWeight_12__add_s[6]
+pStore          net     addWeight[12].add/s[5]  addWeight_12__add_s[5]
+pStore          net     addWeight[12].add/s[4]  addWeight_12__add_s[4]
+pStore          net     addWeight[12].add/s[3]  addWeight_12__add_s[3]
+pStore          net     addWeight[12].add/s[2]  addWeight_12__add_s[2]
+pStore          net     addWeight[12].add/s[1]  addWeight_12__add_s[1]
+pStore          net     addWeight[12].add/s[0]  addWeight_12__add_s[0]
+pStore          net     addWeight[12].add/biasesStored addWeight_12__add_biasesStored
+pStore          net     addWeight[12].add/biasesStored[7] addWeight_12__add_biasesStored[7]
+pStore          net     addWeight[12].add/biasesStored[3] addWeight_12__add_biasesStored[3]
+pStore          net     addWeight[12].add/biasesStored[2] addWeight_12__add_biasesStored[2]
+pStore          net     addWeight[12].add/biasesStored[1] addWeight_12__add_biasesStored[1]
+pStore          net     addWeight[12].add/biasesStored[0] addWeight_12__add_biasesStored[0]
+pStore          net     addWeight[13].add/s     addWeight_13__add_s
+pStore          net     addWeight[13].add/s[7]  addWeight_13__add_s[7]
+pStore          net     addWeight[13].add/s[6]  addWeight_13__add_s[6]
+pStore          net     addWeight[13].add/s[5]  addWeight_13__add_s[5]
+pStore          net     addWeight[13].add/s[4]  addWeight_13__add_s[4]
+pStore          net     addWeight[13].add/s[3]  addWeight_13__add_s[3]
+pStore          net     addWeight[13].add/s[2]  addWeight_13__add_s[2]
+pStore          net     addWeight[13].add/s[1]  addWeight_13__add_s[1]
+pStore          net     addWeight[13].add/s[0]  addWeight_13__add_s[0]
+pStore          net     addWeight[13].add/biasesStored addWeight_13__add_biasesStored
+pStore          net     addWeight[13].add/biasesStored[7] addWeight_13__add_biasesStored[7]
+pStore          net     addWeight[13].add/biasesStored[3] addWeight_13__add_biasesStored[3]
+pStore          net     addWeight[13].add/biasesStored[2] addWeight_13__add_biasesStored[2]
+pStore          net     addWeight[13].add/biasesStored[1] addWeight_13__add_biasesStored[1]
+pStore          net     addWeight[13].add/biasesStored[0] addWeight_13__add_biasesStored[0]
+pStore          net     addWeight[14].add/s     addWeight_14__add_s
+pStore          net     addWeight[14].add/s[7]  addWeight_14__add_s[7]
+pStore          net     addWeight[14].add/s[6]  addWeight_14__add_s[6]
+pStore          net     addWeight[14].add/s[5]  addWeight_14__add_s[5]
+pStore          net     addWeight[14].add/s[4]  addWeight_14__add_s[4]
+pStore          net     addWeight[14].add/s[3]  addWeight_14__add_s[3]
+pStore          net     addWeight[14].add/s[2]  addWeight_14__add_s[2]
+pStore          net     addWeight[14].add/s[1]  addWeight_14__add_s[1]
+pStore          net     addWeight[14].add/s[0]  addWeight_14__add_s[0]
+pStore          net     addWeight[14].add/biasesStored addWeight_14__add_biasesStored
+pStore          net     addWeight[14].add/biasesStored[7] addWeight_14__add_biasesStored[7]
+pStore          net     addWeight[14].add/biasesStored[3] addWeight_14__add_biasesStored[3]
+pStore          net     addWeight[14].add/biasesStored[2] addWeight_14__add_biasesStored[2]
+pStore          net     addWeight[14].add/biasesStored[1] addWeight_14__add_biasesStored[1]
+pStore          net     addWeight[14].add/biasesStored[0] addWeight_14__add_biasesStored[0]
+pStore          net     addWeight[15].add/s     addWeight_15__add_s
+pStore          net     addWeight[15].add/s[7]  addWeight_15__add_s[7]
+pStore          net     addWeight[15].add/s[6]  addWeight_15__add_s[6]
+pStore          net     addWeight[15].add/s[5]  addWeight_15__add_s[5]
+pStore          net     addWeight[15].add/s[4]  addWeight_15__add_s[4]
+pStore          net     addWeight[15].add/s[3]  addWeight_15__add_s[3]
+pStore          net     addWeight[15].add/s[2]  addWeight_15__add_s[2]
+pStore          net     addWeight[15].add/s[1]  addWeight_15__add_s[1]
+pStore          net     addWeight[15].add/s[0]  addWeight_15__add_s[0]
+pStore          net     addWeight[15].add/biasesStored addWeight_15__add_biasesStored
+pStore          net     addWeight[15].add/biasesStored[7] addWeight_15__add_biasesStored[7]
+pStore          net     addWeight[15].add/biasesStored[3] addWeight_15__add_biasesStored[3]
+pStore          net     addWeight[15].add/biasesStored[2] addWeight_15__add_biasesStored[2]
+pStore          net     addWeight[15].add/biasesStored[1] addWeight_15__add_biasesStored[1]
+pStore          net     addWeight[15].add/biasesStored[0] addWeight_15__add_biasesStored[0]
+pStore          net     addWeight[16].add/s     addWeight_16__add_s
+pStore          net     addWeight[16].add/s[7]  addWeight_16__add_s[7]
+pStore          net     addWeight[16].add/s[6]  addWeight_16__add_s[6]
+pStore          net     addWeight[16].add/s[5]  addWeight_16__add_s[5]
+pStore          net     addWeight[16].add/s[4]  addWeight_16__add_s[4]
+pStore          net     addWeight[16].add/s[3]  addWeight_16__add_s[3]
+pStore          net     addWeight[16].add/s[2]  addWeight_16__add_s[2]
+pStore          net     addWeight[16].add/s[1]  addWeight_16__add_s[1]
+pStore          net     addWeight[16].add/s[0]  addWeight_16__add_s[0]
+pStore          net     addWeight[16].add/biasesStored addWeight_16__add_biasesStored
+pStore          net     addWeight[16].add/biasesStored[7] addWeight_16__add_biasesStored[7]
+pStore          net     addWeight[16].add/biasesStored[3] addWeight_16__add_biasesStored[3]
+pStore          net     addWeight[16].add/biasesStored[2] addWeight_16__add_biasesStored[2]
+pStore          net     addWeight[16].add/biasesStored[1] addWeight_16__add_biasesStored[1]
+pStore          net     addWeight[16].add/biasesStored[0] addWeight_16__add_biasesStored[0]
+pStore          net     addWeight[17].add/s     addWeight_17__add_s
+pStore          net     addWeight[17].add/s[7]  addWeight_17__add_s[7]
+pStore          net     addWeight[17].add/s[6]  addWeight_17__add_s[6]
+pStore          net     addWeight[17].add/s[5]  addWeight_17__add_s[5]
+pStore          net     addWeight[17].add/s[4]  addWeight_17__add_s[4]
+pStore          net     addWeight[17].add/s[3]  addWeight_17__add_s[3]
+pStore          net     addWeight[17].add/s[2]  addWeight_17__add_s[2]
+pStore          net     addWeight[17].add/s[1]  addWeight_17__add_s[1]
+pStore          net     addWeight[17].add/s[0]  addWeight_17__add_s[0]
+pStore          net     addWeight[17].add/biasesStored addWeight_17__add_biasesStored
+pStore          net     addWeight[17].add/biasesStored[7] addWeight_17__add_biasesStored[7]
+pStore          net     addWeight[17].add/biasesStored[3] addWeight_17__add_biasesStored[3]
+pStore          net     addWeight[17].add/biasesStored[2] addWeight_17__add_biasesStored[2]
+pStore          net     addWeight[17].add/biasesStored[1] addWeight_17__add_biasesStored[1]
+pStore          net     addWeight[17].add/biasesStored[0] addWeight_17__add_biasesStored[0]
+pStore          net     addWeight[18].add/s     addWeight_18__add_s
+pStore          net     addWeight[18].add/s[7]  addWeight_18__add_s[7]
+pStore          net     addWeight[18].add/s[6]  addWeight_18__add_s[6]
+pStore          net     addWeight[18].add/s[5]  addWeight_18__add_s[5]
+pStore          net     addWeight[18].add/s[4]  addWeight_18__add_s[4]
+pStore          net     addWeight[18].add/s[3]  addWeight_18__add_s[3]
+pStore          net     addWeight[18].add/s[2]  addWeight_18__add_s[2]
+pStore          net     addWeight[18].add/s[1]  addWeight_18__add_s[1]
+pStore          net     addWeight[18].add/s[0]  addWeight_18__add_s[0]
+pStore          net     addWeight[18].add/biasesStored addWeight_18__add_biasesStored
+pStore          net     addWeight[18].add/biasesStored[7] addWeight_18__add_biasesStored[7]
+pStore          net     addWeight[18].add/biasesStored[3] addWeight_18__add_biasesStored[3]
+pStore          net     addWeight[18].add/biasesStored[2] addWeight_18__add_biasesStored[2]
+pStore          net     addWeight[18].add/biasesStored[1] addWeight_18__add_biasesStored[1]
+pStore          net     addWeight[18].add/biasesStored[0] addWeight_18__add_biasesStored[0]
+pStore          net     addWeight[19].add/s     addWeight_19__add_s
+pStore          net     addWeight[19].add/s[7]  addWeight_19__add_s[7]
+pStore          net     addWeight[19].add/s[6]  addWeight_19__add_s[6]
+pStore          net     addWeight[19].add/s[5]  addWeight_19__add_s[5]
+pStore          net     addWeight[19].add/s[4]  addWeight_19__add_s[4]
+pStore          net     addWeight[19].add/s[3]  addWeight_19__add_s[3]
+pStore          net     addWeight[19].add/s[2]  addWeight_19__add_s[2]
+pStore          net     addWeight[19].add/s[1]  addWeight_19__add_s[1]
+pStore          net     addWeight[19].add/s[0]  addWeight_19__add_s[0]
+pStore          net     addWeight[19].add/biasesStored addWeight_19__add_biasesStored
+pStore          net     addWeight[19].add/biasesStored[7] addWeight_19__add_biasesStored[7]
+pStore          net     addWeight[19].add/biasesStored[3] addWeight_19__add_biasesStored[3]
+pStore          net     addWeight[19].add/biasesStored[2] addWeight_19__add_biasesStored[2]
+pStore          net     addWeight[19].add/biasesStored[1] addWeight_19__add_biasesStored[1]
+pStore          net     addWeight[19].add/biasesStored[0] addWeight_19__add_biasesStored[0]
+pStore          net     addWeight[20].add/s     addWeight_20__add_s
+pStore          net     addWeight[20].add/s[7]  addWeight_20__add_s[7]
+pStore          net     addWeight[20].add/s[6]  addWeight_20__add_s[6]
+pStore          net     addWeight[20].add/s[5]  addWeight_20__add_s[5]
+pStore          net     addWeight[20].add/s[4]  addWeight_20__add_s[4]
+pStore          net     addWeight[20].add/s[3]  addWeight_20__add_s[3]
+pStore          net     addWeight[20].add/s[2]  addWeight_20__add_s[2]
+pStore          net     addWeight[20].add/s[1]  addWeight_20__add_s[1]
+pStore          net     addWeight[20].add/s[0]  addWeight_20__add_s[0]
+pStore          net     addWeight[20].add/biasesStored addWeight_20__add_biasesStored
+pStore          net     addWeight[20].add/biasesStored[7] addWeight_20__add_biasesStored[7]
+pStore          net     addWeight[20].add/biasesStored[3] addWeight_20__add_biasesStored[3]
+pStore          net     addWeight[20].add/biasesStored[2] addWeight_20__add_biasesStored[2]
+pStore          net     addWeight[20].add/biasesStored[1] addWeight_20__add_biasesStored[1]
+pStore          net     addWeight[20].add/biasesStored[0] addWeight_20__add_biasesStored[0]
+pStore          net     addWeight[21].add/s     addWeight_21__add_s
+pStore          net     addWeight[21].add/s[7]  addWeight_21__add_s[7]
+pStore          net     addWeight[21].add/s[6]  addWeight_21__add_s[6]
+pStore          net     addWeight[21].add/s[5]  addWeight_21__add_s[5]
+pStore          net     addWeight[21].add/s[4]  addWeight_21__add_s[4]
+pStore          net     addWeight[21].add/s[3]  addWeight_21__add_s[3]
+pStore          net     addWeight[21].add/s[2]  addWeight_21__add_s[2]
+pStore          net     addWeight[21].add/s[1]  addWeight_21__add_s[1]
+pStore          net     addWeight[21].add/s[0]  addWeight_21__add_s[0]
+pStore          net     addWeight[21].add/biasesStored addWeight_21__add_biasesStored
+pStore          net     addWeight[21].add/biasesStored[7] addWeight_21__add_biasesStored[7]
+pStore          net     addWeight[21].add/biasesStored[3] addWeight_21__add_biasesStored[3]
+pStore          net     addWeight[21].add/biasesStored[2] addWeight_21__add_biasesStored[2]
+pStore          net     addWeight[21].add/biasesStored[1] addWeight_21__add_biasesStored[1]
+pStore          net     addWeight[21].add/biasesStored[0] addWeight_21__add_biasesStored[0]
+pStore          net     addWeight[22].add/s     addWeight_22__add_s
+pStore          net     addWeight[22].add/s[7]  addWeight_22__add_s[7]
+pStore          net     addWeight[22].add/s[6]  addWeight_22__add_s[6]
+pStore          net     addWeight[22].add/s[5]  addWeight_22__add_s[5]
+pStore          net     addWeight[22].add/s[4]  addWeight_22__add_s[4]
+pStore          net     addWeight[22].add/s[3]  addWeight_22__add_s[3]
+pStore          net     addWeight[22].add/s[2]  addWeight_22__add_s[2]
+pStore          net     addWeight[22].add/s[1]  addWeight_22__add_s[1]
+pStore          net     addWeight[22].add/s[0]  addWeight_22__add_s[0]
+pStore          net     addWeight[22].add/biasesStored addWeight_22__add_biasesStored
+pStore          net     addWeight[22].add/biasesStored[7] addWeight_22__add_biasesStored[7]
+pStore          net     addWeight[22].add/biasesStored[3] addWeight_22__add_biasesStored[3]
+pStore          net     addWeight[22].add/biasesStored[2] addWeight_22__add_biasesStored[2]
+pStore          net     addWeight[22].add/biasesStored[1] addWeight_22__add_biasesStored[1]
+pStore          net     addWeight[22].add/biasesStored[0] addWeight_22__add_biasesStored[0]
+pStore          net     addWeight[23].add/s     addWeight_23__add_s
+pStore          net     addWeight[23].add/s[7]  addWeight_23__add_s[7]
+pStore          net     addWeight[23].add/s[6]  addWeight_23__add_s[6]
+pStore          net     addWeight[23].add/s[5]  addWeight_23__add_s[5]
+pStore          net     addWeight[23].add/s[4]  addWeight_23__add_s[4]
+pStore          net     addWeight[23].add/s[3]  addWeight_23__add_s[3]
+pStore          net     addWeight[23].add/s[2]  addWeight_23__add_s[2]
+pStore          net     addWeight[23].add/s[1]  addWeight_23__add_s[1]
+pStore          net     addWeight[23].add/s[0]  addWeight_23__add_s[0]
+pStore          net     addWeight[23].add/biasesStored addWeight_23__add_biasesStored
+pStore          net     addWeight[23].add/biasesStored[7] addWeight_23__add_biasesStored[7]
+pStore          net     addWeight[23].add/biasesStored[3] addWeight_23__add_biasesStored[3]
+pStore          net     addWeight[23].add/biasesStored[2] addWeight_23__add_biasesStored[2]
+pStore          net     addWeight[23].add/biasesStored[1] addWeight_23__add_biasesStored[1]
+pStore          net     addWeight[23].add/biasesStored[0] addWeight_23__add_biasesStored[0]
+pStore          net     addWeight[24].add/s     addWeight_24__add_s
+pStore          net     addWeight[24].add/s[7]  addWeight_24__add_s[7]
+pStore          net     addWeight[24].add/s[6]  addWeight_24__add_s[6]
+pStore          net     addWeight[24].add/s[5]  addWeight_24__add_s[5]
+pStore          net     addWeight[24].add/s[4]  addWeight_24__add_s[4]
+pStore          net     addWeight[24].add/s[3]  addWeight_24__add_s[3]
+pStore          net     addWeight[24].add/s[2]  addWeight_24__add_s[2]
+pStore          net     addWeight[24].add/s[1]  addWeight_24__add_s[1]
+pStore          net     addWeight[24].add/s[0]  addWeight_24__add_s[0]
+pStore          net     addWeight[24].add/biasesStored addWeight_24__add_biasesStored
+pStore          net     addWeight[24].add/biasesStored[7] addWeight_24__add_biasesStored[7]
+pStore          net     addWeight[24].add/biasesStored[3] addWeight_24__add_biasesStored[3]
+pStore          net     addWeight[24].add/biasesStored[2] addWeight_24__add_biasesStored[2]
+pStore          net     addWeight[24].add/biasesStored[1] addWeight_24__add_biasesStored[1]
+pStore          net     addWeight[24].add/biasesStored[0] addWeight_24__add_biasesStored[0]
+pStore          net     addWeight[25].add/s     addWeight_25__add_s
+pStore          net     addWeight[25].add/s[7]  addWeight_25__add_s[7]
+pStore          net     addWeight[25].add/s[6]  addWeight_25__add_s[6]
+pStore          net     addWeight[25].add/s[5]  addWeight_25__add_s[5]
+pStore          net     addWeight[25].add/s[4]  addWeight_25__add_s[4]
+pStore          net     addWeight[25].add/s[3]  addWeight_25__add_s[3]
+pStore          net     addWeight[25].add/s[2]  addWeight_25__add_s[2]
+pStore          net     addWeight[25].add/s[1]  addWeight_25__add_s[1]
+pStore          net     addWeight[25].add/s[0]  addWeight_25__add_s[0]
+pStore          net     addWeight[25].add/biasesStored addWeight_25__add_biasesStored
+pStore          net     addWeight[25].add/biasesStored[7] addWeight_25__add_biasesStored[7]
+pStore          net     addWeight[25].add/biasesStored[3] addWeight_25__add_biasesStored[3]
+pStore          net     addWeight[25].add/biasesStored[2] addWeight_25__add_biasesStored[2]
+pStore          net     addWeight[25].add/biasesStored[1] addWeight_25__add_biasesStored[1]
+pStore          net     addWeight[25].add/biasesStored[0] addWeight_25__add_biasesStored[0]
+pStore          net     addWeight[26].add/s     addWeight_26__add_s
+pStore          net     addWeight[26].add/s[7]  addWeight_26__add_s[7]
+pStore          net     addWeight[26].add/s[6]  addWeight_26__add_s[6]
+pStore          net     addWeight[26].add/s[5]  addWeight_26__add_s[5]
+pStore          net     addWeight[26].add/s[4]  addWeight_26__add_s[4]
+pStore          net     addWeight[26].add/s[3]  addWeight_26__add_s[3]
+pStore          net     addWeight[26].add/s[2]  addWeight_26__add_s[2]
+pStore          net     addWeight[26].add/s[1]  addWeight_26__add_s[1]
+pStore          net     addWeight[26].add/s[0]  addWeight_26__add_s[0]
+pStore          net     addWeight[26].add/biasesStored addWeight_26__add_biasesStored
+pStore          net     addWeight[26].add/biasesStored[7] addWeight_26__add_biasesStored[7]
+pStore          net     addWeight[26].add/biasesStored[3] addWeight_26__add_biasesStored[3]
+pStore          net     addWeight[26].add/biasesStored[2] addWeight_26__add_biasesStored[2]
+pStore          net     addWeight[26].add/biasesStored[1] addWeight_26__add_biasesStored[1]
+pStore          net     addWeight[26].add/biasesStored[0] addWeight_26__add_biasesStored[0]
+pStore          net     addWeight[27].add/s     addWeight_27__add_s
+pStore          net     addWeight[27].add/s[7]  addWeight_27__add_s[7]
+pStore          net     addWeight[27].add/s[6]  addWeight_27__add_s[6]
+pStore          net     addWeight[27].add/s[5]  addWeight_27__add_s[5]
+pStore          net     addWeight[27].add/s[4]  addWeight_27__add_s[4]
+pStore          net     addWeight[27].add/s[3]  addWeight_27__add_s[3]
+pStore          net     addWeight[27].add/s[2]  addWeight_27__add_s[2]
+pStore          net     addWeight[27].add/s[1]  addWeight_27__add_s[1]
+pStore          net     addWeight[27].add/s[0]  addWeight_27__add_s[0]
+pStore          net     addWeight[27].add/biasesStored addWeight_27__add_biasesStored
+pStore          net     addWeight[27].add/biasesStored[7] addWeight_27__add_biasesStored[7]
+pStore          net     addWeight[27].add/biasesStored[3] addWeight_27__add_biasesStored[3]
+pStore          net     addWeight[27].add/biasesStored[2] addWeight_27__add_biasesStored[2]
+pStore          net     addWeight[27].add/biasesStored[1] addWeight_27__add_biasesStored[1]
+pStore          net     addWeight[27].add/biasesStored[0] addWeight_27__add_biasesStored[0]
+pStore          net     addWeight[28].add/s     addWeight_28__add_s
+pStore          net     addWeight[28].add/s[7]  addWeight_28__add_s[7]
+pStore          net     addWeight[28].add/s[6]  addWeight_28__add_s[6]
+pStore          net     addWeight[28].add/s[5]  addWeight_28__add_s[5]
+pStore          net     addWeight[28].add/s[4]  addWeight_28__add_s[4]
+pStore          net     addWeight[28].add/s[3]  addWeight_28__add_s[3]
+pStore          net     addWeight[28].add/s[2]  addWeight_28__add_s[2]
+pStore          net     addWeight[28].add/s[1]  addWeight_28__add_s[1]
+pStore          net     addWeight[28].add/s[0]  addWeight_28__add_s[0]
+pStore          net     addWeight[28].add/biasesStored addWeight_28__add_biasesStored
+pStore          net     addWeight[28].add/biasesStored[7] addWeight_28__add_biasesStored[7]
+pStore          net     addWeight[28].add/biasesStored[3] addWeight_28__add_biasesStored[3]
+pStore          net     addWeight[28].add/biasesStored[2] addWeight_28__add_biasesStored[2]
+pStore          net     addWeight[28].add/biasesStored[1] addWeight_28__add_biasesStored[1]
+pStore          net     addWeight[28].add/biasesStored[0] addWeight_28__add_biasesStored[0]
+pStore          net     addWeight[29].add/s     addWeight_29__add_s
+pStore          net     addWeight[29].add/s[7]  addWeight_29__add_s[7]
+pStore          net     addWeight[29].add/s[6]  addWeight_29__add_s[6]
+pStore          net     addWeight[29].add/s[5]  addWeight_29__add_s[5]
+pStore          net     addWeight[29].add/s[4]  addWeight_29__add_s[4]
+pStore          net     addWeight[29].add/s[3]  addWeight_29__add_s[3]
+pStore          net     addWeight[29].add/s[2]  addWeight_29__add_s[2]
+pStore          net     addWeight[29].add/s[1]  addWeight_29__add_s[1]
+pStore          net     addWeight[29].add/s[0]  addWeight_29__add_s[0]
+pStore          net     addWeight[29].add/biasesStored addWeight_29__add_biasesStored
+pStore          net     addWeight[29].add/biasesStored[7] addWeight_29__add_biasesStored[7]
+pStore          net     addWeight[29].add/biasesStored[3] addWeight_29__add_biasesStored[3]
+pStore          net     addWeight[29].add/biasesStored[2] addWeight_29__add_biasesStored[2]
+pStore          net     addWeight[29].add/biasesStored[1] addWeight_29__add_biasesStored[1]
+pStore          net     addWeight[29].add/biasesStored[0] addWeight_29__add_biasesStored[0]
+pStore          net     addWeight[30].add/s     addWeight_30__add_s
+pStore          net     addWeight[30].add/s[7]  addWeight_30__add_s[7]
+pStore          net     addWeight[30].add/s[6]  addWeight_30__add_s[6]
+pStore          net     addWeight[30].add/s[5]  addWeight_30__add_s[5]
+pStore          net     addWeight[30].add/s[4]  addWeight_30__add_s[4]
+pStore          net     addWeight[30].add/s[3]  addWeight_30__add_s[3]
+pStore          net     addWeight[30].add/s[2]  addWeight_30__add_s[2]
+pStore          net     addWeight[30].add/s[1]  addWeight_30__add_s[1]
+pStore          net     addWeight[30].add/s[0]  addWeight_30__add_s[0]
+pStore          net     addWeight[30].add/biasesStored addWeight_30__add_biasesStored
+pStore          net     addWeight[30].add/biasesStored[7] addWeight_30__add_biasesStored[7]
+pStore          net     addWeight[30].add/biasesStored[3] addWeight_30__add_biasesStored[3]
+pStore          net     addWeight[30].add/biasesStored[2] addWeight_30__add_biasesStored[2]
+pStore          net     addWeight[30].add/biasesStored[1] addWeight_30__add_biasesStored[1]
+pStore          net     addWeight[30].add/biasesStored[0] addWeight_30__add_biasesStored[0]
+pStore          net     addWeight[31].add/s     addWeight_31__add_s
+pStore          net     addWeight[31].add/s[7]  addWeight_31__add_s[7]
+pStore          net     addWeight[31].add/s[6]  addWeight_31__add_s[6]
+pStore          net     addWeight[31].add/s[5]  addWeight_31__add_s[5]
+pStore          net     addWeight[31].add/s[4]  addWeight_31__add_s[4]
+pStore          net     addWeight[31].add/s[3]  addWeight_31__add_s[3]
+pStore          net     addWeight[31].add/s[2]  addWeight_31__add_s[2]
+pStore          net     addWeight[31].add/s[1]  addWeight_31__add_s[1]
+pStore          net     addWeight[31].add/s[0]  addWeight_31__add_s[0]
+pStore          net     addWeight[31].add/biasesStored addWeight_31__add_biasesStored
+pStore          net     addWeight[31].add/biasesStored[7] addWeight_31__add_biasesStored[7]
+pStore          net     addWeight[31].add/biasesStored[3] addWeight_31__add_biasesStored[3]
+pStore          net     addWeight[31].add/biasesStored[2] addWeight_31__add_biasesStored[2]
+pStore          net     addWeight[31].add/biasesStored[1] addWeight_31__add_biasesStored[1]
+pStore          net     addWeight[31].add/biasesStored[0] addWeight_31__add_biasesStored[0]
+1
+1
+set verilogout_no_tri TRUE
+TRUE
+write -hierarchy -format verilog -output "${top_level}.nl.v"
+Writing verilog file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/Synthesis/pStore/pStore.nl.v'.
+1
+#write_sdf -context verilog "${top_level}.temp.sdf"
+write_sdc "${top_level}.syn.sdc" -version 1.7
+1
+write_sdf "${top_level}.syn.sdf"
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/Synthesis/pStore/pStore.syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+# Generate report file
+set maxpaths 20
+20
+set rpt_file "${top_level}.dc.rpt"
+pStore.dc.rpt
+check_design > $rpt_file
+report_area  >> ${rpt_file}
+report_power -hier -analysis_effort medium >> ${rpt_file}
+report_design >> ${rpt_file}
+report_cell >> ${rpt_file}
+report_port -verbose >> ${rpt_file}
+report_compile_options >> ${rpt_file}
+report_constraint -all_violators -verbose >> ${rpt_file}
+report_timing -path full -delay max -max_paths $maxpaths -nworst 100 >> ${rpt_file}
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs
+report_timing -delay max -nworst 1 -max_paths 10000 -path full -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs.full
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_outputs] > ${top_level}.syn.critical_regs.output
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_registers -data_pins] > ${top_level}.syn.critical_regs.regs
+report_timing -delay min -nworst 1 -max_paths 10000 -path short -nosplit -unique -sort_by slack > ${top_level}.syn.fast_path
+quit
+
+Thank you...

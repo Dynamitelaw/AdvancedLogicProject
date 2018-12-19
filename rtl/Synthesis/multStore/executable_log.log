@@ -1,0 +1,1070 @@
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+          Version J-2014.09-SP2 for RHEL64 -- Nov 25, 2014
+               Copyright (c) 1988-2014 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Initializing...
+#########################################
+# TCL script for Design Compiler        #
+# MS 2015                               #
+#########################################
+#########################################
+# READ Design and Library               #
+#########################################
+set top_level multStore
+multStore
+source -verbose "../common_script/common.tcl"
+. /tools4/syn2007.12/libraries/syn/
+dw_foundation.sldb
+* /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db dw_foundation.sldb
+/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+read_verilog {../../NeuralNetwork/$top_level.v}
+Loading db file '/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+Loading db file '/usr/cad/syn/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/syn/libraries/syn/gtech.db'
+Loading db file '/usr/cad/syn/libraries/syn/standard.sldb'
+  Loading link library 'scx3_cmos8rf_lpvt_tt_1p2v_25c'
+  Loading link library 'gtech'
+Loading verilog file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v'
+Detecting input file type automatically (-rtl or -netlist).
+Opening include file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v
+Opening include file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v:19: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v:43: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+
+Inferred memory devices in process
+	in routine MAC line 47 in file
+		'/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|  biasesStored_reg   | Latch |  10   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine MAC line 71 in file
+		'/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        S_reg        | Flip-flop |  10   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.db:multStore'
+Loaded 2 designs.
+Current design is 'multStore'.
+multStore MAC
+set set_fix_multiple_port_nets "true"
+true
+list_designs
+MAC             multStore (*)
+1
+if { [check_error -v] == 1 } { exit 1 }
+#########################################
+# Design Constranits                    #
+#########################################
+current_design $top_level
+Current design is 'multStore'.
+{multStore}
+link
+
+  Linking design 'multStore'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (2 designs)               /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.db, etc
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library) /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library) /usr/cad/syn/libraries/syn/dw_foundation.sldb
+
+1
+check_design
+1
+source -verbose "./timing.tcl"
+1.00
+0
+0.010
+0.05
+0.05
+0.005
+1
+1
+1
+1
+1
+1
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+1
+1
+1
+1
+1
+set_max_capacitance 0.005 [all_inputs]
+1
+set_max_fanout 4 $top_level
+1
+set_max_fanout 4 [all_inputs]
+1
+set_max_area 0 
+1
+set_fix_multiple_port_nets -all -buffer_constants
+1
+#########################################
+# Compile                               #
+#########################################
+check_design
+1
+#uniquify
+current_design $top_level
+Current design is 'multStore'.
+{multStore}
+link
+
+  Linking design 'multStore'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (2 designs)               /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/multStore.db, etc
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library)
+                              /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library)
+                              /usr/cad/syn/libraries/syn/dw_foundation.sldb
+
+1
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Analyzing: "/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db"
+Library analysis succeeded.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | J-2014.09-DWBB_201409.2 |     *     |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.2 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Loaded alib file './alib-52/scx3_cmos8rf_lpvt_tt_1p2v_25c.db.alib'
+Information: Ungrouping hierarchy genblk1[0].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[1].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[2].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[3].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[4].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[5].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[6].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[7].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[8].mac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy genblk1[9].mac before Pass 1 (OPT-776)
+Information: Ungrouping 10 of 11 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'multStore'
+Information: In design 'multStore', the register 'genblk1[9].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[9].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[9].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[9].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[9].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[9].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[9].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[9].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[8].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[8].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[8].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[8].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[8].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[8].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[8].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[8].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[7].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[7].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[7].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[7].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[7].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[7].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[7].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[7].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[6].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[6].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[6].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[6].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[6].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[6].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[6].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[6].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[5].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[5].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[5].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[5].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[5].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[5].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[5].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[5].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[4].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[4].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[4].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[4].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[4].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[4].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[4].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[4].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[3].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[3].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[3].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[3].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[3].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[3].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[3].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[3].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[2].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[2].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[2].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[2].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[2].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[2].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[2].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[2].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[1].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[1].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[1].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[1].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[1].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[1].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[1].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[1].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[0].mac/biasesStored_reg[8]' is removed because it is merged to 'genblk1[0].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[0].mac/biasesStored_reg[7]' is removed because it is merged to 'genblk1[0].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[0].mac/biasesStored_reg[6]' is removed because it is merged to 'genblk1[0].mac/biasesStored_reg[9]'. (OPT-1215)
+Information: In design 'multStore', the register 'genblk1[0].mac/biasesStored_reg[5]' is removed because it is merged to 'genblk1[0].mac/biasesStored_reg[9]'. (OPT-1215)
+ Implement Synthetic for 'multStore'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1TS' in the library 'scx3_cmos8rf_lpvt_tt_1p2v_25c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:09   38681.3      2.19     170.6     118.9                           62100.8398      0.00  
+    0:00:09   38681.3      2.19     170.6     118.9                           62100.8398      0.00  
+    0:00:09   38681.3      2.19     170.6     118.9                           62100.8398      0.00  
+    0:00:09   38651.0      2.19     170.6     118.9                           62030.0508      0.00  
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Mapping 'multStore_DP_OP_47J1_128_8560_4'
+Information: Added key list 'DesignWare' to design 'multStore'. (DDB-72)
+    0:00:15   23375.5      2.28     180.9     118.1                           32685.9141      0.00  
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:15   23375.5      2.28     180.9     118.1                           32685.9141      0.00  
+    0:00:15   23240.2      2.28     181.2     118.1                           32360.7188      0.00  
+    0:00:16   23618.9      2.28     181.1     118.1                           33003.1562      0.00  
+    0:00:16   23618.9      2.28     181.1     118.1                           33003.1562      0.00  
+    0:00:16   23785.9      2.27     179.8     118.1                           33296.0547      0.00  
+    0:00:16   23785.9      2.27     179.8     118.1                           33296.0547      0.00  
+    0:00:16   23785.9      2.27     179.8     118.1                           33296.0547      0.00  
+    0:00:16   23785.9      2.27     179.8     118.1                           33296.0547      0.00  
+    0:00:20   26641.4      2.08     170.8     150.2                           38230.9961      0.00  
+    0:00:20   26641.4      2.08     170.8     150.2                           38230.9961      0.00  
+    0:00:20   26791.2      2.08     170.8     150.2                           38467.7109      0.00  
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:20   27381.6      2.02     168.0     150.2                           38963.9062      0.00  
+    0:00:27   30376.8      1.91     157.8     160.3                           43686.1250      0.00  
+    0:00:27   30376.8      1.91     157.8     160.3                           43686.1250      0.00  
+    0:00:27   30405.6      1.88     157.6     160.3                           43716.9453      0.00  
+    0:00:27   30405.6      1.88     157.6     160.3                           43716.9453      0.00  
+    0:00:29   30818.9      1.86     157.1     165.3                           44439.8789      0.00  
+    0:00:29   30818.9      1.86     157.1     165.3                           44439.8789      0.00  
+    0:00:30   31049.3      1.87     157.6     158.3                           44717.5469      0.00  
+
+
+  Beginning Design Rule Fixing  (max_fanout)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:30   31049.3      1.87     157.6     158.3                           44717.5469      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:00:31   31623.8      1.86     156.6      97.0 net8614                   45200.9609      0.00  
+    0:00:32   31772.2      1.86     156.6      83.0 genblk1[8].mac/S_reg[7]/D 45305.2695      0.00  
+    0:00:33   32070.2      1.97     164.6      27.0 DP_OP_50J1_131_8560/n161  45786.5430      0.00  
+    0:00:34   32140.8      1.92     162.2       0.0                           45795.9141      0.00  
+    0:00:34   32214.2      1.92     161.6       1.0                           45867.4727      0.00  
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:34   32214.2      1.92     161.6       1.0                           45867.4727      0.00  
+    0:00:35   32194.1      1.92     163.1       1.0                           45862.6992      0.00  
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:35   32040.0      2.16     169.7       1.0                           45678.9141      0.00  
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+  Global Optimization (Phase 49)
+  Global Optimization (Phase 50)
+  Global Optimization (Phase 51)
+  Global Optimization (Phase 52)
+  Global Optimization (Phase 53)
+  Global Optimization (Phase 54)
+  Global Optimization (Phase 55)
+  Global Optimization (Phase 56)
+  Global Optimization (Phase 57)
+  Global Optimization (Phase 58)
+    0:00:41   31407.8      1.84     157.9       0.0                           44806.2422      0.00  
+    0:00:42   31436.6      1.84     157.7       0.0                           44799.8984      0.00  
+    0:00:42   31410.7      1.84     157.7       0.0                           44748.9062      0.00  
+    0:00:42   31410.7      1.84     157.7       0.0                           44748.9062      0.00  
+    0:00:42   31410.7      1.84     157.7       0.0                           44748.9062      0.00  
+    0:00:42   31419.4      1.84     157.7       0.0                           44763.4258      0.00  
+    0:00:42   31419.4      1.84     157.7       0.0                           44763.4258      0.00  
+    0:00:43   31433.8      1.84     157.7       0.0                           44774.4414      0.00  
+    0:00:43   31433.8      1.84     157.7       0.0                           44774.4414      0.00  
+    0:00:45   31992.5      1.81     156.2      39.0                           45552.0273      0.00  
+    0:00:45   31992.5      1.81     156.2      39.0                           45552.0273      0.00  
+    0:00:46   32031.4      1.81     156.0      42.0                           45602.9180      0.00  
+    0:00:46   32031.4      1.81     156.0      42.0                           45602.9180      0.00  
+    0:00:49   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:49   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:49   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:49   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:49   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:49   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:50   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:50   32676.5      1.80     155.3      56.1                           46630.6289      0.00  
+    0:00:50   32126.4      1.80     154.4      56.1                           45834.4102      0.00  
+    0:00:50   31965.1      1.80     154.3      56.1                           45645.8477      0.00  
+    0:00:51   31806.7      1.80     153.8      38.0 net10434                  45315.4844      0.00  
+    0:00:52   31837.0      1.79     153.5      38.0 genblk1[1].mac/S_reg[8]/D 45383.8008      0.00  
+    0:00:53   31878.7      1.79     153.1      45.0 genblk1[3].mac/S_reg[8]/D 45441.0625      0.00  
+    0:00:53   31729.0      1.85     157.1      46.0 genblk1[0].mac/S_reg[8]/D 45098.5781      0.00  
+    0:00:54   31802.4      1.80     154.9      44.0 net12028                  45194.8711      0.00  
+    0:00:55   31916.2      1.82     156.9       0.0 genblk1[4].mac/S_reg[7]/D 45375.9062      0.00  
+    0:00:55   32081.8      1.81     155.9       0.0                           45608.4570      0.00  
+    0:00:58   32788.8      1.79     153.8      43.0                           46682.1602      0.00  
+    0:00:59   31536.0      1.78     152.7      43.0                           44348.8594      0.00  
+Loading db file '/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+#########################################
+# Optimize design                       #
+# Some pointers for possible optimizatio# 
+# Check the DC reference manual         #
+#########################################
+#set_transform_for_retiming {temp_reg[6] temp_reg[5] temp_reg[4] temp_reg[3] temp_reg[2] temp_reg[1] temp_reg[0]} dont_retime
+#optimize_registers -clock clk -edge rise -justification_effort high 
+#balance_registers
+#source -verbose "../script/timing.1.2ns.tcl"
+#pipeline_design -stages 8 -clock_port_name $clk_name -check_design -verbose -print_critical_loop
+#set_max_capacitance 1 [all_inputs] 
+#compile_ultra -no_autoungroup -no_boundary_optimization
+#remove_clock -all
+#pipeline_design -stages 8 -clock_port_name $clk_name -async_reset reset -check_design -verbose -minimum_period_only
+#########################################
+# Write outputs                         #
+#########################################
+source -verbose "../common_script/namingrules.tcl"
+1
+
+Design          Type    Object                  New Name
+--------------------------------------------------------------------------------
+multStore       cell    genblk1[0].mac/S_reg[1] genblk1_0__mac_S_reg_1_
+multStore       cell    genblk1[1].mac/S_reg[1] genblk1_1__mac_S_reg_1_
+multStore       cell    genblk1[3].mac/S_reg[1] genblk1_3__mac_S_reg_1_
+multStore       cell    genblk1[4].mac/S_reg[1] genblk1_4__mac_S_reg_1_
+multStore       cell    genblk1[5].mac/S_reg[1] genblk1_5__mac_S_reg_1_
+multStore       cell    genblk1[7].mac/S_reg[1] genblk1_7__mac_S_reg_1_
+multStore       cell    genblk1[0].mac/S_reg[2] genblk1_0__mac_S_reg_2_
+multStore       cell    genblk1[1].mac/S_reg[2] genblk1_1__mac_S_reg_2_
+multStore       cell    genblk1[1].mac/S_reg[3] genblk1_1__mac_S_reg_3_
+multStore       cell    genblk1[2].mac/S_reg[2] genblk1_2__mac_S_reg_2_
+multStore       cell    genblk1[2].mac/S_reg[3] genblk1_2__mac_S_reg_3_
+multStore       cell    genblk1[3].mac/S_reg[2] genblk1_3__mac_S_reg_2_
+multStore       cell    genblk1[3].mac/S_reg[3] genblk1_3__mac_S_reg_3_
+multStore       cell    genblk1[4].mac/S_reg[2] genblk1_4__mac_S_reg_2_
+multStore       cell    genblk1[4].mac/S_reg[3] genblk1_4__mac_S_reg_3_
+multStore       cell    genblk1[5].mac/S_reg[2] genblk1_5__mac_S_reg_2_
+multStore       cell    genblk1[5].mac/S_reg[3] genblk1_5__mac_S_reg_3_
+multStore       cell    genblk1[7].mac/S_reg[2] genblk1_7__mac_S_reg_2_
+multStore       cell    genblk1[7].mac/S_reg[3] genblk1_7__mac_S_reg_3_
+multStore       cell    genblk1[8].mac/S_reg[2] genblk1_8__mac_S_reg_2_
+multStore       cell    genblk1[8].mac/S_reg[3] genblk1_8__mac_S_reg_3_
+multStore       cell    genblk1[9].mac/S_reg[2] genblk1_9__mac_S_reg_2_
+multStore       cell    genblk1[9].mac/S_reg[3] genblk1_9__mac_S_reg_3_
+multStore       cell    genblk1[0].mac/S_reg[4] genblk1_0__mac_S_reg_4_
+multStore       cell    genblk1[1].mac/S_reg[4] genblk1_1__mac_S_reg_4_
+multStore       cell    genblk1[2].mac/S_reg[4] genblk1_2__mac_S_reg_4_
+multStore       cell    genblk1[3].mac/S_reg[4] genblk1_3__mac_S_reg_4_
+multStore       cell    genblk1[4].mac/S_reg[4] genblk1_4__mac_S_reg_4_
+multStore       cell    genblk1[6].mac/S_reg[4] genblk1_6__mac_S_reg_4_
+multStore       cell    genblk1[7].mac/S_reg[4] genblk1_7__mac_S_reg_4_
+multStore       cell    genblk1[8].mac/S_reg[4] genblk1_8__mac_S_reg_4_
+multStore       cell    genblk1[9].mac/S_reg[4] genblk1_9__mac_S_reg_4_
+multStore       cell    genblk1[0].mac/S_reg[5] genblk1_0__mac_S_reg_5_
+multStore       cell    genblk1[2].mac/S_reg[5] genblk1_2__mac_S_reg_5_
+multStore       cell    genblk1[4].mac/S_reg[5] genblk1_4__mac_S_reg_5_
+multStore       cell    genblk1[7].mac/S_reg[5] genblk1_7__mac_S_reg_5_
+multStore       cell    genblk1[9].mac/S_reg[5] genblk1_9__mac_S_reg_5_
+multStore       cell    genblk1[0].mac/S_reg[6] genblk1_0__mac_S_reg_6_
+multStore       cell    genblk1[7].mac/S_reg[6] genblk1_7__mac_S_reg_6_
+multStore       cell    genblk1[0].mac/biasesStored_reg[0] genblk1_0__mac_biasesStored_reg_0_
+multStore       cell    genblk1[0].mac/biasesStored_reg[1] genblk1_0__mac_biasesStored_reg_1_
+multStore       cell    genblk1[0].mac/biasesStored_reg[2] genblk1_0__mac_biasesStored_reg_2_
+multStore       cell    genblk1[0].mac/biasesStored_reg[3] genblk1_0__mac_biasesStored_reg_3_
+multStore       cell    genblk1[0].mac/biasesStored_reg[4] genblk1_0__mac_biasesStored_reg_4_
+multStore       cell    genblk1[0].mac/biasesStored_reg[9] genblk1_0__mac_biasesStored_reg_9_
+multStore       cell    genblk1[1].mac/biasesStored_reg[0] genblk1_1__mac_biasesStored_reg_0_
+multStore       cell    genblk1[1].mac/biasesStored_reg[1] genblk1_1__mac_biasesStored_reg_1_
+multStore       cell    genblk1[1].mac/biasesStored_reg[2] genblk1_1__mac_biasesStored_reg_2_
+multStore       cell    genblk1[1].mac/biasesStored_reg[3] genblk1_1__mac_biasesStored_reg_3_
+multStore       cell    genblk1[1].mac/biasesStored_reg[4] genblk1_1__mac_biasesStored_reg_4_
+multStore       cell    genblk1[1].mac/biasesStored_reg[9] genblk1_1__mac_biasesStored_reg_9_
+multStore       cell    genblk1[2].mac/biasesStored_reg[0] genblk1_2__mac_biasesStored_reg_0_
+multStore       cell    genblk1[2].mac/biasesStored_reg[1] genblk1_2__mac_biasesStored_reg_1_
+multStore       cell    genblk1[2].mac/biasesStored_reg[2] genblk1_2__mac_biasesStored_reg_2_
+multStore       cell    genblk1[2].mac/biasesStored_reg[3] genblk1_2__mac_biasesStored_reg_3_
+multStore       cell    genblk1[2].mac/biasesStored_reg[4] genblk1_2__mac_biasesStored_reg_4_
+multStore       cell    genblk1[2].mac/biasesStored_reg[9] genblk1_2__mac_biasesStored_reg_9_
+multStore       cell    genblk1[3].mac/biasesStored_reg[0] genblk1_3__mac_biasesStored_reg_0_
+multStore       cell    genblk1[3].mac/biasesStored_reg[1] genblk1_3__mac_biasesStored_reg_1_
+multStore       cell    genblk1[3].mac/biasesStored_reg[2] genblk1_3__mac_biasesStored_reg_2_
+multStore       cell    genblk1[3].mac/biasesStored_reg[3] genblk1_3__mac_biasesStored_reg_3_
+multStore       cell    genblk1[3].mac/biasesStored_reg[4] genblk1_3__mac_biasesStored_reg_4_
+multStore       cell    genblk1[3].mac/biasesStored_reg[9] genblk1_3__mac_biasesStored_reg_9_
+multStore       cell    genblk1[4].mac/biasesStored_reg[0] genblk1_4__mac_biasesStored_reg_0_
+multStore       cell    genblk1[4].mac/biasesStored_reg[1] genblk1_4__mac_biasesStored_reg_1_
+multStore       cell    genblk1[4].mac/biasesStored_reg[2] genblk1_4__mac_biasesStored_reg_2_
+multStore       cell    genblk1[4].mac/biasesStored_reg[3] genblk1_4__mac_biasesStored_reg_3_
+multStore       cell    genblk1[4].mac/biasesStored_reg[4] genblk1_4__mac_biasesStored_reg_4_
+multStore       cell    genblk1[4].mac/biasesStored_reg[9] genblk1_4__mac_biasesStored_reg_9_
+multStore       cell    genblk1[5].mac/biasesStored_reg[0] genblk1_5__mac_biasesStored_reg_0_
+multStore       cell    genblk1[5].mac/biasesStored_reg[1] genblk1_5__mac_biasesStored_reg_1_
+multStore       cell    genblk1[5].mac/biasesStored_reg[2] genblk1_5__mac_biasesStored_reg_2_
+multStore       cell    genblk1[5].mac/biasesStored_reg[3] genblk1_5__mac_biasesStored_reg_3_
+multStore       cell    genblk1[5].mac/biasesStored_reg[4] genblk1_5__mac_biasesStored_reg_4_
+multStore       cell    genblk1[5].mac/biasesStored_reg[9] genblk1_5__mac_biasesStored_reg_9_
+multStore       cell    genblk1[6].mac/biasesStored_reg[0] genblk1_6__mac_biasesStored_reg_0_
+multStore       cell    genblk1[6].mac/biasesStored_reg[1] genblk1_6__mac_biasesStored_reg_1_
+multStore       cell    genblk1[6].mac/biasesStored_reg[2] genblk1_6__mac_biasesStored_reg_2_
+multStore       cell    genblk1[6].mac/biasesStored_reg[3] genblk1_6__mac_biasesStored_reg_3_
+multStore       cell    genblk1[6].mac/biasesStored_reg[4] genblk1_6__mac_biasesStored_reg_4_
+multStore       cell    genblk1[6].mac/biasesStored_reg[9] genblk1_6__mac_biasesStored_reg_9_
+multStore       cell    genblk1[7].mac/biasesStored_reg[0] genblk1_7__mac_biasesStored_reg_0_
+multStore       cell    genblk1[7].mac/biasesStored_reg[1] genblk1_7__mac_biasesStored_reg_1_
+multStore       cell    genblk1[7].mac/biasesStored_reg[2] genblk1_7__mac_biasesStored_reg_2_
+multStore       cell    genblk1[7].mac/biasesStored_reg[3] genblk1_7__mac_biasesStored_reg_3_
+multStore       cell    genblk1[7].mac/biasesStored_reg[4] genblk1_7__mac_biasesStored_reg_4_
+multStore       cell    genblk1[7].mac/biasesStored_reg[9] genblk1_7__mac_biasesStored_reg_9_
+multStore       cell    genblk1[8].mac/biasesStored_reg[0] genblk1_8__mac_biasesStored_reg_0_
+multStore       cell    genblk1[8].mac/biasesStored_reg[1] genblk1_8__mac_biasesStored_reg_1_
+multStore       cell    genblk1[8].mac/biasesStored_reg[2] genblk1_8__mac_biasesStored_reg_2_
+multStore       cell    genblk1[8].mac/biasesStored_reg[3] genblk1_8__mac_biasesStored_reg_3_
+multStore       cell    genblk1[8].mac/biasesStored_reg[4] genblk1_8__mac_biasesStored_reg_4_
+multStore       cell    genblk1[8].mac/biasesStored_reg[9] genblk1_8__mac_biasesStored_reg_9_
+multStore       cell    genblk1[9].mac/biasesStored_reg[0] genblk1_9__mac_biasesStored_reg_0_
+multStore       cell    genblk1[9].mac/biasesStored_reg[1] genblk1_9__mac_biasesStored_reg_1_
+multStore       cell    genblk1[9].mac/biasesStored_reg[2] genblk1_9__mac_biasesStored_reg_2_
+multStore       cell    genblk1[9].mac/biasesStored_reg[3] genblk1_9__mac_biasesStored_reg_3_
+multStore       cell    genblk1[9].mac/biasesStored_reg[4] genblk1_9__mac_biasesStored_reg_4_
+multStore       cell    genblk1[9].mac/biasesStored_reg[9] genblk1_9__mac_biasesStored_reg_9_
+multStore       cell    genblk1[4].mac/S_reg[0] genblk1_4__mac_S_reg_0_
+multStore       cell    genblk1[5].mac/S_reg[0] genblk1_5__mac_S_reg_0_
+multStore       cell    genblk1[9].mac/S_reg[0] genblk1_9__mac_S_reg_0_
+multStore       cell    genblk1[9].mac/S_reg[7] genblk1_9__mac_S_reg_7_
+multStore       cell    genblk1[9].mac/S_reg[8] genblk1_9__mac_S_reg_8_
+multStore       cell    genblk1[3].mac/S_reg[9] genblk1_3__mac_S_reg_9_
+multStore       cell    genblk1[1].mac/S_reg[8] genblk1_1__mac_S_reg_8_
+multStore       cell    genblk1[1].mac/S_reg[7] genblk1_1__mac_S_reg_7_
+multStore       cell    genblk1[3].mac/S_reg[8] genblk1_3__mac_S_reg_8_
+multStore       cell    genblk1[4].mac/S_reg[8] genblk1_4__mac_S_reg_8_
+multStore       cell    genblk1[9].mac/S_reg[9] genblk1_9__mac_S_reg_9_
+multStore       cell    genblk1[4].mac/S_reg[9] genblk1_4__mac_S_reg_9_
+multStore       cell    genblk1[4].mac/S_reg[7] genblk1_4__mac_S_reg_7_
+multStore       cell    genblk1[6].mac/S_reg[2] genblk1_6__mac_S_reg_2_
+multStore       cell    genblk1[6].mac/S_reg[5] genblk1_6__mac_S_reg_5_
+multStore       cell    genblk1[5].mac/S_reg[5] genblk1_5__mac_S_reg_5_
+multStore       cell    genblk1[3].mac/S_reg[5] genblk1_3__mac_S_reg_5_
+multStore       cell    genblk1[5].mac/S_reg[9] genblk1_5__mac_S_reg_9_
+multStore       cell    genblk1[6].mac/S_reg[6] genblk1_6__mac_S_reg_6_
+multStore       cell    genblk1[6].mac/S_reg[8] genblk1_6__mac_S_reg_8_
+multStore       cell    genblk1[1].mac/S_reg[5] genblk1_1__mac_S_reg_5_
+multStore       cell    genblk1[6].mac/S_reg[7] genblk1_6__mac_S_reg_7_
+multStore       cell    genblk1[6].mac/S_reg[9] genblk1_6__mac_S_reg_9_
+multStore       cell    genblk1[7].mac/S_reg[8] genblk1_7__mac_S_reg_8_
+multStore       cell    genblk1[0].mac/S_reg[9] genblk1_0__mac_S_reg_9_
+multStore       cell    genblk1[8].mac/S_reg[8] genblk1_8__mac_S_reg_8_
+multStore       cell    genblk1[1].mac/S_reg[9] genblk1_1__mac_S_reg_9_
+multStore       cell    genblk1[1].mac/S_reg[6] genblk1_1__mac_S_reg_6_
+multStore       cell    genblk1[7].mac/S_reg[9] genblk1_7__mac_S_reg_9_
+multStore       cell    genblk1[3].mac/S_reg[7] genblk1_3__mac_S_reg_7_
+multStore       cell    genblk1[5].mac/S_reg[8] genblk1_5__mac_S_reg_8_
+multStore       cell    genblk1[2].mac/S_reg[8] genblk1_2__mac_S_reg_8_
+multStore       cell    genblk1[2].mac/S_reg[7] genblk1_2__mac_S_reg_7_
+multStore       cell    genblk1[5].mac/S_reg[7] genblk1_5__mac_S_reg_7_
+multStore       cell    genblk1[0].mac/S_reg[7] genblk1_0__mac_S_reg_7_
+multStore       cell    genblk1[0].mac/S_reg[8] genblk1_0__mac_S_reg_8_
+multStore       cell    genblk1[7].mac/S_reg[7] genblk1_7__mac_S_reg_7_
+multStore       cell    genblk1[2].mac/S_reg[9] genblk1_2__mac_S_reg_9_
+multStore       cell    genblk1[8].mac/S_reg[7] genblk1_8__mac_S_reg_7_
+multStore       cell    genblk1[8].mac/S_reg[9] genblk1_8__mac_S_reg_9_
+multStore       cell    genblk1[9].mac/S_reg[6] genblk1_9__mac_S_reg_6_
+multStore       cell    genblk1[4].mac/S_reg[6] genblk1_4__mac_S_reg_6_
+multStore       cell    genblk1[5].mac/S_reg[6] genblk1_5__mac_S_reg_6_
+multStore       cell    genblk1[9].mac/S_reg[1] genblk1_9__mac_S_reg_1_
+multStore       cell    genblk1[8].mac/S_reg[0] genblk1_8__mac_S_reg_0_
+multStore       cell    genblk1[1].mac/S_reg[0] genblk1_1__mac_S_reg_0_
+multStore       cell    genblk1[8].mac/S_reg[5] genblk1_8__mac_S_reg_5_
+multStore       cell    genblk1[3].mac/S_reg[6] genblk1_3__mac_S_reg_6_
+multStore       cell    genblk1[8].mac/S_reg[6] genblk1_8__mac_S_reg_6_
+multStore       cell    genblk1[2].mac/S_reg[6] genblk1_2__mac_S_reg_6_
+multStore       cell    genblk1[0].mac/S_reg[0] genblk1_0__mac_S_reg_0_
+multStore       cell    genblk1[6].mac/S_reg[0] genblk1_6__mac_S_reg_0_
+multStore       cell    genblk1[3].mac/S_reg[0] genblk1_3__mac_S_reg_0_
+multStore       cell    genblk1[2].mac/S_reg[0] genblk1_2__mac_S_reg_0_
+multStore       cell    genblk1[7].mac/S_reg[0] genblk1_7__mac_S_reg_0_
+multStore       cell    genblk1[6].mac/S_reg[1] genblk1_6__mac_S_reg_1_
+multStore       cell    genblk1[2].mac/S_reg[1] genblk1_2__mac_S_reg_1_
+multStore       cell    genblk1[8].mac/S_reg[1] genblk1_8__mac_S_reg_1_
+multStore       cell    genblk1[6].mac/S_reg[3] genblk1_6__mac_S_reg_3_
+multStore       cell    genblk1[0].mac/S_reg[3] genblk1_0__mac_S_reg_3_
+multStore       cell    genblk1[5].mac/S_reg[4] genblk1_5__mac_S_reg_4_
+multStore       net     genblk1[0].mac/s        genblk1_0__mac_s
+multStore       net     genblk1[0].mac/s[9]     genblk1_0__mac_s[9]
+multStore       net     genblk1[0].mac/s[8]     genblk1_0__mac_s[8]
+multStore       net     genblk1[0].mac/s[7]     genblk1_0__mac_s[7]
+multStore       net     genblk1[0].mac/s[6]     genblk1_0__mac_s[6]
+multStore       net     genblk1[0].mac/s[5]     genblk1_0__mac_s[5]
+multStore       net     genblk1[0].mac/s[4]     genblk1_0__mac_s[4]
+multStore       net     genblk1[0].mac/s[3]     genblk1_0__mac_s[3]
+multStore       net     genblk1[0].mac/s[2]     genblk1_0__mac_s[2]
+multStore       net     genblk1[0].mac/s[1]     genblk1_0__mac_s[1]
+multStore       net     genblk1[0].mac/s[0]     genblk1_0__mac_s[0]
+multStore       net     genblk1[0].mac/biasesStored genblk1_0__mac_biasesStored
+multStore       net     genblk1[0].mac/biasesStored[9] genblk1_0__mac_biasesStored[9]
+multStore       net     genblk1[0].mac/biasesStored[4] genblk1_0__mac_biasesStored[4]
+multStore       net     genblk1[0].mac/biasesStored[3] genblk1_0__mac_biasesStored[3]
+multStore       net     genblk1[0].mac/biasesStored[2] genblk1_0__mac_biasesStored[2]
+multStore       net     genblk1[0].mac/biasesStored[1] genblk1_0__mac_biasesStored[1]
+multStore       net     genblk1[0].mac/biasesStored[0] genblk1_0__mac_biasesStored[0]
+multStore       net     genblk1[1].mac/s        genblk1_1__mac_s
+multStore       net     genblk1[1].mac/s[9]     genblk1_1__mac_s[9]
+multStore       net     genblk1[1].mac/s[8]     genblk1_1__mac_s[8]
+multStore       net     genblk1[1].mac/s[7]     genblk1_1__mac_s[7]
+multStore       net     genblk1[1].mac/s[6]     genblk1_1__mac_s[6]
+multStore       net     genblk1[1].mac/s[5]     genblk1_1__mac_s[5]
+multStore       net     genblk1[1].mac/s[4]     genblk1_1__mac_s[4]
+multStore       net     genblk1[1].mac/s[3]     genblk1_1__mac_s[3]
+multStore       net     genblk1[1].mac/s[2]     genblk1_1__mac_s[2]
+multStore       net     genblk1[1].mac/s[1]     genblk1_1__mac_s[1]
+multStore       net     genblk1[1].mac/s[0]     genblk1_1__mac_s[0]
+multStore       net     genblk1[1].mac/biasesStored genblk1_1__mac_biasesStored
+multStore       net     genblk1[1].mac/biasesStored[9] genblk1_1__mac_biasesStored[9]
+multStore       net     genblk1[1].mac/biasesStored[4] genblk1_1__mac_biasesStored[4]
+multStore       net     genblk1[1].mac/biasesStored[3] genblk1_1__mac_biasesStored[3]
+multStore       net     genblk1[1].mac/biasesStored[2] genblk1_1__mac_biasesStored[2]
+multStore       net     genblk1[1].mac/biasesStored[1] genblk1_1__mac_biasesStored[1]
+multStore       net     genblk1[1].mac/biasesStored[0] genblk1_1__mac_biasesStored[0]
+multStore       net     genblk1[2].mac/s        genblk1_2__mac_s
+multStore       net     genblk1[2].mac/s[9]     genblk1_2__mac_s[9]
+multStore       net     genblk1[2].mac/s[8]     genblk1_2__mac_s[8]
+multStore       net     genblk1[2].mac/s[7]     genblk1_2__mac_s[7]
+multStore       net     genblk1[2].mac/s[6]     genblk1_2__mac_s[6]
+multStore       net     genblk1[2].mac/s[5]     genblk1_2__mac_s[5]
+multStore       net     genblk1[2].mac/s[4]     genblk1_2__mac_s[4]
+multStore       net     genblk1[2].mac/s[3]     genblk1_2__mac_s[3]
+multStore       net     genblk1[2].mac/s[2]     genblk1_2__mac_s[2]
+multStore       net     genblk1[2].mac/s[1]     genblk1_2__mac_s[1]
+multStore       net     genblk1[2].mac/s[0]     genblk1_2__mac_s[0]
+multStore       net     genblk1[2].mac/biasesStored genblk1_2__mac_biasesStored
+multStore       net     genblk1[2].mac/biasesStored[9] genblk1_2__mac_biasesStored[9]
+multStore       net     genblk1[2].mac/biasesStored[4] genblk1_2__mac_biasesStored[4]
+multStore       net     genblk1[2].mac/biasesStored[3] genblk1_2__mac_biasesStored[3]
+multStore       net     genblk1[2].mac/biasesStored[2] genblk1_2__mac_biasesStored[2]
+multStore       net     genblk1[2].mac/biasesStored[1] genblk1_2__mac_biasesStored[1]
+multStore       net     genblk1[2].mac/biasesStored[0] genblk1_2__mac_biasesStored[0]
+multStore       net     genblk1[3].mac/s        genblk1_3__mac_s
+multStore       net     genblk1[3].mac/s[9]     genblk1_3__mac_s[9]
+multStore       net     genblk1[3].mac/s[8]     genblk1_3__mac_s[8]
+multStore       net     genblk1[3].mac/s[7]     genblk1_3__mac_s[7]
+multStore       net     genblk1[3].mac/s[6]     genblk1_3__mac_s[6]
+multStore       net     genblk1[3].mac/s[5]     genblk1_3__mac_s[5]
+multStore       net     genblk1[3].mac/s[4]     genblk1_3__mac_s[4]
+multStore       net     genblk1[3].mac/s[3]     genblk1_3__mac_s[3]
+multStore       net     genblk1[3].mac/s[2]     genblk1_3__mac_s[2]
+multStore       net     genblk1[3].mac/s[1]     genblk1_3__mac_s[1]
+multStore       net     genblk1[3].mac/s[0]     genblk1_3__mac_s[0]
+multStore       net     genblk1[3].mac/biasesStored genblk1_3__mac_biasesStored
+multStore       net     genblk1[3].mac/biasesStored[9] genblk1_3__mac_biasesStored[9]
+multStore       net     genblk1[3].mac/biasesStored[4] genblk1_3__mac_biasesStored[4]
+multStore       net     genblk1[3].mac/biasesStored[3] genblk1_3__mac_biasesStored[3]
+multStore       net     genblk1[3].mac/biasesStored[2] genblk1_3__mac_biasesStored[2]
+multStore       net     genblk1[3].mac/biasesStored[1] genblk1_3__mac_biasesStored[1]
+multStore       net     genblk1[3].mac/biasesStored[0] genblk1_3__mac_biasesStored[0]
+multStore       net     genblk1[4].mac/s        genblk1_4__mac_s
+multStore       net     genblk1[4].mac/s[9]     genblk1_4__mac_s[9]
+multStore       net     genblk1[4].mac/s[8]     genblk1_4__mac_s[8]
+multStore       net     genblk1[4].mac/s[7]     genblk1_4__mac_s[7]
+multStore       net     genblk1[4].mac/s[6]     genblk1_4__mac_s[6]
+multStore       net     genblk1[4].mac/s[5]     genblk1_4__mac_s[5]
+multStore       net     genblk1[4].mac/s[4]     genblk1_4__mac_s[4]
+multStore       net     genblk1[4].mac/s[3]     genblk1_4__mac_s[3]
+multStore       net     genblk1[4].mac/s[2]     genblk1_4__mac_s[2]
+multStore       net     genblk1[4].mac/s[1]     genblk1_4__mac_s[1]
+multStore       net     genblk1[4].mac/s[0]     genblk1_4__mac_s[0]
+multStore       net     genblk1[4].mac/biasesStored genblk1_4__mac_biasesStored
+multStore       net     genblk1[4].mac/biasesStored[9] genblk1_4__mac_biasesStored[9]
+multStore       net     genblk1[4].mac/biasesStored[4] genblk1_4__mac_biasesStored[4]
+multStore       net     genblk1[4].mac/biasesStored[3] genblk1_4__mac_biasesStored[3]
+multStore       net     genblk1[4].mac/biasesStored[2] genblk1_4__mac_biasesStored[2]
+multStore       net     genblk1[4].mac/biasesStored[1] genblk1_4__mac_biasesStored[1]
+multStore       net     genblk1[4].mac/biasesStored[0] genblk1_4__mac_biasesStored[0]
+multStore       net     genblk1[5].mac/s        genblk1_5__mac_s
+multStore       net     genblk1[5].mac/s[9]     genblk1_5__mac_s[9]
+multStore       net     genblk1[5].mac/s[8]     genblk1_5__mac_s[8]
+multStore       net     genblk1[5].mac/s[7]     genblk1_5__mac_s[7]
+multStore       net     genblk1[5].mac/s[6]     genblk1_5__mac_s[6]
+multStore       net     genblk1[5].mac/s[5]     genblk1_5__mac_s[5]
+multStore       net     genblk1[5].mac/s[4]     genblk1_5__mac_s[4]
+multStore       net     genblk1[5].mac/s[3]     genblk1_5__mac_s[3]
+multStore       net     genblk1[5].mac/s[2]     genblk1_5__mac_s[2]
+multStore       net     genblk1[5].mac/s[1]     genblk1_5__mac_s[1]
+multStore       net     genblk1[5].mac/s[0]     genblk1_5__mac_s[0]
+multStore       net     genblk1[5].mac/biasesStored genblk1_5__mac_biasesStored
+multStore       net     genblk1[5].mac/biasesStored[9] genblk1_5__mac_biasesStored[9]
+multStore       net     genblk1[5].mac/biasesStored[4] genblk1_5__mac_biasesStored[4]
+multStore       net     genblk1[5].mac/biasesStored[3] genblk1_5__mac_biasesStored[3]
+multStore       net     genblk1[5].mac/biasesStored[2] genblk1_5__mac_biasesStored[2]
+multStore       net     genblk1[5].mac/biasesStored[1] genblk1_5__mac_biasesStored[1]
+multStore       net     genblk1[5].mac/biasesStored[0] genblk1_5__mac_biasesStored[0]
+multStore       net     genblk1[6].mac/s        genblk1_6__mac_s
+multStore       net     genblk1[6].mac/s[9]     genblk1_6__mac_s[9]
+multStore       net     genblk1[6].mac/s[8]     genblk1_6__mac_s[8]
+multStore       net     genblk1[6].mac/s[7]     genblk1_6__mac_s[7]
+multStore       net     genblk1[6].mac/s[6]     genblk1_6__mac_s[6]
+multStore       net     genblk1[6].mac/s[5]     genblk1_6__mac_s[5]
+multStore       net     genblk1[6].mac/s[4]     genblk1_6__mac_s[4]
+multStore       net     genblk1[6].mac/s[3]     genblk1_6__mac_s[3]
+multStore       net     genblk1[6].mac/s[2]     genblk1_6__mac_s[2]
+multStore       net     genblk1[6].mac/s[1]     genblk1_6__mac_s[1]
+multStore       net     genblk1[6].mac/s[0]     genblk1_6__mac_s[0]
+multStore       net     genblk1[6].mac/biasesStored genblk1_6__mac_biasesStored
+multStore       net     genblk1[6].mac/biasesStored[9] genblk1_6__mac_biasesStored[9]
+multStore       net     genblk1[6].mac/biasesStored[4] genblk1_6__mac_biasesStored[4]
+multStore       net     genblk1[6].mac/biasesStored[3] genblk1_6__mac_biasesStored[3]
+multStore       net     genblk1[6].mac/biasesStored[2] genblk1_6__mac_biasesStored[2]
+multStore       net     genblk1[6].mac/biasesStored[1] genblk1_6__mac_biasesStored[1]
+multStore       net     genblk1[6].mac/biasesStored[0] genblk1_6__mac_biasesStored[0]
+multStore       net     genblk1[7].mac/s        genblk1_7__mac_s
+multStore       net     genblk1[7].mac/s[9]     genblk1_7__mac_s[9]
+multStore       net     genblk1[7].mac/s[8]     genblk1_7__mac_s[8]
+multStore       net     genblk1[7].mac/s[7]     genblk1_7__mac_s[7]
+multStore       net     genblk1[7].mac/s[6]     genblk1_7__mac_s[6]
+multStore       net     genblk1[7].mac/s[5]     genblk1_7__mac_s[5]
+multStore       net     genblk1[7].mac/s[4]     genblk1_7__mac_s[4]
+multStore       net     genblk1[7].mac/s[3]     genblk1_7__mac_s[3]
+multStore       net     genblk1[7].mac/s[2]     genblk1_7__mac_s[2]
+multStore       net     genblk1[7].mac/s[1]     genblk1_7__mac_s[1]
+multStore       net     genblk1[7].mac/s[0]     genblk1_7__mac_s[0]
+multStore       net     genblk1[7].mac/biasesStored genblk1_7__mac_biasesStored
+multStore       net     genblk1[7].mac/biasesStored[9] genblk1_7__mac_biasesStored[9]
+multStore       net     genblk1[7].mac/biasesStored[4] genblk1_7__mac_biasesStored[4]
+multStore       net     genblk1[7].mac/biasesStored[3] genblk1_7__mac_biasesStored[3]
+multStore       net     genblk1[7].mac/biasesStored[2] genblk1_7__mac_biasesStored[2]
+multStore       net     genblk1[7].mac/biasesStored[1] genblk1_7__mac_biasesStored[1]
+multStore       net     genblk1[7].mac/biasesStored[0] genblk1_7__mac_biasesStored[0]
+multStore       net     genblk1[8].mac/s        genblk1_8__mac_s
+multStore       net     genblk1[8].mac/s[9]     genblk1_8__mac_s[9]
+multStore       net     genblk1[8].mac/s[8]     genblk1_8__mac_s[8]
+multStore       net     genblk1[8].mac/s[7]     genblk1_8__mac_s[7]
+multStore       net     genblk1[8].mac/s[6]     genblk1_8__mac_s[6]
+multStore       net     genblk1[8].mac/s[5]     genblk1_8__mac_s[5]
+multStore       net     genblk1[8].mac/s[4]     genblk1_8__mac_s[4]
+multStore       net     genblk1[8].mac/s[3]     genblk1_8__mac_s[3]
+multStore       net     genblk1[8].mac/s[2]     genblk1_8__mac_s[2]
+multStore       net     genblk1[8].mac/s[1]     genblk1_8__mac_s[1]
+multStore       net     genblk1[8].mac/s[0]     genblk1_8__mac_s[0]
+multStore       net     genblk1[8].mac/biasesStored genblk1_8__mac_biasesStored
+multStore       net     genblk1[8].mac/biasesStored[9] genblk1_8__mac_biasesStored[9]
+multStore       net     genblk1[8].mac/biasesStored[4] genblk1_8__mac_biasesStored[4]
+multStore       net     genblk1[8].mac/biasesStored[3] genblk1_8__mac_biasesStored[3]
+multStore       net     genblk1[8].mac/biasesStored[2] genblk1_8__mac_biasesStored[2]
+multStore       net     genblk1[8].mac/biasesStored[1] genblk1_8__mac_biasesStored[1]
+multStore       net     genblk1[8].mac/biasesStored[0] genblk1_8__mac_biasesStored[0]
+multStore       net     genblk1[9].mac/s        genblk1_9__mac_s
+multStore       net     genblk1[9].mac/s[9]     genblk1_9__mac_s[9]
+multStore       net     genblk1[9].mac/s[8]     genblk1_9__mac_s[8]
+multStore       net     genblk1[9].mac/s[7]     genblk1_9__mac_s[7]
+multStore       net     genblk1[9].mac/s[6]     genblk1_9__mac_s[6]
+multStore       net     genblk1[9].mac/s[5]     genblk1_9__mac_s[5]
+multStore       net     genblk1[9].mac/s[4]     genblk1_9__mac_s[4]
+multStore       net     genblk1[9].mac/s[3]     genblk1_9__mac_s[3]
+multStore       net     genblk1[9].mac/s[2]     genblk1_9__mac_s[2]
+multStore       net     genblk1[9].mac/s[1]     genblk1_9__mac_s[1]
+multStore       net     genblk1[9].mac/s[0]     genblk1_9__mac_s[0]
+multStore       net     genblk1[9].mac/biasesStored genblk1_9__mac_biasesStored
+multStore       net     genblk1[9].mac/biasesStored[9] genblk1_9__mac_biasesStored[9]
+multStore       net     genblk1[9].mac/biasesStored[4] genblk1_9__mac_biasesStored[4]
+multStore       net     genblk1[9].mac/biasesStored[3] genblk1_9__mac_biasesStored[3]
+multStore       net     genblk1[9].mac/biasesStored[2] genblk1_9__mac_biasesStored[2]
+multStore       net     genblk1[9].mac/biasesStored[1] genblk1_9__mac_biasesStored[1]
+multStore       net     genblk1[9].mac/biasesStored[0] genblk1_9__mac_biasesStored[0]
+1
+1
+set verilogout_no_tri TRUE
+TRUE
+write -hierarchy -format verilog -output "${top_level}.nl.v"
+Writing verilog file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/Synthesis/multStore/multStore.nl.v'.
+1
+#write_sdf -context verilog "${top_level}.temp.sdf"
+write_sdc "${top_level}.syn.sdc" -version 1.7
+1
+write_sdf "${top_level}.syn.sdf"
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/Synthesis/multStore/multStore.syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+# Generate report file
+set maxpaths 20
+20
+set rpt_file "${top_level}.dc.rpt"
+multStore.dc.rpt
+check_design > $rpt_file
+report_area  >> ${rpt_file}
+report_power -hier -analysis_effort medium >> ${rpt_file}
+report_design >> ${rpt_file}
+report_cell >> ${rpt_file}
+report_port -verbose >> ${rpt_file}
+report_compile_options >> ${rpt_file}
+report_constraint -all_violators -verbose >> ${rpt_file}
+report_timing -path full -delay max -max_paths $maxpaths -nworst 100 >> ${rpt_file}
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs
+report_timing -delay max -nworst 1 -max_paths 10000 -path full -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs.full
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_outputs] > ${top_level}.syn.critical_regs.output
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_registers -data_pins] > ${top_level}.syn.critical_regs.regs
+report_timing -delay min -nworst 1 -max_paths 10000 -path short -nosplit -unique -sort_by slack > ${top_level}.syn.fast_path
+quit
+
+Thank you...

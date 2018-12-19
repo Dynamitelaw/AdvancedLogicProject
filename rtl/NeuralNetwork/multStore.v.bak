@@ -51,7 +51,7 @@ module MAC (clr, clk, X, M, S, B, biasWriteEnable);
 			if (B[`LAYER_2_WEIGHTS_BIT_WIDTH - 1])
 				biasesStored[k] = 1;
 			else
-				biasesStored[k] = 0;
+				biasesStored[k] = 0;	
 	end
 
 	// Pad input with 1s or 0s according to its sign

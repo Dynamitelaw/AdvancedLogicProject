@@ -15,9 +15,9 @@ This file contains all global macro definitions
 `define RELU_NODES 4
 
 `define LAYER_2_CLK_DIVIDER 1
-`define LAYER_2_IN_BIT_WIDTH 4
-`define LAYER_2_WEIGHTS_BIT_WIDTH 4
-`define LAYER_2_OUT_BIT_WIDTH 8
+`define LAYER_2_IN_BIT_WIDTH 3
+`define LAYER_2_WEIGHTS_BIT_WIDTH 3
+`define LAYER_2_OUT_BIT_WIDTH 4
 `define RELU_INDEX_WIDTH 3
 
 `define SOFTMAX_IN_BIT_WIDTH 8

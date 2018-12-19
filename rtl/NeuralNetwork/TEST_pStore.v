@@ -4,7 +4,7 @@ module test_pStore();
 
     reg clk, clr;
     reg [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] weightsIn;
-    reg [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] biasesIn;
+    reg [`RELU_NODES*`LAYER_1_BIT_WIDTH-1:0] biasesIn;
     reg biasWriteEnable;
     wire [`RELU_NODES*`LAYER_1_OUT_BIT_WIDTH-1:0] sumOut;
 
@@ -20,7 +20,7 @@ module test_pStore();
 	clr = 1;
 	biasWriteEnable = 0;
         weightsIn = 8'b0;
-	biasesIn = 10'b11111_01010;
+	biasesIn = 8'b1111_1010;
 	#20
 	clr = 0;
 	biasWriteEnable = 1;

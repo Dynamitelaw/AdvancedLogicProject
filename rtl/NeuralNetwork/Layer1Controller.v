@@ -174,7 +174,7 @@ module Layer1_Controller (
 		
 	//MUX for weightStorage address
 	always @(weightWriteEnable or biasWriteEnable or queueOut or WriteAddressSelect) begin : address_mux
-		if (((weightWriteEnable) || (biasWriteEnable)) && idle) begin
+		if ((weightWriteEnable) || (biasWriteEnable)) begin
 			nodeAddress <= WriteAddressSelect;
 		end
 		else begin

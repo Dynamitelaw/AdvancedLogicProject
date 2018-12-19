@@ -46,7 +46,7 @@ module stored_addern (clr, clk, X, S, B, biasWriteEnable);
 	integer j;
 	
 	// Store biases locally and sign extend
-	always @(biasWriteEnable or B)
+	always @(biasWriteEnable or biasesIn)
 	begin
 		if (biasWriteEnable) begin
 			biasesStored[`LAYER_1_BIT_WIDTH - 1:0] <= B;

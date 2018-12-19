@@ -9,7 +9,7 @@ module NN_Controler(
 	//Inputs
 	 	reset, 
 	 	//Timing
-	 	masterClk, inputsInbound, predictionRecieved
+	 	masterClk, inputsInbound, predictionRecieved,
 	 	//Data
 	 	inputPixel, weightWriteEnable, biasWriteEnable, LayerWriteSelect, WriteAddressSelect, writeIn,
 	 //Outputs

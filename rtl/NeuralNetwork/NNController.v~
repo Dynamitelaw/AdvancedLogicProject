@@ -145,11 +145,11 @@ module NN_Controler(
 		
 		//Layer 2 has been selected
 		else if (LayerWriteSelect == 1) begin
-			L1_WeightWriteEnable <= weightWriteEnable;
-			L1_BiasWriteEnable <= biasWriteEnable;
+			L1_WeightWriteEnable <= `FALSE;
+			L1_BiasWriteEnable <= `FALSE;
 			
-			L2_WeightWriteEnable <= `FALSE;
-			L2_BiasWriteEnable <= `FALSE;
+			L2_WeightWriteEnable <= weightWriteEnable;
+			L2_BiasWriteEnable <= biasWriteEnable;
 		end
 	end
 	

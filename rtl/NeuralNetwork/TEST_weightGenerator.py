@@ -1,0 +1,95 @@
+from random import *
+
+InputNodes = 6
+ReluNodes = 4
+
+weightSets = []
+for i in range(0,InputNodes):
+	weights = []
+	for j in range(0, ReluNodes):
+		weights.append(randint(0,7))
+		
+	weightSets.append((i, weights))
+	
+	
+print("=======================")
+print("Layer1 Weights")
+for s in weightSets:
+	print ("----------------")
+	print ("Node " + str(s[0]))
+	binaryWeights = ['{0:04b}'.format(i) for i in s[1]]
+	outputString = "24'b"
+	
+	for weight in binaryWeights:
+		outputString += weight
+		outputString += "_"
+		
+	outputString = outputString[:-1]
+	outputString += "  // "
+	outputString += str(s[1])
+	print outputString
+	
+print ("----------------")
+print ("L1 Biases")
+Biases = [3, 7, 1, 2]
+binaryBiases = ['{0:04b}'.format(i) for i in Biases]
+outputString = "24'b"
+for bias in binaryBiases:
+	outputString += bias
+	outputString += "_"
+outputString = outputString[:-1]
+outputString += "  // "
+outputString += str(Biases)
+print (outputString)
+	
+ReluNode0 = [3, -4, 7, -7, 6, -2, 0, 6, -1, 5]
+ReluNode1 = [-8, 3, 5, -5, -6, -1, -7, 2, 6, -3]
+ReluNode2 = [1, -3, 5, -8, 6, 3, -5, 4, -2, -4]
+ReluNode3 = [7, 2, -1, -6, -7, 3, -3, -8, 5, 0]
+ReluWeights = [ReluNode0, ReluNode1, ReluNode2, ReluNode3]
+
+
+#Do the multiplication
+inputPattern = [0,1,1,0,1,0]
+
+pstoreOut = Biases
+for i in range (0,6):
+	inputPixel = inputPattern[i]
+	for j in range(0,4):
+		pstoreOut[j] = (weightSets[i][1][j] * inputPixel) + pstoreOut[j]
+	
+#print(pstoreOut)
+
+print ("----------------")
+print ("L2 Biases")
+mBiases = [0, 6, 2, 1, 3, 3, 4, 2, 0, 1]
+mstoreOut = mBiases
+binaryBiases = ['{0:04b}'.format(i) for i in mBiases]
+outputString = "40'b"
+for bias in binaryBiases:
+	outputString += bias
+	outputString += "_"
+outputString = outputString[:-1]
+outputString += "  // "
+outputString += str(Biases)
+print (outputString)
+
+for i in range (0,4):
+	reluValue = pstoreOut[i]
+	for j in range(0,10):
+		mstoreOut[j] = (ReluWeights[i][j] * reluValue) + mstoreOut[j]
+
+print("#################################")
+print ("----------------")
+print ("pstore Out")
+print (pstoreOut)
+binaryPstore = ['{0:06b}'.format(i) for i in pstoreOut]
+print (binaryPstore)
+		
+print ("----------------")
+print ("Mstore Out")
+print (mstoreOut)
+binaryMstore = ['{0:06b}'.format(i) for i in mstoreOut]
+print (binaryMstore)	
+			
+	

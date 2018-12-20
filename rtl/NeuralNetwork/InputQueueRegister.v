@@ -73,8 +73,9 @@ module InputQueueRegister (
 		 		end
 		 	end
  		end
+ 	end
 
-	always @(negedge clk or posedge resetInputQueue) begin
+	always @(negedge clk or posedge resetInputQueue) begin : proc_2
 		if (resetInputQueue == `TRUE) begin
  			indexCounter <= 10'b0;	
  		end  

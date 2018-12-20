@@ -1,0 +1,26 @@
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+outputsReady (out)                  0.54 r            0.95         0.41
+inputsRecieved (out)                0.42 r            0.95         0.53
+predictionOutput[0] (out)           0.41 r            0.95         0.54
+predictionOutput[3] (out)           0.33 f            0.95         0.62
+predictionOutput[2] (out)           0.33 f            0.95         0.62
+predictionOutput[1] (out)           0.33 f            0.95         0.62
+
+1

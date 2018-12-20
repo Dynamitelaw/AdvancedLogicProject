@@ -1,0 +1,1086 @@
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : Layer2WeightStorage
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 11:57:49 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: NodeSelect[2]
+              (input port)
+  Endpoint: readOut[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[2] (in)                       0.04       0.04 r
+  ...
+  readOut[7] (out)                         0.70       0.74 f
+  data arrival time                                   0.74
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[2]
+              (input port)
+  Endpoint: readOut[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[2] (in)                       0.04       0.04 r
+  ...
+  readOut[4] (out)                         0.70       0.74 f
+  data arrival time                                   0.74
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_23_
+              (positive level-sensitive latch)
+  Endpoint: readOut[23]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_23_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_23_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[23] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_22_
+              (positive level-sensitive latch)
+  Endpoint: readOut[22]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_22_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_22_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[22] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_21_
+              (positive level-sensitive latch)
+  Endpoint: readOut[21]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_21_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_21_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[21] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_20_
+              (positive level-sensitive latch)
+  Endpoint: readOut[20]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_20_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_20_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[20] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_19_
+              (positive level-sensitive latch)
+  Endpoint: readOut[19]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_19_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_19_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[19] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_18_
+              (positive level-sensitive latch)
+  Endpoint: readOut[18]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_18_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_18_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[18] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_17_
+              (positive level-sensitive latch)
+  Endpoint: readOut[17]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_17_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_17_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[17] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_16_
+              (positive level-sensitive latch)
+  Endpoint: readOut[16]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_16_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_16_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[16] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_15_
+              (positive level-sensitive latch)
+  Endpoint: readOut[15]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_15_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_15_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[15] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_14_
+              (positive level-sensitive latch)
+  Endpoint: readOut[14]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_14_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_14_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[14] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_13_
+              (positive level-sensitive latch)
+  Endpoint: readOut[13]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_13_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_13_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[13] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_12_
+              (positive level-sensitive latch)
+  Endpoint: readOut[12]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_12_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_12_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[12] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_11_
+              (positive level-sensitive latch)
+  Endpoint: readOut[11]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_11_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_11_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[11] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_10_
+              (positive level-sensitive latch)
+  Endpoint: readOut[10]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_10_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_10_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[10] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_9_
+              (positive level-sensitive latch)
+  Endpoint: readOut[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_9_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_9_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[9] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_8_
+              (positive level-sensitive latch)
+  Endpoint: readOut[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_8_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_8_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[8] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_3_
+              (positive level-sensitive latch)
+  Endpoint: readOut[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_3_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_3_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[3] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_2_
+              (positive level-sensitive latch)
+  Endpoint: readOut[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_2_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_2_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[2] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_1_
+              (positive level-sensitive latch)
+  Endpoint: readOut[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_1_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_1_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[1] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_0_
+              (positive level-sensitive latch)
+  Endpoint: readOut[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_0_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_0_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[0] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_59_
+              (positive level-sensitive latch)
+  Endpoint: readOut[59]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_59_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_59_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[59] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_58_
+              (positive level-sensitive latch)
+  Endpoint: readOut[58]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_58_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_58_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[58] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_57_
+              (positive level-sensitive latch)
+  Endpoint: readOut[57]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_57_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_57_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[57] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_56_
+              (positive level-sensitive latch)
+  Endpoint: readOut[56]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_56_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_56_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[56] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_47_
+              (positive level-sensitive latch)
+  Endpoint: readOut[47]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_47_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_47_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[47] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_46_
+              (positive level-sensitive latch)
+  Endpoint: readOut[46]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_46_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_46_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[46] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_45_
+              (positive level-sensitive latch)
+  Endpoint: readOut[45]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_45_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_45_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[45] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_44_
+              (positive level-sensitive latch)
+  Endpoint: readOut[44]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_44_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_44_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[44] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_39_
+              (positive level-sensitive latch)
+  Endpoint: readOut[39]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_39_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_39_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[39] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_38_
+              (positive level-sensitive latch)
+  Endpoint: readOut[38]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_38_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_38_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[38] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_37_
+              (positive level-sensitive latch)
+  Endpoint: readOut[37]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_37_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_37_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[37] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_36_
+              (positive level-sensitive latch)
+  Endpoint: readOut[36]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_36_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_36_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[36] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_35_
+              (positive level-sensitive latch)
+  Endpoint: readOut[35]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_35_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_35_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[35] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_34_
+              (positive level-sensitive latch)
+  Endpoint: readOut[34]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_34_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_34_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[34] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_33_
+              (positive level-sensitive latch)
+  Endpoint: readOut[33]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_33_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_33_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[33] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_32_
+              (positive level-sensitive latch)
+  Endpoint: readOut[32]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_32_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_32_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[32] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_31_
+              (positive level-sensitive latch)
+  Endpoint: readOut[31]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_31_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_31_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[31] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_30_
+              (positive level-sensitive latch)
+  Endpoint: readOut[30]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_30_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_30_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[30] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_29_
+              (positive level-sensitive latch)
+  Endpoint: readOut[29]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_29_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_29_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[29] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_28_
+              (positive level-sensitive latch)
+  Endpoint: readOut[28]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_28_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_28_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[28] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_27_
+              (positive level-sensitive latch)
+  Endpoint: readOut[27]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_27_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_27_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[27] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_26_
+              (positive level-sensitive latch)
+  Endpoint: readOut[26]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_26_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_26_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[26] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_25_
+              (positive level-sensitive latch)
+  Endpoint: readOut[25]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_25_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_25_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[25] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_24_
+              (positive level-sensitive latch)
+  Endpoint: readOut[24]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_24_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_24_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[24] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_55_
+              (positive level-sensitive latch)
+  Endpoint: readOut[55]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_55_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_55_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[55] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_54_
+              (positive level-sensitive latch)
+  Endpoint: readOut[54]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_54_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_54_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[54] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_53_
+              (positive level-sensitive latch)
+  Endpoint: readOut[53]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_53_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_53_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[53] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_52_
+              (positive level-sensitive latch)
+  Endpoint: readOut[52]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_52_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_52_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[52] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_51_
+              (positive level-sensitive latch)
+  Endpoint: readOut[51]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_51_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_51_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[51] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_50_
+              (positive level-sensitive latch)
+  Endpoint: readOut[50]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_50_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_50_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[50] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_49_
+              (positive level-sensitive latch)
+  Endpoint: readOut[49]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_49_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_49_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[49] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_48_
+              (positive level-sensitive latch)
+  Endpoint: readOut[48]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_48_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_48_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[48] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_43_
+              (positive level-sensitive latch)
+  Endpoint: readOut[43]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_43_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_43_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[43] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_42_
+              (positive level-sensitive latch)
+  Endpoint: readOut[42]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_42_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_42_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[42] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_41_
+              (positive level-sensitive latch)
+  Endpoint: readOut[41]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_41_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_41_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[41] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_40_
+              (positive level-sensitive latch)
+  Endpoint: readOut[40]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_40_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_40_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[40] (out)                                       0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_6_
+              (positive level-sensitive latch)
+  Endpoint: readOut[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_6_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_6_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[6] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Generate_Node_Banks_0__NB_readOut_reg_5_
+              (positive level-sensitive latch)
+  Endpoint: readOut[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Generate_Node_Banks_0__NB_readOut_reg_5_/G (TLATXLTS)     0.00     0.00 r
+  Generate_Node_Banks_0__NB_readOut_reg_5_/Q (TLATXLTS)     0.56     0.56 r
+  ...
+  readOut[5] (out)                                        0.33       0.89 r
+  data arrival time                                                  0.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

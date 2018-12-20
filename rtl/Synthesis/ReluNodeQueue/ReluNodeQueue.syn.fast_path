@@ -1,0 +1,135 @@
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: indexOut_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_2_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_2_/Q (DFFRXLTS)             0.77       0.77 r
+  indexOut[2] (out)                        0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_0_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_0_/Q (DFFRXLTS)             0.77       0.77 r
+  indexOut[0] (out)                        0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[3]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_3_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_3_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[3] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_2_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_2_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[2] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_1_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_1_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[1] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_1_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_1_/Q (DFFRXLTS)             0.77       0.77 r
+  indexOut[1] (out)                        0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_0_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_0_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[0] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,2628 @@
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     J-2014.09-SP2
+Date:        Thu Dec 20 12:52:30 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Multiply driven inputs (LINT-6)                                19
+
+Tristate                                                           13
+    A tristate bus has a non tri-state driver (LINT-34)            13
+--------------------------------------------------------------------------------
+
+Warning: In design 'Layer1_Controller', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'weightWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'biasWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', three-state bus 'reluTrigger' has non three-state driver 'reluTrigger_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'pstoreReset' has non three-state driver 'pstoreReset_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'wBuffer_A_Write' has non three-state driver 'wBuffer_A_Write_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[0]' has non three-state driver 'U58/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[1]' has non three-state driver 'U57/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[2]' has non three-state driver 'U56/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[3]' has non three-state driver 'U55/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[4]' has non three-state driver 'U54/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[5]' has non three-state driver 'U53/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[6]' has non three-state driver 'U52/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[7]' has non three-state driver 'U51/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[8]' has non three-state driver 'U50/Y'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[9]' has non three-state driver 'U49/Y'. (LINT-34)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                           69
+Number of nets:                           220
+Number of cells:                          100
+Number of combinational cells:             66
+Number of sequential cells:                34
+Number of macros/black boxes:               0
+Number of buf/inv:                         15
+Number of references:                      32
+
+Combinational area:                626.400003
+Buf/Inv area:                       74.880002
+Noncombinational area:            1368.000010
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1994.400012
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+Layer1_Controller                         0.111    2.049 2.95e+03    2.160 100.0
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : design
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Local Link Library:
+
+    {/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : tt_1p2v_25c
+    Library : scx3_cmos8rf_lpvt_tt_1p2v_25c
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading specified.
+
+
+Wire Loading Model Mode: top.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : cell
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    d - dont_touch
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U48                       NOR4BBX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 d, so
+U49                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U50                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U51                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U52                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U53                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U54                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U55                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U56                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U57                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U58                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U59                       CLKINVX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U60                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U61                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U62                       OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U63                       OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U64                       INVX12TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U65                       NAND2BX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U66                       AND2X8TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 
+U67                       NOR3X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U68                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U69                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U70                       NOR2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U71                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U72                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U73                       NAND3X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U74                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U75                       OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U76                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U77                       NOR2BX1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U78                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U79                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U80                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U81                       AOI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U82                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U83                       OAI21XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U84                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U85                       AOI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U86                       OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U87                       MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U88                       NOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U89                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U90                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U91                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U92                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U93                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U94                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U95                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U96                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U97                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U98                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U99                       CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U100                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U101                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U102                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U103                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U104                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U105                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U106                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U107                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U108                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U109                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U110                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U111                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U112                      CLKMX2X2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U113                      AOI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+idle_reg                  DFFSHQX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          36.000000 n
+layer1Output_reg_0_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_1_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_2_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_3_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_4_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_5_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_6_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_7_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_8_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_9_       DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_10_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_11_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_12_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_13_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_14_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_15_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_16_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_17_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_18_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_19_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_20_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_21_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_22_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+layer1Output_reg_23_      DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+outputsReady_reg          DFFSHQX8TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          56.160000 n
+plusStore                 pStore                          0.000000  b
+processFinished_reg       DFFSX4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          34.560001 n
+pstoreReset_reg           DFFSXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          30.240000 n, so
+relu                      RELU                            0.000000  b
+reluTrigger_reg           DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n, so
+wBuffer_A_Write_reg       DFFRX4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          37.439999 n, so
+weightBuffer_A            NodeWeightBank                  0.000000  b
+weightStorage             Layer1WeightStorage             0.000000  b
+--------------------------------------------------------------------------------
+Total 100 cells                                           1994.400012
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : port
+        -verbose
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+
+
+Attributes:
+    d - dont_touch_network
+    i - ideal_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[1]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[2]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[3]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[4]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[5]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[6]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[7]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[8]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[9]
+               in      0.0000   0.0000    1.02    0.00   --         
+biasWriteEnable
+               in      0.0000   0.0000    1.02    0.00   --         
+clk            in      0.0000   0.0000    1.02    0.00   --         d, i
+inputsReady    in      0.0000   0.0000    1.02    0.00   --         
+outputsRecieved
+               in      0.0000   0.0000    1.02    0.00   --         
+queueEmpty     in      0.0000   0.0000    1.02    0.00   --         
+queueOut[0]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[1]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[2]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[3]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[4]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[5]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[6]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[7]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[8]    in      0.0000   0.0000    1.02    0.00   --         
+queueOut[9]    in      0.0000   0.0000    1.02    0.00   --         
+reset          in      0.0000   0.0000    1.02    0.00   --         
+weightWriteEnable
+               in      0.0000   0.0000    1.02    0.00   --         
+writeIn[0]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[1]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[2]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[3]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[4]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[5]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[6]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[7]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[8]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[9]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[10]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[11]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[12]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[13]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[14]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[15]    in      0.0000   0.0000    1.02    0.00   --         
+dequeue        out     0.0050   0.0000   --      --      --         
+layer1Output[0]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[1]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[2]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[3]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[4]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[5]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[6]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[7]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[8]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[9]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[10]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[11]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[12]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[13]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[14]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[15]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[16]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[17]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[18]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[19]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[20]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[21]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[22]
+               out     0.0050   0.0000   --      --      --         
+layer1Output[23]
+               out     0.0050   0.0000   --      --      --         
+outputsReady   out     0.0050   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+                   1      --              --              --        -- 
+WriteAddressSelect[1]
+                   1      --              --              --        -- 
+WriteAddressSelect[2]
+                   1      --              --              --        -- 
+WriteAddressSelect[3]
+                   1      --              --              --        -- 
+WriteAddressSelect[4]
+                   1      --              --              --        -- 
+WriteAddressSelect[5]
+                   1      --              --              --        -- 
+WriteAddressSelect[6]
+                   1      --              --              --        -- 
+WriteAddressSelect[7]
+                   1      --              --              --        -- 
+WriteAddressSelect[8]
+                   1      --              --              --        -- 
+WriteAddressSelect[9]
+                   1      --              --              --        -- 
+biasWriteEnable
+                   1      --              --              --        -- 
+clk                1      --              --              --        -- 
+inputsReady        1      --              --              --        -- 
+outputsRecieved
+                   1      --              --              --        -- 
+queueEmpty         1      --              --              --        -- 
+queueOut[0]        1      --              --              --        -- 
+queueOut[1]        1      --              --              --        -- 
+queueOut[2]        1      --              --              --        -- 
+queueOut[3]        1      --              --              --        -- 
+queueOut[4]        1      --              --              --        -- 
+queueOut[5]        1      --              --              --        -- 
+queueOut[6]        1      --              --              --        -- 
+queueOut[7]        1      --              --              --        -- 
+queueOut[8]        1      --              --              --        -- 
+queueOut[9]        1      --              --              --        -- 
+reset              1      --              --              --        -- 
+weightWriteEnable
+                   1      --              --              --        -- 
+writeIn[0]         1      --              --              --        -- 
+writeIn[1]         1      --              --              --        -- 
+writeIn[2]         1      --              --              --        -- 
+writeIn[3]         1      --              --              --        -- 
+writeIn[4]         1      --              --              --        -- 
+writeIn[5]         1      --              --              --        -- 
+writeIn[6]         1      --              --              --        -- 
+writeIn[7]         1      --              --              --        -- 
+writeIn[8]         1      --              --              --        -- 
+writeIn[9]         1      --              --              --        -- 
+writeIn[10]        1      --              --              --        -- 
+writeIn[11]        1      --              --              --        -- 
+writeIn[12]        1      --              --              --        -- 
+writeIn[13]        1      --              --              --        -- 
+writeIn[14]        1      --              --              --        -- 
+writeIn[15]        1      --              --              --        -- 
+dequeue            1      --              --              --        -- 
+layer1Output[0]
+                   1      --              --              --        -- 
+layer1Output[1]
+                   1      --              --              --        -- 
+layer1Output[2]
+                   1      --              --              --        -- 
+layer1Output[3]
+                   1      --              --              --        -- 
+layer1Output[4]
+                   1      --              --              --        -- 
+layer1Output[5]
+                   1      --              --              --        -- 
+layer1Output[6]
+                   1      --              --              --        -- 
+layer1Output[7]
+                   1      --              --              --        -- 
+layer1Output[8]
+                   1      --              --              --        -- 
+layer1Output[9]
+                   1      --              --              --        -- 
+layer1Output[10]
+                   1      --              --              --        -- 
+layer1Output[11]
+                   1      --              --              --        -- 
+layer1Output[12]
+                   1      --              --              --        -- 
+layer1Output[13]
+                   1      --              --              --        -- 
+layer1Output[14]
+                   1      --              --              --        -- 
+layer1Output[15]
+                   1      --              --              --        -- 
+layer1Output[16]
+                   1      --              --              --        -- 
+layer1Output[17]
+                   1      --              --              --        -- 
+layer1Output[18]
+                   1      --              --              --        -- 
+layer1Output[19]
+                   1      --              --              --        -- 
+layer1Output[20]
+                   1      --              --              --        -- 
+layer1Output[21]
+                   1      --              --              --        -- 
+layer1Output[22]
+                   1      --              --              --        -- 
+layer1Output[23]
+                   1      --              --              --        -- 
+outputsReady       1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[1]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[2]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[3]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[4]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[5]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[6]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[7]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[8]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[9]
+              0.05    0.05    0.05    0.05  clk       4.00  
+biasWriteEnable
+              0.05    0.05    0.05    0.05  clk       4.00  
+clk           --      --      --      --      --      4.00
+inputsReady   0.05    0.05    0.05    0.05  clk       4.00  
+outputsRecieved
+              0.05    0.05    0.05    0.05  clk       4.00  
+queueEmpty    0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[0]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[1]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[2]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[3]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[4]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[5]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[6]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[7]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[8]   0.05    0.05    0.05    0.05  clk       4.00  
+queueOut[9]   0.05    0.05    0.05    0.05  clk       4.00  
+reset         0.05    0.05    0.05    0.05  clk       4.00  
+weightWriteEnable
+              0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[0]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[1]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[2]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[3]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[4]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[5]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[6]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[7]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[8]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[9]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[10]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[11]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[12]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[13]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[14]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[15]   0.05    0.05    0.05    0.05  clk       4.00  
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[1]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[2]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[3]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[4]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[5]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[6]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[7]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[8]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[9]
+             INVX1TS            INVX1TS              -- /  --     
+biasWriteEnable
+             INVX1TS            INVX1TS              -- /  --     
+clk          INVX1TS            INVX1TS              -- /  --     
+inputsReady  INVX1TS            INVX1TS              -- /  --     
+outputsRecieved
+             INVX1TS            INVX1TS              -- /  --     
+queueEmpty   INVX1TS            INVX1TS              -- /  --     
+queueOut[0]  INVX1TS            INVX1TS              -- /  --     
+queueOut[1]  INVX1TS            INVX1TS              -- /  --     
+queueOut[2]  INVX1TS            INVX1TS              -- /  --     
+queueOut[3]  INVX1TS            INVX1TS              -- /  --     
+queueOut[4]  INVX1TS            INVX1TS              -- /  --     
+queueOut[5]  INVX1TS            INVX1TS              -- /  --     
+queueOut[6]  INVX1TS            INVX1TS              -- /  --     
+queueOut[7]  INVX1TS            INVX1TS              -- /  --     
+queueOut[8]  INVX1TS            INVX1TS              -- /  --     
+queueOut[9]  INVX1TS            INVX1TS              -- /  --     
+reset        INVX1TS            INVX1TS              -- /  --     
+weightWriteEnable
+             INVX1TS            INVX1TS              -- /  --     
+writeIn[0]   INVX1TS            INVX1TS              -- /  --     
+writeIn[1]   INVX1TS            INVX1TS              -- /  --     
+writeIn[2]   INVX1TS            INVX1TS              -- /  --     
+writeIn[3]   INVX1TS            INVX1TS              -- /  --     
+writeIn[4]   INVX1TS            INVX1TS              -- /  --     
+writeIn[5]   INVX1TS            INVX1TS              -- /  --     
+writeIn[6]   INVX1TS            INVX1TS              -- /  --     
+writeIn[7]   INVX1TS            INVX1TS              -- /  --     
+writeIn[8]   INVX1TS            INVX1TS              -- /  --     
+writeIn[9]   INVX1TS            INVX1TS              -- /  --     
+writeIn[10]  INVX1TS            INVX1TS              -- /  --     
+writeIn[11]  INVX1TS            INVX1TS              -- /  --     
+writeIn[12]  INVX1TS            INVX1TS              -- /  --     
+writeIn[13]  INVX1TS            INVX1TS              -- /  --     
+writeIn[14]  INVX1TS            INVX1TS              -- /  --     
+writeIn[15]  INVX1TS            INVX1TS              -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[1]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[2]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[3]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[4]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[5]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[6]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[7]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[8]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[9]
+              --      --     --      --     --      --     --     --        -- 
+biasWriteEnable
+              --      --     --      --     --      --     --     --        -- 
+clk           --      --     --      --     --      --     --     --        -- 
+inputsReady   --      --     --      --     --      --     --     --        -- 
+outputsRecieved
+              --      --     --      --     --      --     --     --        -- 
+queueEmpty    --      --     --      --     --      --     --     --        -- 
+queueOut[0]   --      --     --      --     --      --     --     --        -- 
+queueOut[1]   --      --     --      --     --      --     --     --        -- 
+queueOut[2]   --      --     --      --     --      --     --     --        -- 
+queueOut[3]   --      --     --      --     --      --     --     --        -- 
+queueOut[4]   --      --     --      --     --      --     --     --        -- 
+queueOut[5]   --      --     --      --     --      --     --     --        -- 
+queueOut[6]   --      --     --      --     --      --     --     --        -- 
+queueOut[7]   --      --     --      --     --      --     --     --        -- 
+queueOut[8]   --      --     --      --     --      --     --     --        -- 
+queueOut[9]   --      --     --      --     --      --     --     --        -- 
+reset         --      --     --      --     --      --     --     --        -- 
+weightWriteEnable
+              --      --     --      --     --      --     --     --        -- 
+writeIn[0]    --      --     --      --     --      --     --     --        -- 
+writeIn[1]    --      --     --      --     --      --     --     --        -- 
+writeIn[2]    --      --     --      --     --      --     --     --        -- 
+writeIn[3]    --      --     --      --     --      --     --     --        -- 
+writeIn[4]    --      --     --      --     --      --     --     --        -- 
+writeIn[5]    --      --     --      --     --      --     --     --        -- 
+writeIn[6]    --      --     --      --     --      --     --     --        -- 
+writeIn[7]    --      --     --      --     --      --     --     --        -- 
+writeIn[8]    --      --     --      --     --      --     --     --        -- 
+writeIn[9]    --      --     --      --     --      --     --     --        -- 
+writeIn[10]   --      --     --      --     --      --     --     --        -- 
+writeIn[11]   --      --     --      --     --      --     --     --        -- 
+writeIn[12]   --      --     --      --     --      --     --     --        -- 
+writeIn[13]   --      --     --      --     --      --     --     --        -- 
+writeIn[14]   --      --     --      --     --      --     --     --        -- 
+writeIn[15]   --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+              --      --      --      -- 
+WriteAddressSelect[1]
+              --      --      --      -- 
+WriteAddressSelect[2]
+              --      --      --      -- 
+WriteAddressSelect[3]
+              --      --      --      -- 
+WriteAddressSelect[4]
+              --      --      --      -- 
+WriteAddressSelect[5]
+              --      --      --      -- 
+WriteAddressSelect[6]
+              --      --      --      -- 
+WriteAddressSelect[7]
+              --      --      --      -- 
+WriteAddressSelect[8]
+              --      --      --      -- 
+WriteAddressSelect[9]
+              --      --      --      -- 
+biasWriteEnable
+              --      --      --      -- 
+clk           --      --      --      -- 
+inputsReady   --      --      --      -- 
+outputsRecieved
+              --      --      --      -- 
+queueEmpty    --      --      --      -- 
+queueOut[0]   --      --      --      -- 
+queueOut[1]   --      --      --      -- 
+queueOut[2]   --      --      --      -- 
+queueOut[3]   --      --      --      -- 
+queueOut[4]   --      --      --      -- 
+queueOut[5]   --      --      --      -- 
+queueOut[6]   --      --      --      -- 
+queueOut[7]   --      --      --      -- 
+queueOut[8]   --      --      --      -- 
+queueOut[9]   --      --      --      -- 
+reset         --      --      --      -- 
+weightWriteEnable
+              --      --      --      -- 
+writeIn[0]    --      --      --      -- 
+writeIn[1]    --      --      --      -- 
+writeIn[2]    --      --      --      -- 
+writeIn[3]    --      --      --      -- 
+writeIn[4]    --      --      --      -- 
+writeIn[5]    --      --      --      -- 
+writeIn[6]    --      --      --      -- 
+writeIn[7]    --      --      --      -- 
+writeIn[8]    --      --      --      -- 
+writeIn[9]    --      --      --      -- 
+writeIn[10]   --      --      --      -- 
+writeIn[11]   --      --      --      -- 
+writeIn[12]   --      --      --      -- 
+writeIn[13]   --      --      --      -- 
+writeIn[14]   --      --      --      -- 
+writeIn[15]   --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+dequeue       0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[0]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[1]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[2]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[3]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[4]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[5]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[6]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[7]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[8]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[9]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[10]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[11]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[12]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[13]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[14]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[15]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[16]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[17]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[18]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[19]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[20]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[21]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[22]
+              0.05    0.05    0.05    0.05  clk       0.00  
+layer1Output[23]
+              0.05    0.05    0.05    0.05  clk       0.00  
+outputsReady
+              0.05    0.05    0.05    0.05  clk       0.00  
+
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : compile_options
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+Layer1_Controller                        flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+                                         isolate_port           disabled
+--------------------------------------------------------------------------------
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+
+  Startpoint: clk (clock source 'clk')
+  Endpoint: dequeue (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clk (in)                                 1.38       1.38 r
+  U48/Y (NOR4BBX1TS)                       0.36       1.74 r
+  dequeue (out)                            0.00       1.74 r
+  data arrival time                                   1.74
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  output external delay                   -0.05       0.95
+  data required time                                  0.95
+  -----------------------------------------------------------
+  data required time                                  0.95
+  data arrival time                                  -1.74
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.79
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_23_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U112/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_23_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_23_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U109/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_0_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_0_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U108/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_1_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_1_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U107/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_2_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_2_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U106/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_3_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_3_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U105/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_4_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_4_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U104/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_5_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_5_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U103/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_6_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_6_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U102/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_7_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_7_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U111/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_8_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_8_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U110/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_9_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_9_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_10_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U90/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_10_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_10_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U91/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_11_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_11_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_12_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U100/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_12_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_12_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U101/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_13_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_13_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U92/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_14_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_14_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U93/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_15_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_15_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_16_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U94/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_16_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_16_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_21_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U99/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_21_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_21_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_20_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U98/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_20_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_20_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_19_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U97/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_19_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_19_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_18_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U96/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_18_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_18_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_17_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U95/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_17_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_17_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_22_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U87/Y (MXI2X1TS)                         0.23       1.39 f
+  layer1Output_reg_22_/D (DFFHQX8TS)       0.00       1.39 f
+  data arrival time                                   1.39
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_22_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.27       0.73
+  data required time                                  0.73
+  -----------------------------------------------------------
+  data required time                                  0.73
+  data arrival time                                  -1.39
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.67
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: wBuffer_A_Write_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX1TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX1TS)                  0.47       0.47 r
+  U60/Y (INVX2TS)                          0.16       0.64 f
+  U67/Y (NOR3X1TS)                         0.29       0.92 r
+  U65/Y (NAND2BX1TS)                       0.22       1.14 f
+  U82/Y (NAND2X1TS)                        0.10       1.24 r
+  wBuffer_A_Write_reg/D (DFFRX4TS)         0.00       1.24 r
+  data arrival time                                   1.24
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  wBuffer_A_Write_reg/CK (DFFRX4TS)        0.00       1.00 r
+  library setup time                      -0.40       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -1.24
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.64
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: processFinished_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U73/Y (NAND3X1TS)                        0.14       0.86 r
+  U80/Y (INVX1TS)                          0.10       0.96 f
+  U81/Y (AOI21X1TS)                        0.12       1.08 r
+  U75/Y (OA21XLTS)                         0.23       1.31 r
+  processFinished_reg/D (DFFSX4TS)         0.00       1.31 r
+  data arrival time                                   1.31
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       1.00 r
+  library setup time                      -0.28       0.72
+  data required time                                  0.72
+  -----------------------------------------------------------
+  data required time                                  0.72
+  data arrival time                                  -1.31
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.59
+
+
+  Startpoint: reluTrigger_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: reluTrigger_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  reluTrigger_reg/CK (DFFRXLTS)            0.00       0.00 r
+  reluTrigger_reg/Q (DFFRXLTS)             0.71       0.71 r
+  U76/Y (INVX2TS)                          0.11       0.82 f
+  U83/Y (OAI21XLTS)                        0.21       1.04 r
+  reluTrigger_reg/D (DFFRXLTS)             0.00       1.04 r
+  data arrival time                                   1.04
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  reluTrigger_reg/CK (DFFRXLTS)            0.00       1.00 r
+  library setup time                      -0.48       0.52
+  data required time                                  0.52
+  -----------------------------------------------------------
+  data required time                                  0.52
+  data arrival time                                  -1.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.51
+
+
+  Startpoint: pstoreReset_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: pstoreReset_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  pstoreReset_reg/CK (DFFSXLTS)            0.00       0.00 r
+  pstoreReset_reg/Q (DFFSXLTS)             0.82       0.82 f
+  U113/Y (AOI21X1TS)                       0.21       1.03 r
+  U86/Y (OAI21X1TS)                        0.12       1.15 f
+  pstoreReset_reg/D (DFFSXLTS)             0.00       1.15 f
+  data arrival time                                   1.15
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  pstoreReset_reg/CK (DFFSXLTS)            0.00       1.00 r
+  library setup time                      -0.34       0.66
+  data required time                                  0.66
+  -----------------------------------------------------------
+  data required time                                  0.66
+  data arrival time                                  -1.15
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.49
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U59/Y (CLKINVX1TS)                       0.11       0.98 f
+  U62/Y (OA21XLTS)                         0.25       1.23 f
+  outputsReady_reg/D (DFFSHQX8TS)          0.00       1.23 f
+  data arrival time                                   1.23
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX8TS)         0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.48
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U85/Y (AOI21X1TS)                        0.10       0.97 f
+  U63/Y (OAI21X1TS)                        0.10       1.07 r
+  idle_reg/D (DFFSHQX1TS)                  0.00       1.07 r
+  data arrival time                                   1.07
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  idle_reg/CK (DFFSHQX1TS)                 0.00       1.00 r
+  library setup time                      -0.38       0.62
+  data required time                                  0.62
+  -----------------------------------------------------------
+  data required time                                  0.62
+  data arrival time                                  -1.07
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.46
+
+
+    Design: Layer1_Controller
+
+    max_area               0.00
+  - Current Area        1994.40
+  ------------------------------
+    Slack              -1994.40  (VIOLATED)
+
+
+Min pulse width constraints
+
+                       Required      Actual
+  Pin                pulse width   pulse width   Slack           Scenario
+--------------------------------------------------------------------------------
+  idle_reg/CK(low)    0.56          0.50         -0.06 (VIOLATED)
+  reluTrigger_reg/CK(low)
+                      0.53          0.50         -0.03 (VIOLATED)
+
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 20
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: clk (clock source 'clk')
+  Endpoint: dequeue (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clk (in)                                 1.38       1.38 r
+  U48/Y (NOR4BBX1TS)                       0.36       1.74 r
+  dequeue (out)                            0.00       1.74 r
+  data arrival time                                   1.74
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  output external delay                   -0.05       0.95
+  data required time                                  0.95
+  -----------------------------------------------------------
+  data required time                                  0.95
+  data arrival time                                  -1.74
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.79
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U109/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_0_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_0_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U108/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_1_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_1_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U107/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_2_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_2_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U106/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_3_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_3_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U105/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_4_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_4_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U104/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_5_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_5_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U103/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_6_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_6_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U102/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_7_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_7_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U111/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_8_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_8_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U110/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_9_/D (DFFHQX8TS)        0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_9_/CK (DFFHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_10_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U90/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_10_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_10_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U91/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_11_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_11_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_12_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U100/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_12_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_12_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U101/Y (CLKMX2X2TS)                      0.30       1.46 f
+  layer1Output_reg_13_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_13_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U92/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_14_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_14_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U93/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_15_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_15_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_16_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U94/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_16_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_16_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_18_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U96/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_18_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_18_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_17_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  processFinished_reg/Q (DFFSX4TS)         0.71       0.71 f
+  U70/Y (NOR2X4TS)                         0.16       0.87 r
+  U66/Y (AND2X8TS)                         0.20       1.07 r
+  U64/Y (INVX12TS)                         0.10       1.17 f
+  U95/Y (CLKMX2X2TS)                       0.30       1.46 f
+  layer1Output_reg_17_/D (DFFHQX8TS)       0.00       1.46 f
+  data arrival time                                   1.46
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  layer1Output_reg_17_/CK (DFFHQX8TS)      0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -1.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.71
+
+
+1

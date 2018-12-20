@@ -6,7 +6,7 @@ addpath('./data');
 
 load_data;
 
-epochs = 100;
+epochs = 200;
 batchsize = 250;
 learning_rate = 1e-3;
 iters_per_epoch = 1000;
@@ -15,7 +15,7 @@ pcorr = zeros(1,epochs);
 smooth_loss = log(10);
 
 cutoff = [0.5];
-nodes = [128];
+nodes = [32];
 pcorr_max = zeros(length(nodes),length(cutoff));
 pcorr_mean = zeros(length(nodes),length(cutoff));
 % figure(4)
@@ -93,14 +93,15 @@ for j = 1:length(nodes)
 %             disp(nbm2);
             
              % Re-initialize weights 
-            if pm > 1.5 || nm > 1.6 || pm2 > 3.1 || pm2 > 3.2 || pbm > 1.5 || nbm > 1.6 || pbm > 1.5 || nbm > 1.6    % 10 bits in 2's compliment for sum, 5 for weights
-                nn.layers{1}.W = randn(16, 28*28) * 0.1;
-                nn.layers{3}.W = randn(10, 16) * 0.1;
-                nn.layers{1}.b = zeros(16, 1);
-                nn.layers{3}.b = zeros(10, 1);
-                disp('continue')
-                continue
-            end
+            %if pm > 0.7 || nm > 0.8 || pm2 > 1.5 || pm2 > 1.6 || pbm > 1.5 || nbm > 1.6 || pbm > 1.5 || nbm > 1.6    % 10 bits in 2's compliment for sum, 5 for weights
+%             if pm > 0.7 || nm > 0.8
+%                 nn.layers{1}.W = randn(nodes(j), 28*28) * 0.1;
+%                 nn.layers{3}.W = randn(10, nodes(j)) * 0.1;
+%                 nn.layers{1}.b = zeros(nodes(j), 1);
+%                 nn.layers{3}.b = zeros(10, 1);
+%                 disp('continue')
+%                 continue
+%             end
             
             nn.test(test_images, test_labels);
             disp(nn.percent_correct);
@@ -113,7 +114,6 @@ for j = 1:length(nodes)
             %If we have a new best accuracy, store it's weights
             if pcorr(e) > maxAccuracy
                 maxAccuracy = pcorr(e);
-                
                 Wlayer1 = nn.layers{1}.W;
                 Wlayer3 = nn.layers{3}.W;
                 b1 = nn.layers{1}.b;

@@ -1,0 +1,46 @@
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+dequeue (out)                       1.74 r            0.95        -0.79
+outputsReady (out)                  0.46 r            0.95         0.49
+layer1Output[22] (out)              0.33 f            0.95         0.62
+layer1Output[23] (out)              0.33 f            0.95         0.62
+layer1Output[21] (out)              0.33 f            0.95         0.62
+layer1Output[20] (out)              0.33 f            0.95         0.62
+layer1Output[19] (out)              0.33 f            0.95         0.62
+layer1Output[18] (out)              0.33 f            0.95         0.62
+layer1Output[17] (out)              0.33 f            0.95         0.62
+layer1Output[16] (out)              0.33 f            0.95         0.62
+layer1Output[15] (out)              0.33 f            0.95         0.62
+layer1Output[14] (out)              0.33 f            0.95         0.62
+layer1Output[13] (out)              0.33 f            0.95         0.62
+layer1Output[12] (out)              0.33 f            0.95         0.62
+layer1Output[11] (out)              0.33 f            0.95         0.62
+layer1Output[10] (out)              0.33 f            0.95         0.62
+layer1Output[9] (out)               0.33 f            0.95         0.62
+layer1Output[8] (out)               0.33 f            0.95         0.62
+layer1Output[7] (out)               0.33 f            0.95         0.62
+layer1Output[6] (out)               0.33 f            0.95         0.62
+layer1Output[5] (out)               0.33 f            0.95         0.62
+layer1Output[4] (out)               0.33 f            0.95         0.62
+layer1Output[3] (out)               0.33 f            0.95         0.62
+layer1Output[2] (out)               0.33 f            0.95         0.62
+layer1Output[1] (out)               0.33 f            0.95         0.62
+layer1Output[0] (out)               0.33 f            0.95         0.62
+
+1

@@ -1,0 +1,37 @@
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+queueWriteEnable_reg/D (DFFRX1TS)     1.02 f          0.62        -0.40
+mstoreReset_reg/D (DFFSX1TS)        1.03 f            0.66        -0.37
+outputsReady_reg/D (DFFSHQX2TS)     0.97 f            0.68        -0.29
+predictionOutput_reg_1_/D (DFFHQX8TS)     1.02 r      0.80        -0.22
+predictionOutput_reg_2_/D (DFFHQX8TS)     1.02 r      0.80        -0.22
+predictionOutput_reg_3_/D (DFFHQX8TS)     1.02 r      0.80        -0.22
+queueReset_reg/D (DFFSX4TS)         0.92 r            0.71        -0.21
+predictionOutput_reg_0_/D (DFFHQX8TS)     0.90 f      0.73        -0.18
+idle_reg/D (DFFSHQX4TS)             0.86 r            0.71        -0.15
+processFinished_reg/D (DFFRHQX4TS)     0.92 r         0.77        -0.14
+inputsRecieved_reg/D (DFFSHQX8TS)     0.79 f          0.75        -0.04
+outputsReady (out)                  0.54 r            0.95         0.41
+inputsRecieved (out)                0.42 r            0.95         0.53
+predictionOutput[0] (out)           0.41 r            0.95         0.54
+predictionOutput[3] (out)           0.33 f            0.95         0.62
+predictionOutput[2] (out)           0.33 f            0.95         0.62
+predictionOutput[1] (out)           0.33 f            0.95         0.62
+
+1

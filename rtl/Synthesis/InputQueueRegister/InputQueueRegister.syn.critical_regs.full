@@ -1,0 +1,3014 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : InputQueueRegister
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:05:32 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_7_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U382/Y (NAND2X2TS)                                      0.15       1.49 f
+  U383/Y (CLKINVX6TS)                                     0.09       1.59 r
+  U311/Y (NAND3X8TS)                                      0.10       1.69 f
+  U312/Y (NOR3X4TS)                                       0.19       1.88 r
+  U308/Y (XOR2X4TS)                                       0.17       2.04 r
+  U305/Y (OAI21X2TS)                                      0.13       2.17 f
+  indexCounter_reg_7_/D (DFFNSRX1TS)                      0.00       2.17 f
+  data arrival time                                                  2.17
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_7_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.48       1.02
+  data required time                                                 1.02
+  --------------------------------------------------------------------------
+  data required time                                                 1.02
+  data arrival time                                                 -2.17
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.15
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_6_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U382/Y (NAND2X2TS)                                      0.15       1.49 f
+  U383/Y (CLKINVX6TS)                                     0.09       1.59 r
+  U311/Y (NAND3X8TS)                                      0.10       1.69 f
+  U303/Y (CLKINVX6TS)                                     0.09       1.78 r
+  U218/Y (NAND2X2TS)                                      0.07       1.84 f
+  U217/Y (XOR2X1TS)                                       0.14       1.99 r
+  U214/Y (OAI21XLTS)                                      0.16       2.15 f
+  indexCounter_reg_6_/D (DFFNSRX1TS)                      0.00       2.15 f
+  data arrival time                                                  2.15
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_6_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.49       1.01
+  data required time                                                 1.01
+  --------------------------------------------------------------------------
+  data required time                                                 1.01
+  data arrival time                                                 -2.15
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.14
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U315/Y (NOR2X4TS)                                       0.09       1.13 f
+  U362/Y (AND2X8TS)                                       0.17       1.30 f
+  U208/Y (NAND2X4TS)                                      0.09       1.39 r
+  U241/Y (CLKINVX6TS)                                     0.11       1.50 f
+  U240/Y (INVX6TS)                                        0.09       1.59 r
+  U336/Y (MX2X1TS)                                        0.30       1.89 f
+  queueRegister_reg_3__5_/D (DFFHQX4TS)                   0.00       1.89 f
+  data arrival time                                                  1.89
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__5_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.89
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.14
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_5_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U382/Y (NAND2X2TS)                                      0.15       1.49 f
+  U383/Y (CLKINVX6TS)                                     0.09       1.59 r
+  U311/Y (NAND3X8TS)                                      0.10       1.69 f
+  U446/Y (NOR2BX2TS)                                      0.13       1.82 r
+  U447/Y (XOR2X1TS)                                       0.16       1.98 r
+  U239/Y (OAI21XLTS)                                      0.16       2.15 f
+  indexCounter_reg_5_/D (DFFNSRX1TS)                      0.00       2.15 f
+  data arrival time                                                  2.15
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.49       1.01
+  data required time                                                 1.01
+  --------------------------------------------------------------------------
+  data required time                                                 1.01
+  data arrival time                                                 -2.15
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U315/Y (NOR2X4TS)                                       0.09       1.13 f
+  U362/Y (AND2X8TS)                                       0.17       1.30 f
+  U208/Y (NAND2X4TS)                                      0.09       1.39 r
+  U241/Y (CLKINVX6TS)                                     0.11       1.50 f
+  U363/Y (INVX4TS)                                        0.10       1.60 r
+  U624/Y (CLKMX2X2TS)                                     0.29       1.89 f
+  queueRegister_reg_3__4_/D (DFFHQX8TS)                   0.00       1.89 f
+  data arrival time                                                  1.89
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__4_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.89
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U315/Y (NOR2X4TS)                                       0.09       1.13 f
+  U362/Y (AND2X8TS)                                       0.17       1.30 f
+  U208/Y (NAND2X4TS)                                      0.09       1.39 r
+  U241/Y (CLKINVX6TS)                                     0.11       1.50 f
+  U363/Y (INVX4TS)                                        0.10       1.60 r
+  U610/Y (CLKMX2X2TS)                                     0.29       1.89 f
+  queueRegister_reg_3__1_/D (DFFHQX8TS)                   0.00       1.89 f
+  data arrival time                                                  1.89
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.89
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U315/Y (NOR2X4TS)                                       0.09       1.13 f
+  U362/Y (AND2X8TS)                                       0.17       1.30 f
+  U208/Y (NAND2X4TS)                                      0.09       1.39 r
+  U241/Y (CLKINVX6TS)                                     0.11       1.50 f
+  U363/Y (INVX4TS)                                        0.10       1.60 r
+  U611/Y (CLKMX2X2TS)                                     0.29       1.89 f
+  queueRegister_reg_3__7_/D (DFFHQX8TS)                   0.00       1.89 f
+  data arrival time                                                  1.89
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__7_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.89
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U202/Y (INVX4TS)                                        0.07       1.61 f
+  U620/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__6_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__6_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U202/Y (INVX4TS)                                        0.07       1.61 f
+  U609/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__7_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__7_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U202/Y (INVX4TS)                                        0.07       1.61 f
+  U606/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__8_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__8_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.13
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_8_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U382/Y (NAND2X2TS)                                      0.15       1.49 f
+  U383/Y (CLKINVX6TS)                                     0.09       1.59 r
+  U311/Y (NAND3X8TS)                                      0.10       1.69 f
+  U303/Y (CLKINVX6TS)                                     0.09       1.78 r
+  U304/Y (NAND4X4TS)                                      0.10       1.87 f
+  U307/Y (XOR2X4TS)                                       0.15       2.02 r
+  U306/Y (OAI21X2TS)                                      0.12       2.15 f
+  indexCounter_reg_8_/D (DFFNSRX1TS)                      0.00       2.15 f
+  data arrival time                                                  2.15
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_8_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.48       1.02
+  data required time                                                 1.02
+  --------------------------------------------------------------------------
+  data required time                                                 1.02
+  data arrival time                                                 -2.15
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U349/Y (INVX6TS)                                        0.07       1.60 f
+  U444/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__9_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__9_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U349/Y (INVX6TS)                                        0.07       1.60 f
+  U588/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__5_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__5_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U349/Y (INVX6TS)                                        0.07       1.60 f
+  U605/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__0_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__0_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U349/Y (INVX6TS)                                        0.07       1.60 f
+  U589/Y (CLKMX2X2TS)                                     0.28       1.88 f
+  queueRegister_reg_2__2_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__2_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U434/Y (NAND2X1TS)                                      0.09       0.98 f
+  U435/Y (NOR2X1TS)                                       0.18       1.16 r
+  U436/Y (NAND2X2TS)                                      0.15       1.31 f
+  U437/Y (NOR2X2TS)                                       0.11       1.41 r
+  U438/Y (XNOR2X1TS)                                      0.16       1.58 r
+  U439/Y (OAI21X1TS)                                      0.18       1.75 f
+  queueEndPointer_reg_9_/D (DFFSX4TS)                     0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_9_/CK (DFFSX4TS)                    0.00       1.00 r
+  library setup time                                     -0.37       0.63
+  data required time                                                 0.63
+  --------------------------------------------------------------------------
+  data required time                                                 0.63
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U208/Y (NAND2X4TS)                                      0.09       1.44 f
+  U241/Y (CLKINVX6TS)                                     0.09       1.53 r
+  U240/Y (INVX6TS)                                        0.07       1.60 f
+  U445/Y (CLKMX2X2TS)                                     0.27       1.88 f
+  queueRegister_reg_3__9_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__9_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U208/Y (NAND2X4TS)                                      0.09       1.44 f
+  U241/Y (CLKINVX6TS)                                     0.09       1.53 r
+  U240/Y (INVX6TS)                                        0.07       1.60 f
+  U590/Y (CLKMX2X2TS)                                     0.27       1.88 f
+  queueRegister_reg_3__2_/D (DFFHQX8TS)                   0.00       1.88 f
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__2_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_4_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U382/Y (NAND2X2TS)                                      0.15       1.49 f
+  U383/Y (CLKINVX6TS)                                     0.09       1.59 r
+  U311/Y (NAND3X8TS)                                      0.10       1.69 f
+  U303/Y (CLKINVX6TS)                                     0.09       1.78 r
+  U232/Y (XNOR2X1TS)                                      0.15       1.92 r
+  U237/Y (MXI2X1TS)                                       0.18       2.11 f
+  indexCounter_reg_4_/D (DFFNSRX1TS)                      0.00       2.11 f
+  data arrival time                                                  2.11
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.51       0.99
+  data required time                                                 0.99
+  --------------------------------------------------------------------------
+  data required time                                                 0.99
+  data arrival time                                                 -2.11
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U607/Y (INVX6TS)                                        0.07       1.60 f
+  U608/Y (CLKMX2X2TS)                                     0.27       1.87 f
+  queueRegister_reg_2__1_/D (DFFHQX8TS)                   0.00       1.87 f
+  data arrival time                                                  1.87
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.87
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.12
+
+
+  Startpoint: indexCounter_reg_1_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_3_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_1_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U384/Y (INVX2TS)                                        0.13       1.45 f
+  U251/Y (CLKINVX3TS)                                     0.10       1.55 r
+  U228/Y (NAND2X2TS)                                      0.12       1.68 f
+  U347/Y (NOR2X2TS)                                       0.11       1.79 r
+  U273/Y (XNOR2X1TS)                                      0.16       1.95 r
+  U254/Y (OAI21XLTS)                                      0.18       2.12 f
+  indexCounter_reg_3_/D (DFFNSRX1TS)                      0.00       2.12 f
+  data arrival time                                                  2.12
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.49       1.01
+  data required time                                                 1.01
+  --------------------------------------------------------------------------
+  data required time                                                 1.01
+  data arrival time                                                 -2.12
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.11
+
+
+  Startpoint: indexCounter_reg_1_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_2_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_1_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U384/Y (INVX2TS)                                        0.13       1.45 f
+  U251/Y (CLKINVX3TS)                                     0.10       1.55 r
+  U228/Y (NAND2X2TS)                                      0.12       1.68 f
+  U344/Y (XOR2X1TS)                                       0.24       1.92 r
+  U433/Y (MXI2X1TS)                                       0.18       2.10 f
+  indexCounter_reg_2_/D (DFFNSRX1TS)                      0.00       2.10 f
+  data arrival time                                                  2.10
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.51       0.99
+  data required time                                                 0.99
+  --------------------------------------------------------------------------
+  data required time                                                 0.99
+  data arrival time                                                 -2.10
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.11
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U377/Y (NAND4X2TS)                                      0.19       1.07 f
+  U378/Y (NOR2X1TS)                                       0.16       1.23 r
+  U319/Y (XOR2XLTS)                                       0.23       1.46 f
+  U380/Y (OAI21X1TS)                                      0.18       1.64 r
+  U381/Y (CLKINVX1TS)                                     0.10       1.74 f
+  queueEndPointer_reg_6_/D (DFFSX4TS)                     0.00       1.74 f
+  data arrival time                                                  1.74
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_6_/CK (DFFSX4TS)                    0.00       1.00 r
+  library setup time                                     -0.36       0.64
+  data required time                                                 0.64
+  --------------------------------------------------------------------------
+  data required time                                                 0.64
+  data arrival time                                                 -1.74
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.10
+
+
+  Startpoint: indexCounter_reg_0_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_0_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_0_/QN (DFFNSRX1TS)                     1.01       1.51 f
+  U236/Y (CLKINVX3TS)                                     0.10       1.61 r
+  U585/Y (CLKMX2X2TS)                                     0.24       1.85 r
+  queueRegister_reg_6__0_/D (DFFQX1TS)                    0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__0_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.10
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_9_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U382/Y (NAND2X2TS)                                      0.15       1.49 f
+  U383/Y (CLKINVX6TS)                                     0.09       1.59 r
+  U309/Y (CLKBUFX2TS)                                     0.17       1.75 r
+  U263/Y (NAND2BX2TS)                                     0.11       1.87 f
+  U269/Y (NAND2X2TS)                                      0.10       1.96 r
+  U267/Y (NAND4X1TS)                                      0.13       2.10 f
+  indexCounter_reg_9_/D (DFFNSRX1TS)                      0.00       2.10 f
+  data arrival time                                                  2.10
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_9_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.50       1.00
+  data required time                                                 1.00
+  --------------------------------------------------------------------------
+  data required time                                                 1.00
+  data arrival time                                                 -2.10
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.10
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U315/Y (NOR2X4TS)                                       0.09       1.13 f
+  U362/Y (AND2X8TS)                                       0.17       1.30 f
+  U208/Y (NAND2X4TS)                                      0.09       1.39 r
+  U241/Y (CLKINVX6TS)                                     0.11       1.50 f
+  U240/Y (INVX6TS)                                        0.09       1.59 r
+  U224/Y (MX2X2TS)                                        0.26       1.85 f
+  queueRegister_reg_3__3_/D (DFFHQX8TS)                   0.00       1.85 f
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.09
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U617/Y (NAND2X4TS)                                      0.09       1.55 f
+  U623/Y (CLKMX2X2TS)                                     0.29       1.84 f
+  queueRegister_reg_0__2_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__2_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U617/Y (NAND2X4TS)                                      0.09       1.55 f
+  U618/Y (CLKMX2X2TS)                                     0.29       1.84 f
+  queueRegister_reg_0__3_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U394/Y (NAND2X4TS)                                      0.09       1.55 f
+  U333/Y (CLKMX2X2TS)                                     0.29       1.84 f
+  queueRegister_reg_0__4_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__4_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U617/Y (NAND2X4TS)                                      0.09       1.55 f
+  U619/Y (CLKMX2X2TS)                                     0.29       1.84 f
+  queueRegister_reg_0__6_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__6_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U394/Y (NAND2X4TS)                                      0.09       1.55 f
+  U593/Y (CLKMX2X2TS)                                     0.29       1.84 f
+  queueRegister_reg_0__1_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U394/Y (NAND2X4TS)                                      0.09       1.55 f
+  U591/Y (CLKMX2X2TS)                                     0.29       1.84 f
+  queueRegister_reg_0__8_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__8_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U607/Y (INVX6TS)                                        0.07       1.60 f
+  U225/Y (MX2X2TS)                                        0.25       1.84 f
+  queueRegister_reg_2__3_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U350/Y (AND2X8TS)                                       0.17       1.53 r
+  U607/Y (INVX6TS)                                        0.07       1.60 f
+  U215/Y (MX2X2TS)                                        0.25       1.84 f
+  queueRegister_reg_2__4_/D (DFFHQX8TS)                   0.00       1.84 f
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_2__4_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: indexCounter_reg_2_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_2_/Q (DFFNSRX1TS)                      0.68       1.18 f
+  U356/Y (CLKBUFX2TS)                                     0.26       1.44 f
+  U338/Y (MX2X1TS)                                        0.32       1.76 f
+  queueRegister_reg_6__2_/D (DFFQX1TS)                    0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__2_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U229/Y (NAND2X6TS)                                      0.08       1.55 f
+  U440/Y (CLKMX2X2TS)                                     0.29       1.83 f
+  queueRegister_reg_0__9_/D (DFFHQX8TS)                   0.00       1.83 f
+  data arrival time                                                  1.83
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__9_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.83
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U229/Y (NAND2X6TS)                                      0.08       1.55 f
+  U594/Y (CLKMX2X2TS)                                     0.29       1.83 f
+  queueRegister_reg_0__0_/D (DFFHQX8TS)                   0.00       1.83 f
+  data arrival time                                                  1.83
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__0_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.83
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U229/Y (NAND2X6TS)                                      0.08       1.55 f
+  U592/Y (CLKMX2X2TS)                                     0.29       1.83 f
+  queueRegister_reg_0__7_/D (DFFHQX8TS)                   0.00       1.83 f
+  data arrival time                                                  1.83
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__7_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.83
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U586/Y (NAND2X2TS)                                      0.14       1.45 f
+  U603/Y (CLKMX2X2TS)                                     0.31       1.76 f
+  queueRegister_reg_4__0_/D (DFFQX1TS)                    0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__0_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: indexCounter_reg_5_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_5_/Q (DFFNSRX1TS)                      0.81       1.31 r
+  U386/Y (BUFX4TS)                                        0.17       1.48 r
+  U278/Y (INVX4TS)                                        0.08       1.56 f
+  U211/Y (INVX4TS)                                        0.07       1.63 r
+  U320/Y (CLKMX2X2TS)                                     0.25       1.88 r
+  queueRegister_reg_4__5_/D (DFFHQX4TS)                   0.00       1.88 r
+  data arrival time                                                  1.88
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__5_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.88
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U597/Y (NAND2X2TS)                                      0.14       1.45 f
+  U598/Y (CLKMX2X2TS)                                     0.31       1.75 f
+  queueRegister_reg_4__1_/D (DFFQX1TS)                    0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__1_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.07
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U597/Y (NAND2X2TS)                                      0.14       1.45 f
+  U602/Y (CLKMX2X2TS)                                     0.31       1.75 f
+  queueRegister_reg_4__7_/D (DFFQX1TS)                    0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__7_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.07
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U597/Y (NAND2X2TS)                                      0.14       1.45 f
+  U599/Y (CLKMX2X2TS)                                     0.31       1.75 f
+  queueRegister_reg_4__8_/D (DFFQX1TS)                    0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__8_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.07
+
+
+  Startpoint: indexCounter_reg_6_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_6_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_6_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U387/Y (INVX2TS)                                        0.11       1.43 f
+  U277/Y (INVX3TS)                                        0.12       1.55 r
+  U201/Y (CLKMX2X2TS)                                     0.26       1.82 r
+  queueRegister_reg_6__6_/D (DFFQX1TS)                    0.00       1.82 r
+  data arrival time                                                  1.82
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__6_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.82
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.07
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U208/Y (NAND2X4TS)                                      0.09       1.44 f
+  U241/Y (CLKINVX6TS)                                     0.09       1.53 r
+  U376/Y (CLKMX2X2TS)                                     0.29       1.82 f
+  queueRegister_reg_3__8_/D (DFFHQX8TS)                   0.00       1.82 f
+  data arrival time                                                  1.82
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__8_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.82
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.07
+
+
+  Startpoint: indexCounter_reg_5_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_5_/Q (DFFNSRX1TS)                      0.81       1.31 r
+  U386/Y (BUFX4TS)                                        0.17       1.48 r
+  U278/Y (INVX4TS)                                        0.08       1.56 f
+  U211/Y (INVX4TS)                                        0.07       1.63 r
+  U324/Y (MX2X1TS)                                        0.22       1.85 r
+  queueRegister_reg_1__5_/D (DFFHQX4TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__5_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.06
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/QN (DFFNSRX1TS)                     1.00       1.50 f
+  U576/Y (CLKINVX1TS)                                     0.11       1.62 r
+  U328/Y (MX2X1TS)                                        0.24       1.85 r
+  queueRegister_reg_4__3_/D (DFFHQX4TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__3_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.06
+
+
+  Startpoint: indexCounter_reg_4_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_4_/Q (DFFNSRX1TS)                      0.90       1.40 r
+  U391/Y (INVX2TS)                                        0.15       1.54 f
+  U242/Y (CLKINVX3TS)                                     0.08       1.63 r
+  U216/Y (MX2X2TS)                                        0.18       1.81 r
+  queueRegister_reg_6__4_/D (DFFQX1TS)                    0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__4_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.06
+
+
+  Startpoint: indexCounter_reg_1_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_1_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U384/Y (INVX2TS)                                        0.13       1.45 f
+  U252/Y (INVX2TS)                                        0.11       1.56 r
+  U583/Y (CLKMX2X2TS)                                     0.25       1.81 r
+  queueRegister_reg_6__1_/D (DFFQX1TS)                    0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__1_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.06
+
+
+  Startpoint: indexCounter_reg_4_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_4_/Q (DFFNSRX1TS)                      0.90       1.40 r
+  U391/Y (INVX2TS)                                        0.15       1.54 f
+  U242/Y (CLKINVX3TS)                                     0.08       1.63 r
+  U334/Y (MX2X1TS)                                        0.23       1.85 r
+  queueRegister_reg_5__4_/D (DFFHQX8TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__4_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.06
+
+
+  Startpoint: indexCounter_reg_4_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_4_/Q (DFFNSRX1TS)                      0.90       1.40 r
+  U391/Y (INVX2TS)                                        0.15       1.54 f
+  U242/Y (CLKINVX3TS)                                     0.08       1.63 r
+  U326/Y (MX2X1TS)                                        0.23       1.85 r
+  queueRegister_reg_1__4_/D (DFFHQX4TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__4_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.06
+
+
+  Startpoint: indexCounter_reg_2_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_2_/QN (DFFNSRX1TS)                     1.00       1.50 f
+  U299/Y (CLKINVX2TS)                                     0.11       1.61 r
+  U330/Y (MX2X1TS)                                        0.23       1.85 r
+  queueRegister_reg_5__2_/D (DFFHQX4TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__2_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: indexCounter_reg_2_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_2_/QN (DFFNSRX1TS)                     1.00       1.50 f
+  U299/Y (CLKINVX2TS)                                     0.11       1.61 r
+  U325/Y (MX2X1TS)                                        0.23       1.85 r
+  queueRegister_reg_1__2_/D (DFFHQX4TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__2_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/QN (DFFNSRX1TS)                     1.00       1.50 f
+  U235/Y (CLKINVX3TS)                                     0.11       1.61 r
+  U226/Y (MX2X2TS)                                        0.19       1.80 r
+  queueRegister_reg_6__3_/D (DFFQX1TS)                    0.00       1.80 r
+  data arrival time                                                  1.80
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__3_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: indexCounter_reg_5_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_5_/Q (DFFNSRX1TS)                      0.81       1.31 r
+  U386/Y (BUFX4TS)                                        0.17       1.48 r
+  U278/Y (INVX4TS)                                        0.08       1.56 f
+  U227/Y (INVX6TS)                                        0.07       1.62 r
+  U221/Y (MX2X2TS)                                        0.18       1.80 r
+  queueRegister_reg_6__5_/D (DFFQX1TS)                    0.00       1.80 r
+  data arrival time                                                  1.80
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__5_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: indexCounter_reg_7_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_7_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_7_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U388/Y (INVX2TS)                                        0.11       1.43 f
+  U360/Y (INVX2TS)                                        0.14       1.57 r
+  U596/Y (CLKMX2X2TS)                                     0.29       1.85 r
+  queueRegister_reg_5__7_/D (DFFHQX4TS)                   0.00       1.85 r
+  data arrival time                                                  1.85
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__7_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: indexCounter_reg_7_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_7_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_7_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U388/Y (INVX2TS)                                        0.11       1.43 f
+  U359/Y (INVX2TS)                                        0.11       1.54 r
+  U584/Y (CLKMX2X2TS)                                     0.26       1.80 r
+  queueRegister_reg_6__7_/D (DFFQX1TS)                    0.00       1.80 r
+  data arrival time                                                  1.80
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__7_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U234/Y (BUFX12TS)                                       0.15       1.46 r
+  U229/Y (NAND2X6TS)                                      0.08       1.55 f
+  U222/Y (MX2X2TS)                                        0.26       1.81 f
+  queueRegister_reg_0__5_/D (DFFHQX8TS)                   0.00       1.81 f
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_0__5_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.05
+
+
+  Startpoint: indexCounter_reg_4_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_4_/QN (DFFNSRX1TS)                     1.01       1.51 f
+  U238/Y (CLKINVX3TS)                                     0.10       1.61 r
+  U332/Y (MX2X1TS)                                        0.23       1.84 r
+  queueRegister_reg_4__4_/D (DFFHQX4TS)                   0.00       1.84 r
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__4_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.04
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U431/Y (NAND2X4TS)                                      0.13       1.30 f
+  U233/Y (CLKINVX6TS)                                     0.08       1.38 r
+  U255/Y (INVX4TS)                                        0.07       1.45 f
+  U318/Y (MX2X1TS)                                        0.28       1.73 f
+  queueRegister_reg_6__8_/D (DFFQX2TS)                    0.00       1.73 f
+  data arrival time                                                  1.73
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__8_/CK (DFFQX2TS)                   0.00       1.00 r
+  library setup time                                     -0.31       0.69
+  data required time                                                 0.69
+  --------------------------------------------------------------------------
+  data required time                                                 0.69
+  data arrival time                                                 -1.73
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.04
+
+
+  Startpoint: indexCounter_reg_0_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_1_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_0_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_0_/QN (DFFNSRX1TS)                     1.01       1.51 f
+  U236/Y (CLKINVX3TS)                                     0.10       1.61 r
+  U422/Y (XNOR2X1TS)                                      0.23       1.84 r
+  U423/Y (MXI2X1TS)                                       0.19       2.03 f
+  indexCounter_reg_1_/D (DFFNSRX1TS)                      0.00       2.03 f
+  data arrival time                                                  2.03
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.51       0.99
+  data required time                                                 0.99
+  --------------------------------------------------------------------------
+  data required time                                                 0.99
+  data arrival time                                                 -2.03
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.04
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U431/Y (NAND2X4TS)                                      0.13       1.30 f
+  U233/Y (CLKINVX6TS)                                     0.08       1.38 r
+  U255/Y (INVX4TS)                                        0.07       1.45 f
+  U432/Y (CLKMX2X2TS)                                     0.27       1.72 f
+  queueRegister_reg_6__9_/D (DFFQX1TS)                    0.00       1.72 f
+  data arrival time                                                  1.72
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_6__9_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.72
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.04
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U351/Y (CLKBUFX2TS)                                     0.23       1.57 r
+  U587/Y (CLKMX2X2TS)                                     0.27       1.84 r
+  queueRegister_reg_5__3_/D (DFFHQX8TS)                   0.00       1.84 r
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.03
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.85       1.35 r
+  U351/Y (CLKBUFX2TS)                                     0.23       1.57 r
+  U577/Y (CLKMX2X2TS)                                     0.27       1.84 r
+  queueRegister_reg_1__3_/D (DFFHQX8TS)                   0.00       1.84 r
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.84
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.03
+
+
+  Startpoint: indexCounter_reg_1_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_1_/Q (DFFNSRX1TS)                      0.66       1.16 f
+  U384/Y (INVX2TS)                                        0.16       1.32 r
+  U385/Y (CLKINVX6TS)                                     0.14       1.46 f
+  U323/Y (MX2X1TS)                                        0.33       1.78 f
+  queueRegister_reg_1__1_/D (DFFHQX8TS)                   0.00       1.78 f
+  data arrival time                                                  1.78
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.78
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.03
+
+
+  Startpoint: indexCounter_reg_2_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_2_/QN (DFFNSRX1TS)                     1.00       1.50 f
+  U256/Y (CLKINVX2TS)                                     0.10       1.60 r
+  U329/Y (MX2X1TS)                                        0.23       1.83 r
+  queueRegister_reg_4__2_/D (DFFHQX4TS)                   0.00       1.83 r
+  data arrival time                                                  1.83
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__2_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.83
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.03
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U348/Y (NOR2X8TS)                                       0.13       1.31 r
+  U586/Y (NAND2X2TS)                                      0.14       1.45 f
+  U331/Y (MX2X1TS)                                        0.33       1.78 f
+  queueRegister_reg_4__6_/D (DFFHQX4TS)                   0.00       1.78 f
+  data arrival time                                                  1.78
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__6_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.78
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.03
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U231/Y (NOR2X8TS)                                       0.14       1.32 r
+  U595/Y (NAND2X2TS)                                      0.14       1.46 f
+  U327/Y (MX2X1TS)                                        0.32       1.78 f
+  queueRegister_reg_5__1_/D (DFFHQX8TS)                   0.00       1.78 f
+  data arrival time                                                  1.78
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.78
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.02
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U352/Y (BUFX8TS)                                        0.18       1.22 r
+  U274/Y (INVX4TS)                                        0.08       1.30 f
+  U429/Y (NAND2X1TS)                                      0.10       1.40 r
+  U339/Y (MX2X1TS)                                        0.30       1.70 f
+  queueRegister_reg_1__9_/D (DFFQX1TS)                    0.00       1.70 f
+  data arrival time                                                  1.70
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__9_/CK (DFFQX1TS)                   0.00       1.00 r
+  library setup time                                     -0.32       0.68
+  data required time                                                 0.68
+  --------------------------------------------------------------------------
+  data required time                                                 0.68
+  data arrival time                                                 -1.70
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.02
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U581/Y (NAND2X1TS)                                      0.13       1.01 f
+  U289/Y (INVX1TS)                                        0.10       1.11 r
+  U361/Y (XOR2X1TS)                                       0.23       1.34 r
+  U582/Y (MXI2X1TS)                                       0.17       1.51 f
+  queueEndPointer_reg_2_/D (DFFRX4TS)                     0.00       1.51 f
+  data arrival time                                                  1.51
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_2_/CK (DFFRX4TS)                    0.00       1.00 r
+  library setup time                                     -0.50       0.50
+  data required time                                                 0.50
+  --------------------------------------------------------------------------
+  data required time                                                 0.50
+  data arrival time                                                 -1.51
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.02
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U352/Y (BUFX8TS)                                        0.18       1.22 r
+  U274/Y (INVX4TS)                                        0.08       1.30 f
+  U574/Y (NAND2X2TS)                                      0.13       1.43 r
+  U322/Y (MX2X1TS)                                        0.33       1.76 f
+  queueRegister_reg_1__7_/D (DFFHQX8TS)                   0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__7_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.01
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U231/Y (NOR2X8TS)                                       0.14       1.32 r
+  U404/Y (NAND2X2TS)                                      0.14       1.46 f
+  U443/Y (CLKMX2X2TS)                                     0.31       1.77 f
+  queueRegister_reg_4__9_/D (DFFHQX8TS)                   0.00       1.77 f
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_4__9_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.01
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U231/Y (NOR2X8TS)                                       0.14       1.32 r
+  U595/Y (NAND2X2TS)                                      0.14       1.46 f
+  U621/Y (CLKMX2X2TS)                                     0.31       1.76 f
+  queueRegister_reg_5__6_/D (DFFHQX8TS)                   0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__6_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.01
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U231/Y (NOR2X8TS)                                       0.14       1.32 r
+  U600/Y (NAND2X2TS)                                      0.14       1.46 f
+  U604/Y (CLKMX2X2TS)                                     0.31       1.76 f
+  queueRegister_reg_5__0_/D (DFFHQX8TS)                   0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__0_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.01
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U231/Y (NOR2X8TS)                                       0.14       1.32 r
+  U600/Y (NAND2X2TS)                                      0.14       1.46 f
+  U601/Y (CLKMX2X2TS)                                     0.31       1.76 f
+  queueRegister_reg_5__8_/D (DFFHQX8TS)                   0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__8_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.01
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U434/Y (NAND2X1TS)                                      0.09       0.98 f
+  U435/Y (NOR2X1TS)                                       0.18       1.16 r
+  U436/Y (NAND2X2TS)                                      0.15       1.31 f
+  U562/Y (XOR2X1TS)                                       0.17       1.47 r
+  U563/Y (OAI21X1TS)                                      0.16       1.63 f
+  queueEndPointer_reg_8_/D (DFFSX4TS)                     0.00       1.63 f
+  data arrival time                                                  1.63
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       1.00 r
+  library setup time                                     -0.37       0.63
+  data required time                                                 0.63
+  --------------------------------------------------------------------------
+  data required time                                                 0.63
+  data arrival time                                                 -1.63
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.00
+
+
+  Startpoint: indexCounter_reg_5_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_5_/Q (DFFNSRX1TS)                      0.81       1.31 r
+  U386/Y (BUFX4TS)                                        0.17       1.48 r
+  U278/Y (INVX4TS)                                        0.08       1.56 f
+  U227/Y (INVX6TS)                                        0.07       1.62 r
+  U223/Y (MX2X2TS)                                        0.18       1.81 r
+  queueRegister_reg_5__5_/D (DFFHQX4TS)                   0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__5_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.19       0.81
+  data required time                                                 0.81
+  --------------------------------------------------------------------------
+  data required time                                                 0.81
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.00
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U352/Y (BUFX8TS)                                        0.18       1.22 r
+  U274/Y (INVX4TS)                                        0.08       1.30 f
+  U574/Y (NAND2X2TS)                                      0.13       1.43 r
+  U580/Y (CLKMX2X2TS)                                     0.32       1.75 f
+  queueRegister_reg_1__0_/D (DFFHQX8TS)                   0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__0_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.00
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U208/Y (NAND2X4TS)                                      0.09       1.44 f
+  U337/Y (MX2X1TS)                                        0.30       1.75 f
+  queueRegister_reg_3__6_/D (DFFHQX4TS)                   0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__6_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.00
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U315/Y (NOR2X4TS)                                       0.16       1.17 r
+  U362/Y (AND2X8TS)                                       0.19       1.36 r
+  U208/Y (NAND2X4TS)                                      0.09       1.44 f
+  U335/Y (MX2X1TS)                                        0.30       1.75 f
+  queueRegister_reg_3__0_/D (DFFHQX4TS)                   0.00       1.75 f
+  data arrival time                                                  1.75
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_3__0_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.00
+
+
+  Startpoint: queueEndPointer_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_7_/QN (DFFSX4TS)                    0.88       0.88 r
+  U374/Y (NOR2X4TS)                                       0.07       0.95 f
+  U375/Y (NAND2X4TS)                                      0.10       1.04 r
+  U352/Y (BUFX8TS)                                        0.18       1.22 r
+  U274/Y (INVX4TS)                                        0.08       1.30 f
+  U575/Y (NAND2X2TS)                                      0.12       1.42 r
+  U622/Y (CLKMX2X2TS)                                     0.32       1.74 f
+  queueRegister_reg_1__6_/D (DFFHQX8TS)                   0.00       1.74 f
+  data arrival time                                                  1.74
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__6_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.74
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.99
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U377/Y (NAND4X2TS)                                      0.19       1.07 f
+  U559/Y (NOR2X1TS)                                       0.19       1.26 r
+  U560/Y (XNOR2X1TS)                                      0.18       1.44 r
+  U561/Y (OAI21X1TS)                                      0.18       1.61 f
+  queueEndPointer_reg_7_/D (DFFSX4TS)                     0.00       1.61 f
+  data arrival time                                                  1.61
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)                    0.00       1.00 r
+  library setup time                                     -0.37       0.63
+  data required time                                                 0.63
+  --------------------------------------------------------------------------
+  data required time                                                 0.63
+  data arrival time                                                 -1.61
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.98
+
+
+  Startpoint: queueEndPointer_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_8_/QN (DFFSX4TS)                    0.78       0.78 f
+  U373/Y (NOR2X4TS)                                       0.13       0.91 r
+  U375/Y (NAND2X4TS)                                      0.10       1.01 f
+  U352/Y (BUFX8TS)                                        0.17       1.18 f
+  U231/Y (NOR2X8TS)                                       0.14       1.32 r
+  U230/Y (NAND2X4TS)                                      0.11       1.44 f
+  U442/Y (CLKMX2X2TS)                                     0.30       1.73 f
+  queueRegister_reg_5__9_/D (DFFHQX4TS)                   0.00       1.73 f
+  data arrival time                                                  1.73
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_5__9_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.25       0.75
+  data required time                                                 0.75
+  --------------------------------------------------------------------------
+  data required time                                                 0.75
+  data arrival time                                                 -1.73
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.98
+
+
+  Startpoint: indexCounter_reg_8_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_8_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_8_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  U369/Y (INVX2TS)                                        0.11       1.43 f
+  U370/Y (INVX2TS)                                        0.10       1.53 r
+  U321/Y (MX2X1TS)                                        0.24       1.76 r
+  queueRegister_reg_1__8_/D (DFFHQX4TS)                   0.00       1.76 r
+  data arrival time                                                  1.76
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueRegister_reg_1__8_/CK (DFFHQX4TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.97
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U377/Y (NAND4X2TS)                                      0.19       1.07 f
+  U275/Y (CLKINVX2TS)                                     0.12       1.19 r
+  U419/Y (CLKINVX1TS)                                     0.09       1.28 f
+  U420/Y (XOR2X1TS)                                       0.22       1.50 f
+  U421/Y (OAI21X1TS)                                      0.19       1.68 r
+  queueEndPointer_reg_4_/D (DFFSHQX8TS)                   0.00       1.68 r
+  data arrival time                                                  1.68
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_4_/CK (DFFSHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.26       0.74
+  data required time                                                 0.74
+  --------------------------------------------------------------------------
+  data required time                                                 0.74
+  data arrival time                                                 -1.68
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.95
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U581/Y (NAND2X1TS)                                      0.13       1.01 f
+  U614/Y (NOR2X1TS)                                       0.15       1.15 r
+  U615/Y (XNOR2X1TS)                                      0.24       1.39 f
+  U616/Y (MXI2X1TS)                                       0.20       1.59 r
+  queueEndPointer_reg_3_/D (DFFSHQX8TS)                   0.00       1.59 r
+  data arrival time                                                  1.59
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_3_/CK (DFFSHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.29       0.71
+  data required time                                                 0.71
+  --------------------------------------------------------------------------
+  data required time                                                 0.71
+  data arrival time                                                 -1.59
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.88
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U377/Y (NAND4X2TS)                                      0.19       1.07 f
+  U564/Y (NOR2X1TS)                                       0.17       1.24 r
+  U565/Y (XOR2X1TS)                                       0.24       1.48 f
+  U566/Y (OAI21X1TS)                                      0.17       1.65 r
+  queueEndPointer_reg_5_/D (DFFRHQX2TS)                   0.00       1.65 r
+  data arrival time                                                  1.65
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_5_/CK (DFFRHQX2TS)                  0.00       1.00 r
+  library setup time                                     -0.22       0.78
+  data required time                                                 0.78
+  --------------------------------------------------------------------------
+  data required time                                                 0.78
+  data arrival time                                                 -1.65
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.87
+
+
+  Startpoint: indexCounter_reg_0_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_0_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_0_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_0_/QN (DFFNSRX1TS)                     1.01       1.51 f
+  U236/Y (CLKINVX3TS)                                     0.10       1.61 r
+  U343/Y (XOR2XLTS)                                       0.19       1.80 f
+  indexCounter_reg_0_/D (DFFNSRX1TS)                      0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock clk (fall edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  indexCounter_reg_0_/CKN (DFFNSRX1TS)                    0.00       1.50 f
+  library setup time                                     -0.51       0.99
+  data required time                                                 0.99
+  --------------------------------------------------------------------------
+  data required time                                                 0.99
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.81
+
+
+  Startpoint: queueEndPointer_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_1_/QN (DFFSX4TS)                    0.88       0.88 r
+  U612/Y (INVX2TS)                                        0.06       0.94 f
+  U342/Y (XOR2X1TS)                                       0.20       1.14 f
+  U613/Y (CLKMX2X2TS)                                     0.29       1.43 f
+  queueEndPointer_reg_1_/D (DFFSX4TS)                     0.00       1.43 f
+  data arrival time                                                  1.43
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)                    0.00       1.00 r
+  library setup time                                     -0.37       0.63
+  data required time                                                 0.63
+  --------------------------------------------------------------------------
+  data required time                                                 0.63
+  data arrival time                                                 -1.43
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.80
+
+
+  Startpoint: queueEndPointer_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_0_/CK (DFFSX4TS)                    0.00       0.00 r
+  queueEndPointer_reg_0_/Q (DFFSX4TS)                     0.71       0.71 f
+  U296/Y (INVX2TS)                                        0.09       0.81 r
+  U364/Y (XNOR2X1TS)                                      0.21       1.01 f
+  queueEndPointer_reg_0_/D (DFFSX4TS)                     0.00       1.01 f
+  data arrival time                                                  1.01
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  queueEndPointer_reg_0_/CK (DFFSX4TS)                    0.00       1.00 r
+  library setup time                                     -0.40       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -1.01
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.41
+
+
+1

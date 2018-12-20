@@ -1,0 +1,2617 @@
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : InputQueueRegister
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:05:32 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.05       0.05 f
+  pixelValue (in)                                         0.03       0.08 f
+  ...
+  queueEndPointer_reg_4_/D (DFFSHQX8TS)                   0.27       0.35 f
+  data arrival time                                                  0.35
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_4_/CK (DFFSHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.44
+
+
+  Startpoint: queueRegister_reg_5__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_5__5_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_5__5_/D (DFFHQX4TS)                   0.17       0.43 r
+  data arrival time                                                  0.43
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.43
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.47
+
+
+  Startpoint: queueRegister_reg_0__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__5_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__5_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__5_/D (DFFHQX8TS)                   0.17       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__5_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: queueRegister_reg_3__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__3_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__3_/D (DFFHQX8TS)                   0.17       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: queueRegister_reg_2__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__3_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__3_/D (DFFHQX8TS)                   0.17       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: queueRegister_reg_2__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__4_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__4_/D (DFFHQX8TS)                   0.17       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: queueRegister_reg_3__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_3__5_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_3__5_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_3__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__6_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_3__6_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_3__6_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__6_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_3__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__0_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_3__0_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_3__0_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__0_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_5__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__2_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_5__2_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_5__2_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__2_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_1__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__8_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_1__8_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_1__8_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__8_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_4__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__2_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_4__2_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_4__2_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__2_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_4__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__4_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_4__4_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_4__4_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__4_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_4__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__6_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_4__6_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_4__6_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__6_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_4__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__3_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_4__3_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_4__3_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__3_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_1__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__4_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_1__4_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_1__4_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__4_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_1__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_1__5_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_1__5_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: queueRegister_reg_1__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__2_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_1__2_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_1__2_/D (DFFHQX4TS)                   0.21       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__2_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 r
+  pixelValue (in)                          0.05       0.10 r
+  ...
+  queueEndPointer_reg_0_/D (DFFSX4TS)      0.40       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_0_/CK (DFFSX4TS)     0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: queueRegister_reg_5__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__7_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_5__7_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_5__7_/D (DFFHQX4TS)                   0.24       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__7_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.54
+
+
+  Startpoint: queueRegister_reg_4__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_4__5_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_4__5_/D (DFFHQX4TS)                   0.24       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__5_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.54
+
+
+  Startpoint: queueRegister_reg_5__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__9_/CK (DFFHQX4TS)                  0.00       0.00 r
+  queueRegister_reg_5__9_/Q (DFFHQX4TS)                   0.26       0.26 r
+  ...
+  queueRegister_reg_5__9_/D (DFFHQX4TS)                   0.24       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__9_/CK (DFFHQX4TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.54
+
+
+  Startpoint: queueRegister_reg_5__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_5__4_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_5__4_/D (DFFHQX8TS)                   0.21       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.55
+
+
+  Startpoint: queueRegister_reg_5__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_5__1_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_5__1_/D (DFFHQX8TS)                   0.21       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.55
+
+
+  Startpoint: queueRegister_reg_1__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_1__1_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_1__1_/D (DFFHQX8TS)                   0.21       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.55
+
+
+  Startpoint: queueRegister_reg_1__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_1__7_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_1__7_/D (DFFHQX8TS)                   0.21       0.50 r
+  data arrival time                                                  0.50
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.55
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  pixelValue (in)                          0.03       0.08 f
+  ...
+  queueEndPointer_reg_2_/D (DFFRX4TS)      0.44       0.52 f
+  data arrival time                                   0.52
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_2_/CK (DFFRX4TS)     0.00       0.00 r
+  library hold time                       -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.52
+  -----------------------------------------------------------
+  slack (MET)                                         0.56
+
+
+  Startpoint: queueRegister_reg_5__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_5__6_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_5__6_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_4__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_4__9_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_4__9_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_5__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_5__0_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_5__0_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_5__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_5__8_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_5__8_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_5__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_5__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_5__3_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_5__3_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_5__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__2_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__2_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__2_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__2_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__3_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__3_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__4_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__4_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__6_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__6_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__9_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__9_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__0_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__0_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__1_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__1_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__7_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__7_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_0__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_0__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_0__8_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_0__8_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_0__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_3__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__4_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__4_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__4_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__6_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__6_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_3__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__1_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__1_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_3__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__7_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__7_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__7_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__7_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__7_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__8_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__8_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__1_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__1_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__1_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__9_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__9_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__5_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__5_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__5_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__5_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__0_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__0_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_2__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_2__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__2_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_2__2_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_2__2_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_2__2_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_3__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__9_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__9_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__9_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_3__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__2_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__2_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__2_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__2_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_1__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_1__6_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_1__6_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__6_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_1__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_1__3_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_1__3_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__3_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_1__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_1__0_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_1__0_/D (DFFHQX8TS)                   0.24       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__0_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: queueRegister_reg_3__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_3__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  queueRegister_reg_3__8_/Q (DFFHQX8TS)                   0.29       0.29 r
+  ...
+  queueRegister_reg_3__8_/D (DFFHQX8TS)                   0.25       0.54 r
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_3__8_/CK (DFFHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 r
+  pixelValue (in)                          0.05       0.10 r
+  ...
+  queueEndPointer_reg_8_/D (DFFSX4TS)      0.48       0.58 f
+  data arrival time                                   0.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_8_/CK (DFFSX4TS)     0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.58
+  -----------------------------------------------------------
+  slack (MET)                                         0.61
+
+
+  Startpoint: queueEndPointer_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueEndPointer_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_3_/CK (DFFSHQX8TS)                  0.00       0.00 r
+  queueEndPointer_reg_3_/Q (DFFSHQX8TS)                   0.31       0.31 r
+  ...
+  queueEndPointer_reg_3_/D (DFFSHQX8TS)                   0.24       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_3_/CK (DFFSHQX8TS)                  0.00       0.00 r
+  library hold time                                      -0.08      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.63
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.05       0.05 r
+  pixelValue (in)                                         0.05       0.10 r
+  ...
+  queueEndPointer_reg_5_/D (DFFRHQX2TS)                   0.53       0.63 r
+  data arrival time                                                  0.63
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueEndPointer_reg_5_/CK (DFFRHQX2TS)                  0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.63
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.67
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  pixelValue (in)                          0.03       0.08 f
+  ...
+  queueEndPointer_reg_6_/D (DFFSX4TS)      0.54       0.62 r
+  data arrival time                                   0.62
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_6_/CK (DFFSX4TS)     0.00       0.00 r
+  library hold time                       -0.09      -0.09
+  data required time                                 -0.09
+  -----------------------------------------------------------
+  data required time                                 -0.09
+  data arrival time                                  -0.62
+  -----------------------------------------------------------
+  slack (MET)                                         0.71
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  pixelValue (in)                          0.03       0.08 f
+  ...
+  queueEndPointer_reg_1_/D (DFFSX4TS)      0.67       0.75 f
+  data arrival time                                   0.75
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_1_/CK (DFFSX4TS)     0.00       0.00 r
+  library hold time                       -0.04      -0.04
+  data required time                                 -0.04
+  -----------------------------------------------------------
+  data required time                                 -0.04
+  data arrival time                                  -0.75
+  -----------------------------------------------------------
+  slack (MET)                                         0.78
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  pixelValue (in)                          0.03       0.08 f
+  ...
+  queueEndPointer_reg_7_/D (DFFSX4TS)      0.69       0.77 f
+  data arrival time                                   0.77
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_7_/CK (DFFSX4TS)     0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.77
+  -----------------------------------------------------------
+  slack (MET)                                         0.80
+
+
+  Startpoint: pixelValue (input port clocked by clk)
+  Endpoint: queueEndPointer_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  pixelValue (in)                          0.03       0.08 f
+  ...
+  queueEndPointer_reg_9_/D (DFFSX4TS)      0.69       0.77 f
+  data arrival time                                   0.77
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueEndPointer_reg_9_/CK (DFFSX4TS)     0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.77
+  -----------------------------------------------------------
+  slack (MET)                                         0.80
+
+
+  Startpoint: queueRegister_reg_6__3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__3_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__3_/Q (DFFQX1TS)                    0.60       0.60 r
+  ...
+  queueRegister_reg_6__3_/D (DFFQX1TS)                    0.20       0.80 r
+  data arrival time                                                  0.80
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__3_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.88
+
+
+  Startpoint: queueRegister_reg_6__5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__5_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__5_/Q (DFFQX1TS)                    0.60       0.60 r
+  ...
+  queueRegister_reg_6__5_/D (DFFQX1TS)                    0.20       0.80 r
+  data arrival time                                                  0.80
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__5_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.88
+
+
+  Startpoint: queueRegister_reg_6__4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__4_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__4_/Q (DFFQX1TS)                    0.60       0.60 r
+  ...
+  queueRegister_reg_6__4_/D (DFFQX1TS)                    0.20       0.80 r
+  data arrival time                                                  0.80
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__4_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.88
+
+
+  Startpoint: queueRegister_reg_6__2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__2_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__2_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_6__2_/D (DFFQX1TS)                    0.22       0.81 r
+  data arrival time                                                  0.81
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__2_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.81
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.91
+
+
+  Startpoint: queueRegister_reg_1__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_1__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__9_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_1__9_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_1__9_/D (DFFQX1TS)                    0.22       0.81 r
+  data arrival time                                                  0.81
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_1__9_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.81
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.91
+
+
+  Startpoint: queueRegister_reg_6__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__8_/CK (DFFQX2TS)                   0.00       0.00 r
+  queueRegister_reg_6__8_/Q (DFFQX2TS)                    0.60       0.60 r
+  ...
+  queueRegister_reg_6__8_/D (DFFQX2TS)                    0.21       0.81 r
+  data arrival time                                                  0.81
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__8_/CK (DFFQX2TS)                   0.00       0.00 r
+  library hold time                                      -0.10      -0.10
+  data required time                                                -0.10
+  --------------------------------------------------------------------------
+  data required time                                                -0.10
+  data arrival time                                                 -0.81
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.91
+
+
+  Startpoint: queueRegister_reg_4__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__1_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_4__1_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_4__1_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__1_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_4__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__7_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_4__7_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_4__7_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__7_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_4__8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__8_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_4__8_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_4__8_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__8_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_6__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__0_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__0_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_6__0_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__0_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_6__1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__1_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__1_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_6__1_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__1_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_6__6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__6_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__6_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_6__6_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__6_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_6__9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__9_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__9_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_6__9_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__9_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_6__7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_6__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__7_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_6__7_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_6__7_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_6__7_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: queueRegister_reg_4__0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueRegister_reg_4__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__0_/CK (DFFQX1TS)                   0.00       0.00 r
+  queueRegister_reg_4__0_/Q (DFFQX1TS)                    0.59       0.59 r
+  ...
+  queueRegister_reg_4__0_/D (DFFQX1TS)                    0.26       0.86 r
+  data arrival time                                                  0.86
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  queueRegister_reg_4__0_/CK (DFFQX1TS)                   0.00       0.00 r
+  library hold time                                      -0.09      -0.09
+  data required time                                                -0.09
+  --------------------------------------------------------------------------
+  data required time                                                -0.09
+  data arrival time                                                 -0.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: indexCounter_reg_0_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_0_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_0_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_0_/QN (DFFNSRX1TS)                     0.80       1.30 r
+  ...
+  indexCounter_reg_0_/D (DFFNSRX1TS)                      0.27       1.57 r
+  data arrival time                                                  1.57
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_0_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.07       0.57
+  data required time                                                 0.57
+  --------------------------------------------------------------------------
+  data required time                                                 0.57
+  data arrival time                                                 -1.57
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.00
+
+
+  Startpoint: indexCounter_reg_1_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_1_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_1_/QN (DFFNSRX1TS)                     0.97       1.47 f
+  ...
+  indexCounter_reg_1_/D (DFFNSRX1TS)                      0.16       1.63 r
+  data arrival time                                                  1.63
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_1_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.08       0.58
+  data required time                                                 0.58
+  --------------------------------------------------------------------------
+  data required time                                                 0.58
+  data arrival time                                                 -1.63
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.05
+
+
+  Startpoint: indexCounter_reg_7_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_7_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_7_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_7_/QN (DFFNSRX1TS)                     0.87       1.37 r
+  ...
+  indexCounter_reg_7_/D (DFFNSRX1TS)                      0.31       1.68 r
+  data arrival time                                                  1.68
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_7_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.12       0.62
+  data required time                                                 0.62
+  --------------------------------------------------------------------------
+  data required time                                                 0.62
+  data arrival time                                                 -1.68
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.06
+
+
+  Startpoint: indexCounter_reg_5_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_5_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_5_/QN (DFFNSRX1TS)                     0.80       1.30 r
+  ...
+  indexCounter_reg_5_/D (DFFNSRX1TS)                      0.37       1.67 r
+  data arrival time                                                  1.67
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_5_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.11       0.61
+  data required time                                                 0.61
+  --------------------------------------------------------------------------
+  data required time                                                 0.61
+  data arrival time                                                 -1.67
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.07
+
+
+  Startpoint: indexCounter_reg_4_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_4_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_4_/QN (DFFNSRX1TS)                     1.01       1.51 f
+  ...
+  indexCounter_reg_4_/D (DFFNSRX1TS)                      0.17       1.68 r
+  data arrival time                                                  1.68
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.09       0.59
+  data required time                                                 0.59
+  --------------------------------------------------------------------------
+  data required time                                                 0.59
+  data arrival time                                                 -1.68
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.08
+
+
+  Startpoint: indexCounter_reg_6_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_8_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_6_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_6_/Q (DFFNSRX1TS)                      0.66       1.16 f
+  ...
+  indexCounter_reg_8_/D (DFFNSRX1TS)                      0.55       1.71 r
+  data arrival time                                                  1.71
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_8_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.12       0.62
+  data required time                                                 0.62
+  --------------------------------------------------------------------------
+  data required time                                                 0.62
+  data arrival time                                                 -1.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.09
+
+
+  Startpoint: indexCounter_reg_4_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_9_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_4_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_4_/Q (DFFNSRX1TS)                      0.72       1.22 f
+  ...
+  indexCounter_reg_9_/D (DFFNSRX1TS)                      0.53       1.75 r
+  data arrival time                                                  1.75
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_9_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -1.75
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.15
+
+
+  Startpoint: indexCounter_reg_6_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_6_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_6_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_6_/Q (DFFNSRX1TS)                      0.82       1.32 r
+  ...
+  indexCounter_reg_6_/D (DFFNSRX1TS)                      0.48       1.80 r
+  data arrival time                                                  1.80
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_6_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.11       0.61
+  data required time                                                 0.61
+  --------------------------------------------------------------------------
+  data required time                                                 0.61
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.20
+
+
+  Startpoint: indexCounter_reg_2_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_2_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_2_/Q (DFFNSRX1TS)                      0.84       1.34 r
+  ...
+  indexCounter_reg_2_/D (DFFNSRX1TS)                      0.45       1.79 r
+  data arrival time                                                  1.79
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_2_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.08       0.58
+  data required time                                                 0.58
+  --------------------------------------------------------------------------
+  data required time                                                 0.58
+  data arrival time                                                 -1.79
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.21
+
+
+  Startpoint: indexCounter_reg_3_
+              (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: indexCounter_reg_3_
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  indexCounter_reg_3_/Q (DFFNSRX1TS)                      0.68       1.18 f
+  ...
+  indexCounter_reg_3_/D (DFFNSRX1TS)                      0.73       1.91 r
+  data arrival time                                                  1.91
+
+  clock clk (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  indexCounter_reg_3_/CKN (DFFNSRX1TS)                    0.00       0.50 f
+  library hold time                                       0.11       0.61
+  data required time                                                 0.61
+  --------------------------------------------------------------------------
+  data required time                                                 0.61
+  data arrival time                                                 -1.91
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.30
+
+
+1

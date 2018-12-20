@@ -1,0 +1,79 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer2WeightStorage
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 11:57:49 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+readOut[39] (out)                   2.38 r        infinity     infinity
+readOut[38] (out)                   2.38 r        infinity     infinity
+readOut[37] (out)                   2.38 r        infinity     infinity
+readOut[36] (out)                   2.38 r        infinity     infinity
+readOut[35] (out)                   2.38 r        infinity     infinity
+readOut[34] (out)                   2.38 r        infinity     infinity
+readOut[33] (out)                   2.38 r        infinity     infinity
+readOut[32] (out)                   2.38 r        infinity     infinity
+readOut[31] (out)                   2.38 r        infinity     infinity
+readOut[30] (out)                   2.38 r        infinity     infinity
+readOut[29] (out)                   2.38 r        infinity     infinity
+readOut[28] (out)                   2.38 r        infinity     infinity
+readOut[15] (out)                   2.19 r        infinity     infinity
+readOut[14] (out)                   2.19 r        infinity     infinity
+readOut[13] (out)                   2.19 r        infinity     infinity
+readOut[12] (out)                   2.19 r        infinity     infinity
+readOut[11] (out)                   2.19 r        infinity     infinity
+readOut[10] (out)                   2.19 r        infinity     infinity
+readOut[9] (out)                    2.19 r        infinity     infinity
+readOut[8] (out)                    2.19 r        infinity     infinity
+readOut[6] (out)                    2.16 r        infinity     infinity
+readOut[43] (out)                   2.00 r        infinity     infinity
+readOut[42] (out)                   2.00 r        infinity     infinity
+readOut[41] (out)                   2.00 r        infinity     infinity
+readOut[40] (out)                   2.00 r        infinity     infinity
+readOut[23] (out)                   2.00 r        infinity     infinity
+readOut[22] (out)                   2.00 r        infinity     infinity
+readOut[21] (out)                   2.00 r        infinity     infinity
+readOut[20] (out)                   2.00 r        infinity     infinity
+readOut[3] (out)                    2.00 r        infinity     infinity
+readOut[2] (out)                    2.00 r        infinity     infinity
+readOut[1] (out)                    2.00 r        infinity     infinity
+readOut[0] (out)                    2.00 r        infinity     infinity
+readOut[5] (out)                    1.97 r        infinity     infinity
+readOut[51] (out)                   1.92 r        infinity     infinity
+readOut[50] (out)                   1.92 r        infinity     infinity
+readOut[49] (out)                   1.92 r        infinity     infinity
+readOut[48] (out)                   1.92 r        infinity     infinity
+readOut[47] (out)                   1.92 r        infinity     infinity
+readOut[46] (out)                   1.92 r        infinity     infinity
+readOut[45] (out)                   1.92 r        infinity     infinity
+readOut[44] (out)                   1.92 r        infinity     infinity
+readOut[59] (out)                   1.82 r        infinity     infinity
+readOut[58] (out)                   1.82 r        infinity     infinity
+readOut[57] (out)                   1.82 r        infinity     infinity
+readOut[56] (out)                   1.82 r        infinity     infinity
+readOut[27] (out)                   1.81 r        infinity     infinity
+readOut[26] (out)                   1.81 r        infinity     infinity
+readOut[25] (out)                   1.81 r        infinity     infinity
+readOut[24] (out)                   1.81 r        infinity     infinity
+readOut[19] (out)                   1.81 r        infinity     infinity
+readOut[18] (out)                   1.81 r        infinity     infinity
+readOut[17] (out)                   1.81 r        infinity     infinity
+readOut[16] (out)                   1.81 r        infinity     infinity
+readOut[55] (out)                   1.81 r        infinity     infinity
+readOut[54] (out)                   1.81 r        infinity     infinity
+readOut[53] (out)                   1.81 r        infinity     infinity
+readOut[7] (out)                    1.76 r        infinity     infinity
+readOut[4] (out)                    1.76 r        infinity     infinity
+readOut[52] (out)                   1.61 r        infinity     infinity
+
+1

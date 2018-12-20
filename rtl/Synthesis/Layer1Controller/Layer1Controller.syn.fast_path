@@ -1,0 +1,1587 @@
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: layer1Output_reg_23_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[23]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_23_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_23_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[23] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_21_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[21]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_21_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_21_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[21] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_20_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[20]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_20_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_20_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[20] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_19_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[19]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_19_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_19_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[19] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_18_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[18]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_18_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_18_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[18] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_17_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[17]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_17_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_17_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[17] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_16_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[16]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_16_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_16_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[16] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_15_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[15]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_15_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_15_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[15] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_14_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[14]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_14_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_14_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[14] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_13_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[13]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_13_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_13_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[13] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_12_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[12]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_12_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_12_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[12] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_11_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[11]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_11_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_11_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[11] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_10_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[10]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_10_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_10_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[10] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[9]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_9_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_9_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[9] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[8]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_8_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_8_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[8] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[7]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_7_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_7_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[7] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[6]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_6_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_6_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[6] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[5]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_5_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_5_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[5] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_4_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_4_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[4] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_3_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_3_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[3] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_2_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_2_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[2] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_1_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_1_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[1] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_0_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_0_/Q (DFFHQX8TS)        0.30       0.30 r
+  layer1Output[0] (out)                    0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: layer1Output_reg_22_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output[22]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_22_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_22_/Q (DFFHQX8TS)       0.30       0.30 r
+  layer1Output[22] (out)                   0.00       0.30 r
+  data arrival time                                   0.30
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.35
+
+
+  Startpoint: queueEmpty (input port clocked by clk)
+  Endpoint: dequeue (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 r
+  queueEmpty (in)                          0.02       0.07 r
+  ...
+  dequeue (out)                            0.31       0.38 f
+  data arrival time                                   0.38
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.38
+  -----------------------------------------------------------
+  slack (MET)                                         0.43
+
+
+  Startpoint: outputsReady_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  outputsReady_reg/CK (DFFSHQX8TS)         0.00       0.00 r
+  outputsReady_reg/Q (DFFSHQX8TS)          0.30       0.30 r
+  ...
+  outputsReady (out)                       0.10       0.39 f
+  data arrival time                                   0.39
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  output external delay                   -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.39
+  -----------------------------------------------------------
+  slack (MET)                                         0.44
+
+
+  Startpoint: inputsReady
+              (input port clocked by clk)
+  Endpoint: pstoreReset_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  inputsReady (in)                         0.03       0.08 f
+  ...
+  pstoreReset_reg/D (DFFSXLTS)             0.34       0.42 r
+  data arrival time                                   0.42
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  pstoreReset_reg/CK (DFFSXLTS)            0.00       0.00 r
+  library hold time                       -0.09      -0.09
+  data required time                                 -0.09
+  -----------------------------------------------------------
+  data required time                                 -0.09
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         0.51
+
+
+  Startpoint: inputsReady
+              (input port clocked by clk)
+  Endpoint: wBuffer_A_Write_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  inputsReady (in)                         0.03       0.08 f
+  ...
+  wBuffer_A_Write_reg/D (DFFRX4TS)         0.40       0.48 f
+  data arrival time                                   0.48
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  wBuffer_A_Write_reg/CK (DFFRX4TS)        0.00       0.00 r
+  library hold time                       -0.05      -0.05
+  data required time                                 -0.05
+  -----------------------------------------------------------
+  data required time                                 -0.05
+  data arrival time                                  -0.48
+  -----------------------------------------------------------
+  slack (MET)                                         0.52
+
+
+  Startpoint: inputsReady
+              (input port clocked by clk)
+  Endpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  inputsReady (in)                         0.03       0.08 f
+  ...
+  idle_reg/D (DFFSHQX1TS)                  0.35       0.42 r
+  data arrival time                                   0.42
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX1TS)                 0.00       0.00 r
+  library hold time                       -0.12      -0.12
+  data required time                                 -0.12
+  -----------------------------------------------------------
+  data required time                                 -0.12
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         0.54
+
+
+  Startpoint: outputsRecieved
+              (input port clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 r
+  outputsRecieved (in)                     0.01       0.06 r
+  ...
+  outputsReady_reg/D (DFFSHQX8TS)          0.44       0.50 r
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  outputsReady_reg/CK (DFFSHQX8TS)         0.00       0.00 r
+  library hold time                       -0.06      -0.06
+  data required time                                 -0.06
+  -----------------------------------------------------------
+  data required time                                 -0.06
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.56
+
+
+  Startpoint: queueEmpty (input port clocked by clk)
+  Endpoint: reluTrigger_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  queueEmpty (in)                          0.01       0.06 f
+  ...
+  reluTrigger_reg/D (DFFRXLTS)             0.47       0.53 f
+  data arrival time                                   0.53
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  reluTrigger_reg/CK (DFFRXLTS)            0.00       0.00 r
+  library hold time                       -0.04      -0.04
+  data required time                                 -0.04
+  -----------------------------------------------------------
+  data required time                                 -0.04
+  data arrival time                                  -0.53
+  -----------------------------------------------------------
+  slack (MET)                                         0.57
+
+
+  Startpoint: layer1Output_reg_22_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_22_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_22_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_22_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_22_/D (DFFHQX8TS)       0.21       0.51 r
+  data arrival time                                   0.51
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_22_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.07      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.51
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_23_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_23_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_23_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_23_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_23_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_23_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_0_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_0_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_0_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_0_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_1_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_1_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_1_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_1_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_2_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_2_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_2_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_2_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_3_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_3_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_3_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_3_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_4_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_4_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_4_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_4_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_5_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_5_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_5_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_5_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_6_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_6_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_6_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_6_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_7_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_7_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_7_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_7_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_8_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_8_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_8_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_8_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_9_/CK (DFFHQX8TS)       0.00       0.00 r
+  layer1Output_reg_9_/Q (DFFHQX8TS)        0.30       0.30 r
+  ...
+  layer1Output_reg_9_/D (DFFHQX8TS)        0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_9_/CK (DFFHQX8TS)       0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_10_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_10_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_10_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_10_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_10_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_10_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_11_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_11_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_11_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_11_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_11_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_12_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_12_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_12_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_12_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_12_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_12_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_13_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_13_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_13_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_13_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_13_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_14_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_14_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_14_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_14_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_14_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_15_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_15_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_15_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_15_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_15_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_16_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_16_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_16_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_16_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_16_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_16_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_21_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_21_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_21_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_21_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_21_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_21_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_20_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_20_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_20_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_20_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_20_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_20_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_19_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_19_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_19_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_19_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_19_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_19_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_18_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_18_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_18_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_18_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_18_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_18_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: layer1Output_reg_17_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1Output_reg_17_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_17_/CK (DFFHQX8TS)      0.00       0.00 r
+  layer1Output_reg_17_/Q (DFFHQX8TS)       0.30       0.30 r
+  ...
+  layer1Output_reg_17_/D (DFFHQX8TS)       0.25       0.54 r
+  data arrival time                                   0.54
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  layer1Output_reg_17_/CK (DFFHQX8TS)      0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: inputsReady
+              (input port clocked by clk)
+  Endpoint: processFinished_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.05       0.05 f
+  inputsReady (in)                         0.03       0.08 f
+  ...
+  processFinished_reg/D (DFFSX4TS)         0.59       0.67 f
+  data arrival time                                   0.67
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFSX4TS)        0.00       0.00 r
+  library hold time                       -0.04      -0.04
+  data required time                                 -0.04
+  -----------------------------------------------------------
+  data required time                                 -0.04
+  data arrival time                                  -0.67
+  -----------------------------------------------------------
+  slack (MET)                                         0.71
+
+
+1

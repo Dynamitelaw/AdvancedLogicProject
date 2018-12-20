@@ -1,0 +1,2055 @@
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     J-2014.09-SP2
+Date:        Thu Dec 20 13:02:02 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     67
+    Multiply driven inputs (LINT-6)                                67
+
+Tristate                                                            7
+    A tristate bus has a non tri-state driver (LINT-34)             7
+--------------------------------------------------------------------------------
+
+Warning: In design 'Layer2_Controller', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'weightWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'biasWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[39]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[38]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[37]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[36]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[35]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[34]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[33]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[32]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[31]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[30]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[29]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[28]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[27]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[26]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[25]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[24]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[23]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[22]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[21]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[20]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[19]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[18]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[17]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[16]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'writeIn[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[23]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[22]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[21]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[20]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[19]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[18]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[17]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[16]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', input port 'layer2Input[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer2_Controller', three-state bus 'mstoreReset' has non three-state driver 'mstoreReset_reg/Q'. (LINT-34)
+Warning: In design 'Layer2_Controller', three-state bus 'queueWriteEnable' has non three-state driver 'queueWriteEnable_reg/Q'. (LINT-34)
+Warning: In design 'Layer2_Controller', three-state bus 'dequeue' has non three-state driver 'U30/Y'. (LINT-34)
+Warning: In design 'Layer2_Controller', three-state bus 'queueReset' has non three-state driver 'queueReset_reg/Q'. (LINT-34)
+Warning: In design 'Layer2_Controller', three-state bus 'nodeAddress[0]' has non three-state driver 'U33/Y'. (LINT-34)
+Warning: In design 'Layer2_Controller', three-state bus 'nodeAddress[1]' has non three-state driver 'U32/Y'. (LINT-34)
+Warning: In design 'Layer2_Controller', three-state bus 'nodeAddress[2]' has non three-state driver 'U31/Y'. (LINT-34)
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                           79
+Number of nets:                           276
+Number of cells:                           53
+Number of combinational cells:             38
+Number of sequential cells:                15
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                      31
+
+Combinational area:                283.680006
+Buf/Inv area:                       60.480002
+Noncombinational area:             485.280001
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   768.960007
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+Layer2_Controller                      4.94e-02    0.691  964.215    0.740 100.0
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : design
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Local Link Library:
+
+    {/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : tt_1p2v_25c
+    Library : scx3_cmos8rf_lpvt_tt_1p2v_25c
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading specified.
+
+
+Wire Loading Model Mode: top.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : cell
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    d - dont_touch
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U29                       NOR3BXLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  d, so
+U30                       CLKAND2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  d, so
+U31                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U32                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U33                       AO22XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 so
+U34                       OAI2BB2X4TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          23.040001 
+U35                       OAI2BB1X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U36                       NAND2BX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U37                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U38                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U39                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U40                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U41                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U42                       NOR2BX1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U43                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U44                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U45                       NAND3X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U46                       CLKINVX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U47                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U48                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U49                       OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U50                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U51                       OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U52                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U53                       OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U54                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U55                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U56                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U57                       OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U58                       OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U59                       NAND2XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U60                       AOI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U61                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U62                       MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U63                       MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U64                       MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U65                       MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U66                       NOR2XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+idle_reg                  DFFSHQX4TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          53.279999 n
+inputsRecieved_reg        DFFSHQX8TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          56.160000 n
+mstoreReset_reg           DFFSX1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          30.240000 n, so
+multStore                 multStore                       0.000000  b
+outputsReady_reg          DFFSHQX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          40.320000 n
+predictionOutput_reg_0_   DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+predictionOutput_reg_1_   DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+predictionOutput_reg_2_   DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+predictionOutput_reg_3_   DFFHQX8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+processFinished_reg       DFFRHQX4TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          47.520000 n
+queue                     ReluNodeQueue                   0.000000  b
+queueReset_reg            DFFSX4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          34.560001 n, so
+queueWriteEnable_reg      DFFRX1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n, so
+softMax                   softMax                         0.000000  b
+weightStorage             Layer2WeightStorage             0.000000  b
+--------------------------------------------------------------------------------
+Total 53 cells                                            768.960007
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : port
+        -verbose
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+
+
+Attributes:
+    d - dont_touch_network
+    i - ideal_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[1]
+               in      0.0000   0.0000    1.02    0.00   --         
+WriteAddressSelect[2]
+               in      0.0000   0.0000    1.02    0.00   --         
+biasWriteEnable
+               in      0.0000   0.0000    1.02    0.00   --         
+clk            in      0.0000   0.0000    1.02    0.00   --         d, i
+inputsReady    in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[0] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[1] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[2] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[3] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[4] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[5] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[6] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[7] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[8] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[9] in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[10]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[11]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[12]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[13]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[14]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[15]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[16]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[17]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[18]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[19]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[20]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[21]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[22]
+               in      0.0000   0.0000    1.02    0.00   --         
+layer2Input[23]
+               in      0.0000   0.0000    1.02    0.00   --         
+outputsRecieved
+               in      0.0000   0.0000    1.02    0.00   --         
+reset          in      0.0000   0.0000    1.02    0.00   --         
+weightWriteEnable
+               in      0.0000   0.0000    1.02    0.00   --         
+writeIn[0]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[1]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[2]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[3]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[4]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[5]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[6]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[7]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[8]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[9]     in      0.0000   0.0000    1.02    0.00   --         
+writeIn[10]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[11]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[12]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[13]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[14]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[15]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[16]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[17]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[18]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[19]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[20]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[21]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[22]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[23]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[24]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[25]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[26]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[27]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[28]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[29]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[30]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[31]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[32]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[33]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[34]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[35]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[36]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[37]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[38]    in      0.0000   0.0000    1.02    0.00   --         
+writeIn[39]    in      0.0000   0.0000    1.02    0.00   --         
+inputsRecieved out     0.0050   0.0000   --      --      --         
+outputsReady   out     0.0050   0.0000   --      --      --         
+predictionOutput[0]
+               out     0.0050   0.0000   --      --      --         
+predictionOutput[1]
+               out     0.0050   0.0000   --      --      --         
+predictionOutput[2]
+               out     0.0050   0.0000   --      --      --         
+predictionOutput[3]
+               out     0.0050   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+                   1      --              --              --        -- 
+WriteAddressSelect[1]
+                   1      --              --              --        -- 
+WriteAddressSelect[2]
+                   1      --              --              --        -- 
+biasWriteEnable
+                   1      --              --              --        -- 
+clk                1      --              --              --        -- 
+inputsReady        1      --              --              --        -- 
+layer2Input[0]
+                   1      --              --              --        -- 
+layer2Input[1]
+                   1      --              --              --        -- 
+layer2Input[2]
+                   1      --              --              --        -- 
+layer2Input[3]
+                   1      --              --              --        -- 
+layer2Input[4]
+                   1      --              --              --        -- 
+layer2Input[5]
+                   1      --              --              --        -- 
+layer2Input[6]
+                   1      --              --              --        -- 
+layer2Input[7]
+                   1      --              --              --        -- 
+layer2Input[8]
+                   1      --              --              --        -- 
+layer2Input[9]
+                   1      --              --              --        -- 
+layer2Input[10]
+                   1      --              --              --        -- 
+layer2Input[11]
+                   1      --              --              --        -- 
+layer2Input[12]
+                   1      --              --              --        -- 
+layer2Input[13]
+                   1      --              --              --        -- 
+layer2Input[14]
+                   1      --              --              --        -- 
+layer2Input[15]
+                   1      --              --              --        -- 
+layer2Input[16]
+                   1      --              --              --        -- 
+layer2Input[17]
+                   1      --              --              --        -- 
+layer2Input[18]
+                   1      --              --              --        -- 
+layer2Input[19]
+                   1      --              --              --        -- 
+layer2Input[20]
+                   1      --              --              --        -- 
+layer2Input[21]
+                   1      --              --              --        -- 
+layer2Input[22]
+                   1      --              --              --        -- 
+layer2Input[23]
+                   1      --              --              --        -- 
+outputsRecieved
+                   1      --              --              --        -- 
+reset              1      --              --              --        -- 
+weightWriteEnable
+                   1      --              --              --        -- 
+writeIn[0]         1      --              --              --        -- 
+writeIn[1]         1      --              --              --        -- 
+writeIn[2]         1      --              --              --        -- 
+writeIn[3]         1      --              --              --        -- 
+writeIn[4]         1      --              --              --        -- 
+writeIn[5]         1      --              --              --        -- 
+writeIn[6]         1      --              --              --        -- 
+writeIn[7]         1      --              --              --        -- 
+writeIn[8]         1      --              --              --        -- 
+writeIn[9]         1      --              --              --        -- 
+writeIn[10]        1      --              --              --        -- 
+writeIn[11]        1      --              --              --        -- 
+writeIn[12]        1      --              --              --        -- 
+writeIn[13]        1      --              --              --        -- 
+writeIn[14]        1      --              --              --        -- 
+writeIn[15]        1      --              --              --        -- 
+writeIn[16]        1      --              --              --        -- 
+writeIn[17]        1      --              --              --        -- 
+writeIn[18]        1      --              --              --        -- 
+writeIn[19]        1      --              --              --        -- 
+writeIn[20]        1      --              --              --        -- 
+writeIn[21]        1      --              --              --        -- 
+writeIn[22]        1      --              --              --        -- 
+writeIn[23]        1      --              --              --        -- 
+writeIn[24]        1      --              --              --        -- 
+writeIn[25]        1      --              --              --        -- 
+writeIn[26]        1      --              --              --        -- 
+writeIn[27]        1      --              --              --        -- 
+writeIn[28]        1      --              --              --        -- 
+writeIn[29]        1      --              --              --        -- 
+writeIn[30]        1      --              --              --        -- 
+writeIn[31]        1      --              --              --        -- 
+writeIn[32]        1      --              --              --        -- 
+writeIn[33]        1      --              --              --        -- 
+writeIn[34]        1      --              --              --        -- 
+writeIn[35]        1      --              --              --        -- 
+writeIn[36]        1      --              --              --        -- 
+writeIn[37]        1      --              --              --        -- 
+writeIn[38]        1      --              --              --        -- 
+writeIn[39]        1      --              --              --        -- 
+inputsRecieved
+                   1      --              --              --        -- 
+outputsReady       1      --              --              --        -- 
+predictionOutput[0]
+                   1      --              --              --        -- 
+predictionOutput[1]
+                   1      --              --              --        -- 
+predictionOutput[2]
+                   1      --              --              --        -- 
+predictionOutput[3]
+                   1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[1]
+              0.05    0.05    0.05    0.05  clk       4.00  
+WriteAddressSelect[2]
+              0.05    0.05    0.05    0.05  clk       4.00  
+biasWriteEnable
+              0.05    0.05    0.05    0.05  clk       4.00  
+clk           --      --      --      --      --      4.00
+inputsReady   0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[0]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[1]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[2]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[3]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[4]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[5]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[6]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[7]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[8]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[9]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[10]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[11]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[12]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[13]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[14]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[15]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[16]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[17]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[18]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[19]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[20]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[21]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[22]
+              0.05    0.05    0.05    0.05  clk       4.00  
+layer2Input[23]
+              0.05    0.05    0.05    0.05  clk       4.00  
+outputsRecieved
+              0.05    0.05    0.05    0.05  clk       4.00  
+reset         0.05    0.05    0.05    0.05  clk       4.00  
+weightWriteEnable
+              0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[0]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[1]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[2]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[3]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[4]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[5]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[6]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[7]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[8]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[9]    0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[10]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[11]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[12]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[13]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[14]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[15]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[16]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[17]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[18]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[19]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[20]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[21]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[22]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[23]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[24]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[25]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[26]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[27]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[28]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[29]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[30]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[31]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[32]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[33]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[34]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[35]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[36]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[37]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[38]   0.05    0.05    0.05    0.05  clk       4.00  
+writeIn[39]   0.05    0.05    0.05    0.05  clk       4.00  
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[1]
+             INVX1TS            INVX1TS              -- /  --     
+WriteAddressSelect[2]
+             INVX1TS            INVX1TS              -- /  --     
+biasWriteEnable
+             INVX1TS            INVX1TS              -- /  --     
+clk          INVX1TS            INVX1TS              -- /  --     
+inputsReady  INVX1TS            INVX1TS              -- /  --     
+layer2Input[0]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[1]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[2]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[3]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[4]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[5]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[6]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[7]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[8]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[9]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[10]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[11]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[12]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[13]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[14]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[15]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[16]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[17]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[18]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[19]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[20]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[21]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[22]
+             INVX1TS            INVX1TS              -- /  --     
+layer2Input[23]
+             INVX1TS            INVX1TS              -- /  --     
+outputsRecieved
+             INVX1TS            INVX1TS              -- /  --     
+reset        INVX1TS            INVX1TS              -- /  --     
+weightWriteEnable
+             INVX1TS            INVX1TS              -- /  --     
+writeIn[0]   INVX1TS            INVX1TS              -- /  --     
+writeIn[1]   INVX1TS            INVX1TS              -- /  --     
+writeIn[2]   INVX1TS            INVX1TS              -- /  --     
+writeIn[3]   INVX1TS            INVX1TS              -- /  --     
+writeIn[4]   INVX1TS            INVX1TS              -- /  --     
+writeIn[5]   INVX1TS            INVX1TS              -- /  --     
+writeIn[6]   INVX1TS            INVX1TS              -- /  --     
+writeIn[7]   INVX1TS            INVX1TS              -- /  --     
+writeIn[8]   INVX1TS            INVX1TS              -- /  --     
+writeIn[9]   INVX1TS            INVX1TS              -- /  --     
+writeIn[10]  INVX1TS            INVX1TS              -- /  --     
+writeIn[11]  INVX1TS            INVX1TS              -- /  --     
+writeIn[12]  INVX1TS            INVX1TS              -- /  --     
+writeIn[13]  INVX1TS            INVX1TS              -- /  --     
+writeIn[14]  INVX1TS            INVX1TS              -- /  --     
+writeIn[15]  INVX1TS            INVX1TS              -- /  --     
+writeIn[16]  INVX1TS            INVX1TS              -- /  --     
+writeIn[17]  INVX1TS            INVX1TS              -- /  --     
+writeIn[18]  INVX1TS            INVX1TS              -- /  --     
+writeIn[19]  INVX1TS            INVX1TS              -- /  --     
+writeIn[20]  INVX1TS            INVX1TS              -- /  --     
+writeIn[21]  INVX1TS            INVX1TS              -- /  --     
+writeIn[22]  INVX1TS            INVX1TS              -- /  --     
+writeIn[23]  INVX1TS            INVX1TS              -- /  --     
+writeIn[24]  INVX1TS            INVX1TS              -- /  --     
+writeIn[25]  INVX1TS            INVX1TS              -- /  --     
+writeIn[26]  INVX1TS            INVX1TS              -- /  --     
+writeIn[27]  INVX1TS            INVX1TS              -- /  --     
+writeIn[28]  INVX1TS            INVX1TS              -- /  --     
+writeIn[29]  INVX1TS            INVX1TS              -- /  --     
+writeIn[30]  INVX1TS            INVX1TS              -- /  --     
+writeIn[31]  INVX1TS            INVX1TS              -- /  --     
+writeIn[32]  INVX1TS            INVX1TS              -- /  --     
+writeIn[33]  INVX1TS            INVX1TS              -- /  --     
+writeIn[34]  INVX1TS            INVX1TS              -- /  --     
+writeIn[35]  INVX1TS            INVX1TS              -- /  --     
+writeIn[36]  INVX1TS            INVX1TS              -- /  --     
+writeIn[37]  INVX1TS            INVX1TS              -- /  --     
+writeIn[38]  INVX1TS            INVX1TS              -- /  --     
+writeIn[39]  INVX1TS            INVX1TS              -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[1]
+              --      --     --      --     --      --     --     --        -- 
+WriteAddressSelect[2]
+              --      --     --      --     --      --     --     --        -- 
+biasWriteEnable
+              --      --     --      --     --      --     --     --        -- 
+clk           --      --     --      --     --      --     --     --        -- 
+inputsReady   --      --     --      --     --      --     --     --        -- 
+layer2Input[0]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[1]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[2]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[3]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[4]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[5]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[6]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[7]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[8]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[9]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[10]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[11]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[12]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[13]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[14]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[15]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[16]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[17]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[18]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[19]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[20]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[21]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[22]
+              --      --     --      --     --      --     --     --        -- 
+layer2Input[23]
+              --      --     --      --     --      --     --     --        -- 
+outputsRecieved
+              --      --     --      --     --      --     --     --        -- 
+reset         --      --     --      --     --      --     --     --        -- 
+weightWriteEnable
+              --      --     --      --     --      --     --     --        -- 
+writeIn[0]    --      --     --      --     --      --     --     --        -- 
+writeIn[1]    --      --     --      --     --      --     --     --        -- 
+writeIn[2]    --      --     --      --     --      --     --     --        -- 
+writeIn[3]    --      --     --      --     --      --     --     --        -- 
+writeIn[4]    --      --     --      --     --      --     --     --        -- 
+writeIn[5]    --      --     --      --     --      --     --     --        -- 
+writeIn[6]    --      --     --      --     --      --     --     --        -- 
+writeIn[7]    --      --     --      --     --      --     --     --        -- 
+writeIn[8]    --      --     --      --     --      --     --     --        -- 
+writeIn[9]    --      --     --      --     --      --     --     --        -- 
+writeIn[10]   --      --     --      --     --      --     --     --        -- 
+writeIn[11]   --      --     --      --     --      --     --     --        -- 
+writeIn[12]   --      --     --      --     --      --     --     --        -- 
+writeIn[13]   --      --     --      --     --      --     --     --        -- 
+writeIn[14]   --      --     --      --     --      --     --     --        -- 
+writeIn[15]   --      --     --      --     --      --     --     --        -- 
+writeIn[16]   --      --     --      --     --      --     --     --        -- 
+writeIn[17]   --      --     --      --     --      --     --     --        -- 
+writeIn[18]   --      --     --      --     --      --     --     --        -- 
+writeIn[19]   --      --     --      --     --      --     --     --        -- 
+writeIn[20]   --      --     --      --     --      --     --     --        -- 
+writeIn[21]   --      --     --      --     --      --     --     --        -- 
+writeIn[22]   --      --     --      --     --      --     --     --        -- 
+writeIn[23]   --      --     --      --     --      --     --     --        -- 
+writeIn[24]   --      --     --      --     --      --     --     --        -- 
+writeIn[25]   --      --     --      --     --      --     --     --        -- 
+writeIn[26]   --      --     --      --     --      --     --     --        -- 
+writeIn[27]   --      --     --      --     --      --     --     --        -- 
+writeIn[28]   --      --     --      --     --      --     --     --        -- 
+writeIn[29]   --      --     --      --     --      --     --     --        -- 
+writeIn[30]   --      --     --      --     --      --     --     --        -- 
+writeIn[31]   --      --     --      --     --      --     --     --        -- 
+writeIn[32]   --      --     --      --     --      --     --     --        -- 
+writeIn[33]   --      --     --      --     --      --     --     --        -- 
+writeIn[34]   --      --     --      --     --      --     --     --        -- 
+writeIn[35]   --      --     --      --     --      --     --     --        -- 
+writeIn[36]   --      --     --      --     --      --     --     --        -- 
+writeIn[37]   --      --     --      --     --      --     --     --        -- 
+writeIn[38]   --      --     --      --     --      --     --     --        -- 
+writeIn[39]   --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+WriteAddressSelect[0]
+              --      --      --      -- 
+WriteAddressSelect[1]
+              --      --      --      -- 
+WriteAddressSelect[2]
+              --      --      --      -- 
+biasWriteEnable
+              --      --      --      -- 
+clk           --      --      --      -- 
+inputsReady   --      --      --      -- 
+layer2Input[0]
+              --      --      --      -- 
+layer2Input[1]
+              --      --      --      -- 
+layer2Input[2]
+              --      --      --      -- 
+layer2Input[3]
+              --      --      --      -- 
+layer2Input[4]
+              --      --      --      -- 
+layer2Input[5]
+              --      --      --      -- 
+layer2Input[6]
+              --      --      --      -- 
+layer2Input[7]
+              --      --      --      -- 
+layer2Input[8]
+              --      --      --      -- 
+layer2Input[9]
+              --      --      --      -- 
+layer2Input[10]
+              --      --      --      -- 
+layer2Input[11]
+              --      --      --      -- 
+layer2Input[12]
+              --      --      --      -- 
+layer2Input[13]
+              --      --      --      -- 
+layer2Input[14]
+              --      --      --      -- 
+layer2Input[15]
+              --      --      --      -- 
+layer2Input[16]
+              --      --      --      -- 
+layer2Input[17]
+              --      --      --      -- 
+layer2Input[18]
+              --      --      --      -- 
+layer2Input[19]
+              --      --      --      -- 
+layer2Input[20]
+              --      --      --      -- 
+layer2Input[21]
+              --      --      --      -- 
+layer2Input[22]
+              --      --      --      -- 
+layer2Input[23]
+              --      --      --      -- 
+outputsRecieved
+              --      --      --      -- 
+reset         --      --      --      -- 
+weightWriteEnable
+              --      --      --      -- 
+writeIn[0]    --      --      --      -- 
+writeIn[1]    --      --      --      -- 
+writeIn[2]    --      --      --      -- 
+writeIn[3]    --      --      --      -- 
+writeIn[4]    --      --      --      -- 
+writeIn[5]    --      --      --      -- 
+writeIn[6]    --      --      --      -- 
+writeIn[7]    --      --      --      -- 
+writeIn[8]    --      --      --      -- 
+writeIn[9]    --      --      --      -- 
+writeIn[10]   --      --      --      -- 
+writeIn[11]   --      --      --      -- 
+writeIn[12]   --      --      --      -- 
+writeIn[13]   --      --      --      -- 
+writeIn[14]   --      --      --      -- 
+writeIn[15]   --      --      --      -- 
+writeIn[16]   --      --      --      -- 
+writeIn[17]   --      --      --      -- 
+writeIn[18]   --      --      --      -- 
+writeIn[19]   --      --      --      -- 
+writeIn[20]   --      --      --      -- 
+writeIn[21]   --      --      --      -- 
+writeIn[22]   --      --      --      -- 
+writeIn[23]   --      --      --      -- 
+writeIn[24]   --      --      --      -- 
+writeIn[25]   --      --      --      -- 
+writeIn[26]   --      --      --      -- 
+writeIn[27]   --      --      --      -- 
+writeIn[28]   --      --      --      -- 
+writeIn[29]   --      --      --      -- 
+writeIn[30]   --      --      --      -- 
+writeIn[31]   --      --      --      -- 
+writeIn[32]   --      --      --      -- 
+writeIn[33]   --      --      --      -- 
+writeIn[34]   --      --      --      -- 
+writeIn[35]   --      --      --      -- 
+writeIn[36]   --      --      --      -- 
+writeIn[37]   --      --      --      -- 
+writeIn[38]   --      --      --      -- 
+writeIn[39]   --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+inputsRecieved
+              0.05    0.05    0.05    0.05  clk       0.00  
+outputsReady
+              0.05    0.05    0.05    0.05  clk       0.00  
+predictionOutput[0]
+              0.05    0.05    0.05    0.05  clk       0.00  
+predictionOutput[1]
+              0.05    0.05    0.05    0.05  clk       0.00  
+predictionOutput[2]
+              0.05    0.05    0.05    0.05  clk       0.00  
+predictionOutput[3]
+              0.05    0.05    0.05    0.05  clk       0.00  
+
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : compile_options
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+Layer2_Controller                        flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+                                         isolate_port           disabled
+--------------------------------------------------------------------------------
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.80       0.80 f
+  U34/Y (OAI2BB2X4TS)                      0.22       1.02 f
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       1.02 f
+  data arrival time                                   1.02
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.38       0.62
+  data required time                                  0.62
+  -----------------------------------------------------------
+  data required time                                  0.62
+  data arrival time                                  -1.02
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.40
+
+
+  Startpoint: mstoreReset_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mstoreReset_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  mstoreReset_reg/CK (DFFSX1TS)            0.00       0.00 r
+  mstoreReset_reg/Q (DFFSX1TS)             0.81       0.81 f
+  U35/Y (OAI2BB1X2TS)                      0.22       1.03 f
+  mstoreReset_reg/D (DFFSX1TS)             0.00       1.03 f
+  data arrival time                                   1.03
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  mstoreReset_reg/CK (DFFSX1TS)            0.00       1.00 r
+  library setup time                      -0.34       0.66
+  data required time                                  0.66
+  -----------------------------------------------------------
+  data required time                                  0.66
+  data arrival time                                  -1.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.37
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFRHQX4TS)      0.00       0.00 r
+  processFinished_reg/Q (DFFRHQX4TS)       0.32       0.32 r
+  U52/Y (INVX2TS)                          0.07       0.39 f
+  U36/Y (NAND2BX1TS)                       0.31       0.69 f
+  U51/Y (OA21XLTS)                         0.28       0.97 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.97 f
+  data arrival time                                   0.97
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.97
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.29
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U65/Y (MXI2X1TS)                                        0.27       0.90 f
+  U39/Y (INVX1TS)                                         0.12       1.02 r
+  predictionOutput_reg_1_/D (DFFHQX8TS)                   0.00       1.02 r
+  data arrival time                                                  1.02
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.02
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U63/Y (MXI2X1TS)                                        0.27       0.90 f
+  U41/Y (INVX1TS)                                         0.12       1.02 r
+  predictionOutput_reg_2_/D (DFFHQX8TS)                   0.00       1.02 r
+  data arrival time                                                  1.02
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_2_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.02
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U64/Y (MXI2X1TS)                                        0.27       0.90 f
+  U40/Y (INVX1TS)                                         0.12       1.02 r
+  predictionOutput_reg_3_/D (DFFHQX8TS)                   0.00       1.02 r
+  data arrival time                                                  1.02
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.02
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueReset_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                  0.32       0.32 f
+  U38/Y (NAND2X1TS)                        0.24       0.56 r
+  U46/Y (CLKINVX2TS)                       0.19       0.75 f
+  U60/Y (AOI21X1TS)                        0.17       0.92 r
+  queueReset_reg/D (DFFSX4TS)              0.00       0.92 r
+  data arrival time                                   0.92
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueReset_reg/CK (DFFSX4TS)             0.00       1.00 r
+  library setup time                      -0.29       0.71
+  data required time                                  0.71
+  -----------------------------------------------------------
+  data required time                                  0.71
+  data arrival time                                  -0.92
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.21
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U62/Y (MXI2X1TS)                                        0.27       0.90 f
+  predictionOutput_reg_0_/D (DFFHQX8TS)                   0.00       0.90 f
+  data arrival time                                                  0.90
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_0_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.27       0.73
+  data required time                                                 0.73
+  --------------------------------------------------------------------------
+  data required time                                                 0.73
+  data arrival time                                                 -0.90
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.18
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFRHQX4TS)      0.00       0.00 r
+  processFinished_reg/Q (DFFRHQX4TS)       0.32       0.32 r
+  U52/Y (INVX2TS)                          0.07       0.39 f
+  U36/Y (NAND2BX1TS)                       0.31       0.69 f
+  U59/Y (NAND2XLTS)                        0.17       0.86 r
+  idle_reg/D (DFFSHQX4TS)                  0.00       0.86 r
+  data arrival time                                   0.86
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       1.00 r
+  library setup time                      -0.29       0.71
+  data required time                                  0.71
+  -----------------------------------------------------------
+  data required time                                  0.71
+  data arrival time                                  -0.86
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.15
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: processFinished_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                  0.32       0.32 f
+  U38/Y (NAND2X1TS)                        0.24       0.56 r
+  U46/Y (CLKINVX2TS)                       0.19       0.75 f
+  U57/Y (OAI21X1TS)                        0.16       0.92 r
+  processFinished_reg/D (DFFRHQX4TS)       0.00       0.92 r
+  data arrival time                                   0.92
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  processFinished_reg/CK (DFFRHQX4TS)      0.00       1.00 r
+  library setup time                      -0.23       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.92
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.14
+
+
+  Startpoint: inputsRecieved_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inputsRecieved_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  inputsRecieved_reg/CK (DFFSHQX8TS)       0.00       0.00 r
+  inputsRecieved_reg/Q (DFFSHQX8TS)        0.30       0.30 r
+  U47/Y (INVX2TS)                          0.07       0.37 f
+  U53/Y (OA21XLTS)                         0.43       0.79 f
+  inputsRecieved_reg/D (DFFSHQX8TS)        0.00       0.79 f
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  inputsRecieved_reg/CK (DFFSHQX8TS)       0.00       1.00 r
+  library setup time                      -0.25       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.04
+
+
+    Design: Layer2_Controller
+
+    max_area               0.00
+  - Current Area         768.96
+  ------------------------------
+    Slack               -768.96  (VIOLATED)
+
+
+Min pulse width constraints
+
+                       Required      Actual
+  Pin                pulse width   pulse width   Slack           Scenario
+--------------------------------------------------------------------------------
+  queueWriteEnable_reg/CK(low)
+                      0.53          0.50         -0.03 (VIOLATED)
+
+1
+Warning: Design 'Layer2_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 20
+Design : Layer2_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:02:02 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.80       0.80 f
+  U34/Y (OAI2BB2X4TS)                      0.22       1.02 f
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       1.02 f
+  data arrival time                                   1.02
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.38       0.62
+  data required time                                  0.62
+  -----------------------------------------------------------
+  data required time                                  0.62
+  data arrival time                                  -1.02
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.40
+
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.80       0.80 f
+  U34/Y (OAI2BB2X4TS)                      0.21       1.00 f
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       1.00 f
+  data arrival time                                   1.00
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.38       0.62
+  data required time                                  0.62
+  -----------------------------------------------------------
+  data required time                                  0.62
+  data arrival time                                  -1.00
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.38
+
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.80       0.80 f
+  U34/Y (OAI2BB2X4TS)                      0.20       1.00 f
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       1.00 f
+  data arrival time                                   1.00
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.38       0.62
+  data required time                                  0.62
+  -----------------------------------------------------------
+  data required time                                  0.62
+  data arrival time                                  -1.00
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.38
+
+
+  Startpoint: mstoreReset_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mstoreReset_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  mstoreReset_reg/CK (DFFSX1TS)            0.00       0.00 r
+  mstoreReset_reg/Q (DFFSX1TS)             0.81       0.81 f
+  U35/Y (OAI2BB1X2TS)                      0.22       1.03 f
+  mstoreReset_reg/D (DFFSX1TS)             0.00       1.03 f
+  data arrival time                                   1.03
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  mstoreReset_reg/CK (DFFSX1TS)            0.00       1.00 r
+  library setup time                      -0.34       0.66
+  data required time                                  0.66
+  -----------------------------------------------------------
+  data required time                                  0.66
+  data arrival time                                  -1.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.37
+
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.64       0.64 r
+  U34/Y (OAI2BB2X4TS)                      0.24       0.88 r
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       0.88 r
+  data arrival time                                   0.88
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.45       0.55
+  data required time                                  0.55
+  -----------------------------------------------------------
+  data required time                                  0.55
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.33
+
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.64       0.64 r
+  U34/Y (OAI2BB2X4TS)                      0.24       0.88 r
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       0.88 r
+  data arrival time                                   0.88
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.45       0.55
+  data required time                                  0.55
+  -----------------------------------------------------------
+  data required time                                  0.55
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.33
+
+
+  Startpoint: queueWriteEnable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueWriteEnable_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       0.00 r
+  queueWriteEnable_reg/Q (DFFRX1TS)        0.64       0.64 r
+  U34/Y (OAI2BB2X4TS)                      0.24       0.88 r
+  queueWriteEnable_reg/D (DFFRX1TS)        0.00       0.88 r
+  data arrival time                                   0.88
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueWriteEnable_reg/CK (DFFRX1TS)       0.00       1.00 r
+  library setup time                      -0.45       0.55
+  data required time                                  0.55
+  -----------------------------------------------------------
+  data required time                                  0.55
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.33
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFRHQX4TS)      0.00       0.00 r
+  processFinished_reg/Q (DFFRHQX4TS)       0.32       0.32 r
+  U52/Y (INVX2TS)                          0.07       0.39 f
+  U36/Y (NAND2BX1TS)                       0.31       0.69 f
+  U51/Y (OA21XLTS)                         0.28       0.97 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.97 f
+  data arrival time                                   0.97
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.97
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.29
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFRHQX4TS)      0.00       0.00 r
+  processFinished_reg/Q (DFFRHQX4TS)       0.32       0.32 r
+  U52/Y (INVX2TS)                          0.07       0.39 f
+  U36/Y (NAND2BX1TS)                       0.31       0.69 f
+  U51/Y (OA21XLTS)                         0.27       0.96 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.96 f
+  data arrival time                                   0.96
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.96
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.27
+
+
+  Startpoint: processFinished_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  processFinished_reg/CK (DFFRHQX4TS)      0.00       0.00 r
+  processFinished_reg/Q (DFFRHQX4TS)       0.32       0.32 r
+  U52/Y (INVX2TS)                          0.07       0.39 f
+  U36/Y (NAND2BX1TS)                       0.31       0.69 f
+  U51/Y (OA21XLTS)                         0.27       0.96 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.96 f
+  data arrival time                                   0.96
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.96
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.27
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                  0.32       0.32 f
+  U37/Y (INVX2TS)                          0.12       0.45 r
+  U42/Y (NOR2BX1TS)                        0.09       0.54 f
+  U51/Y (OA21XLTS)                         0.40       0.94 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.94 f
+  data arrival time                                   0.94
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.94
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.26
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U65/Y (MXI2X1TS)                                        0.27       0.90 f
+  U39/Y (INVX1TS)                                         0.12       1.02 r
+  predictionOutput_reg_1_/D (DFFHQX8TS)                   0.00       1.02 r
+  data arrival time                                                  1.02
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.02
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U63/Y (MXI2X1TS)                                        0.27       0.90 f
+  U41/Y (INVX1TS)                                         0.12       1.02 r
+  predictionOutput_reg_2_/D (DFFHQX8TS)                   0.00       1.02 r
+  data arrival time                                                  1.02
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_2_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.02
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U64/Y (MXI2X1TS)                                        0.27       0.90 f
+  U40/Y (INVX1TS)                                         0.12       1.02 r
+  predictionOutput_reg_3_/D (DFFHQX8TS)                   0.00       1.02 r
+  data arrival time                                                  1.02
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.20       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -1.02
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                  0.32       0.32 f
+  U37/Y (INVX2TS)                          0.12       0.45 r
+  U36/Y (NAND2BX1TS)                       0.17       0.62 f
+  U51/Y (OA21XLTS)                         0.28       0.90 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.90 f
+  data arrival time                                   0.90
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.90
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.22
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: queueReset_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                  0.32       0.32 f
+  U38/Y (NAND2X1TS)                        0.24       0.56 r
+  U46/Y (CLKINVX2TS)                       0.19       0.75 f
+  U60/Y (AOI21X1TS)                        0.17       0.92 r
+  queueReset_reg/D (DFFSX4TS)              0.00       0.92 r
+  data arrival time                                   0.92
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  queueReset_reg/CK (DFFSX4TS)             0.00       1.00 r
+  library setup time                      -0.29       0.71
+  data required time                                  0.71
+  -----------------------------------------------------------
+  data required time                                  0.71
+  data arrival time                                  -0.92
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.21
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U65/Y (MXI2X1TS)                                        0.21       0.85 r
+  U39/Y (INVX1TS)                                         0.12       0.97 f
+  predictionOutput_reg_1_/D (DFFHQX8TS)                   0.00       0.97 f
+  data arrival time                                                  0.97
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_1_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -0.97
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U63/Y (MXI2X1TS)                                        0.21       0.85 r
+  U41/Y (INVX1TS)                                         0.12       0.97 f
+  predictionOutput_reg_2_/D (DFFHQX8TS)                   0.00       0.97 f
+  data arrival time                                                  0.97
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_2_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -0.97
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: predictionOutput_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                                0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                                 0.32       0.32 f
+  U37/Y (INVX2TS)                                         0.12       0.45 r
+  U45/Y (NAND3X2TS)                                       0.19       0.63 f
+  U64/Y (MXI2X1TS)                                        0.21       0.85 r
+  U40/Y (INVX1TS)                                         0.12       0.97 f
+  predictionOutput_reg_3_/D (DFFHQX8TS)                   0.00       0.97 f
+  data arrival time                                                  0.97
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  predictionOutput_reg_3_/CK (DFFHQX8TS)                  0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -0.97
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: idle_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: outputsReady_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  idle_reg/CK (DFFSHQX4TS)                 0.00       0.00 r
+  idle_reg/Q (DFFSHQX4TS)                  0.32       0.32 f
+  U37/Y (INVX2TS)                          0.12       0.45 r
+  U36/Y (NAND2BX1TS)                       0.17       0.62 f
+  U51/Y (OA21XLTS)                         0.27       0.89 f
+  outputsReady_reg/D (DFFSHQX2TS)          0.00       0.89 f
+  data arrival time                                   0.89
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  outputsReady_reg/CK (DFFSHQX2TS)         0.00       1.00 r
+  library setup time                      -0.32       0.68
+  data required time                                  0.68
+  -----------------------------------------------------------
+  data required time                                  0.68
+  data arrival time                                  -0.89
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.20
+
+
+1

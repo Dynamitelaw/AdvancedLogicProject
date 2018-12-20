@@ -1,0 +1,107 @@
+Warning: Design 'NN_Controler' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path short
+        -delay min
+        -max_paths 10000
+        -sort_by slack
+Design : NN_Controler
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 13:07:45 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: Layer2/outputsReady (internal pin)
+  Endpoint: predictionReady
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Layer2/outputsReady (Layer2_Controller)                 0.00       0.00 r
+  predictionReady (out)                                   0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: InputLayer/readyForInputs (internal pin)
+  Endpoint: readyForInputs
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  InputLayer/readyForInputs (InputLayerController)        0.00       0.00 r
+  readyForInputs (out)                                    0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Layer2/predictionOutput[3] (internal pin)
+  Endpoint: predictionOut[3]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Layer2/predictionOutput[3] (Layer2_Controller)          0.00       0.00 r
+  predictionOut[3] (out)                                  0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Layer2/predictionOutput[2] (internal pin)
+  Endpoint: predictionOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Layer2/predictionOutput[2] (Layer2_Controller)          0.00       0.00 r
+  predictionOut[2] (out)                                  0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Layer2/predictionOutput[1] (internal pin)
+  Endpoint: predictionOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Layer2/predictionOutput[1] (Layer2_Controller)          0.00       0.00 r
+  predictionOut[1] (out)                                  0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Layer2/predictionOutput[0] (internal pin)
+  Endpoint: predictionOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Layer2/predictionOutput[0] (Layer2_Controller)          0.00       0.00 r
+  predictionOut[0] (out)                                  0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : InputQueueRegister
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:05:32 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+indexCounter_reg_7_/D (DFFNSRX1TS)     2.17 f         1.02        -1.15
+indexCounter_reg_6_/D (DFFNSRX1TS)     2.15 f         1.01        -1.14
+queueRegister_reg_3__5_/D (DFFHQX4TS)     1.89 f      0.75        -1.14
+indexCounter_reg_5_/D (DFFNSRX1TS)     2.15 f         1.01        -1.13
+queueRegister_reg_3__4_/D (DFFHQX8TS)     1.89 f      0.75        -1.13
+queueRegister_reg_3__1_/D (DFFHQX8TS)     1.89 f      0.75        -1.13
+queueRegister_reg_3__7_/D (DFFHQX8TS)     1.89 f      0.75        -1.13
+queueRegister_reg_2__6_/D (DFFHQX8TS)     1.88 f      0.75        -1.13
+queueRegister_reg_2__7_/D (DFFHQX8TS)     1.88 f      0.75        -1.13
+queueRegister_reg_2__8_/D (DFFHQX8TS)     1.88 f      0.75        -1.13
+indexCounter_reg_8_/D (DFFNSRX1TS)     2.15 f         1.02        -1.12
+queueRegister_reg_2__9_/D (DFFHQX8TS)     1.88 f      0.75        -1.12
+queueRegister_reg_2__5_/D (DFFHQX8TS)     1.88 f      0.75        -1.12
+queueRegister_reg_2__0_/D (DFFHQX8TS)     1.88 f      0.75        -1.12
+queueRegister_reg_2__2_/D (DFFHQX8TS)     1.88 f      0.75        -1.12
+queueEndPointer_reg_9_/D (DFFSX4TS)     1.75 f        0.63        -1.12
+queueRegister_reg_3__9_/D (DFFHQX8TS)     1.88 f      0.75        -1.12
+queueRegister_reg_3__2_/D (DFFHQX8TS)     1.88 f      0.75        -1.12
+indexCounter_reg_4_/D (DFFNSRX1TS)     2.11 f         0.99        -1.12
+queueRegister_reg_2__1_/D (DFFHQX8TS)     1.87 f      0.75        -1.12
+indexCounter_reg_3_/D (DFFNSRX1TS)     2.12 f         1.01        -1.11
+indexCounter_reg_2_/D (DFFNSRX1TS)     2.10 f         0.99        -1.11
+queueEndPointer_reg_6_/D (DFFSX4TS)     1.74 f        0.64        -1.10
+queueRegister_reg_6__0_/D (DFFQX1TS)     1.85 r       0.75        -1.10
+indexCounter_reg_9_/D (DFFNSRX1TS)     2.10 f         1.00        -1.10
+queueRegister_reg_3__3_/D (DFFHQX8TS)     1.85 f      0.76        -1.09
+queueRegister_reg_0__2_/D (DFFHQX8TS)     1.84 f      0.75        -1.08
+queueRegister_reg_0__3_/D (DFFHQX8TS)     1.84 f      0.75        -1.08
+queueRegister_reg_0__4_/D (DFFHQX8TS)     1.84 f      0.75        -1.08
+queueRegister_reg_0__6_/D (DFFHQX8TS)     1.84 f      0.75        -1.08
+queueRegister_reg_0__1_/D (DFFHQX8TS)     1.84 f      0.75        -1.08
+queueRegister_reg_0__8_/D (DFFHQX8TS)     1.84 f      0.75        -1.08
+queueRegister_reg_2__3_/D (DFFHQX8TS)     1.84 f      0.76        -1.08
+queueRegister_reg_2__4_/D (DFFHQX8TS)     1.84 f      0.76        -1.08
+queueRegister_reg_6__2_/D (DFFQX1TS)     1.76 f       0.68        -1.08
+queueRegister_reg_0__9_/D (DFFHQX8TS)     1.83 f      0.75        -1.08
+queueRegister_reg_0__0_/D (DFFHQX8TS)     1.83 f      0.75        -1.08
+queueRegister_reg_0__7_/D (DFFHQX8TS)     1.83 f      0.75        -1.08
+queueRegister_reg_4__0_/D (DFFQX1TS)     1.76 f       0.68        -1.08
+queueRegister_reg_4__5_/D (DFFHQX4TS)     1.88 r      0.80        -1.08
+queueRegister_reg_4__1_/D (DFFQX1TS)     1.75 f       0.68        -1.07
+queueRegister_reg_4__7_/D (DFFQX1TS)     1.75 f       0.68        -1.07
+queueRegister_reg_4__8_/D (DFFQX1TS)     1.75 f       0.68        -1.07
+queueRegister_reg_6__6_/D (DFFQX1TS)     1.82 r       0.75        -1.07
+queueRegister_reg_3__8_/D (DFFHQX8TS)     1.82 f      0.75        -1.07
+queueRegister_reg_1__5_/D (DFFHQX4TS)     1.85 r      0.80        -1.06
+queueRegister_reg_4__3_/D (DFFHQX4TS)     1.85 r      0.80        -1.06
+queueRegister_reg_6__4_/D (DFFQX1TS)     1.81 r       0.75        -1.06
+queueRegister_reg_6__1_/D (DFFQX1TS)     1.81 r       0.75        -1.06
+queueRegister_reg_5__4_/D (DFFHQX8TS)     1.85 r      0.80        -1.06
+queueRegister_reg_1__4_/D (DFFHQX4TS)     1.85 r      0.80        -1.06
+queueRegister_reg_5__2_/D (DFFHQX4TS)     1.85 r      0.80        -1.05
+queueRegister_reg_1__2_/D (DFFHQX4TS)     1.85 r      0.80        -1.05
+queueRegister_reg_6__3_/D (DFFQX1TS)     1.80 r       0.75        -1.05
+queueRegister_reg_6__5_/D (DFFQX1TS)     1.80 r       0.75        -1.05
+queueRegister_reg_5__7_/D (DFFHQX4TS)     1.85 r      0.80        -1.05
+queueRegister_reg_6__7_/D (DFFQX1TS)     1.80 r       0.75        -1.05
+queueRegister_reg_0__5_/D (DFFHQX8TS)     1.81 f      0.76        -1.05
+queueRegister_reg_4__4_/D (DFFHQX4TS)     1.84 r      0.80        -1.04
+queueRegister_reg_6__8_/D (DFFQX2TS)     1.73 f       0.69        -1.04
+indexCounter_reg_1_/D (DFFNSRX1TS)     2.03 f         0.99        -1.04
+queueRegister_reg_6__9_/D (DFFQX1TS)     1.72 f       0.68        -1.04
+queueRegister_reg_5__3_/D (DFFHQX8TS)     1.84 r      0.80        -1.03
+queueRegister_reg_1__3_/D (DFFHQX8TS)     1.84 r      0.80        -1.03
+queueRegister_reg_1__1_/D (DFFHQX8TS)     1.78 f      0.75        -1.03
+queueRegister_reg_4__2_/D (DFFHQX4TS)     1.83 r      0.80        -1.03
+queueRegister_reg_4__6_/D (DFFHQX4TS)     1.78 f      0.75        -1.03
+queueRegister_reg_5__1_/D (DFFHQX8TS)     1.78 f      0.75        -1.02
+queueRegister_reg_1__9_/D (DFFQX1TS)     1.70 f       0.68        -1.02
+queueEndPointer_reg_2_/D (DFFRX4TS)     1.51 f        0.50        -1.02
+queueRegister_reg_1__7_/D (DFFHQX8TS)     1.76 f      0.75        -1.01
+queueRegister_reg_4__9_/D (DFFHQX8TS)     1.77 f      0.75        -1.01
+queueRegister_reg_5__6_/D (DFFHQX8TS)     1.76 f      0.75        -1.01
+queueRegister_reg_5__0_/D (DFFHQX8TS)     1.76 f      0.75        -1.01
+queueRegister_reg_5__8_/D (DFFHQX8TS)     1.76 f      0.75        -1.01
+queueEndPointer_reg_8_/D (DFFSX4TS)     1.63 f        0.63        -1.00
+queueRegister_reg_5__5_/D (DFFHQX4TS)     1.81 r      0.81        -1.00
+queueRegister_reg_1__0_/D (DFFHQX8TS)     1.75 f      0.75        -1.00
+queueRegister_reg_3__6_/D (DFFHQX4TS)     1.75 f      0.75        -1.00
+queueRegister_reg_3__0_/D (DFFHQX4TS)     1.75 f      0.75        -1.00
+queueRegister_reg_1__6_/D (DFFHQX8TS)     1.74 f      0.75        -0.99
+queueEndPointer_reg_7_/D (DFFSX4TS)     1.61 f        0.63        -0.98
+queueRegister_reg_5__9_/D (DFFHQX4TS)     1.73 f      0.75        -0.98
+queueRegister_reg_1__8_/D (DFFHQX4TS)     1.76 r      0.80        -0.97
+queueEndPointer_reg_4_/D (DFFSHQX8TS)     1.68 r      0.74        -0.95
+queueEndPointer_reg_3_/D (DFFSHQX8TS)     1.59 r      0.71        -0.88
+queueEndPointer_reg_5_/D (DFFRHQX2TS)     1.65 r      0.78        -0.87
+indexCounter_reg_0_/D (DFFNSRX1TS)     1.80 f         0.99        -0.81
+queueEndPointer_reg_1_/D (DFFSX4TS)     1.43 f        0.63        -0.80
+queueEndPointer_reg_0_/D (DFFSX4TS)     1.01 f        0.60        -0.41
+
+1

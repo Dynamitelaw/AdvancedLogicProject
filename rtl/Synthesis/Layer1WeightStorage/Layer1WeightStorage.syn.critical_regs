@@ -1,0 +1,179 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer1WeightStorage
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 11:55:55 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+readOut[155] (out)                  2.83 r        infinity     infinity
+readOut[154] (out)                  2.83 r        infinity     infinity
+readOut[153] (out)                  2.83 r        infinity     infinity
+readOut[152] (out)                  2.83 r        infinity     infinity
+readOut[151] (out)                  2.80 r        infinity     infinity
+readOut[150] (out)                  2.80 r        infinity     infinity
+readOut[149] (out)                  2.80 r        infinity     infinity
+readOut[148] (out)                  2.80 r        infinity     infinity
+readOut[147] (out)                  2.80 r        infinity     infinity
+readOut[146] (out)                  2.80 r        infinity     infinity
+readOut[145] (out)                  2.80 r        infinity     infinity
+readOut[144] (out)                  2.80 r        infinity     infinity
+readOut[143] (out)                  2.80 r        infinity     infinity
+readOut[142] (out)                  2.80 r        infinity     infinity
+readOut[141] (out)                  2.80 r        infinity     infinity
+readOut[140] (out)                  2.80 r        infinity     infinity
+readOut[139] (out)                  2.80 r        infinity     infinity
+readOut[138] (out)                  2.80 r        infinity     infinity
+readOut[137] (out)                  2.80 r        infinity     infinity
+readOut[136] (out)                  2.80 r        infinity     infinity
+readOut[135] (out)                  2.80 r        infinity     infinity
+readOut[134] (out)                  2.80 r        infinity     infinity
+readOut[133] (out)                  2.80 r        infinity     infinity
+readOut[132] (out)                  2.80 r        infinity     infinity
+readOut[131] (out)                  2.80 r        infinity     infinity
+readOut[130] (out)                  2.80 r        infinity     infinity
+readOut[129] (out)                  2.80 r        infinity     infinity
+readOut[128] (out)                  2.80 r        infinity     infinity
+readOut[159] (out)                  2.62 r        infinity     infinity
+readOut[158] (out)                  2.62 r        infinity     infinity
+readOut[157] (out)                  2.62 r        infinity     infinity
+readOut[111] (out)                  2.59 r        infinity     infinity
+readOut[110] (out)                  2.59 r        infinity     infinity
+readOut[109] (out)                  2.59 r        infinity     infinity
+readOut[108] (out)                  2.59 r        infinity     infinity
+readOut[103] (out)                  2.59 r        infinity     infinity
+readOut[102] (out)                  2.59 r        infinity     infinity
+readOut[101] (out)                  2.59 r        infinity     infinity
+readOut[100] (out)                  2.59 r        infinity     infinity
+readOut[99] (out)                   2.59 r        infinity     infinity
+readOut[98] (out)                   2.59 r        infinity     infinity
+readOut[97] (out)                   2.59 r        infinity     infinity
+readOut[96] (out)                   2.59 r        infinity     infinity
+readOut[95] (out)                   2.59 r        infinity     infinity
+readOut[94] (out)                   2.59 r        infinity     infinity
+readOut[93] (out)                   2.59 r        infinity     infinity
+readOut[92] (out)                   2.59 r        infinity     infinity
+readOut[127] (out)                  2.58 r        infinity     infinity
+readOut[126] (out)                  2.58 r        infinity     infinity
+readOut[125] (out)                  2.58 r        infinity     infinity
+readOut[124] (out)                  2.58 r        infinity     infinity
+readOut[123] (out)                  2.58 r        infinity     infinity
+readOut[122] (out)                  2.58 r        infinity     infinity
+readOut[121] (out)                  2.58 r        infinity     infinity
+readOut[120] (out)                  2.58 r        infinity     infinity
+readOut[119] (out)                  2.58 r        infinity     infinity
+readOut[118] (out)                  2.58 r        infinity     infinity
+readOut[117] (out)                  2.58 r        infinity     infinity
+readOut[116] (out)                  2.58 r        infinity     infinity
+readOut[156] (out)                  2.44 r        infinity     infinity
+readOut[67] (out)                   2.44 r        infinity     infinity
+readOut[66] (out)                   2.44 r        infinity     infinity
+readOut[65] (out)                   2.44 r        infinity     infinity
+readOut[64] (out)                   2.44 r        infinity     infinity
+readOut[63] (out)                   2.44 r        infinity     infinity
+readOut[62] (out)                   2.44 r        infinity     infinity
+readOut[61] (out)                   2.44 r        infinity     infinity
+readOut[60] (out)                   2.44 r        infinity     infinity
+readOut[59] (out)                   2.44 r        infinity     infinity
+readOut[58] (out)                   2.44 r        infinity     infinity
+readOut[57] (out)                   2.44 r        infinity     infinity
+readOut[56] (out)                   2.44 r        infinity     infinity
+readOut[115] (out)                  2.41 r        infinity     infinity
+readOut[114] (out)                  2.41 r        infinity     infinity
+readOut[113] (out)                  2.41 r        infinity     infinity
+readOut[112] (out)                  2.41 r        infinity     infinity
+readOut[107] (out)                  2.41 r        infinity     infinity
+readOut[106] (out)                  2.41 r        infinity     infinity
+readOut[105] (out)                  2.41 r        infinity     infinity
+readOut[104] (out)                  2.41 r        infinity     infinity
+readOut[3] (out)                    2.27 r        infinity     infinity
+readOut[2] (out)                    2.27 r        infinity     infinity
+readOut[1] (out)                    2.27 r        infinity     infinity
+readOut[19] (out)                   2.26 r        infinity     infinity
+readOut[18] (out)                   2.26 r        infinity     infinity
+readOut[17] (out)                   2.26 r        infinity     infinity
+readOut[16] (out)                   2.26 r        infinity     infinity
+readOut[15] (out)                   2.26 r        infinity     infinity
+readOut[14] (out)                   2.26 r        infinity     infinity
+readOut[13] (out)                   2.26 r        infinity     infinity
+readOut[12] (out)                   2.26 r        infinity     infinity
+readOut[11] (out)                   2.26 r        infinity     infinity
+readOut[10] (out)                   2.26 r        infinity     infinity
+readOut[9] (out)                    2.26 r        infinity     infinity
+readOut[8] (out)                    2.26 r        infinity     infinity
+readOut[83] (out)                   2.07 r        infinity     infinity
+readOut[82] (out)                   2.07 r        infinity     infinity
+readOut[81] (out)                   2.07 r        infinity     infinity
+readOut[80] (out)                   2.07 r        infinity     infinity
+readOut[79] (out)                   2.07 r        infinity     infinity
+readOut[78] (out)                   2.07 r        infinity     infinity
+readOut[77] (out)                   2.07 r        infinity     infinity
+readOut[76] (out)                   2.07 r        infinity     infinity
+readOut[75] (out)                   2.07 r        infinity     infinity
+readOut[74] (out)                   2.07 r        infinity     infinity
+readOut[73] (out)                   2.07 r        infinity     infinity
+readOut[72] (out)                   2.07 r        infinity     infinity
+readOut[71] (out)                   2.07 r        infinity     infinity
+readOut[70] (out)                   2.07 r        infinity     infinity
+readOut[69] (out)                   2.07 r        infinity     infinity
+readOut[68] (out)                   2.07 r        infinity     infinity
+readOut[55] (out)                   2.07 r        infinity     infinity
+readOut[54] (out)                   2.07 r        infinity     infinity
+readOut[53] (out)                   2.07 r        infinity     infinity
+readOut[52] (out)                   2.07 r        infinity     infinity
+readOut[51] (out)                   2.07 r        infinity     infinity
+readOut[50] (out)                   2.07 r        infinity     infinity
+readOut[49] (out)                   2.07 r        infinity     infinity
+readOut[48] (out)                   2.07 r        infinity     infinity
+readOut[47] (out)                   2.07 r        infinity     infinity
+readOut[46] (out)                   2.07 r        infinity     infinity
+readOut[45] (out)                   2.07 r        infinity     infinity
+readOut[44] (out)                   2.07 r        infinity     infinity
+readOut[31] (out)                   2.07 r        infinity     infinity
+readOut[30] (out)                   2.07 r        infinity     infinity
+readOut[29] (out)                   2.07 r        infinity     infinity
+readOut[28] (out)                   2.07 r        infinity     infinity
+readOut[27] (out)                   2.07 r        infinity     infinity
+readOut[26] (out)                   2.07 r        infinity     infinity
+readOut[25] (out)                   2.07 r        infinity     infinity
+readOut[24] (out)                   2.07 r        infinity     infinity
+readOut[23] (out)                   2.07 r        infinity     infinity
+readOut[22] (out)                   2.07 r        infinity     infinity
+readOut[21] (out)                   2.07 r        infinity     infinity
+readOut[20] (out)                   2.07 r        infinity     infinity
+readOut[7] (out)                    2.07 r        infinity     infinity
+readOut[6] (out)                    2.07 r        infinity     infinity
+readOut[0] (out)                    2.07 r        infinity     infinity
+readOut[43] (out)                   1.88 r        infinity     infinity
+readOut[42] (out)                   1.88 r        infinity     infinity
+readOut[41] (out)                   1.88 r        infinity     infinity
+readOut[40] (out)                   1.88 r        infinity     infinity
+readOut[39] (out)                   1.88 r        infinity     infinity
+readOut[38] (out)                   1.88 r        infinity     infinity
+readOut[37] (out)                   1.88 r        infinity     infinity
+readOut[36] (out)                   1.88 r        infinity     infinity
+readOut[35] (out)                   1.88 r        infinity     infinity
+readOut[34] (out)                   1.88 r        infinity     infinity
+readOut[33] (out)                   1.88 r        infinity     infinity
+readOut[32] (out)                   1.88 r        infinity     infinity
+readOut[91] (out)                   1.84 r        infinity     infinity
+readOut[90] (out)                   1.84 r        infinity     infinity
+readOut[89] (out)                   1.84 r        infinity     infinity
+readOut[88] (out)                   1.84 r        infinity     infinity
+readOut[87] (out)                   1.84 r        infinity     infinity
+readOut[86] (out)                   1.84 r        infinity     infinity
+readOut[85] (out)                   1.84 r        infinity     infinity
+readOut[84] (out)                   1.84 r        infinity     infinity
+readOut[5] (out)                    1.68 r        infinity     infinity
+readOut[4] (out)                    1.67 r        infinity     infinity
+
+1

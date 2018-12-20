@@ -8,7 +8,12 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Break key hit
-# Break key hit
-# Window cannot be closed because the modal window "IMPORTANT Information" is still open.
-# Loading project NeuralNetwork
+# vsim gui 
+# Start time: 13:47:32 on Dec 20,2018
+# ** Error: (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Loading project test_w_read
+# Compile of NNTEST.v failed with 1 errors.
+# Compile of NNTEST.v failed with 1 errors.
+# Compile of NNTEST.v failed with 1 errors.

@@ -1,0 +1,2438 @@
+ 
+****************************************
+check_design summary:
+Version:     J-2014.09-SP2
+Date:        Thu Dec 20 12:07:08 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     96
+    Unconnected ports (LINT-28)                                    96
+--------------------------------------------------------------------------------
+
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[95]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[94]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[93]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[92]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[91]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[90]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[89]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[88]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[87]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[86]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[85]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[84]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[83]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[82]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[81]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[80]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[79]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[78]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[77]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[76]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[75]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[74]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[73]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[72]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[71]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[70]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[69]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[68]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[67]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[66]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[65]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[64]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[63]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[62]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[61]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[60]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[59]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[58]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[57]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[56]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[55]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[54]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[53]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[52]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[51]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[50]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[49]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[48]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[47]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[46]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[45]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[44]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[43]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[42]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[41]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[40]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[39]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[38]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[37]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[36]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[35]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[34]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[33]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReluNodeQueue', port 'ReluNodeValues[0]' is not connected to any nets. (LINT-28)
+1
+ 
+****************************************
+Report : area
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                          139
+Number of nets:                           144
+Number of cells:                          104
+Number of combinational cells:             62
+Number of sequential cells:                42
+Number of macros/black boxes:               0
+Number of buf/inv:                         31
+Number of references:                      12
+
+Combinational area:                404.640011
+Buf/Inv area:                      149.760006
+Noncombinational area:             842.400002
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1247.040012
+Total area:                 undefined
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+ReluNodeQueue                          1.56e-02 6.67e-02 1.55e+03 8.22e-02 100.0
+1
+ 
+****************************************
+Report : design
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Local Link Library:
+
+    {/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : tt_1p2v_25c
+    Library : scx3_cmos8rf_lpvt_tt_1p2v_25c
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading specified.
+
+
+Wire Loading Model Mode: top.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    DesignWare
+
+Design Parameters:
+
+    None specified.
+1
+ 
+****************************************
+Report : cell
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+NodeValueOut_reg_0_       DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+NodeValueOut_reg_1_       DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+NodeValueOut_reg_2_       DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+NodeValueOut_reg_3_       DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+ReluQueueRegister_reg_0__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_0__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_0__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_0__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_1__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_1__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_1__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_1__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_2__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_2__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_2__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_2__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_3__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_3__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_3__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_3__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_4__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_4__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_4__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_4__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_5__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_5__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_5__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_5__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_6__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_6__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_6__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_6__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_7__0_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_7__1_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_7__2_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+ReluQueueRegister_reg_7__3_
+                          TLATXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 n
+U40                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U42                       OR2X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U43                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U44                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U45                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U46                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U47                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U48                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U49                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U50                       INVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U51                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U52                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U53                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U54                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U55                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U56                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U57                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U58                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U59                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U60                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U61                       CLKBUFX2TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U62                       NOR2XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U63                       OR2X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U64                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U65                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U66                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U67                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U68                       OR2X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U69                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U70                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U71                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U72                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U73                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U74                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U75                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U76                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U77                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U78                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U79                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U80                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U81                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U82                       CLKAND2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U83                       AOI32X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U84                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U85                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U86                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U87                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U88                       CLKAND2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U89                       AOI32X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U90                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U91                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U92                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U93                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U94                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U95                       CLKAND2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U96                       AOI32X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U97                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U98                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U99                       AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U100                      AOI22X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U101                      CLKAND2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U102                      AOI32X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+frontPointer_reg_0_       DFFNSRX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          34.560001 n
+frontPointer_reg_1_       DFFNSRX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          34.560001 n
+frontPointer_reg_2_       DFFNSRX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          34.560001 n
+indexOut_reg_0_           DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+indexOut_reg_1_           DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+indexOut_reg_2_           DFFRXLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          33.119999 n
+--------------------------------------------------------------------------------
+Total 104 cells                                           1247.040012
+1
+ 
+****************************************
+Report : port
+        -verbose
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+ReluNodeValues[0]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[1]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[2]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[3]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[4]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[5]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[6]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[7]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[8]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[9]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[10]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[11]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[12]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[13]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[14]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[15]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[16]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[17]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[18]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[19]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[20]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[21]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[22]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[23]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[24]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[25]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[26]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[27]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[28]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[29]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[30]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[31]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[32]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[33]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[34]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[35]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[36]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[37]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[38]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[39]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[40]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[41]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[42]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[43]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[44]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[45]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[46]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[47]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[48]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[49]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[50]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[51]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[52]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[53]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[54]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[55]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[56]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[57]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[58]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[59]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[60]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[61]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[62]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[63]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[64]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[65]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[66]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[67]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[68]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[69]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[70]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[71]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[72]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[73]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[74]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[75]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[76]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[77]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[78]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[79]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[80]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[81]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[82]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[83]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[84]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[85]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[86]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[87]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[88]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[89]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[90]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[91]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[92]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[93]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[94]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[95]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[96]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[97]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[98]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[99]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[100]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[101]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[102]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[103]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[104]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[105]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[106]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[107]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[108]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[109]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[110]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[111]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[112]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[113]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[114]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[115]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[116]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[117]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[118]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[119]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[120]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[121]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[122]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[123]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[124]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[125]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[126]
+               in      0.0000   0.0000    1.02    0.00   --         
+ReluNodeValues[127]
+               in      0.0000   0.0000    1.02    0.00   --         
+dequeue        in      0.0000   0.0000    1.02    0.00   --         
+reset          in      0.0000   0.0000    1.02    0.00   --         
+writeEnable    in      0.0000   0.0000    1.02    0.00   --         
+NodeValueOut[0]
+               out     0.0050   0.0000   --      --      --         
+NodeValueOut[1]
+               out     0.0050   0.0000   --      --      --         
+NodeValueOut[2]
+               out     0.0050   0.0000   --      --      --         
+NodeValueOut[3]
+               out     0.0050   0.0000   --      --      --         
+indexOut[0]    out     0.0050   0.0000   --      --      --         
+indexOut[1]    out     0.0050   0.0000   --      --      --         
+indexOut[2]    out     0.0050   0.0000   --      --      --         
+queueEmpty     out     0.0050   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+ReluNodeValues[0]
+                   1      --              --              --        -- 
+ReluNodeValues[1]
+                   1      --              --              --        -- 
+ReluNodeValues[2]
+                   1      --              --              --        -- 
+ReluNodeValues[3]
+                   1      --              --              --        -- 
+ReluNodeValues[4]
+                   1      --              --              --        -- 
+ReluNodeValues[5]
+                   1      --              --              --        -- 
+ReluNodeValues[6]
+                   1      --              --              --        -- 
+ReluNodeValues[7]
+                   1      --              --              --        -- 
+ReluNodeValues[8]
+                   1      --              --              --        -- 
+ReluNodeValues[9]
+                   1      --              --              --        -- 
+ReluNodeValues[10]
+                   1      --              --              --        -- 
+ReluNodeValues[11]
+                   1      --              --              --        -- 
+ReluNodeValues[12]
+                   1      --              --              --        -- 
+ReluNodeValues[13]
+                   1      --              --              --        -- 
+ReluNodeValues[14]
+                   1      --              --              --        -- 
+ReluNodeValues[15]
+                   1      --              --              --        -- 
+ReluNodeValues[16]
+                   1      --              --              --        -- 
+ReluNodeValues[17]
+                   1      --              --              --        -- 
+ReluNodeValues[18]
+                   1      --              --              --        -- 
+ReluNodeValues[19]
+                   1      --              --              --        -- 
+ReluNodeValues[20]
+                   1      --              --              --        -- 
+ReluNodeValues[21]
+                   1      --              --              --        -- 
+ReluNodeValues[22]
+                   1      --              --              --        -- 
+ReluNodeValues[23]
+                   1      --              --              --        -- 
+ReluNodeValues[24]
+                   1      --              --              --        -- 
+ReluNodeValues[25]
+                   1      --              --              --        -- 
+ReluNodeValues[26]
+                   1      --              --              --        -- 
+ReluNodeValues[27]
+                   1      --              --              --        -- 
+ReluNodeValues[28]
+                   1      --              --              --        -- 
+ReluNodeValues[29]
+                   1      --              --              --        -- 
+ReluNodeValues[30]
+                   1      --              --              --        -- 
+ReluNodeValues[31]
+                   1      --              --              --        -- 
+ReluNodeValues[32]
+                   1      --              --              --        -- 
+ReluNodeValues[33]
+                   1      --              --              --        -- 
+ReluNodeValues[34]
+                   1      --              --              --        -- 
+ReluNodeValues[35]
+                   1      --              --              --        -- 
+ReluNodeValues[36]
+                   1      --              --              --        -- 
+ReluNodeValues[37]
+                   1      --              --              --        -- 
+ReluNodeValues[38]
+                   1      --              --              --        -- 
+ReluNodeValues[39]
+                   1      --              --              --        -- 
+ReluNodeValues[40]
+                   1      --              --              --        -- 
+ReluNodeValues[41]
+                   1      --              --              --        -- 
+ReluNodeValues[42]
+                   1      --              --              --        -- 
+ReluNodeValues[43]
+                   1      --              --              --        -- 
+ReluNodeValues[44]
+                   1      --              --              --        -- 
+ReluNodeValues[45]
+                   1      --              --              --        -- 
+ReluNodeValues[46]
+                   1      --              --              --        -- 
+ReluNodeValues[47]
+                   1      --              --              --        -- 
+ReluNodeValues[48]
+                   1      --              --              --        -- 
+ReluNodeValues[49]
+                   1      --              --              --        -- 
+ReluNodeValues[50]
+                   1      --              --              --        -- 
+ReluNodeValues[51]
+                   1      --              --              --        -- 
+ReluNodeValues[52]
+                   1      --              --              --        -- 
+ReluNodeValues[53]
+                   1      --              --              --        -- 
+ReluNodeValues[54]
+                   1      --              --              --        -- 
+ReluNodeValues[55]
+                   1      --              --              --        -- 
+ReluNodeValues[56]
+                   1      --              --              --        -- 
+ReluNodeValues[57]
+                   1      --              --              --        -- 
+ReluNodeValues[58]
+                   1      --              --              --        -- 
+ReluNodeValues[59]
+                   1      --              --              --        -- 
+ReluNodeValues[60]
+                   1      --              --              --        -- 
+ReluNodeValues[61]
+                   1      --              --              --        -- 
+ReluNodeValues[62]
+                   1      --              --              --        -- 
+ReluNodeValues[63]
+                   1      --              --              --        -- 
+ReluNodeValues[64]
+                   1      --              --              --        -- 
+ReluNodeValues[65]
+                   1      --              --              --        -- 
+ReluNodeValues[66]
+                   1      --              --              --        -- 
+ReluNodeValues[67]
+                   1      --              --              --        -- 
+ReluNodeValues[68]
+                   1      --              --              --        -- 
+ReluNodeValues[69]
+                   1      --              --              --        -- 
+ReluNodeValues[70]
+                   1      --              --              --        -- 
+ReluNodeValues[71]
+                   1      --              --              --        -- 
+ReluNodeValues[72]
+                   1      --              --              --        -- 
+ReluNodeValues[73]
+                   1      --              --              --        -- 
+ReluNodeValues[74]
+                   1      --              --              --        -- 
+ReluNodeValues[75]
+                   1      --              --              --        -- 
+ReluNodeValues[76]
+                   1      --              --              --        -- 
+ReluNodeValues[77]
+                   1      --              --              --        -- 
+ReluNodeValues[78]
+                   1      --              --              --        -- 
+ReluNodeValues[79]
+                   1      --              --              --        -- 
+ReluNodeValues[80]
+                   1      --              --              --        -- 
+ReluNodeValues[81]
+                   1      --              --              --        -- 
+ReluNodeValues[82]
+                   1      --              --              --        -- 
+ReluNodeValues[83]
+                   1      --              --              --        -- 
+ReluNodeValues[84]
+                   1      --              --              --        -- 
+ReluNodeValues[85]
+                   1      --              --              --        -- 
+ReluNodeValues[86]
+                   1      --              --              --        -- 
+ReluNodeValues[87]
+                   1      --              --              --        -- 
+ReluNodeValues[88]
+                   1      --              --              --        -- 
+ReluNodeValues[89]
+                   1      --              --              --        -- 
+ReluNodeValues[90]
+                   1      --              --              --        -- 
+ReluNodeValues[91]
+                   1      --              --              --        -- 
+ReluNodeValues[92]
+                   1      --              --              --        -- 
+ReluNodeValues[93]
+                   1      --              --              --        -- 
+ReluNodeValues[94]
+                   1      --              --              --        -- 
+ReluNodeValues[95]
+                   1      --              --              --        -- 
+ReluNodeValues[96]
+                   1      --              --              --        -- 
+ReluNodeValues[97]
+                   1      --              --              --        -- 
+ReluNodeValues[98]
+                   1      --              --              --        -- 
+ReluNodeValues[99]
+                   1      --              --              --        -- 
+ReluNodeValues[100]
+                   1      --              --              --        -- 
+ReluNodeValues[101]
+                   1      --              --              --        -- 
+ReluNodeValues[102]
+                   1      --              --              --        -- 
+ReluNodeValues[103]
+                   1      --              --              --        -- 
+ReluNodeValues[104]
+                   1      --              --              --        -- 
+ReluNodeValues[105]
+                   1      --              --              --        -- 
+ReluNodeValues[106]
+                   1      --              --              --        -- 
+ReluNodeValues[107]
+                   1      --              --              --        -- 
+ReluNodeValues[108]
+                   1      --              --              --        -- 
+ReluNodeValues[109]
+                   1      --              --              --        -- 
+ReluNodeValues[110]
+                   1      --              --              --        -- 
+ReluNodeValues[111]
+                   1      --              --              --        -- 
+ReluNodeValues[112]
+                   1      --              --              --        -- 
+ReluNodeValues[113]
+                   1      --              --              --        -- 
+ReluNodeValues[114]
+                   1      --              --              --        -- 
+ReluNodeValues[115]
+                   1      --              --              --        -- 
+ReluNodeValues[116]
+                   1      --              --              --        -- 
+ReluNodeValues[117]
+                   1      --              --              --        -- 
+ReluNodeValues[118]
+                   1      --              --              --        -- 
+ReluNodeValues[119]
+                   1      --              --              --        -- 
+ReluNodeValues[120]
+                   1      --              --              --        -- 
+ReluNodeValues[121]
+                   1      --              --              --        -- 
+ReluNodeValues[122]
+                   1      --              --              --        -- 
+ReluNodeValues[123]
+                   1      --              --              --        -- 
+ReluNodeValues[124]
+                   1      --              --              --        -- 
+ReluNodeValues[125]
+                   1      --              --              --        -- 
+ReluNodeValues[126]
+                   1      --              --              --        -- 
+ReluNodeValues[127]
+                   1      --              --              --        -- 
+dequeue            1      --              --              --        -- 
+reset              1      --              --              --        -- 
+writeEnable        1      --              --              --        -- 
+NodeValueOut[0]
+                   1      --              --              --        -- 
+NodeValueOut[1]
+                   1      --              --              --        -- 
+NodeValueOut[2]
+                   1      --              --              --        -- 
+NodeValueOut[3]
+                   1      --              --              --        -- 
+indexOut[0]        1      --              --              --        -- 
+indexOut[1]        1      --              --              --        -- 
+indexOut[2]        1      --              --              --        -- 
+queueEmpty         1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+ReluNodeValues[0]
+              --      --      --      --      --      4.00
+ReluNodeValues[1]
+              --      --      --      --      --      4.00
+ReluNodeValues[2]
+              --      --      --      --      --      4.00
+ReluNodeValues[3]
+              --      --      --      --      --      4.00
+ReluNodeValues[4]
+              --      --      --      --      --      4.00
+ReluNodeValues[5]
+              --      --      --      --      --      4.00
+ReluNodeValues[6]
+              --      --      --      --      --      4.00
+ReluNodeValues[7]
+              --      --      --      --      --      4.00
+ReluNodeValues[8]
+              --      --      --      --      --      4.00
+ReluNodeValues[9]
+              --      --      --      --      --      4.00
+ReluNodeValues[10]
+              --      --      --      --      --      4.00
+ReluNodeValues[11]
+              --      --      --      --      --      4.00
+ReluNodeValues[12]
+              --      --      --      --      --      4.00
+ReluNodeValues[13]
+              --      --      --      --      --      4.00
+ReluNodeValues[14]
+              --      --      --      --      --      4.00
+ReluNodeValues[15]
+              --      --      --      --      --      4.00
+ReluNodeValues[16]
+              --      --      --      --      --      4.00
+ReluNodeValues[17]
+              --      --      --      --      --      4.00
+ReluNodeValues[18]
+              --      --      --      --      --      4.00
+ReluNodeValues[19]
+              --      --      --      --      --      4.00
+ReluNodeValues[20]
+              --      --      --      --      --      4.00
+ReluNodeValues[21]
+              --      --      --      --      --      4.00
+ReluNodeValues[22]
+              --      --      --      --      --      4.00
+ReluNodeValues[23]
+              --      --      --      --      --      4.00
+ReluNodeValues[24]
+              --      --      --      --      --      4.00
+ReluNodeValues[25]
+              --      --      --      --      --      4.00
+ReluNodeValues[26]
+              --      --      --      --      --      4.00
+ReluNodeValues[27]
+              --      --      --      --      --      4.00
+ReluNodeValues[28]
+              --      --      --      --      --      4.00
+ReluNodeValues[29]
+              --      --      --      --      --      4.00
+ReluNodeValues[30]
+              --      --      --      --      --      4.00
+ReluNodeValues[31]
+              --      --      --      --      --      4.00
+ReluNodeValues[32]
+              --      --      --      --      --      4.00
+ReluNodeValues[33]
+              --      --      --      --      --      4.00
+ReluNodeValues[34]
+              --      --      --      --      --      4.00
+ReluNodeValues[35]
+              --      --      --      --      --      4.00
+ReluNodeValues[36]
+              --      --      --      --      --      4.00
+ReluNodeValues[37]
+              --      --      --      --      --      4.00
+ReluNodeValues[38]
+              --      --      --      --      --      4.00
+ReluNodeValues[39]
+              --      --      --      --      --      4.00
+ReluNodeValues[40]
+              --      --      --      --      --      4.00
+ReluNodeValues[41]
+              --      --      --      --      --      4.00
+ReluNodeValues[42]
+              --      --      --      --      --      4.00
+ReluNodeValues[43]
+              --      --      --      --      --      4.00
+ReluNodeValues[44]
+              --      --      --      --      --      4.00
+ReluNodeValues[45]
+              --      --      --      --      --      4.00
+ReluNodeValues[46]
+              --      --      --      --      --      4.00
+ReluNodeValues[47]
+              --      --      --      --      --      4.00
+ReluNodeValues[48]
+              --      --      --      --      --      4.00
+ReluNodeValues[49]
+              --      --      --      --      --      4.00
+ReluNodeValues[50]
+              --      --      --      --      --      4.00
+ReluNodeValues[51]
+              --      --      --      --      --      4.00
+ReluNodeValues[52]
+              --      --      --      --      --      4.00
+ReluNodeValues[53]
+              --      --      --      --      --      4.00
+ReluNodeValues[54]
+              --      --      --      --      --      4.00
+ReluNodeValues[55]
+              --      --      --      --      --      4.00
+ReluNodeValues[56]
+              --      --      --      --      --      4.00
+ReluNodeValues[57]
+              --      --      --      --      --      4.00
+ReluNodeValues[58]
+              --      --      --      --      --      4.00
+ReluNodeValues[59]
+              --      --      --      --      --      4.00
+ReluNodeValues[60]
+              --      --      --      --      --      4.00
+ReluNodeValues[61]
+              --      --      --      --      --      4.00
+ReluNodeValues[62]
+              --      --      --      --      --      4.00
+ReluNodeValues[63]
+              --      --      --      --      --      4.00
+ReluNodeValues[64]
+              --      --      --      --      --      4.00
+ReluNodeValues[65]
+              --      --      --      --      --      4.00
+ReluNodeValues[66]
+              --      --      --      --      --      4.00
+ReluNodeValues[67]
+              --      --      --      --      --      4.00
+ReluNodeValues[68]
+              --      --      --      --      --      4.00
+ReluNodeValues[69]
+              --      --      --      --      --      4.00
+ReluNodeValues[70]
+              --      --      --      --      --      4.00
+ReluNodeValues[71]
+              --      --      --      --      --      4.00
+ReluNodeValues[72]
+              --      --      --      --      --      4.00
+ReluNodeValues[73]
+              --      --      --      --      --      4.00
+ReluNodeValues[74]
+              --      --      --      --      --      4.00
+ReluNodeValues[75]
+              --      --      --      --      --      4.00
+ReluNodeValues[76]
+              --      --      --      --      --      4.00
+ReluNodeValues[77]
+              --      --      --      --      --      4.00
+ReluNodeValues[78]
+              --      --      --      --      --      4.00
+ReluNodeValues[79]
+              --      --      --      --      --      4.00
+ReluNodeValues[80]
+              --      --      --      --      --      4.00
+ReluNodeValues[81]
+              --      --      --      --      --      4.00
+ReluNodeValues[82]
+              --      --      --      --      --      4.00
+ReluNodeValues[83]
+              --      --      --      --      --      4.00
+ReluNodeValues[84]
+              --      --      --      --      --      4.00
+ReluNodeValues[85]
+              --      --      --      --      --      4.00
+ReluNodeValues[86]
+              --      --      --      --      --      4.00
+ReluNodeValues[87]
+              --      --      --      --      --      4.00
+ReluNodeValues[88]
+              --      --      --      --      --      4.00
+ReluNodeValues[89]
+              --      --      --      --      --      4.00
+ReluNodeValues[90]
+              --      --      --      --      --      4.00
+ReluNodeValues[91]
+              --      --      --      --      --      4.00
+ReluNodeValues[92]
+              --      --      --      --      --      4.00
+ReluNodeValues[93]
+              --      --      --      --      --      4.00
+ReluNodeValues[94]
+              --      --      --      --      --      4.00
+ReluNodeValues[95]
+              --      --      --      --      --      4.00
+ReluNodeValues[96]
+              --      --      --      --      --      4.00
+ReluNodeValues[97]
+              --      --      --      --      --      4.00
+ReluNodeValues[98]
+              --      --      --      --      --      4.00
+ReluNodeValues[99]
+              --      --      --      --      --      4.00
+ReluNodeValues[100]
+              --      --      --      --      --      4.00
+ReluNodeValues[101]
+              --      --      --      --      --      4.00
+ReluNodeValues[102]
+              --      --      --      --      --      4.00
+ReluNodeValues[103]
+              --      --      --      --      --      4.00
+ReluNodeValues[104]
+              --      --      --      --      --      4.00
+ReluNodeValues[105]
+              --      --      --      --      --      4.00
+ReluNodeValues[106]
+              --      --      --      --      --      4.00
+ReluNodeValues[107]
+              --      --      --      --      --      4.00
+ReluNodeValues[108]
+              --      --      --      --      --      4.00
+ReluNodeValues[109]
+              --      --      --      --      --      4.00
+ReluNodeValues[110]
+              --      --      --      --      --      4.00
+ReluNodeValues[111]
+              --      --      --      --      --      4.00
+ReluNodeValues[112]
+              --      --      --      --      --      4.00
+ReluNodeValues[113]
+              --      --      --      --      --      4.00
+ReluNodeValues[114]
+              --      --      --      --      --      4.00
+ReluNodeValues[115]
+              --      --      --      --      --      4.00
+ReluNodeValues[116]
+              --      --      --      --      --      4.00
+ReluNodeValues[117]
+              --      --      --      --      --      4.00
+ReluNodeValues[118]
+              --      --      --      --      --      4.00
+ReluNodeValues[119]
+              --      --      --      --      --      4.00
+ReluNodeValues[120]
+              --      --      --      --      --      4.00
+ReluNodeValues[121]
+              --      --      --      --      --      4.00
+ReluNodeValues[122]
+              --      --      --      --      --      4.00
+ReluNodeValues[123]
+              --      --      --      --      --      4.00
+ReluNodeValues[124]
+              --      --      --      --      --      4.00
+ReluNodeValues[125]
+              --      --      --      --      --      4.00
+ReluNodeValues[126]
+              --      --      --      --      --      4.00
+ReluNodeValues[127]
+              --      --      --      --      --      4.00
+dequeue       --      --      --      --      --      4.00
+reset         --      --      --      --      --      4.00
+writeEnable   --      --      --      --      --      4.00
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+ReluNodeValues[0]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[1]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[2]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[3]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[4]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[5]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[6]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[7]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[8]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[9]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[10]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[11]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[12]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[13]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[14]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[15]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[16]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[17]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[18]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[19]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[20]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[21]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[22]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[23]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[24]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[25]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[26]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[27]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[28]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[29]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[30]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[31]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[32]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[33]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[34]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[35]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[36]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[37]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[38]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[39]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[40]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[41]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[42]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[43]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[44]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[45]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[46]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[47]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[48]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[49]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[50]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[51]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[52]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[53]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[54]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[55]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[56]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[57]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[58]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[59]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[60]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[61]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[62]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[63]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[64]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[65]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[66]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[67]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[68]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[69]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[70]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[71]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[72]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[73]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[74]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[75]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[76]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[77]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[78]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[79]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[80]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[81]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[82]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[83]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[84]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[85]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[86]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[87]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[88]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[89]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[90]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[91]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[92]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[93]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[94]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[95]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[96]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[97]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[98]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[99]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[100]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[101]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[102]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[103]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[104]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[105]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[106]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[107]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[108]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[109]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[110]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[111]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[112]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[113]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[114]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[115]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[116]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[117]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[118]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[119]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[120]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[121]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[122]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[123]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[124]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[125]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[126]
+             INVX1TS            INVX1TS              -- /  --     
+ReluNodeValues[127]
+             INVX1TS            INVX1TS              -- /  --     
+dequeue      INVX1TS            INVX1TS              -- /  --     
+reset        INVX1TS            INVX1TS              -- /  --     
+writeEnable  INVX1TS            INVX1TS              -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+ReluNodeValues[0]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[1]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[2]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[3]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[4]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[5]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[6]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[7]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[8]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[9]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[10]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[11]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[12]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[13]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[14]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[15]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[16]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[17]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[18]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[19]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[20]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[21]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[22]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[23]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[24]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[25]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[26]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[27]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[28]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[29]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[30]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[31]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[32]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[33]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[34]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[35]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[36]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[37]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[38]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[39]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[40]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[41]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[42]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[43]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[44]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[45]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[46]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[47]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[48]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[49]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[50]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[51]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[52]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[53]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[54]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[55]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[56]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[57]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[58]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[59]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[60]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[61]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[62]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[63]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[64]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[65]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[66]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[67]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[68]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[69]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[70]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[71]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[72]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[73]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[74]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[75]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[76]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[77]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[78]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[79]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[80]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[81]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[82]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[83]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[84]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[85]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[86]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[87]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[88]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[89]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[90]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[91]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[92]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[93]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[94]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[95]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[96]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[97]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[98]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[99]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[100]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[101]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[102]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[103]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[104]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[105]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[106]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[107]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[108]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[109]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[110]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[111]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[112]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[113]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[114]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[115]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[116]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[117]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[118]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[119]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[120]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[121]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[122]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[123]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[124]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[125]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[126]
+              --      --     --      --     --      --     --     --        -- 
+ReluNodeValues[127]
+              --      --     --      --     --      --     --     --        -- 
+dequeue       --      --     --      --     --      --     --     --        -- 
+reset         --      --     --      --     --      --     --     --        -- 
+writeEnable   --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+ReluNodeValues[0]
+              --      --      --      -- 
+ReluNodeValues[1]
+              --      --      --      -- 
+ReluNodeValues[2]
+              --      --      --      -- 
+ReluNodeValues[3]
+              --      --      --      -- 
+ReluNodeValues[4]
+              --      --      --      -- 
+ReluNodeValues[5]
+              --      --      --      -- 
+ReluNodeValues[6]
+              --      --      --      -- 
+ReluNodeValues[7]
+              --      --      --      -- 
+ReluNodeValues[8]
+              --      --      --      -- 
+ReluNodeValues[9]
+              --      --      --      -- 
+ReluNodeValues[10]
+              --      --      --      -- 
+ReluNodeValues[11]
+              --      --      --      -- 
+ReluNodeValues[12]
+              --      --      --      -- 
+ReluNodeValues[13]
+              --      --      --      -- 
+ReluNodeValues[14]
+              --      --      --      -- 
+ReluNodeValues[15]
+              --      --      --      -- 
+ReluNodeValues[16]
+              --      --      --      -- 
+ReluNodeValues[17]
+              --      --      --      -- 
+ReluNodeValues[18]
+              --      --      --      -- 
+ReluNodeValues[19]
+              --      --      --      -- 
+ReluNodeValues[20]
+              --      --      --      -- 
+ReluNodeValues[21]
+              --      --      --      -- 
+ReluNodeValues[22]
+              --      --      --      -- 
+ReluNodeValues[23]
+              --      --      --      -- 
+ReluNodeValues[24]
+              --      --      --      -- 
+ReluNodeValues[25]
+              --      --      --      -- 
+ReluNodeValues[26]
+              --      --      --      -- 
+ReluNodeValues[27]
+              --      --      --      -- 
+ReluNodeValues[28]
+              --      --      --      -- 
+ReluNodeValues[29]
+              --      --      --      -- 
+ReluNodeValues[30]
+              --      --      --      -- 
+ReluNodeValues[31]
+              --      --      --      -- 
+ReluNodeValues[32]
+              --      --      --      -- 
+ReluNodeValues[33]
+              --      --      --      -- 
+ReluNodeValues[34]
+              --      --      --      -- 
+ReluNodeValues[35]
+              --      --      --      -- 
+ReluNodeValues[36]
+              --      --      --      -- 
+ReluNodeValues[37]
+              --      --      --      -- 
+ReluNodeValues[38]
+              --      --      --      -- 
+ReluNodeValues[39]
+              --      --      --      -- 
+ReluNodeValues[40]
+              --      --      --      -- 
+ReluNodeValues[41]
+              --      --      --      -- 
+ReluNodeValues[42]
+              --      --      --      -- 
+ReluNodeValues[43]
+              --      --      --      -- 
+ReluNodeValues[44]
+              --      --      --      -- 
+ReluNodeValues[45]
+              --      --      --      -- 
+ReluNodeValues[46]
+              --      --      --      -- 
+ReluNodeValues[47]
+              --      --      --      -- 
+ReluNodeValues[48]
+              --      --      --      -- 
+ReluNodeValues[49]
+              --      --      --      -- 
+ReluNodeValues[50]
+              --      --      --      -- 
+ReluNodeValues[51]
+              --      --      --      -- 
+ReluNodeValues[52]
+              --      --      --      -- 
+ReluNodeValues[53]
+              --      --      --      -- 
+ReluNodeValues[54]
+              --      --      --      -- 
+ReluNodeValues[55]
+              --      --      --      -- 
+ReluNodeValues[56]
+              --      --      --      -- 
+ReluNodeValues[57]
+              --      --      --      -- 
+ReluNodeValues[58]
+              --      --      --      -- 
+ReluNodeValues[59]
+              --      --      --      -- 
+ReluNodeValues[60]
+              --      --      --      -- 
+ReluNodeValues[61]
+              --      --      --      -- 
+ReluNodeValues[62]
+              --      --      --      -- 
+ReluNodeValues[63]
+              --      --      --      -- 
+ReluNodeValues[64]
+              --      --      --      -- 
+ReluNodeValues[65]
+              --      --      --      -- 
+ReluNodeValues[66]
+              --      --      --      -- 
+ReluNodeValues[67]
+              --      --      --      -- 
+ReluNodeValues[68]
+              --      --      --      -- 
+ReluNodeValues[69]
+              --      --      --      -- 
+ReluNodeValues[70]
+              --      --      --      -- 
+ReluNodeValues[71]
+              --      --      --      -- 
+ReluNodeValues[72]
+              --      --      --      -- 
+ReluNodeValues[73]
+              --      --      --      -- 
+ReluNodeValues[74]
+              --      --      --      -- 
+ReluNodeValues[75]
+              --      --      --      -- 
+ReluNodeValues[76]
+              --      --      --      -- 
+ReluNodeValues[77]
+              --      --      --      -- 
+ReluNodeValues[78]
+              --      --      --      -- 
+ReluNodeValues[79]
+              --      --      --      -- 
+ReluNodeValues[80]
+              --      --      --      -- 
+ReluNodeValues[81]
+              --      --      --      -- 
+ReluNodeValues[82]
+              --      --      --      -- 
+ReluNodeValues[83]
+              --      --      --      -- 
+ReluNodeValues[84]
+              --      --      --      -- 
+ReluNodeValues[85]
+              --      --      --      -- 
+ReluNodeValues[86]
+              --      --      --      -- 
+ReluNodeValues[87]
+              --      --      --      -- 
+ReluNodeValues[88]
+              --      --      --      -- 
+ReluNodeValues[89]
+              --      --      --      -- 
+ReluNodeValues[90]
+              --      --      --      -- 
+ReluNodeValues[91]
+              --      --      --      -- 
+ReluNodeValues[92]
+              --      --      --      -- 
+ReluNodeValues[93]
+              --      --      --      -- 
+ReluNodeValues[94]
+              --      --      --      -- 
+ReluNodeValues[95]
+              --      --      --      -- 
+ReluNodeValues[96]
+              --      --      --      -- 
+ReluNodeValues[97]
+              --      --      --      -- 
+ReluNodeValues[98]
+              --      --      --      -- 
+ReluNodeValues[99]
+              --      --      --      -- 
+ReluNodeValues[100]
+              --      --      --      -- 
+ReluNodeValues[101]
+              --      --      --      -- 
+ReluNodeValues[102]
+              --      --      --      -- 
+ReluNodeValues[103]
+              --      --      --      -- 
+ReluNodeValues[104]
+              --      --      --      -- 
+ReluNodeValues[105]
+              --      --      --      -- 
+ReluNodeValues[106]
+              --      --      --      -- 
+ReluNodeValues[107]
+              --      --      --      -- 
+ReluNodeValues[108]
+              --      --      --      -- 
+ReluNodeValues[109]
+              --      --      --      -- 
+ReluNodeValues[110]
+              --      --      --      -- 
+ReluNodeValues[111]
+              --      --      --      -- 
+ReluNodeValues[112]
+              --      --      --      -- 
+ReluNodeValues[113]
+              --      --      --      -- 
+ReluNodeValues[114]
+              --      --      --      -- 
+ReluNodeValues[115]
+              --      --      --      -- 
+ReluNodeValues[116]
+              --      --      --      -- 
+ReluNodeValues[117]
+              --      --      --      -- 
+ReluNodeValues[118]
+              --      --      --      -- 
+ReluNodeValues[119]
+              --      --      --      -- 
+ReluNodeValues[120]
+              --      --      --      -- 
+ReluNodeValues[121]
+              --      --      --      -- 
+ReluNodeValues[122]
+              --      --      --      -- 
+ReluNodeValues[123]
+              --      --      --      -- 
+ReluNodeValues[124]
+              --      --      --      -- 
+ReluNodeValues[125]
+              --      --      --      -- 
+ReluNodeValues[126]
+              --      --      --      -- 
+ReluNodeValues[127]
+              --      --      --      -- 
+dequeue       --      --      --      -- 
+reset         --      --      --      -- 
+writeEnable   --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+NodeValueOut[0]
+              --      --      --      --      --      0.00
+NodeValueOut[1]
+              --      --      --      --      --      0.00
+NodeValueOut[2]
+              --      --      --      --      --      0.00
+NodeValueOut[3]
+              --      --      --      --      --      0.00
+indexOut[0]   --      --      --      --      --      0.00
+indexOut[1]   --      --      --      --      --      0.00
+indexOut[2]   --      --      --      --      --      0.00
+queueEmpty    --      --      --      --      --      0.00
+
+1
+ 
+****************************************
+Report : compile_options
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+ReluNodeQueue                            flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+                                         isolate_port           disabled
+--------------------------------------------------------------------------------
+1
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+
+    Design: ReluNodeQueue
+
+    max_area               0.00
+  - Current Area        1247.04
+  ------------------------------
+    Slack              -1247.04  (VIOLATED)
+
+
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 20
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: indexOut_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_1_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_1_/Q (DFFRXLTS)             0.83       0.83 f
+  indexOut[1] (out)                        0.00       0.83 f
+  data arrival time                                   0.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_0_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_0_/Q (DFFRXLTS)         0.83       0.83 f
+  NodeValueOut[0] (out)                    0.00       0.83 f
+  data arrival time                                   0.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[3]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_3_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_3_/Q (DFFRXLTS)         0.82       0.82 f
+  NodeValueOut[3] (out)                    0.00       0.82 f
+  data arrival time                                   0.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_2_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_2_/Q (DFFRXLTS)         0.82       0.82 f
+  NodeValueOut[2] (out)                    0.00       0.82 f
+  data arrival time                                   0.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_1_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_1_/Q (DFFRXLTS)         0.82       0.82 f
+  NodeValueOut[1] (out)                    0.00       0.82 f
+  data arrival time                                   0.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_2_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_2_/Q (DFFRXLTS)             0.82       0.82 f
+  indexOut[2] (out)                        0.00       0.82 f
+  data arrival time                                   0.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_0_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_0_/Q (DFFRXLTS)             0.82       0.82 f
+  indexOut[0] (out)                        0.00       0.82 f
+  data arrival time                                   0.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_1_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_1_/Q (DFFRXLTS)             0.77       0.77 r
+  indexOut[1] (out)                        0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_0_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_0_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[0] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[3]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_3_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_3_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[3] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_2_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_2_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[2] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeValueOut_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: NodeValueOut[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  NodeValueOut_reg_1_/CK (DFFRXLTS)        0.00       0.00 r
+  NodeValueOut_reg_1_/Q (DFFRXLTS)         0.77       0.77 r
+  NodeValueOut[1] (out)                    0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_2_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_2_/Q (DFFRXLTS)             0.77       0.77 r
+  indexOut[2] (out)                        0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: indexOut_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: indexOut[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  indexOut_reg_0_/CK (DFFRXLTS)            0.00       0.00 r
+  indexOut_reg_0_/Q (DFFRXLTS)             0.77       0.77 r
+  indexOut[0] (out)                        0.00       0.77 r
+  data arrival time                                   0.77
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

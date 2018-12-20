@@ -1,0 +1,713 @@
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+          Version J-2014.09-SP2 for RHEL64 -- Nov 25, 2014
+               Copyright (c) 1988-2014 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Initializing...
+#########################################
+# TCL script for Design Compiler        #
+# MS 2015                               #
+#########################################
+#########################################
+# READ Design and Library               #
+#########################################
+set top_level Layer1Controller
+Layer1Controller
+source -verbose "../common_script/common.tcl"
+. /tools4/syn2007.12/libraries/syn/
+dw_foundation.sldb
+* /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db dw_foundation.sldb
+/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+read_verilog {../../NeuralNetwork/$top_level.v}
+Loading db file '/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+Loading db file '/usr/cad/syn/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/syn/libraries/syn/gtech.db'
+Loading db file '/usr/cad/syn/libraries/syn/standard.sldb'
+  Loading link library 'scx3_cmos8rf_lpvt_tt_1p2v_25c'
+  Loading link library 'gtech'
+Loading verilog file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v'
+Detecting input file type automatically (-rtl or -netlist).
+Opening include file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v
+Opening include file /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/GlobalVariables.v
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:42: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:45: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:51: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:52: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:66: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:75: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v:84: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+
+Inferred memory devices in process
+	in routine Layer1_Controller line 96 in file
+		'/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1Controller.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      idle_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|   reluTrigger_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| processFinished_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| wBuffer_A_Write_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   pstoreReset_reg   | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|  layer1Output_reg   | Flip-flop |  24   |  Y  | N  | N  | N  | N  | N  | N  |
+|  outputsReady_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1_Controller.db:Layer1_Controller'
+Loaded 1 design.
+Current design is 'Layer1_Controller'.
+Layer1_Controller
+set set_fix_multiple_port_nets "true"
+true
+list_designs
+Layer1_Controller (*)
+1
+if { [check_error -v] == 1 } { exit 1 }
+#########################################
+# Design Constranits                    #
+#########################################
+current_design $top_level
+Error: Can't find design 'Layer1Controller'. (UID-109)
+Current design is 'Layer1_Controller'.
+{Layer1_Controller}
+link
+
+  Linking design 'Layer1_Controller'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  Layer1_Controller           /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1_Controller.db
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library) /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library) /usr/cad/syn/libraries/syn/dw_foundation.sldb
+
+Information: Building the design 'Layer1WeightStorage'. (HDL-193)
+Warning: Cannot find the design 'Layer1WeightStorage' in the library 'WORK'. (LBR-1)
+Information: Building the design 'NodeWeightBank'. (HDL-193)
+Warning: Cannot find the design 'NodeWeightBank' in the library 'WORK'. (LBR-1)
+Information: Building the design 'pStore'. (HDL-193)
+Warning: Cannot find the design 'pStore' in the library 'WORK'. (LBR-1)
+Information: Building the design 'RELU'. (HDL-193)
+Warning: Cannot find the design 'RELU' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'Layer1WeightStorage' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'NodeWeightBank' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'pStore' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'RELU' in 'Layer1_Controller'. (LINK-5)
+0
+check_design
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     J-2014.09-SP2
+Date:        Thu Dec 20 12:51:21 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Multiply driven inputs (LINT-6)                                19
+
+Tristate                                                           13
+    A tristate bus has a non tri-state driver (LINT-34)            13
+--------------------------------------------------------------------------------
+
+Warning: In design 'Layer1_Controller', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'weightWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'biasWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', three-state bus 'reluTrigger' has non three-state driver 'reluTrigger_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'pstoreReset' has non three-state driver 'pstoreReset_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'wBuffer_A_Write' has non three-state driver 'wBuffer_A_Write_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[0]' has non three-state driver 'C270/Z_0'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[1]' has non three-state driver 'C270/Z_1'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[2]' has non three-state driver 'C270/Z_2'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[3]' has non three-state driver 'C270/Z_3'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[4]' has non three-state driver 'C270/Z_4'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[5]' has non three-state driver 'C270/Z_5'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[6]' has non three-state driver 'C270/Z_6'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[7]' has non three-state driver 'C270/Z_7'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[8]' has non three-state driver 'C270/Z_8'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[9]' has non three-state driver 'C270/Z_9'. (LINT-34)
+1
+source -verbose "./timing.tcl"
+1.00
+0
+0.010
+0.05
+0.05
+0.005
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+1
+1
+set_max_capacitance 0.005 [all_inputs]
+1
+set_max_fanout 4 $top_level
+Warning: Can't find object 'Layer1Controller' in design 'Layer1_Controller'. (UID-95)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_max_fanout 4 [all_inputs]
+1
+set_max_area 0 
+1
+set_fix_multiple_port_nets -all -buffer_constants
+1
+#########################################
+# Compile                               #
+#########################################
+check_design
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     J-2014.09-SP2
+Date:        Thu Dec 20 12:51:21 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Multiply driven inputs (LINT-6)                                19
+
+Tristate                                                           13
+    A tristate bus has a non tri-state driver (LINT-34)            13
+--------------------------------------------------------------------------------
+
+Warning: In design 'Layer1_Controller', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'weightWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'biasWriteEnable' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', input port 'writeIn[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'Layer1_Controller', three-state bus 'reluTrigger' has non three-state driver 'reluTrigger_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'pstoreReset' has non three-state driver 'pstoreReset_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'wBuffer_A_Write' has non three-state driver 'wBuffer_A_Write_reg/Q'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[0]' has non three-state driver 'C270/Z_0'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[1]' has non three-state driver 'C270/Z_1'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[2]' has non three-state driver 'C270/Z_2'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[3]' has non three-state driver 'C270/Z_3'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[4]' has non three-state driver 'C270/Z_4'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[5]' has non three-state driver 'C270/Z_5'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[6]' has non three-state driver 'C270/Z_6'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[7]' has non three-state driver 'C270/Z_7'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[8]' has non three-state driver 'C270/Z_8'. (LINT-34)
+Warning: In design 'Layer1_Controller', three-state bus 'nodeAddress[9]' has non three-state driver 'C270/Z_9'. (LINT-34)
+1
+#uniquify
+current_design $top_level
+Error: Can't find design 'Layer1Controller'. (UID-109)
+Current design is 'Layer1_Controller'.
+{Layer1_Controller}
+link
+
+  Linking design 'Layer1_Controller'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  Layer1_Controller           /homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/NeuralNetwork/Layer1_Controller.db
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library)
+                              /tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library)
+                              /usr/cad/syn/libraries/syn/dw_foundation.sldb
+
+Information: Building the design 'Layer1WeightStorage'. (HDL-193)
+Warning: Cannot find the design 'Layer1WeightStorage' in the library 'WORK'. (LBR-1)
+Information: Building the design 'NodeWeightBank'. (HDL-193)
+Warning: Cannot find the design 'NodeWeightBank' in the library 'WORK'. (LBR-1)
+Information: Building the design 'pStore'. (HDL-193)
+Warning: Cannot find the design 'pStore' in the library 'WORK'. (LBR-1)
+Information: Building the design 'RELU'. (HDL-193)
+Warning: Cannot find the design 'RELU' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'Layer1WeightStorage' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'NodeWeightBank' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'pStore' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'RELU' in 'Layer1_Controller'. (LINK-5)
+0
+compile_ultra
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Performing power optimization. (PWR-850)
+Analyzing: "/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db"
+Library analysis succeeded.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | J-2014.09-DWBB_201409.2 |     *     |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.2 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 32 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Information: Building the design 'Layer1WeightStorage'. (HDL-193)
+Warning: Cannot find the design 'Layer1WeightStorage' in the library 'WORK'. (LBR-1)
+Information: Building the design 'NodeWeightBank'. (HDL-193)
+Warning: Cannot find the design 'NodeWeightBank' in the library 'WORK'. (LBR-1)
+Information: Building the design 'pStore'. (HDL-193)
+Warning: Cannot find the design 'pStore' in the library 'WORK'. (LBR-1)
+Information: Building the design 'RELU'. (HDL-193)
+Warning: Cannot find the design 'RELU' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'Layer1WeightStorage' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'NodeWeightBank' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'pStore' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'RELU' in 'Layer1_Controller'. (LINK-5)
+Loaded alib file './alib-52/scx3_cmos8rf_lpvt_tt_1p2v_25c.db.alib'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'Layer1_Controller'
+Information: Building the design 'Layer1WeightStorage'. (HDL-193)
+Warning: Cannot find the design 'Layer1WeightStorage' in the library 'WORK'. (LBR-1)
+Information: Building the design 'NodeWeightBank'. (HDL-193)
+Warning: Cannot find the design 'NodeWeightBank' in the library 'WORK'. (LBR-1)
+Information: Building the design 'pStore'. (HDL-193)
+Warning: Cannot find the design 'pStore' in the library 'WORK'. (LBR-1)
+Information: Building the design 'RELU'. (HDL-193)
+Warning: Cannot find the design 'RELU' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'Layer1WeightStorage' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'NodeWeightBank' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'pStore' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'RELU' in 'Layer1_Controller'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1TS' in the library 'scx3_cmos8rf_lpvt_tt_1p2v_25c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:04    2233.4      0.80      24.7       0.0                           3269.9260      0.00  
+    0:00:04    2221.9      0.78      24.8       0.0                           3247.2778      0.00  
+    0:00:04    2221.9      0.78      24.8       0.0                           3247.2778      0.00  
+    0:00:04    2219.0      0.78      24.7       0.0                           3244.9561      0.00  
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:05    1861.9      0.74      22.0       0.1                           2715.2793      0.00  
+    0:00:05    1857.6      0.74      22.0       0.1                           2705.2109      0.00  
+    0:00:05    1890.7      0.74      21.7       0.1                           2750.2361      0.00  
+    0:00:05    1890.7      0.74      21.7       0.1                           2750.2361      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:05    2057.8      0.69      20.9       0.1                           3036.4976      0.00  
+  Global Optimization (Phase 31)
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+    0:00:05    2057.8      0.69      21.1       0.0                           3029.1606      0.00  
+    0:00:05    2057.8      0.69      21.1       0.0                           3029.1606      0.00  
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:05    2057.8      0.69      21.1       0.0                           3029.1606      0.00  
+    0:00:05    2115.4      0.77      21.9       0.0                           3117.2671      0.00  
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:05    2115.4      0.77      21.9       0.0                           3117.2671      0.00  
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+    0:00:05    2070.7      1.01      21.6       0.0                           3066.9351      0.00  
+    0:00:05    2070.7      1.01      21.6       0.0                           3066.9351      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+
+                                  TOTAL                                                          
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:06    2065.0      1.01      21.4       0.0                           3065.0259      0.00  
+    0:00:06    2018.9      0.83      22.1       0.0                           3008.1782      0.00  
+    0:00:06    2018.9      0.83      22.1       0.0                           3008.1782      0.00  
+    0:00:06    2018.9      0.83      22.1       0.0                           3008.3347      0.00  
+    0:00:06    2018.9      0.83      22.1       0.0                           3008.3347      0.00  
+    0:00:06    1994.4      0.79      22.1       0.0                           2955.5166      0.00  
+Loading db file '/tools2/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Building the design 'Layer1WeightStorage'. (HDL-193)
+Warning: Cannot find the design 'Layer1WeightStorage' in the library 'WORK'. (LBR-1)
+Information: Building the design 'NodeWeightBank'. (HDL-193)
+Warning: Cannot find the design 'NodeWeightBank' in the library 'WORK'. (LBR-1)
+Information: Building the design 'pStore'. (HDL-193)
+Warning: Cannot find the design 'pStore' in the library 'WORK'. (LBR-1)
+Information: Building the design 'RELU'. (HDL-193)
+Warning: Cannot find the design 'RELU' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'Layer1WeightStorage' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'NodeWeightBank' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'pStore' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'RELU' in 'Layer1_Controller'. (LINK-5)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1
+#########################################
+# Optimize design                       #
+# Some pointers for possible optimizatio# 
+# Check the DC reference manual         #
+#########################################
+#set_transform_for_retiming {temp_reg[6] temp_reg[5] temp_reg[4] temp_reg[3] temp_reg[2] temp_reg[1] temp_reg[0]} dont_retime
+#optimize_registers -clock clk -edge rise -justification_effort high 
+#balance_registers
+#source -verbose "../script/timing.1.2ns.tcl"
+#pipeline_design -stages 8 -clock_port_name $clk_name -check_design -verbose -print_critical_loop
+#set_max_capacitance 1 [all_inputs] 
+#compile_ultra -no_autoungroup -no_boundary_optimization
+#remove_clock -all
+#pipeline_design -stages 8 -clock_port_name $clk_name -async_reset reset -check_design -verbose -minimum_period_only
+#########################################
+# Write outputs                         #
+#########################################
+source -verbose "../common_script/namingrules.tcl"
+1
+Information: Building the design 'Layer1WeightStorage'. (HDL-193)
+Warning: Cannot find the design 'Layer1WeightStorage' in the library 'WORK'. (LBR-1)
+Information: Building the design 'NodeWeightBank'. (HDL-193)
+Warning: Cannot find the design 'NodeWeightBank' in the library 'WORK'. (LBR-1)
+Information: Building the design 'pStore'. (HDL-193)
+Warning: Cannot find the design 'pStore' in the library 'WORK'. (LBR-1)
+Information: Building the design 'RELU'. (HDL-193)
+Warning: Cannot find the design 'RELU' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'Layer1WeightStorage' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'NodeWeightBank' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'pStore' in 'Layer1_Controller'. (LINK-5)
+Warning: Unable to resolve reference 'RELU' in 'Layer1_Controller'. (LINK-5)
+
+Design          Type    Object                  New Name
+--------------------------------------------------------------------------------
+Layer1_Controller cell  layer1Output_reg[23]    layer1Output_reg_23_
+Layer1_Controller cell  layer1Output_reg[0]     layer1Output_reg_0_
+Layer1_Controller cell  layer1Output_reg[1]     layer1Output_reg_1_
+Layer1_Controller cell  layer1Output_reg[2]     layer1Output_reg_2_
+Layer1_Controller cell  layer1Output_reg[3]     layer1Output_reg_3_
+Layer1_Controller cell  layer1Output_reg[4]     layer1Output_reg_4_
+Layer1_Controller cell  layer1Output_reg[5]     layer1Output_reg_5_
+Layer1_Controller cell  layer1Output_reg[6]     layer1Output_reg_6_
+Layer1_Controller cell  layer1Output_reg[7]     layer1Output_reg_7_
+Layer1_Controller cell  layer1Output_reg[8]     layer1Output_reg_8_
+Layer1_Controller cell  layer1Output_reg[9]     layer1Output_reg_9_
+Layer1_Controller cell  layer1Output_reg[10]    layer1Output_reg_10_
+Layer1_Controller cell  layer1Output_reg[11]    layer1Output_reg_11_
+Layer1_Controller cell  layer1Output_reg[12]    layer1Output_reg_12_
+Layer1_Controller cell  layer1Output_reg[13]    layer1Output_reg_13_
+Layer1_Controller cell  layer1Output_reg[14]    layer1Output_reg_14_
+Layer1_Controller cell  layer1Output_reg[15]    layer1Output_reg_15_
+Layer1_Controller cell  layer1Output_reg[16]    layer1Output_reg_16_
+Layer1_Controller cell  layer1Output_reg[21]    layer1Output_reg_21_
+Layer1_Controller cell  layer1Output_reg[20]    layer1Output_reg_20_
+Layer1_Controller cell  layer1Output_reg[19]    layer1Output_reg_19_
+Layer1_Controller cell  layer1Output_reg[18]    layer1Output_reg_18_
+Layer1_Controller cell  layer1Output_reg[17]    layer1Output_reg_17_
+Layer1_Controller cell  layer1Output_reg[22]    layer1Output_reg_22_
+Layer1_Controller net   n18                     n180
+1
+1
+set verilogout_no_tri TRUE
+TRUE
+write -hierarchy -format verilog -output "${top_level}.nl.v"
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/Synthesis/Layer1Controller/Layer1Controller.nl.v'.
+1
+#write_sdf -context verilog "${top_level}.temp.sdf"
+write_sdc "${top_level}.syn.sdc" -version 1.7
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+write_sdf "${top_level}.syn.sdf"
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/homes/user/stud/fall18/srd2162/Documents/Project/AdvancedLogicProject/rtl/Synthesis/Layer1Controller/Layer1Controller.syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design contains black-box components.  These cells will have no timing information. (WT-7)
+1
+# Generate report file
+set maxpaths 20
+20
+set rpt_file "${top_level}.dc.rpt"
+Layer1Controller.dc.rpt
+check_design > $rpt_file
+report_area  >> ${rpt_file}
+report_power -hier -analysis_effort medium >> ${rpt_file}
+report_design >> ${rpt_file}
+report_cell >> ${rpt_file}
+report_port -verbose >> ${rpt_file}
+report_compile_options >> ${rpt_file}
+report_constraint -all_violators -verbose >> ${rpt_file}
+report_timing -path full -delay max -max_paths $maxpaths -nworst 100 >> ${rpt_file}
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs
+report_timing -delay max -nworst 1 -max_paths 10000 -path full -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs.full
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_outputs] > ${top_level}.syn.critical_regs.output
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_registers -data_pins] > ${top_level}.syn.critical_regs.regs
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+report_timing -delay min -nworst 1 -max_paths 10000 -path short -nosplit -unique -sort_by slack > ${top_level}.syn.fast_path
+quit
+
+Thank you...

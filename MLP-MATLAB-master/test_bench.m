@@ -18,12 +18,12 @@ B3 = importdata('B3.mat');
 
 % Instantiate and test network
 batchsize = 250;
-nodes = 16;
+nodes = 32;
 nn = Network(batchsize);
 
-nn.layers{1} = Linear(28 * 28, 16, batchsize);
-nn.layers{2} = ReLU(16, 16, batchsize);
-nn.layers{3} = Linear(16, 10, batchsize);
+nn.layers{1} = Linear(28 * 28, nodes, batchsize);
+nn.layers{2} = ReLU(nodes, nodes, batchsize);
+nn.layers{3} = Linear(nodes, 10, batchsize);
 nn.layers{4} = Softmax(10, 10, batchsize);
 
 nn.layers{1}.W = W1;

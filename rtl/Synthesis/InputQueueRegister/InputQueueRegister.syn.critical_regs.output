@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : InputQueueRegister
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:05:32 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+finished (out)                      0.85 r        infinity     infinity
+indexOut[8] (out)                   0.84 f        infinity     infinity
+indexOut[2] (out)                   0.84 f        infinity     infinity
+indexOut[7] (out)                   0.83 f        infinity     infinity
+indexOut[5] (out)                   0.83 f        infinity     infinity
+indexOut[4] (out)                   0.83 f        infinity     infinity
+indexOut[3] (out)                   0.83 f        infinity     infinity
+indexOut[1] (out)                   0.83 f        infinity     infinity
+indexOut[0] (out)                   0.83 f        infinity     infinity
+indexOut[9] (out)                   0.82 f        infinity     infinity
+indexOut[6] (out)                   0.82 f        infinity     infinity
+queueEmpty (out)                    0.69 f        infinity     infinity
+
+1

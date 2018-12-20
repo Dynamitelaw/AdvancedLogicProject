@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : ReluNodeQueue
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:07:08 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+NodeValueOut_reg_2_/D (DFFRXLTS)     2.07 r       infinity     infinity
+NodeValueOut_reg_3_/D (DFFRXLTS)     2.07 r       infinity     infinity
+NodeValueOut_reg_0_/D (DFFRXLTS)     2.07 r       infinity     infinity
+NodeValueOut_reg_1_/D (DFFRXLTS)     2.06 r       infinity     infinity
+frontPointer_reg_1_/D (DFFNSRX1TS)     1.84 f     infinity     infinity
+frontPointer_reg_2_/D (DFFNSRX1TS)     1.58 f     infinity     infinity
+indexOut_reg_2_/D (DFFRXLTS)        1.12 r        infinity     infinity
+indexOut_reg_1_/D (DFFRXLTS)        1.10 r        infinity     infinity
+frontPointer_reg_0_/D (DFFNSRX1TS)     1.01 f     infinity     infinity
+indexOut_reg_0_/D (DFFRXLTS)        0.85 r        infinity     infinity
+ReluQueueRegister_reg_3__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_3__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_3__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_3__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_2__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_2__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_2__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_2__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_7__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_7__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_7__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_7__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_6__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_6__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_6__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_6__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_4__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_4__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_4__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_4__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_5__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_5__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_5__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_5__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_1__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_1__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_1__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_1__0_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_0__3_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_0__2_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_0__1_/D (TLATXLTS)     0.01 r infinity   infinity
+ReluQueueRegister_reg_0__0_/D (TLATXLTS)     0.01 r infinity   infinity
+
+1

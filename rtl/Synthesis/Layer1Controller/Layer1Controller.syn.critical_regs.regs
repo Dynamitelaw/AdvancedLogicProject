@@ -1,0 +1,50 @@
+Warning: Design 'Layer1_Controller' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer1_Controller
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 12:52:30 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+layer1Output_reg_23_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_0_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_1_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_2_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_3_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_4_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_5_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_6_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_7_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_8_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_9_/D (DFFHQX8TS)     1.46 f          0.75        -0.71
+layer1Output_reg_10_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_11_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_12_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_13_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_14_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_15_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_16_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_21_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_20_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_19_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_18_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_17_/D (DFFHQX8TS)     1.46 f         0.75        -0.71
+layer1Output_reg_22_/D (DFFHQX8TS)     1.39 f         0.73        -0.67
+wBuffer_A_Write_reg/D (DFFRX4TS)     1.24 r           0.60        -0.64
+processFinished_reg/D (DFFSX4TS)     1.31 r           0.72        -0.59
+reluTrigger_reg/D (DFFRXLTS)        1.04 r            0.52        -0.51
+pstoreReset_reg/D (DFFSXLTS)        1.15 f            0.66        -0.49
+outputsReady_reg/D (DFFSHQX8TS)     1.23 f            0.75        -0.48
+idle_reg/D (DFFSHQX1TS)             1.07 r            0.62        -0.46
+
+1

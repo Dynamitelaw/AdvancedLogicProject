@@ -1,0 +1,4244 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : Layer1WeightStorage
+Version: J-2014.09-SP2
+Date   : Thu Dec 20 11:55:55 2018
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[155]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1549/Y (CLKBUFX2TS)                     0.21       2.46 r
+  U1550/Y (AOI22X1TS)                      0.14       2.60 f
+  U1551/Y (NAND3XLTS)                      0.23       2.83 r
+  readOut[155] (out)                       0.00       2.83 r
+  data arrival time                                   2.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[154]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1549/Y (CLKBUFX2TS)                     0.21       2.46 r
+  U1554/Y (AOI22X1TS)                      0.14       2.60 f
+  U1555/Y (NAND3XLTS)                      0.23       2.83 r
+  readOut[154] (out)                       0.00       2.83 r
+  data arrival time                                   2.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[153]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1549/Y (CLKBUFX2TS)                     0.21       2.46 r
+  U1558/Y (AOI22X1TS)                      0.14       2.60 f
+  U1559/Y (NAND3XLTS)                      0.23       2.83 r
+  readOut[153] (out)                       0.00       2.83 r
+  data arrival time                                   2.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[152]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1549/Y (CLKBUFX2TS)                     0.21       2.46 r
+  U1562/Y (AOI22X1TS)                      0.14       2.60 f
+  U1563/Y (NAND3XLTS)                      0.23       2.83 r
+  readOut[152] (out)                       0.00       2.83 r
+  data arrival time                                   2.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[151]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1574/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1575/Y (AOI22X1TS)                      0.14       2.57 f
+  U1576/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[151] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[150]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1574/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1579/Y (AOI22X1TS)                      0.14       2.57 f
+  U1580/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[150] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[149]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1574/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1583/Y (AOI22X1TS)                      0.14       2.57 f
+  U1584/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[149] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[148]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1574/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1587/Y (AOI22X1TS)                      0.14       2.57 f
+  U1588/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[148] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[147]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1596/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1597/Y (AOI22X1TS)                      0.14       2.57 f
+  U1598/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[147] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[146]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1596/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1601/Y (AOI22X1TS)                      0.14       2.57 f
+  U1602/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[146] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[145]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1596/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1605/Y (AOI22X1TS)                      0.14       2.57 f
+  U1606/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[145] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[144]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1596/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1609/Y (AOI22X1TS)                      0.14       2.57 f
+  U1610/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[144] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[143]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1618/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1619/Y (AOI22X1TS)                      0.14       2.57 f
+  U1620/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[143] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[142]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1618/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1623/Y (AOI22X1TS)                      0.14       2.57 f
+  U1624/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[142] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[141]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1618/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1627/Y (AOI22X1TS)                      0.14       2.57 f
+  U1628/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[141] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[140]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1573/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1618/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1631/Y (AOI22X1TS)                      0.14       2.57 f
+  U1632/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[140] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[139]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1646/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1647/Y (AOI22X1TS)                      0.14       2.57 f
+  U1648/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[139] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[138]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1646/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1651/Y (AOI22X1TS)                      0.14       2.57 f
+  U1652/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[138] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[137]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1646/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1655/Y (AOI22X1TS)                      0.14       2.57 f
+  U1656/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[137] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[136]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1646/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1659/Y (AOI22X1TS)                      0.14       2.57 f
+  U1660/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[136] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[135]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1668/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1669/Y (AOI22X1TS)                      0.14       2.57 f
+  U1670/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[135] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[134]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1668/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1673/Y (AOI22X1TS)                      0.14       2.57 f
+  U1674/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[134] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[133]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1668/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1677/Y (AOI22X1TS)                      0.14       2.57 f
+  U1678/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[133] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[132]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1668/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1681/Y (AOI22X1TS)                      0.14       2.57 f
+  U1682/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[132] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[131]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1690/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1691/Y (AOI22X1TS)                      0.14       2.57 f
+  U1692/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[131] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[130]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1690/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1695/Y (AOI22X1TS)                      0.14       2.57 f
+  U1696/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[130] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[129]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1690/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1699/Y (AOI22X1TS)                      0.14       2.57 f
+  U1700/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[129] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[128]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1645/Y (CLKBUFX2TS)                     0.18       2.24 r
+  U1690/Y (CLKBUFX2TS)                     0.20       2.43 r
+  U1703/Y (AOI22X1TS)                      0.14       2.57 f
+  U1704/Y (NAND3XLTS)                      0.23       2.80 r
+  readOut[128] (out)                       0.00       2.80 r
+  data arrival time                                   2.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[159]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1528/Y (AOI22X1TS)                      0.14       2.39 f
+  U1529/Y (NAND3XLTS)                      0.23       2.62 r
+  readOut[159] (out)                       0.00       2.62 r
+  data arrival time                                   2.62
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[158]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1532/Y (AOI22X1TS)                      0.14       2.39 f
+  U1533/Y (NAND3XLTS)                      0.23       2.62 r
+  readOut[158] (out)                       0.00       2.62 r
+  data arrival time                                   2.62
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[157]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1527/Y (CLKBUFX2TS)                     0.20       2.26 r
+  U1536/Y (AOI22X1TS)                      0.14       2.39 f
+  U1537/Y (NAND3XLTS)                      0.23       2.62 r
+  readOut[157] (out)                       0.00       2.62 r
+  data arrival time                                   2.62
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[111]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1817/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1820/Y (AOI22X1TS)                      0.10       2.37 f
+  U1826/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[111] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[110]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1817/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1828/Y (AOI22X1TS)                      0.10       2.37 f
+  U1830/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[110] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[109]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1817/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1832/Y (AOI22X1TS)                      0.10       2.37 f
+  U1834/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[109] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[108]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1817/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1836/Y (AOI22X1TS)                      0.10       2.37 f
+  U1838/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[108] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[103]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1867/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1869/Y (AOI22X1TS)                      0.10       2.37 f
+  U1873/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[103] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[102]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1867/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1875/Y (AOI22X1TS)                      0.10       2.37 f
+  U1877/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[102] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[101]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1867/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1879/Y (AOI22X1TS)                      0.10       2.37 f
+  U1881/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[101] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[100]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1867/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1883/Y (AOI22X1TS)                      0.10       2.37 f
+  U1885/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[100] (out)                       0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[99]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1889/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1891/Y (AOI22X1TS)                      0.10       2.37 f
+  U1895/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[99] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[98]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1889/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1897/Y (AOI22X1TS)                      0.10       2.37 f
+  U1899/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[98] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[97]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1889/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1901/Y (AOI22X1TS)                      0.10       2.37 f
+  U1903/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[97] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[96]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1889/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1905/Y (AOI22X1TS)                      0.10       2.37 f
+  U1907/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[96] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[95]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1911/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1913/Y (AOI22X1TS)                      0.10       2.37 f
+  U1917/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[95] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[94]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1911/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1919/Y (AOI22X1TS)                      0.10       2.37 f
+  U1921/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[94] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[93]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1911/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1923/Y (AOI22X1TS)                      0.10       2.37 f
+  U1925/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[93] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[92]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1816/Y (CLKBUFX2TS)                     0.18       2.06 r
+  U1911/Y (CLKBUFX2TS)                     0.20       2.27 r
+  U1927/Y (AOI22X1TS)                      0.10       2.37 f
+  U1929/Y (NAND3XLTS)                      0.22       2.59 r
+  readOut[92] (out)                        0.00       2.59 r
+  data arrival time                                   2.59
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[127]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1715/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1718/Y (AOI22X1TS)                      0.10       2.36 f
+  U1727/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[127] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[126]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1715/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1729/Y (AOI22X1TS)                      0.10       2.36 f
+  U1731/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[126] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[125]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1715/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1733/Y (AOI22X1TS)                      0.10       2.36 f
+  U1735/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[125] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[124]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1715/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1737/Y (AOI22X1TS)                      0.10       2.36 f
+  U1739/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[124] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[123]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1743/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1745/Y (AOI22X1TS)                      0.10       2.36 f
+  U1749/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[123] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[122]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1743/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1751/Y (AOI22X1TS)                      0.10       2.36 f
+  U1753/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[122] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[121]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1743/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1755/Y (AOI22X1TS)                      0.10       2.36 f
+  U1757/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[121] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[120]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1743/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1759/Y (AOI22X1TS)                      0.10       2.36 f
+  U1761/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[120] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[119]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1765/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1767/Y (AOI22X1TS)                      0.10       2.36 f
+  U1771/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[119] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[118]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1765/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1773/Y (AOI22X1TS)                      0.10       2.36 f
+  U1775/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[118] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[117]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1765/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1777/Y (AOI22X1TS)                      0.10       2.36 f
+  U1779/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[117] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[116]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1714/Y (CLKBUFX2TS)                     0.17       2.06 r
+  U1765/Y (CLKBUFX2TS)                     0.20       2.25 r
+  U1781/Y (AOI22X1TS)                      0.10       2.36 f
+  U1783/Y (NAND3XLTS)                      0.22       2.58 r
+  readOut[116] (out)                       0.00       2.58 r
+  data arrival time                                   2.58
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[156]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U1526/Y (CLKBUFX2TS)                     0.19       2.06 r
+  U1540/Y (AOI22X1TS)                      0.13       2.19 f
+  U1541/Y (NAND3XLTS)                      0.25       2.44 r
+  readOut[156] (out)                       0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[67]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2079/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2080/Y (AOI22X1TS)                      0.14       2.21 f
+  U2081/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[67] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[66]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2079/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2084/Y (AOI22X1TS)                      0.14       2.21 f
+  U2085/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[66] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[65]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2079/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2088/Y (AOI22X1TS)                      0.14       2.21 f
+  U2089/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[65] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[64]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2079/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2092/Y (AOI22X1TS)                      0.14       2.21 f
+  U2093/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[64] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[63]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2101/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2102/Y (AOI22X1TS)                      0.14       2.21 f
+  U2103/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[63] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[62]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2101/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2106/Y (AOI22X1TS)                      0.14       2.21 f
+  U2107/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[62] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[61]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2101/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2110/Y (AOI22X1TS)                      0.14       2.21 f
+  U2111/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[61] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[60]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2101/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2114/Y (AOI22X1TS)                      0.14       2.21 f
+  U2115/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[60] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[59]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2123/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2124/Y (AOI22X1TS)                      0.14       2.21 f
+  U2125/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[59] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[58]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2123/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2128/Y (AOI22X1TS)                      0.14       2.21 f
+  U2129/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[58] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[57]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2123/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2132/Y (AOI22X1TS)                      0.14       2.21 f
+  U2133/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[57] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[56]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U1525/Y (CLKBUFX2TS)                     0.18       1.87 r
+  U2123/Y (CLKBUFX2TS)                     0.20       2.07 r
+  U2136/Y (AOI22X1TS)                      0.14       2.21 f
+  U2137/Y (NAND3XLTS)                      0.23       2.44 r
+  readOut[56] (out)                        0.00       2.44 r
+  data arrival time                                   2.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[115]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1793/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1795/Y (AOI22X1TS)                      0.10       2.19 f
+  U1799/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[115] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[114]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1793/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1801/Y (AOI22X1TS)                      0.10       2.19 f
+  U1803/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[114] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[113]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1793/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1805/Y (AOI22X1TS)                      0.10       2.19 f
+  U1807/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[113] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[112]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1793/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1809/Y (AOI22X1TS)                      0.10       2.19 f
+  U1811/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[112] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[107]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1843/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1846/Y (AOI22X1TS)                      0.10       2.19 f
+  U1851/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[107] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[106]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1843/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1853/Y (AOI22X1TS)                      0.10       2.19 f
+  U1855/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[106] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[105]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1843/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1857/Y (AOI22X1TS)                      0.10       2.19 f
+  U1859/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[105] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[104]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U1638/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U1711/Y (CLKBUFX2TS)                     0.18       1.52 r
+  U1712/Y (CLKBUFX2TS)                     0.18       1.70 r
+  U1713/Y (CLKBUFX2TS)                     0.18       1.88 r
+  U1843/Y (CLKBUFX2TS)                     0.20       2.09 r
+  U1861/Y (AOI22X1TS)                      0.10       2.19 f
+  U1863/Y (NAND3XLTS)                      0.22       2.41 r
+  readOut[104] (out)                       0.00       2.41 r
+  data arrival time                                   2.41
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1153/Y (CLKBUFX2TS)                     0.20       1.70 r
+  U1154/Y (CLKBUFX2TS)                     0.20       1.91 r
+  U2422/Y (AOI22X1TS)                      0.14       2.04 f
+  U2423/Y (NAND3XLTS)                      0.23       2.27 r
+  readOut[3] (out)                         0.00       2.27 r
+  data arrival time                                   2.27
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1153/Y (CLKBUFX2TS)                     0.20       1.70 r
+  U1154/Y (CLKBUFX2TS)                     0.20       1.91 r
+  U2426/Y (AOI22X1TS)                      0.14       2.04 f
+  U2427/Y (NAND3XLTS)                      0.23       2.27 r
+  readOut[2] (out)                         0.00       2.27 r
+  data arrival time                                   2.27
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1153/Y (CLKBUFX2TS)                     0.20       1.70 r
+  U1154/Y (CLKBUFX2TS)                     0.20       1.91 r
+  U2430/Y (AOI22X1TS)                      0.14       2.04 f
+  U2431/Y (NAND3XLTS)                      0.23       2.27 r
+  readOut[1] (out)                         0.00       2.27 r
+  data arrival time                                   2.27
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[19]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2345/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2346/Y (AOI22X1TS)                      0.14       2.03 f
+  U2347/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[19] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[18]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2345/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2350/Y (AOI22X1TS)                      0.14       2.03 f
+  U2351/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[18] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[17]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2345/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2354/Y (AOI22X1TS)                      0.14       2.03 f
+  U2355/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[17] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[16]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2345/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2358/Y (AOI22X1TS)                      0.14       2.03 f
+  U2359/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[16] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[15]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2367/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2368/Y (AOI22X1TS)                      0.14       2.03 f
+  U2369/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[15] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2367/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2372/Y (AOI22X1TS)                      0.14       2.03 f
+  U2373/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[14] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[13]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2367/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2376/Y (AOI22X1TS)                      0.14       2.03 f
+  U2377/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[13] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[12]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2367/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2380/Y (AOI22X1TS)                      0.14       2.03 f
+  U2381/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[12] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[11]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2389/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2390/Y (AOI22X1TS)                      0.14       2.03 f
+  U2391/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[11] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[10]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2389/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2394/Y (AOI22X1TS)                      0.14       2.03 f
+  U2395/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[10] (out)                        0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2389/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2398/Y (AOI22X1TS)                      0.14       2.03 f
+  U2399/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[9] (out)                         0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1524/Y (CLKBUFX2TS)                     0.18       1.69 r
+  U2389/Y (CLKBUFX2TS)                     0.20       1.89 r
+  U2402/Y (AOI22X1TS)                      0.14       2.03 f
+  U2403/Y (NAND3XLTS)                      0.23       2.26 r
+  readOut[8] (out)                         0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[83]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1988/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U1989/Y (AOI22X1TS)                      0.14       1.85 f
+  U1990/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[83] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[82]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1988/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U1993/Y (AOI22X1TS)                      0.14       1.85 f
+  U1994/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[82] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[81]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1988/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U1997/Y (AOI22X1TS)                      0.14       1.85 f
+  U1998/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[81] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[80]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1988/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2001/Y (AOI22X1TS)                      0.14       1.85 f
+  U2002/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[80] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[79]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2010/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2011/Y (AOI22X1TS)                      0.14       1.85 f
+  U2012/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[79] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[78]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2010/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2015/Y (AOI22X1TS)                      0.14       1.85 f
+  U2016/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[78] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[77]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2010/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2019/Y (AOI22X1TS)                      0.14       1.85 f
+  U2020/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[77] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[76]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2010/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2023/Y (AOI22X1TS)                      0.14       1.85 f
+  U2024/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[76] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[75]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2035/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2036/Y (AOI22X1TS)                      0.14       1.85 f
+  U2037/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[75] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[74]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2035/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2040/Y (AOI22X1TS)                      0.14       1.85 f
+  U2041/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[74] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[73]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2035/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2044/Y (AOI22X1TS)                      0.14       1.85 f
+  U2045/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[73] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[72]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2035/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2048/Y (AOI22X1TS)                      0.14       1.85 f
+  U2049/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[72] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[71]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2057/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2058/Y (AOI22X1TS)                      0.14       1.85 f
+  U2059/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[71] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[70]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2057/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2062/Y (AOI22X1TS)                      0.14       1.85 f
+  U2063/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[70] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[69]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2057/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2066/Y (AOI22X1TS)                      0.14       1.85 f
+  U2067/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[69] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[68]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2057/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2070/Y (AOI22X1TS)                      0.14       1.85 f
+  U2071/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[68] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[55]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2147/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2148/Y (AOI22X1TS)                      0.14       1.85 f
+  U2149/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[55] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[54]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2147/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2152/Y (AOI22X1TS)                      0.14       1.85 f
+  U2153/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[54] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[53]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2147/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2156/Y (AOI22X1TS)                      0.14       1.85 f
+  U2157/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[53] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[52]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2147/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2160/Y (AOI22X1TS)                      0.14       1.85 f
+  U2161/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[52] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[51]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2169/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2170/Y (AOI22X1TS)                      0.14       1.85 f
+  U2171/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[51] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[50]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2169/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2174/Y (AOI22X1TS)                      0.14       1.85 f
+  U2175/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[50] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[49]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2169/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2178/Y (AOI22X1TS)                      0.14       1.85 f
+  U2179/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[49] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[48]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2169/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2182/Y (AOI22X1TS)                      0.14       1.85 f
+  U2183/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[48] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[47]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2191/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2192/Y (AOI22X1TS)                      0.14       1.85 f
+  U2193/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[47] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[46]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2191/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2196/Y (AOI22X1TS)                      0.14       1.85 f
+  U2197/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[46] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[45]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2191/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2200/Y (AOI22X1TS)                      0.14       1.85 f
+  U2201/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[45] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[44]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1523/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2191/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2204/Y (AOI22X1TS)                      0.14       1.85 f
+  U2205/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[44] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2279/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2280/Y (AOI22X1TS)                      0.14       1.85 f
+  U2281/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[31] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[30]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2279/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2284/Y (AOI22X1TS)                      0.14       1.85 f
+  U2285/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[30] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[29]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2279/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2288/Y (AOI22X1TS)                      0.14       1.85 f
+  U2289/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[29] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[28]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2279/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2292/Y (AOI22X1TS)                      0.14       1.85 f
+  U2293/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[28] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[27]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2301/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2302/Y (AOI22X1TS)                      0.14       1.85 f
+  U2303/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[27] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[26]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2301/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2306/Y (AOI22X1TS)                      0.14       1.85 f
+  U2307/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[26] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[25]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2301/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2310/Y (AOI22X1TS)                      0.14       1.85 f
+  U2311/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[25] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[24]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2301/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2314/Y (AOI22X1TS)                      0.14       1.85 f
+  U2315/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[24] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[23]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2323/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2324/Y (AOI22X1TS)                      0.14       1.85 f
+  U2325/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[23] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[22]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2323/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2328/Y (AOI22X1TS)                      0.14       1.85 f
+  U2329/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[22] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[21]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2323/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2332/Y (AOI22X1TS)                      0.14       1.85 f
+  U2333/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[21] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[20]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1987/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U2323/Y (CLKBUFX2TS)                     0.20       1.71 r
+  U2336/Y (AOI22X1TS)                      0.14       1.85 f
+  U2337/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[20] (out)                        0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1153/Y (CLKBUFX2TS)                     0.20       1.70 r
+  U2406/Y (AOI22X1TS)                      0.14       1.84 f
+  U2407/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[7] (out)                         0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1153/Y (CLKBUFX2TS)                     0.20       1.70 r
+  U2410/Y (AOI22X1TS)                      0.14       1.84 f
+  U2411/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[6] (out)                         0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U1152/Y (CLKBUFX2TS)                     0.18       1.51 r
+  U1153/Y (CLKBUFX2TS)                     0.20       1.70 r
+  U2434/Y (AOI22X1TS)                      0.14       1.84 f
+  U2435/Y (NAND3XLTS)                      0.23       2.07 r
+  readOut[0] (out)                         0.00       2.07 r
+  data arrival time                                   2.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[43]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2213/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2214/Y (AOI22X1TS)                      0.14       1.66 f
+  U2215/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[43] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[42]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2213/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2218/Y (AOI22X1TS)                      0.14       1.66 f
+  U2219/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[42] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[41]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2213/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2222/Y (AOI22X1TS)                      0.14       1.66 f
+  U2223/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[41] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[40]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2213/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2226/Y (AOI22X1TS)                      0.14       1.66 f
+  U2227/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[40] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[39]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2235/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2236/Y (AOI22X1TS)                      0.14       1.66 f
+  U2237/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[39] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[38]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2235/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2240/Y (AOI22X1TS)                      0.14       1.66 f
+  U2241/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[38] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[37]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2235/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2244/Y (AOI22X1TS)                      0.14       1.66 f
+  U2245/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[37] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[36]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2235/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2248/Y (AOI22X1TS)                      0.14       1.66 f
+  U2249/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[36] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[35]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2257/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2258/Y (AOI22X1TS)                      0.14       1.66 f
+  U2259/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[35] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[34]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2257/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2262/Y (AOI22X1TS)                      0.14       1.66 f
+  U2263/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[34] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[33]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2257/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2266/Y (AOI22X1TS)                      0.14       1.66 f
+  U2267/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[33] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[32]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1823/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2257/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U2270/Y (AOI22X1TS)                      0.14       1.66 f
+  U2271/Y (NAND3XLTS)                      0.23       1.88 r
+  readOut[32] (out)                        0.00       1.88 r
+  data arrival time                                   1.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[91]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1936/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1938/Y (AOI22X1TS)                      0.10       1.62 f
+  U1944/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[91] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[90]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1936/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1946/Y (AOI22X1TS)                      0.10       1.62 f
+  U1948/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[90] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[89]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1936/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1950/Y (AOI22X1TS)                      0.10       1.62 f
+  U1952/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[89] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[88]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1936/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1954/Y (AOI22X1TS)                      0.10       1.62 f
+  U1956/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[88] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[87]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1960/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1962/Y (AOI22X1TS)                      0.10       1.62 f
+  U1966/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[87] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[86]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1960/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1968/Y (AOI22X1TS)                      0.10       1.62 f
+  U1970/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[86] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[85]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1960/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1972/Y (AOI22X1TS)                      0.10       1.62 f
+  U1974/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[85] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[84]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1934/Y (CLKBUFX2TS)                     0.39       1.14 r
+  U1935/Y (CLKBUFX2TS)                     0.18       1.32 r
+  U1960/Y (CLKBUFX2TS)                     0.20       1.52 r
+  U1976/Y (AOI22X1TS)                      0.10       1.62 f
+  U1978/Y (NAND3XLTS)                      0.22       1.84 r
+  readOut[84] (out)                        0.00       1.84 r
+  data arrival time                                   1.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1149/Y (NOR3XLTS)                       0.54       0.74 r
+  U1150/Y (CLKBUFX2TS)                     0.39       1.13 r
+  U1151/Y (CLKBUFX2TS)                     0.19       1.32 r
+  U2414/Y (AOI22X1TS)                      0.13       1.45 f
+  U2415/Y (NAND3XLTS)                      0.23       1.68 r
+  readOut[5] (out)                         0.00       1.68 r
+  data arrival time                                   1.68
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: NodeSelect[1]
+              (input port)
+  Endpoint: readOut[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  NodeSelect[1] (in)                       0.05       0.05 r
+  U1148/Y (CLKINVX1TS)                     0.14       0.20 f
+  U1275/Y (NOR3XLTS)                       0.55       0.75 r
+  U1513/Y (CLKBUFX2TS)                     0.40       1.15 r
+  U2141/Y (CLKBUFX2TS)                     0.19       1.34 r
+  U2417/Y (AOI22X1TS)                      0.10       1.44 f
+  U2419/Y (NAND3XLTS)                      0.24       1.67 r
+  readOut[4] (out)                         0.00       1.67 r
+  data arrival time                                   1.67
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

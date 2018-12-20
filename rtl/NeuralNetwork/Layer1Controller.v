@@ -93,7 +93,7 @@ module Layer1_Controller (
 
 	//--Controller behaviour--
 
-	always @(posedge clk or posedge reset or posedge queueEmpty) begin : Layer1_proc
+	always @(posedge clk or posedge reset or posedge queueEmpty or posedge idle) begin : Layer1_proc
 		//---------------------------------------
 		// Async reset
 		//---------------------------------------

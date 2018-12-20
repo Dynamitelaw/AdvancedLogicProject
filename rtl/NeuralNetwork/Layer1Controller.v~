@@ -93,7 +93,7 @@ module Layer1_Controller (
 
 	//--Controller behaviour--
 
-	always @(posedge clk or posedge reset or posedge queueEmpty or posedge idle) begin : Layer1_proc
+	always @(posedge clk or posedge reset or posedge queueEmpty) begin : Layer1_proc
 		//---------------------------------------
 		// Async reset
 		//---------------------------------------
@@ -106,57 +106,56 @@ module Layer1_Controller (
 			reluTrigger <= `FALSE;
 		end
 
-		//---------------------------------------
-		// Idle processing and wakeup
-		//---------------------------------------
-
-		else if (idle) begin
-			//Wake up from idle if we have something we can process
-			if ((inputsReady == `TRUE) && (queueEmpty == `FALSE) && (outputsReady == `FALSE)) begin
-				//The input layer is ready, and the output buffer of layer1 is empty. Ready to process
-				processFinished <= `FALSE;
-				idle <= `FALSE;
-				wBuffer_A_Write <= `TRUE;
-				pstoreReset <= `FALSE;  //enable pstore
-				//reluTrigger <= `FALSE;
-			end
-
-			if ((outputsReady == `TRUE) && (outputsRecieved == `TRUE)) begin
-				//The next stage has recieved our outputs
-				outputsReady <= `FALSE;
-			end
-		end
-
-		//---------------------------------------
-		// Steady-state and near-end processes
-		//---------------------------------------
-
 		else begin
-			//The input queue is empty. Near end of processing stage
-			if (queueEmpty) begin
-				//Turn off buffer writes. 
-				wBuffer_A_Write <= `FALSE;
-				// wBuffer_B_Write <= `FALSE;
+			//---------------------------------------
+			// Idle processing and wakeup
+			//---------------------------------------
+			if (idle) begin
+				//Wake up from idle if we have something we can process
+				if ((inputsReady == `TRUE) && (queueEmpty == `FALSE) && (outputsReady == `FALSE)) begin
+					//The input layer is ready, and the output buffer of layer1 is empty. Ready to process
+					processFinished <= `FALSE;
+					idle <= `FALSE;
+					wBuffer_A_Write <= `TRUE;
+					pstoreReset <= `FALSE;  //enable pstore
+					//reluTrigger <= `FALSE;
+				end
 
-				if (processFinished == `TRUE) begin
-					//The input image has been processed by this stage
-
-					layer1Output <= reluOutput;  //Store output of RELU to output buffer
-					reluTrigger <= `FALSE;  
-
-					outputsReady <= `TRUE;  //Notify next pipeline stage
-					pstoreReset <= `TRUE;  //reset pstore
-
-					idle <= `TRUE;  //go into idle state
+				if ((outputsReady == `TRUE) && (outputsRecieved == `TRUE)) begin
+					//The next stage has recieved our outputs
+					outputsReady <= `FALSE;
 				end
 			end
+		
+			//---------------------------------------
+			// Steady-state and near-end processes
+			//---------------------------------------
+			else begin
+				//The input queue is empty. Near end of processing stage
+				if (queueEmpty) begin
+					//Turn off buffer writes. 
+					wBuffer_A_Write <= `FALSE;
+					// wBuffer_B_Write <= `FALSE;
 
-			//Steady-state Positive clock edge events
-			if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
-				//This is the last pixel to be added. Get ready to shut down this pipeline stage
-				reluTrigger <= `TRUE;
-				processFinished <= `TRUE;
-			end
+					if (processFinished == `TRUE) begin
+						//The input image has been processed by this stage
+
+						layer1Output <= reluOutput;  //Store output of RELU to output buffer
+						reluTrigger <= `FALSE;  
+
+						outputsReady <= `TRUE;  //Notify next pipeline stage
+						pstoreReset <= `TRUE;  //reset pstore
+
+						idle <= `TRUE;  //go into idle state
+					end
+				end
+
+				//Steady-state Positive clock edge events
+				if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
+					//This is the last pixel to be added. Get ready to shut down this pipeline stage
+					reluTrigger <= `TRUE;
+					processFinished <= `TRUE;
+				end
 			end
 		end
 	end

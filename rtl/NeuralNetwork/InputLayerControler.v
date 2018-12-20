@@ -61,7 +61,7 @@
  	end
 
 
- 	always @(posedge clk or negedge clk or posedge reset) begin : InputLayerController_proc
+ 	always @(posedge clk or posedge reset) begin : InputLayerController_proc
  		//Async reset
  		if (reset) begin
  			readyForInputs <= `TRUE;
@@ -71,7 +71,7 @@
  		end
  		
  		//Positive-edge clock events
- 		else if (clk) begin
+ 		else begin
  			//Buffer write handling
  			if (inputQueueFull) begin
  				//Input queue is full
@@ -97,11 +97,7 @@
  			end
  			
  		end
- 		
- 		// //Negative-edge clock events
- 		// else begin
- 		// 	//insert stuff here
- 		// end
+
  	end
- 	
+ 	 	
  endmodule

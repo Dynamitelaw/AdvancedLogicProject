@@ -115,13 +115,12 @@ module Layer2_Controller (
 
 		else if (idle) begin
 			//Wake up from idle if we have something we can process
-			if ((clk) && (inputsReady == `TRUE) && (outputsReady == `FALSE)) begin
+			if ((inputsReady == `TRUE) && (outputsReady == `FALSE)) begin
 				//The input layer is ready, and outputs have been recieved. Ready to process
 				processFinished <= `FALSE;
 				idle <= `FALSE;
 				queueReset <= `FALSE;
 				queueWriteEnable <= `TRUE;
-				//mstoreReset <= `FALSE;  //enable mstore
 			end
 
 			if ((outputsReady == `TRUE) && (outputsRecieved == `TRUE)) begin

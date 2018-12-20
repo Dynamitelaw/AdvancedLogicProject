@@ -93,7 +93,7 @@ module Layer1_Controller (
 
 	//--Controller behaviour--
 
-	always @(posedge clk or posedge reset or posedge queueEmpty) begin : Layer1_proc
+	always @(posedge clk or posedge reset or posedge queueEmpty or posedge idle) begin : Layer1_proc
 		//---------------------------------------
 		// Async reset
 		//---------------------------------------
@@ -112,7 +112,7 @@ module Layer1_Controller (
 
 		else if (idle) begin
 			//Wake up from idle if we have something we can process
-			if ((clk) && (inputsReady == `TRUE) && (queueEmpty == `FALSE) && (outputsReady == `FALSE)) begin
+			if ((inputsReady == `TRUE) && (queueEmpty == `FALSE) && (outputsReady == `FALSE)) begin
 				//The input layer is ready, and the output buffer of layer1 is empty. Ready to process
 				processFinished <= `FALSE;
 				idle <= `FALSE;
@@ -152,12 +152,11 @@ module Layer1_Controller (
 			end
 
 			//Steady-state Positive clock edge events
-			if (clk) begin
-				if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
-					//This is the last pixel to be added. Get ready to shut down this pipeline stage
-					reluTrigger <= `TRUE;
-					processFinished <= `TRUE;
-				end
+			if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
+				//This is the last pixel to be added. Get ready to shut down this pipeline stage
+				reluTrigger <= `TRUE;
+				processFinished <= `TRUE;
+			end
 			end
 		end
 	end
@@ -174,7 +173,7 @@ module Layer1_Controller (
 		
 	//MUX for weightStorage address
 	always @(weightWriteEnable or biasWriteEnable or queueOut or WriteAddressSelect) begin : address_mux
-		if (((weightWriteEnable) || (biasWriteEnable)) && idle) begin
+		if ((weightWriteEnable) || (biasWriteEnable)) begin
 			nodeAddress <= WriteAddressSelect;
 		end
 		else begin

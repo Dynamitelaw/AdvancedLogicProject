@@ -65,7 +65,7 @@ module InputQueueRegister (
  		end  			
  		
  		//Queue indexes on positive clock edges
- 		else if (clk) begin
+ 		else begin
  			if (finished == `FALSE) begin
 		 		if (pixelValue == 1) begin
 		 			queueRegister[queueEndPointer] = indexCounter;  //Store index of current pixel at the back of the queue. Intentionally blocking statement
@@ -81,7 +81,7 @@ module InputQueueRegister (
  		end  
  		
  		//Increment indexCounter on negative clock edges
- 		else if (~clk) begin
+ 		else begin
  			if (finished == `FALSE) begin
 	 			indexCounter <= indexCounter + 1;
 	 		end

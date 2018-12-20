@@ -79,7 +79,7 @@ module ReluNodeQueue (
  			frontPointer <= 0;
  		end
  		
- 		else if (~dequeue) begin
+ 		else if (dequeue == 0) begin
  			frontPointer <= frontPointer + 1;
  		end
  	end

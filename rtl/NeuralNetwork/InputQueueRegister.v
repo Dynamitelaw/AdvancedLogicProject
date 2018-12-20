@@ -58,10 +58,9 @@ module InputQueueRegister (
  	end
  	
  	//Input queueing
- 	always @(posedge clk or negedge clk or posedge resetInputQueue) begin : proc_
+ 	always @(posedge clk or posedge resetInputQueue) begin : proc_
  		//Async reset
  		if (resetInputQueue == `TRUE) begin
- 			indexCounter <= 10'b0;
  			queueEndPointer <= 10'b0;	
  		end  			
  		
@@ -75,8 +74,13 @@ module InputQueueRegister (
 		 	end
  		end
 
+	always @(negedge clk or posedge resetInputQueue) begin
+		if (resetInputQueue == `TRUE) begin
+ 			indexCounter <= 10'b0;	
+ 		end  
+ 		
  		//Increment indexCounter on negative clock edges
- 		else begin
+ 		else if (~clk) begin
  			if (finished == `FALSE) begin
 	 			indexCounter <= indexCounter + 1;
 	 		end
@@ -84,7 +88,7 @@ module InputQueueRegister (
  	end
  	
  	//Check for when last pixel has been passed
- 	always @(indexCounter or posedge resetInputQueue) begin : finished_proc
+ 	always @(indexCounter or resetInputQueue) begin : finished_proc
  		//Async reset
  		if (resetInputQueue == `TRUE) begin
  			finished <= `FALSE;
@@ -124,7 +128,7 @@ module InputQueueRegister (
 	 	end
  	end
  
- 	always @(queueFrontPointerBuffer or posedge resetBuffer or posedge writeBufferEnable) begin : dequeue_proc_c
+ 	always @(queueFrontPointerBuffer or resetBuffer or writeBufferEnable) begin : dequeue_proc_c
  		//Async reset
  		if ((resetBuffer == `TRUE) || (writeBufferEnable)) begin
  			queueEmpty <= `FALSE;

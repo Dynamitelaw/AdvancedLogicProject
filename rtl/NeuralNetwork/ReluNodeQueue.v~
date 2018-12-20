@@ -46,7 +46,7 @@ module ReluNodeQueue (
  	
  	//Write to the queue when writeEnable is set high
  	integer j;
- 	always @(writeEnable) begin : write_proc 		
+ 	always @(writeEnable or ReluNodeValues) begin : write_proc 		
  		//Write to the queue
  		if (writeEnable) begin
 			//Buffer inputs
@@ -71,7 +71,11 @@ module ReluNodeQueue (
  	
  	//Update frontPointer
  	always @(posedge reset or posedge writeEnable or negedge dequeue) begin : pointerShift_proc
- 		if ((reset) || (writeEnable)) begin
+ 		if (reset) begin
+ 			frontPointer <= 0;
+ 		end
+ 		
+ 		else if (writeEnable) begin
  			frontPointer <= 0;
  		end
  		

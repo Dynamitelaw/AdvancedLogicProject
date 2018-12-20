@@ -71,7 +71,11 @@ module ReluNodeQueue (
  	
  	//Update frontPointer
  	always @(posedge reset or posedge writeEnable or negedge dequeue) begin : pointerShift_proc
- 		if ((reset) || (writeEnable)) begin
+ 		if (reset) begin
+ 			frontPointer <= 0;
+ 		end
+ 		
+ 		else if (writeEnable) begin
  			frontPointer <= 0;
  		end
  		

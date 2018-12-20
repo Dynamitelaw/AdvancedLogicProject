@@ -63,7 +63,7 @@ module Layer1WeightStorage (
 	endgenerate
 
 	//Module behavior
-	always @(posedge writeEnable, NodeSelect) begin
+	always @(writeEnable, NodeSelect) begin
 		assign writeEnableBus = (writeEnable) ? (1 << NodeSelect) : `INPUT_LAYER_NODES 'b0 ;  //Decode NodeSelect onto the one-hot writeEnable bus
 		assign readOut = readOutBus[NodeSelect];  //Mux for read output
 	end

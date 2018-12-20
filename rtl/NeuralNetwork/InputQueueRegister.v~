@@ -49,21 +49,18 @@ module InputQueueRegister (
  	
  	//Output buffering
  	integer i;
- 	always @(posedge clk) begin : buffer_proc
- 		if (writeBufferEnable) begin
- 			//Buffer input queue
- 			queueEndPointerBuffer <= queueEndPointer;
- 			for (i=0; i<`QUEUE_MAX_SIZE; i=i+1) begin
- 				queueRegisterBuffer[i] <= queueRegister[i];
- 			end
- 		end
+ 	always @(posedge writeBufferEnable) begin : buffer_proc
+		//Buffer input queue
+		queueEndPointerBuffer <= queueEndPointer;
+		for (i=0; i<`QUEUE_MAX_SIZE; i=i+1) begin
+			queueRegisterBuffer[i] <= queueRegister[i];
+		end
  	end
  	
  	//Input queueing
- 	always @(posedge clk or negedge clk or posedge resetInputQueue) begin : proc_
+ 	always @(posedge clk or posedge resetInputQueue) begin : proc_
  		//Async reset
  		if (resetInputQueue == `TRUE) begin
- 			indexCounter <= 10'b0;
  			queueEndPointer <= 10'b0;	
  		end  			
  		
@@ -77,8 +74,13 @@ module InputQueueRegister (
 		 	end
  		end
 
+	always @(negedge clk or posedge resetInputQueue) begin
+		if (resetInputQueue == `TRUE) begin
+ 			indexCounter <= 10'b0;	
+ 		end  
+ 		
  		//Increment indexCounter on negative clock edges
- 		else begin
+ 		else if (~clk) begin
  			if (finished == `FALSE) begin
 	 			indexCounter <= indexCounter + 1;
 	 		end
@@ -86,7 +88,7 @@ module InputQueueRegister (
  	end
  	
  	//Check for when last pixel has been passed
- 	always @(indexCounter or posedge resetInputQueue) begin : finished_proc
+ 	always @(indexCounter or resetInputQueue) begin : finished_proc
  		//Async reset
  		if (resetInputQueue == `TRUE) begin
  			finished <= `FALSE;

@@ -67,8 +67,6 @@ module NN_Controler(
  	
  	//Layer1
  	wire Layer1CLK;  //change to reg if doing clock division
- 	wire L1_OutputsReady;
-	wire [`RELU_NODES*`LAYER_2_IN_BIT_WIDTH-1:0] layer1Output;
 	wire L2_InputsRecieved;
 	reg L1_WeightWriteEnable;
 	reg L1_BiasWriteEnable;

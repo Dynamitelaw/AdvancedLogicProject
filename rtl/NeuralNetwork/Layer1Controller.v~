@@ -131,30 +131,22 @@ module Layer1_Controller (
 			// Steady-state and near-end processes
 			//---------------------------------------
 			else begin
-				//The input queue is empty. Near end of processing stage
-				if (queueEmpty) begin
-					//Turn off buffer writes. 
-					wBuffer_A_Write <= `FALSE;
-					// wBuffer_B_Write <= `FALSE;
-
-					if (processFinished == `TRUE) begin
-						//The input image has been processed by this stage
-
-						layer1Output <= reluOutput;  //Store output of RELU to output buffer
-						reluTrigger <= `FALSE;  
-
-						outputsReady <= `TRUE;  //Notify next pipeline stage
-						pstoreReset <= `TRUE;  //reset pstore
-
-						idle <= `TRUE;  //go into idle state
-					end
-				end
-
 				//Steady-state Positive clock edge events
 				if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
 					//This is the last pixel to be added. Get ready to shut down this pipeline stage
 					reluTrigger <= `TRUE;
 					processFinished <= `TRUE;
+				end
+				
+				//The input image has been processed by this stage
+				if (processFinished == `TRUE) begin
+					layer1Output <= reluOutput;  //Store output of RELU to output buffer
+					reluTrigger <= `FALSE;  
+
+					outputsReady <= `TRUE;  //Notify next pipeline stage
+					pstoreReset <= `TRUE;  //reset pstore
+
+					idle <= `TRUE;  //go into idle state
 				end
 			end
 		end
@@ -181,3 +173,13 @@ module Layer1_Controller (
 	end
 
 endmodule
+
+
+
+/*
+//The input queue is empty. Near end of processing stage
+				if (queueEmpty) begin
+					//Turn off buffer writes. 
+					wBuffer_A_Write <= `FALSE;
+					// wBuffer_B_Write <= `FALSE;
+					*/

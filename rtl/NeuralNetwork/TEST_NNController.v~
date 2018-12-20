@@ -10,9 +10,9 @@
 	LAYER_2_CLK_DIVIDER 1
 	LAYER_2_IN_BIT_WIDTH 4
 	LAYER_2_WEIGHTS_BIT_WIDTH 4
-	LAYER_2_OUT_BIT_WIDTH 8
+	LAYER_2_OUT_BIT_WIDTH 10
 	RELU_INDEX_WIDTH 3
-	SOFTMAX_IN_BIT_WIDTH 8
+	SOFTMAX_IN_BIT_WIDTH 10
  */
 
 `include "GlobalVariables.v"
@@ -68,7 +68,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000000;  //node0
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0011_0000_0001_0011;  // [3, 0, 1, 3]
+		writeIn <= 24'b0101_0101_0110_0101;  // [5, 5, 6, 5]
 		//#1
 		//weightWriteEnable <= 0;
 
@@ -76,7 +76,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000001;  //node1
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0111_0001_0110_0011;  // [7, 1, 6, 3]
+		writeIn <= 24'b0100_0111_0000_0101;  // [4, 7, 0, 5]
 		//#1
 		//weightWriteEnable <= 0;
 
@@ -84,7 +84,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000010;  //node2
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0100_0001_0011_0011;  // [4, 1, 3, 3]
+		writeIn <= 24'b0010_0111_0001_0000;  // [2, 7, 1, 0]
 		//#1
 		//weightWriteEnable <= 0;
 		
@@ -92,7 +92,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000011;  //node3
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0010_0001_0111_0000;  // [2, 1, 7, 0]
+		writeIn <= 24'b0001_0010_0110_0011;  // [1, 2, 6, 3]
 		//#1
 		//weightWriteEnable <= 0;
 		
@@ -100,7 +100,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000100;  //node4
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0111_0010_0011_0010;  // [7, 2, 3, 2]
+		writeIn <= 24'b0010_0111_0000_0111;  // [2, 7, 0, 7]
 		//#1
 		//weightWriteEnable <= 0;
 
@@ -108,7 +108,7 @@ module TEST_NNController ;
 		WriteAddressSelect = 10'b0000000101;  //node5
 		weightWriteEnable <= 1;
 		#1
-		writeIn <= 24'b0010_0101_0011_0111;  // [2, 5, 3, 7]
+		writeIn <= 24'b0011_0000_0011_0101;  // [3, 0, 3, 5]
 		#1
 		weightWriteEnable <= 0;
 		

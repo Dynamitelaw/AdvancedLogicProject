@@ -158,11 +158,9 @@ module Layer2_Controller (
 			end
 
 			//Steady-state Positive clock edge events
-			if (clk) begin
-				if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
-					//This is the relu node is being multiplied. Get ready to shut down this pipeline stage
-					processFinished <= `TRUE;
-				end
+			if ((queueEmpty == `TRUE) && (processFinished == `FALSE)) begin
+				//This is the relu node is being multiplied. Get ready to shut down this pipeline stage
+				processFinished <= `TRUE;
 			end
 		end
 	end

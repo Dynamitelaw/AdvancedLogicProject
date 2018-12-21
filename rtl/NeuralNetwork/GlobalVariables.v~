@@ -5,7 +5,7 @@ This file contains all global macro definitions
 `define TRUE 1
 `define FALSE 0
 
-`define QUEUE_MAX_SIZE 7  //Available storage elements in the input queue
+`define QUEUE_MAX_SIZE 784  //Available storage elements in the input queue
 
 `define INPUT_LAYER_NODES 6 //784
 

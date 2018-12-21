@@ -8,12 +8,57 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# vsim gui 
-# Start time: 13:47:32 on Dec 20,2018
-# ** Error: (vsim-19) Failed to access library 'work' at "work".
-# No such file or directory. (errno = ENOENT)
-# Error loading design
-# Loading project test_w_read
-# Compile of NNTEST.v failed with 1 errors.
-# Compile of NNTEST.v failed with 1 errors.
-# Compile of NNTEST.v failed with 1 errors.
+# Loading project NeuralNetwork
+vsim work.TEST_NNController
+# vsim 
+# Start time: 23:55:20 on Dec 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.TEST_NNController
+# Loading work.NN_Controler
+# Loading work.InputLayerController
+# Loading work.InputQueueRegister
+# Loading work.Layer1_Controller
+# Loading work.Layer1WeightStorage
+# Loading work.NodeWeightBank
+# Loading work.pStore
+# Loading work.RELU
+# Loading work.Layer2_Controller
+# Loading work.Layer2WeightStorage
+# Loading work.ReluNodeQueue
+# Loading work.multStore
+# Loading work.softMax
+# Loading work.compare
+# Loading work.stored_addern
+# Loading work.RectAndReduce
+# Loading work.ReluWeightBank
+# Loading work.MAC
+add wave -position insertpoint sim/:TEST_NNController:*
+run
+quit -sim
+vsim -t ns work.TEST_NNController
+# vsim 
+# Start time: 23:55:48 on Dec 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.TEST_NNController
+# Loading work.NN_Controler
+# Loading work.InputLayerController
+# Loading work.InputQueueRegister
+# Loading work.Layer1_Controller
+# Loading work.Layer1WeightStorage
+# Loading work.NodeWeightBank
+# Loading work.pStore
+# Loading work.RELU
+# Loading work.Layer2_Controller
+# Loading work.Layer2WeightStorage
+# Loading work.ReluNodeQueue
+# Loading work.multStore
+# Loading work.softMax
+# Loading work.compare
+# Loading work.stored_addern
+# Loading work.RectAndReduce
+# Loading work.ReluWeightBank
+# Loading work.MAC
+add wave -position insertpoint sim/:TEST_NNController:*
+run
+# End time: 23:58:06 on Dec 20,2018, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 1

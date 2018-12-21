@@ -1,0 +1,387 @@
+#===================================================
+#Helper Functions
+#===================================================
+
+def convertFloatToBinary(number, bits, decimalPlaces):
+	'''
+	Convert the input number into twos compliment binary with specified bit width
+	'''
+	absNumber = abs(number) * (2**decimalPlaces)
+	if (absNumber - int(absNumber) >= 0.5):
+		absNumber += 1
+	absInt = int(absNumber)
+	absBinaryString = '{0:0b}'.format(absInt)
+	
+	
+	while len(absBinaryString) < bits:
+		absBinaryString = "0" + absBinaryString
+	
+	
+	if (number < 0):
+		absBinaryString = absBinaryString.replace("1","Z")
+		absBinaryString = absBinaryString.replace("0","1")
+		absBinaryString = absBinaryString.replace("Z","0")
+		newWeight = int(absBinaryString, 2) + 1
+		binaryString = '{0:0b}'.format(newWeight)
+		
+		while len(binaryString) < bits:
+			binaryString = "0" + absBinaryString
+		
+		return binaryString
+		
+	else:
+		return absBinaryString
+		
+		
+def generateWriteString(valueSet):
+	'''
+	Generate verilog code to load in weights and biases
+	
+	WriteAddressSelect = 10'b0000000000;  //node0
+	weightWriteEnable <= 1;
+	#1
+	writeIn <= 24'b0101_0101_0110_0101;  // [5, 5, 6, 5]
+	'''
+	
+	node = valueSet[0]
+	values = valueSet[1]
+	
+	delay1 = "\t\t#2\n"
+	address = '{0:0b}'.format(node)
+	WriteAddressSelect = "\t\tWriteAddressSelect <= 10'b" + address + ";  //node " + str(node) + "\n"
+	writeEnable = "\t\tweightWriteEnable <= 1;\n"
+	delay2 = "\t\t#1\n"
+	
+	writeIn = "\t\twriteIn <= "
+	writeIn += str(len(values)*len(values[0])) + "'b"
+	for binaryString in values:
+		writeIn += binaryString
+		writeIn += "_"
+		
+	writeIn = writeIn[:-1]
+	writeIn += ";\n"
+	
+	generatedCode = delay1 + WriteAddressSelect + writeEnable + delay2 + writeIn + "\n"
+	
+	return generatedCode
+	
+		
+	
+#===================================================
+#Layer 1 Extraction
+#===================================================
+
+#Extract Layer 1 Weights from results file	
+	
+filepath = "../../MLP-MATLAB-master/W1.results"
+
+w1File = open(filepath)
+
+inputNodes = 784
+ReluNodes = 32
+l1WeightBitWidth = 5
+l1DecimalPlace = 3
+
+l1Weights = []
+for n in range (0, inputNodes, 1):
+	nodeWeights = []
+	for l in range(0, ReluNodes, 1):
+		wString = w1File.readline().strip()
+		weight = float(wString)
+		weightString = convertFloatToBinary(weight, l1WeightBitWidth, l1DecimalPlace)
+		nodeWeights.append(weightString)
+		
+	l1Weights.append((n,nodeWeights))
+	
+	
+w1File.close()
+
+
+#Extract Layer 1 biases from results file	
+	
+filepath = "../../MLP-MATLAB-master/B1.results"
+
+b1File = open(filepath)
+
+
+l1Biases = []
+for n in range (0, ReluNodes, 1):
+	bString = b1File.readline().strip()
+	bias = float(bString)
+	biasString = convertFloatToBinary(bias, l1WeightBitWidth, l1DecimalPlace)
+	l1Biases.append(biasString)
+	
+	
+b1File.close()
+
+
+#===================================================
+#Layer 2 Extraction
+#===================================================
+
+#Extract Layer 2 Weights from results file	
+	
+filepath = "../../MLP-MATLAB-master/W2.results"
+
+w2File = open(filepath)
+
+softmaxNodes = 10
+l2WeightBitWidth = 6
+l2DecimalPlace = 3
+
+l2Weights = []
+for n in range (0, ReluNodes, 1):
+	nodeWeights = []
+	for l in range(0, softmaxNodes, 1):
+		wString = w2File.readline().strip()
+		weight = float(wString)
+		weightString = convertFloatToBinary(weight, l2WeightBitWidth, l2DecimalPlace)
+		nodeWeights.append(weightString)
+		
+	l2Weights.append((n,nodeWeights))
+	
+	
+w2File.close()
+
+
+#Extract Layer 2 biases from results file	
+	
+filepath = "../../MLP-MATLAB-master/B2.results"
+
+b2File = open(filepath)
+
+
+l2Biases = []
+for n in range (0, softmaxNodes, 1):
+	bString = b2File.readline().strip()
+	bias = float(bString)
+	biasString = convertFloatToBinary(bias, l2WeightBitWidth, l2DecimalPlace)
+	l2Biases.append(biasString)
+	
+	
+b2File.close()
+
+
+#===================================================
+#Inputs Extraction
+#===================================================
+
+#Extract input vectors from results file	
+	
+filepath = "../../MLP-MATLAB-master/Inputs.results"
+
+inFile = open(filepath)
+
+numberOfInputs = 20;
+
+inputVectors = []
+for i in range (0, numberOfInputs, 1):
+	inputVectors.append(inFile.readline().strip())
+	
+	
+inFile.close()
+
+
+
+
+#===================================================
+#Generate Verilog Code
+#===================================================
+
+#Generate Verilog Code to load weights and biases
+
+outputFilePath = "GeneratedVerilog.v"
+outFile = open(outputFilePath, "w")
+
+header = """`include "EntireNetwork.v"
+
+
+module Generated_TestBench ;
+	//Instantiate modules
+	reg reset = 0;
+	reg clk;
+	reg inputsInbound = 0;
+	reg predictionRecieved = 0;
+	reg inputPixel;
+	reg weightWriteEnable;
+	reg biasWriteEnable;
+	reg LayerWriteSelect;
+	reg [9:0] WriteAddressSelect;
+	reg [`WRITE_IN_BIT_WIDTH-1:0] writeIn;
+	
+	wire predictionReady;
+	wire readyForInputs;
+	wire [3:0] predictionOut;
+	NN_Controler controller(
+		//Inputs
+	 	.reset(reset), 
+	 	.masterClk(clk), 
+	 	.inputsInbound(inputsInbound), 
+	 	.predictionRecieved(predictionRecieved),
+	 	.inputPixel(inputPixel), 
+	 	.weightWriteEnable(weightWriteEnable), 
+	 	.biasWriteEnable(biasWriteEnable), 
+	 	.LayerWriteSelect(LayerWriteSelect), 
+	 	.WriteAddressSelect(WriteAddressSelect), 
+	 	.writeIn(writeIn),
+		//Outputs
+	 	.predictionReady(predictionReady), 
+	 	.readyForInputs(readyForInputs),
+	 	.predictionOut(predictionOut)
+	);
+	
+	reg[783:0] inputVectors [19:0];  //InputVectors
+	reg currentInputIndex = 0;
+
+	initial
+	begin
+		clk = 0;
+		#1
+
+		//=================================
+		//--Load in weights and Biases--
+		//=================================
+"""
+		
+outFile.write(header)
+
+#----------------
+#Layer 1 Weights/Biases
+#----------------
+
+#Weights
+outFile.write("\n\t\t//Layer 1 Weights\n")
+outFile.write("\t\t#1\n\t\tLayerWriteSelect = 0;\n\t\t#1\n")
+
+for weightSet in l1Weights:
+	outFile.write(generateWriteString(weightSet))
+
+#Biases
+outFile.write("\n\t\t#1\n\t\tweightWriteEnable <= 0;\n")
+outFile.write("\n\t\t//Layer 1 Biases\n")
+outFile.write("\t\t#2\n\t\tbiasWriteEnable <= 1;\n\t\t#1;\n")
+
+writeIn = "\t\twriteIn <= " + str(len(l1Biases)*len(l1Biases[0])) + "'b"
+for binaryString in l1Biases:
+	writeIn += binaryString
+	writeIn += "_"
+	
+writeIn = writeIn[:-1]
+writeIn += ";\n"
+
+outFile.write(writeIn)
+outFile.write("\t\t#1\n\t\tbiasWriteEnable <= 0;\n\n\n")
+
+#----------------
+#Layer 2 Weights/Biases
+#----------------
+
+#Weights
+outFile.write("\n\t\t//Layer 2 Weights\n")
+outFile.write("\t\t#1\n\t\tLayerWriteSelect = 1;\n\t\t#1\n")
+
+for weightSet in l2Weights:
+	outFile.write(generateWriteString(weightSet))
+
+#Biases
+outFile.write("\n\t\t#1\n\t\tweightWriteEnable <= 0;\n")
+outFile.write("\n\t\t//Layer 2 Biases\n")
+outFile.write("\t\t#2\n\t\tbiasWriteEnable <= 1;\n\t\t#1;\n")
+
+writeIn = "\t\twriteIn <= " + str(len(l2Biases)*len(l2Biases[0])) + "'b"
+for binaryString in l1Biases:
+	writeIn += binaryString
+	writeIn += "_"
+	
+writeIn = writeIn[:-1]
+writeIn += ";\n"
+
+outFile.write(writeIn)
+outFile.write("\t\t#1\n\t\tbiasWriteEnable <= 0;\n\n")
+
+#----------------
+#Load Inputs
+#----------------
+bufString = """\t\t//=================================
+		//--Define Input Vectors--
+		//=================================
+
+"""
+outFile.write(bufString)
+
+for i in range(0,numberOfInputs,1):
+	label = "\t\t//Input " + str(i) + "\n"
+	inputVector = "\t\tinputVectors[" + str(i) + "] <= "
+	inputVector += str(inputNodes)	+ "'b" + inputVectors[i] + ";\n"
+	
+	outFile.write(label)
+	outFile.write(inputVector)
+	
+outFile.write("\tend\n")
+
+
+#----------------
+#Reset Network
+#----------------
+bufString = """\t\t//=================================
+		//--Reset Network--
+		//=================================
+		
+		#2
+		reset <= 1;
+		#2
+		reset <= 0;
+
+"""
+outFile.write(bufString)
+
+
+#----------------
+#Test Inputs
+#----------------
+bufString = """\t//=================================
+	//--Test Input Vectors--
+	//=================================
+	
+	//Detect when network has been setup
+	reg resetTriggered = 0;
+	reg networkReady = 0;
+	always @(posedge reset) begin
+		resetTriggered <= 1;	
+	end
+	always @ (negedge reset) begin
+		if (resetTriggered)
+			networkReady <= 1;
+	end
+		
+
+"""
+outFile.write(bufString)
+
+for i in range(0,numberOfInputs,1):
+	label = "\t\t//Input " + str(i) + "\n"
+	inputVector = "\t\tinputVectors[" + str(i) + "] <= "
+	inputVector += str(inputNodes)	+ "'b" + inputVectors[i] + ";\n"
+	
+	outFile.write(label)
+	outFile.write(inputVector)
+	
+outFile.write("\tend\n")
+
+outFile.close()
+
+		
+reg reset = 0;
+	reg clk;
+	reg inputsInbound = 0;
+	reg predictionRecieved = 0;
+	reg inputPixel;
+	reg weightWriteEnable;
+	reg biasWriteEnable;
+	reg LayerWriteSelect;
+	reg [9:0] WriteAddressSelect;
+	reg [`WRITE_IN_BIT_WIDTH-1:0] writeIn;
+	
+	wire predictionReady;
+	wire readyForInputs;
+	wire [3:0] predictionOut;

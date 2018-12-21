@@ -4,9 +4,60 @@ addpath('./NN');
 addpath('./mnistHelper');
 addpath('./data');
 
+% Load MNIST data and change inputs to binaray
 load_data;
-% change inputs to be cutoff
+cutoff = 0.5;
+train_images = train_images >= 0.5;
+test_images = test_images >= 0.5;
 
 % Load saved weights and biases
+W1 = importdata('W1.mat');
+W3 = importdata('W3.mat');
+B1 = importdata('B1.mat');
+B3 = importdata('B3.mat');
 
+% Instantiate and test network
 batchsize = 250;
+nodes = 32;
+nn = Network(batchsize);
+
+nn.layers{1} = Linear(28 * 28, nodes, batchsize);
+nn.layers{2} = ReLU(nodes, nodes, batchsize);
+nn.layers{3} = Linear(nodes, 10, batchsize);
+nn.layers{4} = Softmax(10, 10, batchsize);
+
+nn.layers{1}.W = W1;
+nn.layers{1}.b = B1;
+nn.layers{3}.W = W3;
+nn.layers{3}.b = B3;
+
+%nn.test(test_images, test_labels);
+%disp(nn.percent_correct);
+
+%disp(test_images);
+[m, n] = size(W1);
+disp (size(B1));
+
+z = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [10,11,12]
+    ];
+
+disp(size(z))
+
+for i = 1:size(z,2)
+    for j = 1:size(z,1)
+        disp(z(j,i));
+    end
+end
+
+
+Inputs_file = fopen('./Inputs.results','w');
+
+for i = 1:20
+    for j = 1:size(W1,1)
+        fprintf(W1_file,'%d\n',W1(j,i));
+    end
+end

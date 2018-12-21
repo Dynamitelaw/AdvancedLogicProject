@@ -31,5 +31,20 @@ nn.layers{1}.b = B1;
 nn.layers{3}.W = W3;
 nn.layers{3}.b = B3;
 
-nn.test(test_images, test_labels);
-disp(nn.percent_correct);
+%nn.test(test_images, test_labels);
+%disp(nn.percent_correct);
+
+
+
+%Get test images
+
+Inputs_file = fopen('./Inputs.results','w');
+
+for i = 1:20
+    for j = 1:size(test_images,2)
+        fprintf(Inputs_file,'%d',test_images(i,j));
+    end
+    fprintf(Inputs_file,'\n');
+end
+
+fclose(Inputs_file)
